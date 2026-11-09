@@ -1,0 +1,1267 @@
+{
+ "n_raw": 2042,
+ "n_clean": 1975,
+ "n_cols": 37,
+ "dup_raw": 30,
+ "by_city": {
+  "Goa": 496,
+  "Delhi": 496,
+  "Mumbai": 493,
+  "Jaipur": 490
+ },
+ "long_gap": {
+  "pct": 59.6,
+  "k": 1033,
+  "n": 1734
+ },
+ "has_problem": {
+  "pct": 33.9,
+  "k": 607,
+  "n": 1790
+ },
+ "search_difficulty": {
+  "pct": 50.6,
+  "k": 731,
+  "n": 1444
+ },
+ "access_barrier": {
+  "pct": 47.6,
+  "k": 852,
+  "n": 1790
+ },
+ "unmet_need": {
+  "pct": 25.8,
+  "k": 461,
+  "n": 1790
+ },
+ "accepts_partner": {
+  "pct": 74.0,
+  "k": 1462,
+  "n": 1975
+ },
+ "high_intent": {
+  "pct": 28.1,
+  "k": 552,
+  "n": 1965
+ },
+ "storage_wtp_inr__value": {
+  "n": 1938,
+  "mean": 233.7,
+  "median": 190.0,
+  "q1": 110.0,
+  "q3": 297.5,
+  "min": 0.0,
+  "max": 5000.0,
+  "std": 299.1,
+  "zero_share": 10.6
+ },
+ "pickup_delivery_wtp_inr__value": {
+  "n": 1941,
+  "mean": 265.8,
+  "median": 200.0,
+  "q1": 80.0,
+  "q3": 350.0,
+  "min": 0.0,
+  "max": 5750.0,
+  "std": 326.1,
+  "zero_share": 23.3
+ },
+ "planning_only": 185,
+ "log": [
+  {
+   "step": 1,
+   "column": "all",
+   "action": "Removed exact duplicate submissions",
+   "rows_affected": 30,
+   "reason": "Repeated submissions would double-count respondents."
+  },
+  {
+   "step": 2,
+   "column": "travel_status",
+   "action": "Removed screened-out respondents (Q1 = Neither)",
+   "rows_affected": 12,
+   "reason": "Outside the target population; the survey should have ended at Q1."
+  },
+  {
+   "step": 3,
+   "column": "travel_mode",
+   "action": "Standardised case, spacing and punctuation to the questionnaire wording",
+   "rows_affected": 40,
+   "reason": "Same answer written differently."
+  },
+  {
+   "step": 4,
+   "column": "accommodation_type",
+   "action": "Standardised case, spacing and punctuation to the questionnaire wording",
+   "rows_affected": 40,
+   "reason": "Same answer written differently."
+  },
+  {
+   "step": 5,
+   "column": "travel_purpose",
+   "action": "Standardised case, spacing and punctuation to the questionnaire wording",
+   "rows_affected": 40,
+   "reason": "Same answer written differently."
+  },
+  {
+   "step": 6,
+   "column": "city",
+   "action": "Standardised case, spacing and punctuation to the questionnaire wording",
+   "rows_affected": 40,
+   "reason": "Same answer written differently."
+  },
+  {
+   "step": 7,
+   "column": "storage_wtp_inr",
+   "action": "Converted text amounts (e.g. '₹200', '200 rs') to numbers",
+   "rows_affected": 65,
+   "reason": "Numeric analysis needs a consistent number in rupees."
+  },
+  {
+   "step": 8,
+   "column": "storage_wtp_inr",
+   "action": "Set negative amounts to missing",
+   "rows_affected": 8,
+   "reason": "A negative WTP is impossible; not imputed."
+  },
+  {
+   "step": 9,
+   "column": "pickup_delivery_wtp_inr",
+   "action": "Converted text amounts (e.g. '₹200', '200 rs') to numbers",
+   "rows_affected": 0,
+   "reason": "Numeric analysis needs a consistent number in rupees."
+  },
+  {
+   "step": 10,
+   "column": "pickup_delivery_wtp_inr",
+   "action": "Set negative amounts to missing",
+   "rows_affected": 0,
+   "reason": "A negative WTP is impossible; not imputed."
+  },
+  {
+   "step": 11,
+   "column": "booking_intent_score",
+   "action": "Set scores outside 0–10 to missing",
+   "rows_affected": 10,
+   "reason": "Outside the Q23 scale."
+  },
+  {
+   "step": 12,
+   "column": "Q23–Q30",
+   "action": "Removed responses abandoned before Section D",
+   "rows_affected": 25,
+   "reason": "No outcome answers at all; they cannot contribute to demand or pricing analysis."
+  },
+  {
+   "step": 13,
+   "column": "Q11–Q19",
+   "action": "Kept planning-only respondents; past-trip answers left as 'Not applicable' / blank",
+   "rows_affected": 185,
+   "reason": "Distinguishes 'not applicable' from missing; flagged by past_trip_experience."
+  },
+  {
+   "step": 14,
+   "column": "storage_wtp_inr",
+   "action": "Flagged (not removed) values above Q3 + 3×IQR (₹860)",
+   "rows_affected": 25,
+   "reason": "Legitimate extreme answers are kept; the flag lets analyses test sensitivity."
+  },
+  {
+   "step": 15,
+   "column": "storage_wtp_inr",
+   "action": "Kept zero WTP as a valid answer",
+   "rows_affected": 206,
+   "reason": "₹0 means 'would not pay', not missing."
+  },
+  {
+   "step": 16,
+   "column": "pickup_delivery_wtp_inr",
+   "action": "Flagged (not removed) values above Q3 + 3×IQR (₹1,160)",
+   "rows_affected": 32,
+   "reason": "Legitimate extreme answers are kept; the flag lets analyses test sensitivity."
+  },
+  {
+   "step": 17,
+   "column": "pickup_delivery_wtp_inr",
+   "action": "Kept zero WTP as a valid answer",
+   "rows_affected": 452,
+   "reason": "₹0 means 'would not pay', not missing."
+  },
+  {
+   "step": 18,
+   "column": "high_intent",
+   "action": "Derived High_Intent = 1 if Q23 is 8–10, else 0",
+   "rows_affected": 1965,
+   "reason": "Classification target (stated intent, not conversion)."
+  },
+  {
+   "step": 19,
+   "column": "data_source",
+   "action": "Labelled every record as synthetic",
+   "rows_affected": 1975,
+   "reason": "Provenance must travel with the data."
+  }
+ ],
+ "raw_missing_top": [
+  {
+   "column": "problem_frequency",
+   "pct": 9.5
+  },
+  {
+   "column": "storage_search_difficulty",
+   "pct": 9.5
+  },
+  {
+   "column": "inconvenience_score",
+   "pct": 9.5
+  },
+  {
+   "column": "past_spend_inr",
+   "pct": 9.5
+  },
+  {
+   "column": "existing_barriers",
+   "pct": 9.5
+  },
+  {
+   "column": "existing_storage_methods",
+   "pct": 9.5
+  }
+ ],
+ "raw_cells_missing": 1552,
+ "clean_cells_missing": 1330,
+ "gap_dist": {
+  "No gap": 9.7,
+  "< 1 h": 9.8,
+  "1–2 h": 16.0,
+  "3–4 h": 20.5,
+  "5–6 h": 15.9,
+  "7–8 h": 8.5,
+  "> 8 h": 7.4,
+  "Not applicable": 12.2
+ },
+ "methods": [
+  [
+   "Carried it",
+   54.4
+  ],
+  [
+   "Hotel / accommodation held it",
+   40.0
+  ],
+  [
+   "Kept in car / taxi",
+   11.1
+  ],
+  [
+   "Changed itinerary",
+   9.1
+  ],
+  [
+   "Friends / relatives",
+   8.0
+  ],
+  [
+   "Railway cloakroom",
+   7.4
+  ],
+  [
+   "Paid storage / smart locker",
+   6.1
+  ],
+  [
+   "Airport storage",
+   4.5
+  ]
+ ],
+ "methods_n": 1790,
+ "security": [
+  [
+   "CCTV",
+   47.4
+  ],
+  [
+   "Loss & damage protection terms",
+   45.1
+  ],
+  [
+   "Verified partners with address",
+   42.0
+  ],
+  [
+   "Transparent pricing / refunds",
+   40.0
+  ],
+  [
+   "Photos at drop-off / collection",
+   35.3
+  ],
+  [
+   "Tamper-evident seals",
+   34.1
+  ],
+  [
+   "Individual compartments",
+   33.3
+  ],
+  [
+   "Real-time status",
+   33.3
+  ],
+  [
+   "Reviews & ratings",
+   31.5
+  ],
+  [
+   "ID check at collection",
+   30.3
+  ],
+  [
+   "QR / luggage ID",
+   30.0
+  ],
+  [
+   "24/7 support",
+   28.8
+  ],
+  [
+   "Complaints / dispute process",
+   22.1
+  ]
+ ],
+ "security_n": 1957,
+ "venues": [
+  [
+   "Verified hotels",
+   46.3
+  ],
+  [
+   "Dedicated storage facilities",
+   41.3
+  ],
+  [
+   "Airport / railway facilities",
+   35.4
+  ],
+  [
+   "Smart lockers",
+   32.7
+  ],
+  [
+   "Verified restaurants / cafés",
+   29.4
+  ],
+  [
+   "Any registered business meeting standards",
+   21.7
+  ],
+  [
+   "Verified retail stores",
+   18.2
+  ],
+  [
+   "None — own accommodation / official only",
+   9.3
+  ]
+ ],
+ "venues_n": 1975,
+ "barriers": [
+  [
+   "Free hotel storage sufficient",
+   20.8
+  ],
+  [
+   "No suitable facility nearby",
+   20.7
+  ],
+  [
+   "Loss / damage concern",
+   19.2
+  ],
+  [
+   "Inconvenient hours",
+   17.0
+  ],
+  [
+   "Never experienced difficulties",
+   16.5
+  ],
+  [
+   "Facility too far from route",
+   14.5
+  ],
+  [
+   "Security unclear",
+   14.2
+  ],
+  [
+   "Hard to locate / book",
+   11.3
+  ],
+  [
+   "Uncomfortable with third party",
+   11.2
+  ],
+  [
+   "Prices too high",
+   10.4
+  ],
+  [
+   "No pickup / delivery",
+   9.1
+  ],
+  [
+   "Other",
+   3.4
+  ]
+ ],
+ "barriers_n": 1790,
+ "features": [
+  [
+   "Insurance / loss protection",
+   28.6
+  ],
+  [
+   "Real-time tracking",
+   25.9
+  ],
+  [
+   "Flexible extensions",
+   25.3
+  ],
+  [
+   "Digital ID & security seal",
+   18.6
+  ],
+  [
+   "Route-based recommendations",
+   18.4
+  ],
+  [
+   "Photo proof of handover",
+   17.7
+  ],
+  [
+   "Repeat-customer discounts",
+   17.2
+  ],
+  [
+   "Group booking",
+   16.0
+  ],
+  [
+   "Priority support",
+   15.6
+  ],
+  [
+   "Scheduled delivery to airport/station",
+   14.9
+  ],
+  [
+   "Scheduled collection",
+   14.6
+  ],
+  [
+   "Multi-bag / family packages",
+   12.2
+  ],
+  [
+   "None of these",
+   7.6
+  ]
+ ],
+ "features_n": 1945,
+ "inconv_45": 22.5,
+ "first_service": [
+  [
+   "Drop my luggage at a verified partner location and collect it later",
+   33.0
+  ],
+  [
+   "Use a dedicated self-service luggage locker",
+   21.8
+  ],
+  [
+   "Get my luggage stored and then delivered to my airport / railway station at a scheduled time",
+   12.5
+  ],
+  [
+   "Get my luggage picked up from my accommodation and stored at a partner location",
+   12.1
+  ],
+  [
+   "Arrange direct pickup from my accommodation and delivery to my airport / railway station",
+   11.7
+  ],
+  [
+   "None of these",
+   8.9
+  ]
+ ],
+ "storage_first": 54.8,
+ "pickup_first": 36.3,
+ "barrier_top": [
+  [
+   "I would be concerned about loss or damage",
+   13.1
+  ],
+  [
+   "I would prefer free hotel storage",
+   12.6
+  ],
+  [
+   "I would not trust a third-party business with my luggage",
+   12.2
+  ],
+  [
+   "The service would be too expensive",
+   11.8
+  ],
+  [
+   "Storage locations would be inconvenient",
+   11.8
+  ]
+ ],
+ "pricing_top": [
+  [
+   "Hourly pricing per bag",
+   21.5
+  ],
+  [
+   "Whichever option is cheapest for my required duration",
+   20.2
+  ],
+  [
+   "Fixed price for 3–4 hours",
+   19.9
+  ]
+ ],
+ "d1": {
+  "rho": 0.484,
+  "p": 1.9524173085421777e-102,
+  "n": 1734
+ },
+ "d4": [
+  {
+   "accommodation_type__label": "Friends' or relatives' accommodation",
+   "n": 166,
+   "held": 7.4,
+   "difficulty": 33.6,
+   "unmet": 9.5
+  },
+  {
+   "accommodation_type__label": "Airbnb / short-term rentals",
+   "n": 303,
+   "held": 9.7,
+   "difficulty": 72.7,
+   "unmet": 36.8
+  },
+  {
+   "accommodation_type__label": "Homestays",
+   "n": 247,
+   "held": 16.4,
+   "difficulty": 80.0,
+   "unmet": 34.6
+  },
+  {
+   "accommodation_type__label": "Hostels",
+   "n": 253,
+   "held": 40.0,
+   "difficulty": 42.6,
+   "unmet": 31.1
+  },
+  {
+   "accommodation_type__label": "Serviced apartments",
+   "n": 117,
+   "held": 54.1,
+   "difficulty": 43.4,
+   "unmet": 31.5
+  },
+  {
+   "accommodation_type__label": "Hotels",
+   "n": 868,
+   "held": 61.1,
+   "difficulty": 39.2,
+   "unmet": 20.2
+  }
+ ],
+ "d7": {
+  "rho": 0.485,
+  "p": 1.204877736148092e-105,
+  "n": 1781
+ },
+ "d7_hi": {
+  "1": 6.0,
+  "2": 15.7,
+  "3": 33.9,
+  "4": 55.4,
+  "5": 63.2
+ },
+ "d6": {
+  "rho": 0.038,
+  "p": 0.08986218447167123,
+  "n": 1965
+ },
+ "d6_hi": {
+  "1": 25.9,
+  "2": 27.3,
+  "3": 34.6,
+  "4+": 29.6
+ },
+ "d5": {
+  "v": 0.139,
+  "p": 1.6032933408152973e-21,
+  "n": 1734,
+  "long_by_mode": {
+   "Aeroplane": 68.3,
+   "Bus": 45.5,
+   "Other": 37.0,
+   "Personal vehicle / rental car": 24.7,
+   "Train": 62.0
+  }
+ },
+ "d10": {
+  "rho": 0.081,
+  "p": 0.0003402321556143375,
+  "n": 1938
+ },
+ "d10_med": {
+  "0": 180.0,
+  "1": 190.0,
+  "2–3": 170.0,
+  "4–6": 190.0,
+  "7+": 260.0
+ },
+ "wtp_city": {
+  "Delhi": 170.0,
+  "Goa": 190.0,
+  "Jaipur": 150.0,
+  "Mumbai": 250.0
+ },
+ "wtp_purpose": [
+  {
+   "travel_purpose__label": "Business / professional",
+   "median": 280.0,
+   "size": 341
+  },
+  {
+   "travel_purpose__label": "Education / university",
+   "median": 130.0,
+   "size": 59
+  },
+  {
+   "travel_purpose__label": "Events / conferences",
+   "median": 265.0,
+   "size": 76
+  },
+  {
+   "travel_purpose__label": "Leisure / holiday",
+   "median": 190.0,
+   "size": 1067
+  },
+  {
+   "travel_purpose__label": "Other",
+   "median": 175.0,
+   "size": 24
+  },
+  {
+   "travel_purpose__label": "Religious / pilgrimage",
+   "median": 150.0,
+   "size": 135
+  },
+  {
+   "travel_purpose__label": "Visiting friends or family",
+   "median": 130.0,
+   "size": 273
+  }
+ ],
+ "spearman_top": [
+  [
+   "Luggage time",
+   "Inconvenience",
+   0.62
+  ],
+  [
+   "Inconvenience",
+   "Intent",
+   0.48
+  ],
+  [
+   "Gap",
+   "Luggage time",
+   0.48
+  ],
+  [
+   "Storage WTP",
+   "Pickup WTP",
+   0.43
+  ],
+  [
+   "Gap",
+   "Gap freq.",
+   0.39
+  ],
+  [
+   "Trips",
+   "Gap freq.",
+   0.36
+  ]
+ ],
+ "cramers_top": [
+  [
+   "Purpose",
+   "Accommodation",
+   0.27
+  ],
+  [
+   "City",
+   "Transport",
+   0.19
+  ],
+  [
+   "First service",
+   "High intent",
+   0.19
+  ],
+  [
+   "Accommodation",
+   "Age",
+   0.17
+  ],
+  [
+   "Accommodation",
+   "High intent",
+   0.16
+  ]
+ ],
+ "pearson_wtp": {
+  "r": 0.632,
+  "n": 1904
+ },
+ "partners": {
+  "n": 240,
+  "willing": [
+   60.833333333333336,
+   146,
+   240
+  ],
+  "capacity_willing": 4166,
+  "by_type": {
+   "Dedicated storage facility": 88.2,
+   "Hotel / hostel": 76.2,
+   "Other": 50.0,
+   "Restaurant / café": 44.1,
+   "Retail store": 45.7,
+   "Shopping centre / commercial establishment": 71.4
+  },
+  "digital": [
+   53.333333333333336,
+   128,
+   240
+  ],
+  "courier": [
+   29.583333333333332,
+   71,
+   240
+  ]
+ },
+ "competitors": [
+  {
+   "competitor_name": "IGI Airport left luggage / cloakroom (T3 & T1)",
+   "city": "Delhi",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "Reported ₹100–200 per bag for up to 2 h; ₹300–600 per bag per day by size; ID required",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://sleepinginairports.net/guides/new-delhi-airport-guide.htm"
+  },
+  {
+   "competitor_name": "New Delhi railway station cloakroom (platforms 1 and 16)",
+   "city": "Delhi",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "Railway cloakrooms reported at ₹20–50 per bag per 24 h; locked bags and receipt required",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://vertoe.com/luggage-storage/delhi"
+  },
+  {
+   "competitor_name": "Old Delhi railway station cloakroom (Fatehpuri-side exit)",
+   "city": "Delhi",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://vertoe.com/luggage-storage/delhi"
+  },
+  {
+   "competitor_name": "Bounce partner – Arakashan Road, Paharganj (opposite NDLS)",
+   "city": "Delhi",
+   "competitor_category": "Aggregator network",
+   "price_note": "From ₹260 per bag per 24 h (company-reported); Bounce lists 2 Delhi locations",
+   "evidence_status": "Company-reported",
+   "source_url": "https://bounce.com/city/delhi"
+  },
+  {
+   "competitor_name": "Radical Storage – New Delhi Railway Station (hotel partner)",
+   "city": "Delhi",
+   "competitor_category": "Aggregator network",
+   "price_note": "Listed as a verified hotel partner, open 24 h; online booking only",
+   "evidence_status": "Company-reported",
+   "source_url": "https://radicalstorage.com/luggage-storage/new-delhi/new-delhi-train-station/luggage-storage-new-delhi-railway-station-4"
+  },
+  {
+   "competitor_name": "Radical Storage – Arya Nagar (6 min from Paharganj Market)",
+   "city": "Delhi",
+   "competitor_category": "Aggregator network",
+   "price_note": "US$3.90 per bag per day shown on network pages",
+   "evidence_status": "Company-reported",
+   "source_url": "https://japancheapo.radicalstorage.com/luggage-storage/new-delhi/new-delhi-train-station/luggage-storage-arya-nagar"
+  },
+  {
+   "competitor_name": "LuggageHero – New Delhi Railway Station area",
+   "city": "Delhi",
+   "competitor_category": "Aggregator network",
+   "price_note": "From US$1.49 per hour or US$4.90 per day (company-reported)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://luggagehero.com/delhi/new-delhi-railway-station/"
+  },
+  {
+   "competitor_name": "Radical Storage partners – Connaught Place",
+   "city": "Delhi",
+   "competitor_category": "Aggregator network",
+   "price_note": "Network pricing reported ₹200–350 per bag per day",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://airconnect.live/en/airports/del/luggage-storage"
+  },
+  {
+   "competitor_name": "Mumbai Airport left luggage – Terminal 1 (arrival hall exit ramp)",
+   "city": "Mumbai",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "₹200 (cabin) / ₹270 (check-in bag) up to 6 h; ₹350 / ₹480 up to 12 h; ₹650 / ₹800 up to 18 h; store up to 3 months",
+   "evidence_status": "Company-reported",
+   "source_url": "https://csmia.adaniairports.com/left-luggage.aspx"
+  },
+  {
+   "competitor_name": "Mumbai Airport left luggage – Terminal 2 (Level 1, P4)",
+   "city": "Mumbai",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "Same tariff as T1 (₹200–800 by bag size and duration)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://csmia.adaniairports.com/left-luggage.aspx"
+  },
+  {
+   "competitor_name": "CSMT railway cloakroom",
+   "city": "Mumbai",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "Reported ₹20–60 per bag per 24 h; padlocked bags; receipt",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://airconnect.live/en/luggage-storage/mumbai"
+  },
+  {
+   "competitor_name": "Bounce partner – near Bandra Station West",
+   "city": "Mumbai",
+   "competitor_category": "Aggregator network",
+   "price_note": "From US$2.95 per day (company-reported)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://bounce.com/luggage-storage/mumbai"
+  },
+  {
+   "competitor_name": "Bounce partner – near Bal Gandharva Rang Mandir (Bandra)",
+   "city": "Mumbai",
+   "competitor_category": "Aggregator network",
+   "price_note": "From US$2.95 per day (company-reported)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://bounce.com/luggage-storage/mumbai"
+  },
+  {
+   "competitor_name": "Bounce partner – near Mumbai Airport Terminal 2",
+   "city": "Mumbai",
+   "competitor_category": "Aggregator network",
+   "price_note": "From US$2.95 per day (company-reported)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://bounce.com/luggage-storage/mumbai"
+  },
+  {
+   "competitor_name": "Bounce partner – near Mumbai Airport Terminal 1",
+   "city": "Mumbai",
+   "competitor_category": "Aggregator network",
+   "price_note": "",
+   "evidence_status": "Company-reported",
+   "source_url": "https://bounce.com/luggage-storage/mumbai"
+  },
+  {
+   "competitor_name": "SafeStorage – Mumbai (pickup to Panvel warehouse)",
+   "city": "Mumbai",
+   "competitor_category": "Other short-term storage",
+   "price_note": "From ₹99 per month (long-term orientation)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://safestorage.in/mumbai"
+  },
+  {
+   "competitor_name": "Jaipur Junction railway cloakroom (platform 1)",
+   "city": "Jaipur",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://vertoe.com/luggage-storage/jaipur"
+  },
+  {
+   "competitor_name": "Sindhi Camp bus terminal cloakroom (platform 1)",
+   "city": "Jaipur",
+   "competitor_category": "Official airport / railway storage",
+   "price_note": "Reported ₹20–80 per day",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://jaipurlove.com/?p=1803"
+  },
+  {
+   "competitor_name": "SafeStorage – Jaipur (hotel pickup; airport delivery offered)",
+   "city": "Jaipur",
+   "competitor_category": "Other short-term storage",
+   "price_note": "From ₹99 per bag per month",
+   "evidence_status": "Company-reported",
+   "source_url": "https://safestorage.in/jaipur-luggage-storage"
+  },
+  {
+   "competitor_name": "LuggageHero – Jaipur partner network",
+   "city": "Jaipur",
+   "competitor_category": "Aggregator network",
+   "price_note": "From US$1.49 per hour (company-reported)",
+   "evidence_status": "Company-reported",
+   "source_url": "https://luggagehero.com/jaipur/"
+  },
+  {
+   "competitor_name": "SafeCloak smart digital lockers – Manohar International Airport (forecourt)",
+   "city": "Goa",
+   "competitor_category": "Smart locker operator",
+   "price_note": "",
+   "evidence_status": "Third-party reported",
+   "source_url": "https://miagoaairport.com/luggage-storage"
+  },
+  {
+   "competitor_name": "Bounce (ex-Eelway) partner network – Calangute",
+   "city": "Goa",
+   "competitor_category": "Aggregator network",
+   "price_note": "",
+   "evidence_status": "Company-reported",
+   "source_url": "https://www.eelway.com/en/luggage-storage/calangute"
+  }
+ ],
+ "comp_summary": {
+  "Delhi": {
+   "Aggregator network": 5,
+   "Official airport / railway storage": 3,
+   "Other short-term storage": 0,
+   "Smart locker operator": 0
+  },
+  "Goa": {
+   "Aggregator network": 1,
+   "Official airport / railway storage": 0,
+   "Other short-term storage": 0,
+   "Smart locker operator": 1
+  },
+  "Jaipur": {
+   "Aggregator network": 1,
+   "Official airport / railway storage": 2,
+   "Other short-term storage": 1,
+   "Smart locker operator": 0
+  },
+  "Mumbai": {
+   "Aggregator network": 4,
+   "Official airport / railway storage": 3,
+   "Other short-term storage": 1,
+   "Smart locker operator": 0
+  }
+ },
+ "n_nodes": 21,
+ "cls": [
+  {
+   "model": "Logistic Regression",
+   "accuracy": 0.758,
+   "precision": 0.604,
+   "recall": 0.399,
+   "f1": 0.48,
+   "roc_auc": 0.788,
+   "pr_auc": 0.585
+  },
+  {
+   "model": "KNN",
+   "accuracy": 0.722,
+   "precision": 0.516,
+   "recall": 0.116,
+   "f1": 0.189,
+   "roc_auc": 0.733,
+   "pr_auc": 0.464
+  },
+  {
+   "model": "Decision Tree",
+   "accuracy": 0.75,
+   "precision": 0.586,
+   "recall": 0.37,
+   "f1": 0.453,
+   "roc_auc": 0.746,
+   "pr_auc": 0.512
+  },
+  {
+   "model": "Random Forest",
+   "accuracy": 0.752,
+   "precision": 0.66,
+   "recall": 0.239,
+   "f1": 0.351,
+   "roc_auc": 0.796,
+   "pr_auc": 0.58
+  },
+  {
+   "model": "Gradient Boosting",
+   "accuracy": 0.752,
+   "precision": 0.605,
+   "recall": 0.333,
+   "f1": 0.43,
+   "roc_auc": 0.792,
+   "pr_auc": 0.578
+  }
+ ],
+ "clusters": {
+  "k": 4,
+  "silhouette": "k=3: 0.138; k=4: 0.143; k=5: 0.142; k=6: 0.122",
+  "sizes": [
+   {
+    "cluster": 0,
+    "size": 566,
+    "share_pct": 31.6
+   },
+   {
+    "cluster": 1,
+    "size": 498,
+    "share_pct": 27.8
+   },
+   {
+    "cluster": 2,
+    "size": 516,
+    "share_pct": 28.8
+   },
+   {
+    "cluster": 3,
+    "size": 210,
+    "share_pct": 11.7
+   }
+  ]
+ },
+ "cluster_overlay": [
+  {
+   "cluster": "Cluster 0",
+   "n": 566,
+   "high_intent": 13.3,
+   "unmet": 2.65,
+   "gap": 3.14,
+   "inconv": 1.75,
+   "bags": 0.8,
+   "trips": 2.36,
+   "wtp": 180.0
+  },
+  {
+   "cluster": "Cluster 1",
+   "n": 498,
+   "high_intent": 21.62,
+   "unmet": 5.02,
+   "gap": 1.31,
+   "inconv": 2.43,
+   "bags": 1.15,
+   "trips": 1.86,
+   "wtp": 160.0
+  },
+  {
+   "cluster": "Cluster 2",
+   "n": 516,
+   "high_intent": 50.58,
+   "unmet": 72.87,
+   "gap": 4.09,
+   "inconv": 3.76,
+   "bags": 0.93,
+   "trips": 2.2,
+   "wtp": 200.0
+  },
+  {
+   "cluster": "Cluster 3",
+   "n": 210,
+   "high_intent": 30.29,
+   "unmet": 21.43,
+   "gap": 2.91,
+   "inconv": 2.47,
+   "bags": 0.93,
+   "trips": 1.64,
+   "wtp": 200.0
+  }
+ ],
+ "rules_top": [
+  {
+   "antecedents": "Needs: Loss & damage protection terms; Needs: Real-time status",
+   "consequents": "Needs: 24/7 support",
+   "support": 0.055,
+   "confidence": 0.378,
+   "lift": 1.325
+  },
+  {
+   "antecedents": "Wants: Group booking",
+   "consequents": "First: Partner drop-off",
+   "support": 0.066,
+   "confidence": 0.42,
+   "lift": 1.272
+  },
+  {
+   "antecedents": "Needs: Individual compartments; Needs: Loss & damage protection terms",
+   "consequents": "Venue: Smart lockers",
+   "support": 0.063,
+   "confidence": 0.412,
+   "lift": 1.26
+  },
+  {
+   "antecedents": "Needs: 24/7 support; Needs: Real-time status",
+   "consequents": "Needs: Loss & damage protection terms",
+   "support": 0.055,
+   "confidence": 0.556,
+   "lift": 1.244
+  },
+  {
+   "antecedents": "Needs: Loss & damage protection terms; Venue: Smart lockers",
+   "consequents": "Needs: Individual compartments",
+   "support": 0.063,
+   "confidence": 0.409,
+   "lift": 1.242
+  },
+  {
+   "antecedents": "First: Locker; Venue: Dedicated storage facilities",
+   "consequents": "Current: Carried it",
+   "support": 0.055,
+   "confidence": 0.61,
+   "lift": 1.237
+  }
+ ],
+ "rules_n": 400,
+ "reg": [
+  {
+   "model": "Linear Regression",
+   "target": "storage_wtp_inr",
+   "mae": 127.102,
+   "rmse": 183.201,
+   "r2": 0.087
+  },
+  {
+   "model": "Ridge Regression",
+   "target": "storage_wtp_inr",
+   "mae": 121.875,
+   "rmse": 177.15,
+   "r2": 0.147
+  },
+  {
+   "model": "Lasso Regression",
+   "target": "storage_wtp_inr",
+   "mae": 123.472,
+   "rmse": 178.19,
+   "r2": 0.137
+  },
+  {
+   "model": "Linear Regression",
+   "target": "pickup_delivery_wtp_inr",
+   "mae": 198.609,
+   "rmse": 304.912,
+   "r2": -0.004
+  },
+  {
+   "model": "Ridge Regression",
+   "target": "pickup_delivery_wtp_inr",
+   "mae": 191.433,
+   "rmse": 297.682,
+   "r2": 0.043
+  },
+  {
+   "model": "Lasso Regression",
+   "target": "pickup_delivery_wtp_inr",
+   "mae": 188.984,
+   "rmse": 295.51,
+   "r2": 0.057
+  }
+ ],
+ "reg_coef": [
+  {
+   "feature": "travel_purpose__business_professional",
+   "coefficient": 19.8
+  },
+  {
+   "feature": "method__asked_friends_or_relatives_to_keep_it",
+   "coefficient": -14.7
+  },
+  {
+   "feature": "accommodation_type__hostels",
+   "coefficient": -14.6
+  },
+  {
+   "feature": "city__mumbai",
+   "coefficient": 14.2
+  },
+  {
+   "feature": "bags_rank",
+   "coefficient": 11.9
+  },
+  {
+   "feature": "method__changed_my_itinerary_to_avoid_carrying_l",
+   "coefficient": 11.3
+  }
+ ],
+ "funnel": [
+  [
+   "All respondents",
+   1975
+  ],
+  [
+   "Checkout gap ≥ 3 h",
+   1033
+  ],
+  [
+   "Unmet storage need",
+   461
+  ],
+  [
+   "Accepts partner venues",
+   334
+  ],
+  [
+   "High stated intent (8–10)",
+   208
+  ],
+  [
+   "Pilot: 'Yes, definitely'",
+   148
+  ]
+ ],
+ "city_tbl": [
+  {
+   "city": "Delhi",
+   "n": 496,
+   "long_gap": 60.8,
+   "unmet": 25.6,
+   "high_intent": 27.4,
+   "wtp": 170.0
+  },
+  {
+   "city": "Goa",
+   "n": 496,
+   "long_gap": 56.3,
+   "unmet": 26.1,
+   "high_intent": 26.9,
+   "wtp": 190.0
+  },
+  {
+   "city": "Jaipur",
+   "n": 490,
+   "long_gap": 59.1,
+   "unmet": 26.7,
+   "high_intent": 28.1,
+   "wtp": 150.0
+  },
+  {
+   "city": "Mumbai",
+   "n": 493,
+   "long_gap": 62.1,
+   "unmet": 24.7,
+   "high_intent": 29.9,
+   "wtp": 250.0
+  }
+ ]
+}

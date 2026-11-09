@@ -25,6 +25,9 @@ Date: 10 Nov 2026 · Branch: `feature/streamlit-dashboard`
 8. A stale microzone filter combined with a city change.
 9. Source CSVs are byte-identical before and after rendering every page.
 
+10. The committed synthetic datasets and model outputs render on every page without errors, and every survey
+    answer is recognised (`test_repository_data_renders_cleanly`). Total: 20 / 20 pass.
+
 ## Manual browser checks
 
 All 11 pages were checked in headless Chrome at a 1440 px width with the fixture data. No exceptions occurred, cards and explanations rendered, and value labels were not clipped. The Overview, Geographic and Diagnostic pages were also checked at 420 px: the cards stack and the sidebar collapses.
@@ -36,5 +39,5 @@ Every item below was covered: startup, every page, missing files, empty files, m
 ## Not verified here
 
 - **Street-map tiles.** The test sandbox blocks the tile server and has no WebGL, so the tile map could not be seen rendering. The marker and table logic is tested. An offline "coordinate plot" base map is available for when tiles cannot load.
-- **Real data.** No real data was available. The test fixtures are random and say nothing about the business.
+- **Real data.** None is available; `data/` holds synthetic data only (see `docs/SYNTHETIC_DATA.md`).
 - **Streamlit Community Cloud.** Deployment has not been performed.

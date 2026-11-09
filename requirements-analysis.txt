@@ -1,0 +1,4 @@
+# Research pipeline (synthetic data + models). Not needed to run the dashboard.
+-r requirements.txt
+scikit-learn>=1.4
+mlxtend>=0.23

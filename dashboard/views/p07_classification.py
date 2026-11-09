@@ -226,7 +226,9 @@ def _predictions(ctx, pr, kind) -> None:
                  "f1": rep["f1"].mean(), "support": sup},
                 {"class": "weighted avg", **{k: float((rep[k] * rep["support"]).sum() / sup) for k in ("precision", "recall", "f1")},
                  "support": sup}])], ignore_index=True)
-            rep_show = rep.round(3).astype(object).where(rep.notna(), "")
+            rep_show = rep.copy()
+            for c in ("precision", "recall", "f1"):
+                rep_show[c] = rep_show[c].map(lambda v: "" if pd.isna(v) else f"{v:.3f}")
             charts.table(rep_show, key=f"cls_report_{kind}_{model}", filename="classification_report.csv")
             st.caption(f"n = {n:,} prediction rows" + (" (filtered)" if ctx.filter_ids() is not None else "") + ".")
             if has_prob:

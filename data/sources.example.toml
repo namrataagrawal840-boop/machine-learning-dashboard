@@ -1,0 +1,18 @@
+# Copy this file to data/sources.toml and set the evidence class of each dataset.
+# Allowed values: synthetic | primary | secondary | transaction | illustrative
+#   synthetic    = Synthetic research data
+#   primary      = Actual primary survey data
+#   secondary    = Verified secondary market research
+#   transaction  = Actual pilot transaction data
+#   illustrative = Illustrative financial scenario
+# Datasets left out use the defaults: consumer files -> synthetic, booking_funnel -> transaction,
+# model outputs -> same as consumer_clean, everything else -> "not declared" (shown as a warning badge).
+
+[provenance]
+consumer_raw = "synthetic"
+consumer_clean = "synthetic"
+# partner_survey = "primary"
+# partner_audit = "primary"
+# competitors = "secondary"
+# geo_audit = "secondary"
+# booking_funnel = "transaction"

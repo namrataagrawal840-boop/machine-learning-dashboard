@@ -1,0 +1,6 @@
+# Dashboard runtime dependencies (tested with streamlit 1.67 + pandas 3.0 / plotly 7.1, and with pandas 2.2 / plotly 5.24 / numpy 2.0)
+streamlit>=1.67,<2
+plotly>=5.24
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11

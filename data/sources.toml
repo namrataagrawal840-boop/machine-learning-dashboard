@@ -1,0 +1,6 @@
+# Evidence class of each dataset (see sources.example.toml for the allowed values).
+# All current files were produced by analysis/run_pipeline.py from SIMULATED survey responses.
+[provenance]
+consumer_raw = "synthetic"
+consumer_clean = "synthetic"
+partner_survey = "synthetic"

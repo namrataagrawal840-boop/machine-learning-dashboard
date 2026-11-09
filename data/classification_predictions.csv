@@ -1,0 +1,2461 @@
+respondent_id,model,target,split,actual,predicted,probability
+R00839,Logistic Regression,high_intent,test,0,0,0.0402
+R00307,Logistic Regression,high_intent,test,0,0,0.0356
+R00822,Logistic Regression,high_intent,test,0,0,0.0992
+R01532,Logistic Regression,high_intent,test,1,0,0.0866
+R01292,Logistic Regression,high_intent,test,1,0,0.1461
+R00149,Logistic Regression,high_intent,test,0,0,0.3535
+R00779,Logistic Regression,high_intent,test,0,0,0.0742
+R01825,Logistic Regression,high_intent,test,0,1,0.5062
+R00272,Logistic Regression,high_intent,test,0,0,0.4167
+R01257,Logistic Regression,high_intent,test,0,1,0.7329
+R01373,Logistic Regression,high_intent,test,0,0,0.2507
+R01623,Logistic Regression,high_intent,test,0,0,0.1396
+R00988,Logistic Regression,high_intent,test,1,1,0.7308
+R01122,Logistic Regression,high_intent,test,0,0,0.0649
+R01833,Logistic Regression,high_intent,test,0,0,0.082
+R00997,Logistic Regression,high_intent,test,0,1,0.7714
+R00378,Logistic Regression,high_intent,test,1,1,0.6851
+R01691,Logistic Regression,high_intent,test,0,0,0.3905
+R01636,Logistic Regression,high_intent,test,1,1,0.7682
+R01640,Logistic Regression,high_intent,test,0,0,0.0026
+R01318,Logistic Regression,high_intent,test,0,0,0.2926
+R01621,Logistic Regression,high_intent,test,1,1,0.5147
+R01781,Logistic Regression,high_intent,test,0,1,0.8368
+R00209,Logistic Regression,high_intent,test,0,0,0.0639
+R00893,Logistic Regression,high_intent,test,1,0,0.082
+R00011,Logistic Regression,high_intent,test,0,0,0.1649
+R00812,Logistic Regression,high_intent,test,0,0,0.0634
+R00251,Logistic Regression,high_intent,test,0,0,0.0111
+R01748,Logistic Regression,high_intent,test,0,0,0.0894
+R00635,Logistic Regression,high_intent,test,0,0,0.0208
+R00130,Logistic Regression,high_intent,test,1,0,0.1595
+R01477,Logistic Regression,high_intent,test,0,0,0.0486
+R00566,Logistic Regression,high_intent,test,0,0,0.0073
+R00901,Logistic Regression,high_intent,test,1,1,0.768
+R00364,Logistic Regression,high_intent,test,1,0,0.4149
+R01989,Logistic Regression,high_intent,test,1,1,0.8551
+R00212,Logistic Regression,high_intent,test,0,0,0.0895
+R00766,Logistic Regression,high_intent,test,0,0,0.0489
+R01546,Logistic Regression,high_intent,test,0,0,0.0242
+R00256,Logistic Regression,high_intent,test,0,0,0.0724
+R01207,Logistic Regression,high_intent,test,0,0,0.0795
+R00695,Logistic Regression,high_intent,test,0,0,0.0063
+R01736,Logistic Regression,high_intent,test,0,0,0.114
+R00162,Logistic Regression,high_intent,test,1,1,0.8455
+R01340,Logistic Regression,high_intent,test,0,1,0.7427
+R00832,Logistic Regression,high_intent,test,0,0,0.1538
+R01124,Logistic Regression,high_intent,test,0,0,0.0244
+R01053,Logistic Regression,high_intent,test,0,0,0.3753
+R01268,Logistic Regression,high_intent,test,1,0,0.4064
+R01919,Logistic Regression,high_intent,test,1,0,0.3248
+R01867,Logistic Regression,high_intent,test,0,0,0.0738
+R01566,Logistic Regression,high_intent,test,0,1,0.886
+R01310,Logistic Regression,high_intent,test,1,0,0.2922
+R00267,Logistic Regression,high_intent,test,0,0,0.014
+R01045,Logistic Regression,high_intent,test,0,0,0.0446
+R00644,Logistic Regression,high_intent,test,0,0,0.008
+R00577,Logistic Regression,high_intent,test,0,0,0.0547
+R01701,Logistic Regression,high_intent,test,0,0,0.1051
+R00983,Logistic Regression,high_intent,test,1,1,0.6033
+R00467,Logistic Regression,high_intent,test,1,1,0.5036
+R00627,Logistic Regression,high_intent,test,0,0,0.1645
+R01501,Logistic Regression,high_intent,test,0,0,0.1632
+R01879,Logistic Regression,high_intent,test,0,0,0.1546
+R01885,Logistic Regression,high_intent,test,0,0,0.0119
+R00559,Logistic Regression,high_intent,test,0,0,0.3321
+R00172,Logistic Regression,high_intent,test,0,1,0.9311
+R00108,Logistic Regression,high_intent,test,1,0,0.0312
+R00273,Logistic Regression,high_intent,test,0,0,0.132
+R01569,Logistic Regression,high_intent,test,1,1,0.8455
+R00913,Logistic Regression,high_intent,test,1,1,0.7598
+R00630,Logistic Regression,high_intent,test,0,0,0.0222
+R01582,Logistic Regression,high_intent,test,0,0,0.3299
+R01275,Logistic Regression,high_intent,test,1,0,0.1782
+R00908,Logistic Regression,high_intent,test,1,0,0.4915
+R00431,Logistic Regression,high_intent,test,1,0,0.2895
+R01232,Logistic Regression,high_intent,test,1,1,0.9877
+R01362,Logistic Regression,high_intent,test,0,0,0.0175
+R01052,Logistic Regression,high_intent,test,0,0,0.0978
+R00739,Logistic Regression,high_intent,test,0,1,0.5636
+R01212,Logistic Regression,high_intent,test,1,0,0.388
+R00049,Logistic Regression,high_intent,test,0,1,0.5345
+R01071,Logistic Regression,high_intent,test,0,0,0.2452
+R01262,Logistic Regression,high_intent,test,1,0,0.2733
+R01086,Logistic Regression,high_intent,test,0,0,0.11
+R01108,Logistic Regression,high_intent,test,0,0,0.0004
+R00279,Logistic Regression,high_intent,test,0,0,0.0754
+R01523,Logistic Regression,high_intent,test,1,0,0.0732
+R01345,Logistic Regression,high_intent,test,0,0,0.263
+R01780,Logistic Regression,high_intent,test,0,0,0.0269
+R00545,Logistic Regression,high_intent,test,1,0,0.2994
+R00778,Logistic Regression,high_intent,test,0,0,0.0538
+R01343,Logistic Regression,high_intent,test,0,0,0.0696
+R00529,Logistic Regression,high_intent,test,0,0,0.4321
+R01092,Logistic Regression,high_intent,test,0,0,0.3614
+R00027,Logistic Regression,high_intent,test,0,0,0.006
+R00962,Logistic Regression,high_intent,test,1,0,0.1622
+R01663,Logistic Regression,high_intent,test,0,0,0.0319
+R01051,Logistic Regression,high_intent,test,0,1,0.8269
+R01196,Logistic Regression,high_intent,test,0,0,0.0091
+R01457,Logistic Regression,high_intent,test,1,0,0.3933
+R00558,Logistic Regression,high_intent,test,0,0,0.3104
+R00546,Logistic Regression,high_intent,test,0,0,0.0764
+R00440,Logistic Regression,high_intent,test,0,0,0.0017
+R00014,Logistic Regression,high_intent,test,1,1,0.6873
+R00087,Logistic Regression,high_intent,test,0,0,0.0448
+R01872,Logistic Regression,high_intent,test,0,0,0.4784
+R01055,Logistic Regression,high_intent,test,0,0,0.3196
+R00446,Logistic Regression,high_intent,test,1,0,0.1961
+R00607,Logistic Regression,high_intent,test,0,0,0.0214
+R00423,Logistic Regression,high_intent,test,0,0,0.0198
+R01773,Logistic Regression,high_intent,test,0,0,0.174
+R00312,Logistic Regression,high_intent,test,0,0,0.2055
+R00905,Logistic Regression,high_intent,test,0,0,0.1399
+R00342,Logistic Regression,high_intent,test,0,0,0.0149
+R00752,Logistic Regression,high_intent,test,0,0,0.0079
+R01980,Logistic Regression,high_intent,test,0,0,0.2928
+R01622,Logistic Regression,high_intent,test,0,0,0.1506
+R01420,Logistic Regression,high_intent,test,1,0,0.1921
+R00240,Logistic Regression,high_intent,test,0,1,0.8202
+R01143,Logistic Regression,high_intent,test,1,1,0.911
+R00204,Logistic Regression,high_intent,test,0,0,0.0029
+R01714,Logistic Regression,high_intent,test,0,0,0.4162
+R00527,Logistic Regression,high_intent,test,0,0,0.016
+R00018,Logistic Regression,high_intent,test,1,1,0.9368
+R00220,Logistic Regression,high_intent,test,0,0,0.1774
+R00714,Logistic Regression,high_intent,test,0,1,0.7004
+R00036,Logistic Regression,high_intent,test,1,1,0.8457
+R01586,Logistic Regression,high_intent,test,1,1,0.7591
+R01472,Logistic Regression,high_intent,test,1,0,0.1815
+R00163,Logistic Regression,high_intent,test,0,0,0.0467
+R01195,Logistic Regression,high_intent,test,0,0,0.0039
+R00921,Logistic Regression,high_intent,test,0,0,0.286
+R00815,Logistic Regression,high_intent,test,1,1,0.5442
+R01287,Logistic Regression,high_intent,test,0,0,0.0092
+R01222,Logistic Regression,high_intent,test,0,0,0.3646
+R00651,Logistic Regression,high_intent,test,0,0,0.1011
+R01708,Logistic Regression,high_intent,test,0,1,0.721
+R01027,Logistic Regression,high_intent,test,0,1,0.5853
+R00952,Logistic Regression,high_intent,test,1,0,0.3336
+R01627,Logistic Regression,high_intent,test,0,0,0.0566
+R00038,Logistic Regression,high_intent,test,0,1,0.5978
+R01951,Logistic Regression,high_intent,test,0,0,0.4988
+R01163,Logistic Regression,high_intent,test,0,0,0.053
+R01792,Logistic Regression,high_intent,test,0,0,0.3386
+R00252,Logistic Regression,high_intent,test,0,0,0.215
+R01136,Logistic Regression,high_intent,test,0,0,0.1693
+R00314,Logistic Regression,high_intent,test,0,0,0.1519
+R00838,Logistic Regression,high_intent,test,1,1,0.7884
+R00616,Logistic Regression,high_intent,test,0,0,0.0394
+R01204,Logistic Regression,high_intent,test,0,0,0.1922
+R01150,Logistic Regression,high_intent,test,0,0,0.3732
+R01564,Logistic Regression,high_intent,test,0,0,0.0685
+R00271,Logistic Regression,high_intent,test,0,0,0.02
+R00065,Logistic Regression,high_intent,test,0,0,0.0684
+R00137,Logistic Regression,high_intent,test,0,0,0.2253
+R00161,Logistic Regression,high_intent,test,1,0,0.4589
+R00677,Logistic Regression,high_intent,test,0,0,0.0617
+R00379,Logistic Regression,high_intent,test,0,0,0.0848
+R01806,Logistic Regression,high_intent,test,1,0,0.1203
+R01450,Logistic Regression,high_intent,test,1,1,0.9209
+R00454,Logistic Regression,high_intent,test,1,0,0.2006
+R00178,Logistic Regression,high_intent,test,0,0,0.0098
+R00520,Logistic Regression,high_intent,test,1,1,0.74
+R01965,Logistic Regression,high_intent,test,0,0,0.0682
+R01660,Logistic Regression,high_intent,test,0,0,0.3679
+R01423,Logistic Regression,high_intent,test,0,0,0.1187
+R00247,Logistic Regression,high_intent,test,1,1,0.6246
+R01874,Logistic Regression,high_intent,test,0,0,0.083
+R01416,Logistic Regression,high_intent,test,0,1,0.6086
+R00021,Logistic Regression,high_intent,test,0,0,0.136
+R00896,Logistic Regression,high_intent,test,1,0,0.4977
+R01022,Logistic Regression,high_intent,test,0,0,0.0274
+R01683,Logistic Regression,high_intent,test,0,0,0.2785
+R01963,Logistic Regression,high_intent,test,0,0,0.319
+R01657,Logistic Regression,high_intent,test,0,0,0.0016
+R00987,Logistic Regression,high_intent,test,0,0,0.0437
+R00362,Logistic Regression,high_intent,test,1,0,0.4849
+R01015,Logistic Regression,high_intent,test,1,0,0.0495
+R01350,Logistic Regression,high_intent,test,1,0,0.3068
+R01873,Logistic Regression,high_intent,test,0,0,0.0191
+R00775,Logistic Regression,high_intent,test,0,0,0.4565
+R00524,Logistic Regression,high_intent,test,1,0,0.129
+R01838,Logistic Regression,high_intent,test,1,0,0.2744
+R00660,Logistic Regression,high_intent,test,1,1,0.6819
+R01235,Logistic Regression,high_intent,test,0,0,0.2558
+R01095,Logistic Regression,high_intent,test,0,0,0.425
+R00702,Logistic Regression,high_intent,test,0,0,0.4861
+R01839,Logistic Regression,high_intent,test,0,0,0.08
+R01984,Logistic Regression,high_intent,test,1,1,0.6023
+R01213,Logistic Regression,high_intent,test,0,0,0.0093
+R01894,Logistic Regression,high_intent,test,0,0,0.1123
+R01580,Logistic Regression,high_intent,test,0,0,0.0062
+R01298,Logistic Regression,high_intent,test,1,1,0.9863
+R01307,Logistic Regression,high_intent,test,0,0,0.1023
+R00892,Logistic Regression,high_intent,test,0,0,0.0526
+R01948,Logistic Regression,high_intent,test,0,0,0.0935
+R01824,Logistic Regression,high_intent,test,0,0,0.1448
+R00883,Logistic Regression,high_intent,test,0,0,0.1232
+R00565,Logistic Regression,high_intent,test,0,0,0.3664
+R01735,Logistic Regression,high_intent,test,0,0,0.0418
+R00666,Logistic Regression,high_intent,test,1,0,0.2318
+R01160,Logistic Regression,high_intent,test,1,0,0.2563
+R01112,Logistic Regression,high_intent,test,0,0,0.1159
+R01230,Logistic Regression,high_intent,test,0,0,0.2369
+R00704,Logistic Regression,high_intent,test,1,0,0.2325
+R01893,Logistic Regression,high_intent,test,1,0,0.2748
+R00968,Logistic Regression,high_intent,test,0,0,0.0115
+R00872,Logistic Regression,high_intent,test,0,0,0.3239
+R01952,Logistic Regression,high_intent,test,1,0,0.3582
+R01219,Logistic Regression,high_intent,test,0,1,0.8911
+R01661,Logistic Regression,high_intent,test,1,0,0.2514
+R01609,Logistic Regression,high_intent,test,0,0,0.0433
+R01064,Logistic Regression,high_intent,test,0,0,0.4416
+R00724,Logistic Regression,high_intent,test,0,0,0.408
+R01483,Logistic Regression,high_intent,test,0,0,0.3125
+R00429,Logistic Regression,high_intent,test,1,0,0.2354
+R01418,Logistic Regression,high_intent,test,0,0,0.0242
+R01305,Logistic Regression,high_intent,test,0,1,0.5529
+R01389,Logistic Regression,high_intent,test,0,0,0.396
+R01440,Logistic Regression,high_intent,test,0,0,0.013
+R00602,Logistic Regression,high_intent,test,1,1,0.8357
+R00445,Logistic Regression,high_intent,test,0,0,0.1884
+R01996,Logistic Regression,high_intent,test,0,0,0.4081
+R01111,Logistic Regression,high_intent,test,0,0,0.4011
+R00547,Logistic Regression,high_intent,test,0,0,0.1261
+R01188,Logistic Regression,high_intent,test,1,0,0.2492
+R01876,Logistic Regression,high_intent,test,0,0,0.2002
+R01972,Logistic Regression,high_intent,test,1,1,0.5436
+R01141,Logistic Regression,high_intent,test,1,1,0.8529
+R01462,Logistic Regression,high_intent,test,0,0,0.1621
+R00934,Logistic Regression,high_intent,test,1,0,0.3405
+R01599,Logistic Regression,high_intent,test,0,0,0.06
+R01173,Logistic Regression,high_intent,test,0,0,0.0246
+R00982,Logistic Regression,high_intent,test,0,0,0.2818
+R00859,Logistic Regression,high_intent,test,1,0,0.1391
+R00232,Logistic Regression,high_intent,test,1,0,0.3301
+R01341,Logistic Regression,high_intent,test,0,0,0.2891
+R01469,Logistic Regression,high_intent,test,0,0,0.1054
+R00246,Logistic Regression,high_intent,test,1,0,0.2358
+R01245,Logistic Regression,high_intent,test,1,0,0.1606
+R00029,Logistic Regression,high_intent,test,0,0,0.1469
+R01969,Logistic Regression,high_intent,test,0,0,0.3535
+R01590,Logistic Regression,high_intent,test,0,0,0.0983
+R01697,Logistic Regression,high_intent,test,1,0,0.126
+R01114,Logistic Regression,high_intent,test,0,0,0.1195
+R00255,Logistic Regression,high_intent,test,0,0,0.4372
+R01740,Logistic Regression,high_intent,test,0,0,0.2658
+R00052,Logistic Regression,high_intent,test,0,0,0.3856
+R00077,Logistic Regression,high_intent,test,1,1,0.6432
+R00280,Logistic Regression,high_intent,test,0,0,0.0377
+R01076,Logistic Regression,high_intent,test,0,0,0.0831
+R00922,Logistic Regression,high_intent,test,0,0,0.0021
+R00334,Logistic Regression,high_intent,test,0,0,0.0732
+R01361,Logistic Regression,high_intent,test,0,0,0.0188
+R01410,Logistic Regression,high_intent,test,1,1,0.8158
+R01754,Logistic Regression,high_intent,test,0,1,0.7719
+R01905,Logistic Regression,high_intent,test,0,0,0.2686
+R01176,Logistic Regression,high_intent,test,0,0,0.3807
+R01589,Logistic Regression,high_intent,test,0,0,0.1206
+R01415,Logistic Regression,high_intent,test,1,1,0.5424
+R00383,Logistic Regression,high_intent,test,0,0,0.0217
+R01233,Logistic Regression,high_intent,test,0,0,0.1922
+R00906,Logistic Regression,high_intent,test,0,1,0.5412
+R01118,Logistic Regression,high_intent,test,0,0,0.0787
+R01813,Logistic Regression,high_intent,test,0,0,0.2073
+R01422,Logistic Regression,high_intent,test,0,0,0.1719
+R01100,Logistic Regression,high_intent,test,0,0,0.1485
+R00176,Logistic Regression,high_intent,test,1,0,0.2356
+R01518,Logistic Regression,high_intent,test,0,0,0.1982
+R01491,Logistic Regression,high_intent,test,0,0,0.0585
+R01953,Logistic Regression,high_intent,test,1,1,0.9289
+R00354,Logistic Regression,high_intent,test,0,0,0.0489
+R01829,Logistic Regression,high_intent,test,1,1,0.5266
+R00994,Logistic Regression,high_intent,test,1,0,0.3075
+R01606,Logistic Regression,high_intent,test,1,1,0.9607
+R00329,Logistic Regression,high_intent,test,0,0,0.4459
+R00028,Logistic Regression,high_intent,test,0,0,0.013
+R01282,Logistic Regression,high_intent,test,1,1,0.9305
+R00399,Logistic Regression,high_intent,test,0,0,0.0128
+R01658,Logistic Regression,high_intent,test,0,0,0.011
+R00160,Logistic Regression,high_intent,test,0,0,0.2221
+R00213,Logistic Regression,high_intent,test,0,0,0.1444
+R00196,Logistic Regression,high_intent,test,0,0,0.2211
+R01179,Logistic Regression,high_intent,test,0,0,0.2726
+R01152,Logistic Regression,high_intent,test,0,0,0.1758
+R01078,Logistic Regression,high_intent,test,1,0,0.1995
+R01653,Logistic Regression,high_intent,test,0,0,0.0109
+R01157,Logistic Regression,high_intent,test,1,0,0.096
+R01429,Logistic Regression,high_intent,test,0,0,0.0046
+R00116,Logistic Regression,high_intent,test,0,0,0.0841
+R00129,Logistic Regression,high_intent,test,0,1,0.619
+R00402,Logistic Regression,high_intent,test,1,0,0.0852
+R00202,Logistic Regression,high_intent,test,0,0,0.3348
+R01258,Logistic Regression,high_intent,test,0,0,0.1613
+R00557,Logistic Regression,high_intent,test,0,0,0.0381
+R00459,Logistic Regression,high_intent,test,0,0,0.0553
+R01942,Logistic Regression,high_intent,test,1,0,0.2516
+R01507,Logistic Regression,high_intent,test,1,0,0.3281
+R00382,Logistic Regression,high_intent,test,1,1,0.8603
+R01831,Logistic Regression,high_intent,test,0,0,0.4998
+R00743,Logistic Regression,high_intent,test,0,0,0.1147
+R00658,Logistic Regression,high_intent,test,0,0,0.1709
+R00964,Logistic Regression,high_intent,test,0,0,0.0181
+R00554,Logistic Regression,high_intent,test,0,0,0.0109
+R01632,Logistic Regression,high_intent,test,0,0,0.0842
+R00676,Logistic Regression,high_intent,test,0,0,0.1573
+R00020,Logistic Regression,high_intent,test,0,0,0.1666
+R01296,Logistic Regression,high_intent,test,0,0,0.4501
+R00653,Logistic Regression,high_intent,test,0,0,0.2896
+R00437,Logistic Regression,high_intent,test,0,0,0.2773
+R01527,Logistic Regression,high_intent,test,0,0,0.1458
+R00122,Logistic Regression,high_intent,test,0,0,0.0014
+R00278,Logistic Regression,high_intent,test,0,0,0.0444
+R00656,Logistic Regression,high_intent,test,0,0,0.2302
+R01672,Logistic Regression,high_intent,test,0,0,0.2034
+R00396,Logistic Regression,high_intent,test,1,0,0.3883
+R00544,Logistic Regression,high_intent,test,1,1,0.692
+R01693,Logistic Regression,high_intent,test,0,0,0.1751
+R00514,Logistic Regression,high_intent,test,1,0,0.3228
+R00466,Logistic Regression,high_intent,test,0,0,0.4681
+R01404,Logistic Regression,high_intent,test,0,0,0.404
+R00069,Logistic Regression,high_intent,test,0,0,0.1259
+R01812,Logistic Regression,high_intent,test,0,0,0.2901
+R01851,Logistic Regression,high_intent,test,1,0,0.2726
+R01019,Logistic Regression,high_intent,test,0,0,0.0351
+R01843,Logistic Regression,high_intent,test,0,1,0.852
+R01315,Logistic Regression,high_intent,test,1,1,0.6805
+R00535,Logistic Regression,high_intent,test,0,0,0.2579
+R00819,Logistic Regression,high_intent,test,1,0,0.1675
+R00777,Logistic Regression,high_intent,test,0,0,0.0181
+R01947,Logistic Regression,high_intent,test,0,0,0.0293
+R01776,Logistic Regression,high_intent,test,0,0,0.1972
+R00613,Logistic Regression,high_intent,test,0,0,0.0473
+R00002,Logistic Regression,high_intent,test,0,0,0.0393
+R00168,Logistic Regression,high_intent,test,0,0,0.0233
+R01598,Logistic Regression,high_intent,test,0,0,0.053
+R01757,Logistic Regression,high_intent,test,0,1,0.6505
+R00300,Logistic Regression,high_intent,test,0,0,0.1972
+R01552,Logistic Regression,high_intent,test,1,0,0.4755
+R01437,Logistic Regression,high_intent,test,1,0,0.3283
+R01828,Logistic Regression,high_intent,test,0,0,0.0707
+R00226,Logistic Regression,high_intent,test,1,1,0.7417
+R01654,Logistic Regression,high_intent,test,0,0,0.1709
+R00193,Logistic Regression,high_intent,test,1,0,0.3865
+R01702,Logistic Regression,high_intent,test,0,1,0.8444
+R01796,Logistic Regression,high_intent,test,0,0,0.1801
+R01231,Logistic Regression,high_intent,test,0,0,0.0238
+R01011,Logistic Regression,high_intent,test,1,1,0.7211
+R01939,Logistic Regression,high_intent,test,0,0,0.4302
+R00200,Logistic Regression,high_intent,test,0,0,0.032
+R01613,Logistic Regression,high_intent,test,0,0,0.2861
+R00845,Logistic Regression,high_intent,test,0,0,0.3176
+R01367,Logistic Regression,high_intent,test,0,0,0.2367
+R01198,Logistic Regression,high_intent,test,0,0,0.0481
+R00321,Logistic Regression,high_intent,test,1,1,0.7386
+R00538,Logistic Regression,high_intent,test,0,1,0.5267
+R01943,Logistic Regression,high_intent,test,0,0,0.1363
+R01976,Logistic Regression,high_intent,test,0,0,0.3561
+R01486,Logistic Regression,high_intent,test,0,0,0.4897
+R00047,Logistic Regression,high_intent,test,0,0,0.0042
+R01909,Logistic Regression,high_intent,test,1,1,0.8524
+R00969,Logistic Regression,high_intent,test,0,0,0.116
+R01009,Logistic Regression,high_intent,test,0,0,0.0073
+R00639,Logistic Regression,high_intent,test,0,0,0.086
+R01468,Logistic Regression,high_intent,test,0,0,0.2251
+R01504,Logistic Regression,high_intent,test,0,0,0.2943
+R01428,Logistic Regression,high_intent,test,0,0,0.0882
+R01349,Logistic Regression,high_intent,test,0,0,0.123
+R00960,Logistic Regression,high_intent,test,0,0,0.2855
+R01779,Logistic Regression,high_intent,test,1,0,0.3221
+R00587,Logistic Regression,high_intent,test,1,0,0.4792
+R01088,Logistic Regression,high_intent,test,1,1,0.801
+R01585,Logistic Regression,high_intent,test,0,0,0.0832
+R00058,Logistic Regression,high_intent,test,0,0,0.1625
+R01081,Logistic Regression,high_intent,test,0,1,0.5374
+R00667,Logistic Regression,high_intent,test,1,1,0.8472
+R00201,Logistic Regression,high_intent,test,0,1,0.5079
+R00357,Logistic Regression,high_intent,test,0,0,0.1463
+R01494,Logistic Regression,high_intent,test,0,0,0.3514
+R01961,Logistic Regression,high_intent,test,0,1,0.6548
+R00801,Logistic Regression,high_intent,test,0,0,0.0153
+R00046,Logistic Regression,high_intent,test,1,0,0.2905
+R00711,Logistic Regression,high_intent,test,1,0,0.3698
+R00171,Logistic Regression,high_intent,test,1,0,0.4258
+R00199,Logistic Regression,high_intent,test,0,0,0.0825
+R00536,Logistic Regression,high_intent,test,0,0,0.0117
+R01211,Logistic Regression,high_intent,test,1,1,0.5463
+R01568,Logistic Regression,high_intent,test,1,0,0.2923
+R00898,Logistic Regression,high_intent,test,0,0,0.4787
+R01820,Logistic Regression,high_intent,test,0,0,0.0385
+R01733,Logistic Regression,high_intent,test,1,1,0.8134
+R01374,Logistic Regression,high_intent,test,0,0,0.0228
+R01643,Logistic Regression,high_intent,test,0,0,0.2815
+R00967,Logistic Regression,high_intent,test,0,0,0.1952
+R01900,Logistic Regression,high_intent,test,0,0,0.0027
+R00007,Logistic Regression,high_intent,test,0,0,0.0626
+R00023,Logistic Regression,high_intent,test,0,0,0.0343
+R00706,Logistic Regression,high_intent,test,0,0,0.0806
+R01419,Logistic Regression,high_intent,test,1,0,0.3711
+R01336,Logistic Regression,high_intent,test,0,1,0.5078
+R00474,Logistic Regression,high_intent,test,0,0,0.1751
+R00556,Logistic Regression,high_intent,test,0,0,0.2489
+R00671,Logistic Regression,high_intent,test,0,0,0.0573
+R00366,Logistic Regression,high_intent,test,0,0,0.0024
+R01167,Logistic Regression,high_intent,test,0,0,0.0996
+R00411,Logistic Regression,high_intent,test,0,0,0.2627
+R00356,Logistic Regression,high_intent,test,1,0,0.0073
+R00754,Logistic Regression,high_intent,test,1,0,0.3644
+R00435,Logistic Regression,high_intent,test,0,0,0.0048
+R00296,Logistic Regression,high_intent,test,0,0,0.2637
+R00190,Logistic Regression,high_intent,test,0,0,0.0812
+R00850,Logistic Regression,high_intent,test,0,0,0.0155
+R01866,Logistic Regression,high_intent,test,1,0,0.4299
+R00984,Logistic Regression,high_intent,test,0,0,0.0883
+R01256,Logistic Regression,high_intent,test,1,1,0.5566
+R00790,Logistic Regression,high_intent,test,0,0,0.1085
+R01445,Logistic Regression,high_intent,test,0,0,0.1374
+R01250,Logistic Regression,high_intent,test,0,0,0.073
+R00074,Logistic Regression,high_intent,test,0,0,0.0505
+R01171,Logistic Regression,high_intent,test,0,0,0.0456
+R00025,Logistic Regression,high_intent,test,0,0,0.1969
+R01170,Logistic Regression,high_intent,test,1,1,0.833
+R00560,Logistic Regression,high_intent,test,0,1,0.7907
+R00126,Logistic Regression,high_intent,test,0,0,0.1567
+R01718,Logistic Regression,high_intent,test,1,0,0.3808
+R01090,Logistic Regression,high_intent,test,0,0,0.1379
+R01889,Logistic Regression,high_intent,test,1,0,0.3784
+R01225,Logistic Regression,high_intent,test,1,0,0.2904
+R00703,Logistic Regression,high_intent,test,0,0,0.0011
+R01745,Logistic Regression,high_intent,test,0,0,0.0266
+R01577,Logistic Regression,high_intent,test,0,0,0.1184
+R00705,Logistic Regression,high_intent,test,0,1,0.6105
+R01228,Logistic Regression,high_intent,test,1,0,0.2852
+R00949,Logistic Regression,high_intent,test,1,1,0.7967
+R00758,Logistic Regression,high_intent,test,0,0,0.2745
+R01063,Logistic Regression,high_intent,test,1,1,0.6899
+R01348,Logistic Regression,high_intent,test,0,0,0.0299
+R01239,Logistic Regression,high_intent,test,0,1,0.8415
+R00854,Logistic Regression,high_intent,test,1,0,0.0202
+R01306,Logistic Regression,high_intent,test,0,1,0.5706
+R00543,Logistic Regression,high_intent,test,1,0,0.1806
+R00688,Logistic Regression,high_intent,test,0,0,0.0361
+R01403,Logistic Regression,high_intent,test,0,0,0.2803
+R00857,Logistic Regression,high_intent,test,1,0,0.0449
+R01886,Logistic Regression,high_intent,test,0,0,0.0408
+R00393,Logistic Regression,high_intent,test,0,0,0.4862
+R01391,Logistic Regression,high_intent,test,0,0,0.1926
+R00333,Logistic Regression,high_intent,test,0,0,0.3671
+R01189,Logistic Regression,high_intent,test,1,1,0.9121
+R01871,Logistic Regression,high_intent,test,0,0,0.207
+R01393,Logistic Regression,high_intent,test,1,1,0.5725
+R01808,Logistic Regression,high_intent,test,1,1,0.5237
+R01619,Logistic Regression,high_intent,test,0,0,0.0516
+R00661,Logistic Regression,high_intent,test,0,0,0.0097
+R00243,Logistic Regression,high_intent,test,1,1,0.5406
+R01509,Logistic Regression,high_intent,test,0,0,0.0203
+R00631,Logistic Regression,high_intent,test,1,0,0.2668
+R00276,Logistic Regression,high_intent,test,1,0,0.408
+R00718,Logistic Regression,high_intent,test,0,1,0.581
+R01487,Logistic Regression,high_intent,test,1,0,0.4919
+R01913,Logistic Regression,high_intent,test,1,0,0.0927
+R01434,Logistic Regression,high_intent,test,0,0,0.1614
+R00682,Logistic Regression,high_intent,test,0,0,0.0161
+R00797,Logistic Regression,high_intent,test,0,0,0.2235
+R01342,Logistic Regression,high_intent,test,0,0,0.1231
+R00907,Logistic Regression,high_intent,test,0,1,0.7116
+R00875,Logistic Regression,high_intent,test,0,0,0.0365
+R00966,Logistic Regression,high_intent,test,0,0,0.2758
+R00408,Logistic Regression,high_intent,test,0,0,0.082
+R01533,Logistic Regression,high_intent,test,0,0,0.043
+R01777,Logistic Regression,high_intent,test,0,0,0.3862
+R00904,Logistic Regression,high_intent,test,0,0,0.1328
+R01488,Logistic Regression,high_intent,test,0,1,0.5872
+R00929,Logistic Regression,high_intent,test,0,0,0.1504
+R01221,Logistic Regression,high_intent,test,1,0,0.2179
+R00477,Logistic Regression,high_intent,test,0,0,0.051
+R00899,Logistic Regression,high_intent,test,0,0,0.0636
+R00895,Logistic Regression,high_intent,test,0,0,0.0369
+R01402,Logistic Regression,high_intent,test,1,0,0.1071
+R00641,Logistic Regression,high_intent,test,1,0,0.3157
+R00917,Logistic Regression,high_intent,test,0,0,0.2138
+R01270,Logistic Regression,high_intent,test,0,0,0.0144
+R01563,Logistic Regression,high_intent,test,0,0,0.0416
+R01559,Logistic Regression,high_intent,test,0,0,0.3277
+R00420,Logistic Regression,high_intent,test,0,0,0.1638
+R01709,Logistic Regression,high_intent,test,0,0,0.2628
+R00870,Logistic Regression,high_intent,test,0,0,0.0292
+R00915,Logistic Regression,high_intent,test,0,0,0.0647
+R00341,Logistic Regression,high_intent,test,0,0,0.0684
+R01763,Logistic Regression,high_intent,test,1,1,0.9196
+R01664,Logistic Regression,high_intent,test,0,0,0.007
+R01395,Logistic Regression,high_intent,test,0,0,0.0033
+R00839,KNN,high_intent,test,0,0,0.16
+R00307,KNN,high_intent,test,0,0,0.16
+R00822,KNN,high_intent,test,0,0,0.12
+R01532,KNN,high_intent,test,1,0,0.28
+R01292,KNN,high_intent,test,1,0,0.24
+R00149,KNN,high_intent,test,0,1,0.56
+R00779,KNN,high_intent,test,0,0,0.16
+R01825,KNN,high_intent,test,0,1,0.56
+R00272,KNN,high_intent,test,0,0,0.32
+R01257,KNN,high_intent,test,0,0,0.44
+R01373,KNN,high_intent,test,0,0,0.24
+R01623,KNN,high_intent,test,0,0,0.32
+R00988,KNN,high_intent,test,1,0,0.36
+R01122,KNN,high_intent,test,0,0,0.12
+R01833,KNN,high_intent,test,0,0,0.4
+R00997,KNN,high_intent,test,0,0,0.16
+R00378,KNN,high_intent,test,1,0,0.36
+R01691,KNN,high_intent,test,0,0,0.16
+R01636,KNN,high_intent,test,1,0,0.4
+R01640,KNN,high_intent,test,0,0,0.04
+R01318,KNN,high_intent,test,0,0,0.32
+R01621,KNN,high_intent,test,1,0,0.32
+R01781,KNN,high_intent,test,0,1,0.52
+R00209,KNN,high_intent,test,0,0,0.2
+R00893,KNN,high_intent,test,1,0,0.28
+R00011,KNN,high_intent,test,0,0,0.36
+R00812,KNN,high_intent,test,0,0,0.24
+R00251,KNN,high_intent,test,0,0,0.12
+R01748,KNN,high_intent,test,0,0,0.32
+R00635,KNN,high_intent,test,0,0,0.08
+R00130,KNN,high_intent,test,1,0,0.36
+R01477,KNN,high_intent,test,0,0,0.24
+R00566,KNN,high_intent,test,0,0,0.08
+R00901,KNN,high_intent,test,1,0,0.32
+R00364,KNN,high_intent,test,1,0,0.4
+R01989,KNN,high_intent,test,1,0,0.48
+R00212,KNN,high_intent,test,0,0,0.2
+R00766,KNN,high_intent,test,0,0,0.2
+R01546,KNN,high_intent,test,0,0,0.32
+R00256,KNN,high_intent,test,0,0,0.36
+R01207,KNN,high_intent,test,0,0,0.12
+R00695,KNN,high_intent,test,0,0,0.08
+R01736,KNN,high_intent,test,0,0,0.12
+R00162,KNN,high_intent,test,1,0,0.48
+R01340,KNN,high_intent,test,0,0,0.36
+R00832,KNN,high_intent,test,0,0,0.24
+R01124,KNN,high_intent,test,0,0,0.08
+R01053,KNN,high_intent,test,0,0,0.28
+R01268,KNN,high_intent,test,1,0,0.24
+R01919,KNN,high_intent,test,1,0,0.28
+R01867,KNN,high_intent,test,0,0,0.2
+R01566,KNN,high_intent,test,0,0,0.44
+R01310,KNN,high_intent,test,1,0,0.32
+R00267,KNN,high_intent,test,0,0,0.24
+R01045,KNN,high_intent,test,0,0,0.28
+R00644,KNN,high_intent,test,0,0,0.08
+R00577,KNN,high_intent,test,0,0,0.2
+R01701,KNN,high_intent,test,0,0,0.32
+R00983,KNN,high_intent,test,1,0,0.36
+R00467,KNN,high_intent,test,1,0,0.32
+R00627,KNN,high_intent,test,0,0,0.28
+R01501,KNN,high_intent,test,0,0,0.2
+R01879,KNN,high_intent,test,0,0,0.16
+R01885,KNN,high_intent,test,0,0,0.12
+R00559,KNN,high_intent,test,0,0,0.32
+R00172,KNN,high_intent,test,0,1,0.64
+R00108,KNN,high_intent,test,1,0,0.36
+R00273,KNN,high_intent,test,0,0,0.48
+R01569,KNN,high_intent,test,1,0,0.4
+R00913,KNN,high_intent,test,1,0,0.4
+R00630,KNN,high_intent,test,0,0,0.0
+R01582,KNN,high_intent,test,0,0,0.36
+R01275,KNN,high_intent,test,1,0,0.28
+R00908,KNN,high_intent,test,1,0,0.36
+R00431,KNN,high_intent,test,1,0,0.24
+R01232,KNN,high_intent,test,1,1,0.6
+R01362,KNN,high_intent,test,0,0,0.24
+R01052,KNN,high_intent,test,0,0,0.24
+R00739,KNN,high_intent,test,0,0,0.2
+R01212,KNN,high_intent,test,1,0,0.16
+R00049,KNN,high_intent,test,0,0,0.32
+R01071,KNN,high_intent,test,0,0,0.4
+R01262,KNN,high_intent,test,1,0,0.4
+R01086,KNN,high_intent,test,0,0,0.04
+R01108,KNN,high_intent,test,0,0,0.04
+R00279,KNN,high_intent,test,0,0,0.04
+R01523,KNN,high_intent,test,1,0,0.28
+R01345,KNN,high_intent,test,0,0,0.16
+R01780,KNN,high_intent,test,0,0,0.16
+R00545,KNN,high_intent,test,1,0,0.16
+R00778,KNN,high_intent,test,0,0,0.2
+R01343,KNN,high_intent,test,0,0,0.32
+R00529,KNN,high_intent,test,0,0,0.32
+R01092,KNN,high_intent,test,0,0,0.44
+R00027,KNN,high_intent,test,0,0,0.08
+R00962,KNN,high_intent,test,1,0,0.32
+R01663,KNN,high_intent,test,0,0,0.2
+R01051,KNN,high_intent,test,0,0,0.4
+R01196,KNN,high_intent,test,0,0,0.04
+R01457,KNN,high_intent,test,1,0,0.2
+R00558,KNN,high_intent,test,0,1,0.56
+R00546,KNN,high_intent,test,0,0,0.04
+R00440,KNN,high_intent,test,0,0,0.04
+R00014,KNN,high_intent,test,1,0,0.4
+R00087,KNN,high_intent,test,0,0,0.16
+R01872,KNN,high_intent,test,0,1,0.52
+R01055,KNN,high_intent,test,0,0,0.24
+R00446,KNN,high_intent,test,1,0,0.12
+R00607,KNN,high_intent,test,0,0,0.16
+R00423,KNN,high_intent,test,0,0,0.12
+R01773,KNN,high_intent,test,0,0,0.16
+R00312,KNN,high_intent,test,0,0,0.24
+R00905,KNN,high_intent,test,0,0,0.24
+R00342,KNN,high_intent,test,0,0,0.16
+R00752,KNN,high_intent,test,0,0,0.04
+R01980,KNN,high_intent,test,0,0,0.16
+R01622,KNN,high_intent,test,0,0,0.48
+R01420,KNN,high_intent,test,1,0,0.24
+R00240,KNN,high_intent,test,0,0,0.32
+R01143,KNN,high_intent,test,1,1,0.52
+R00204,KNN,high_intent,test,0,0,0.08
+R01714,KNN,high_intent,test,0,0,0.4
+R00527,KNN,high_intent,test,0,0,0.08
+R00018,KNN,high_intent,test,1,0,0.44
+R00220,KNN,high_intent,test,0,0,0.4
+R00714,KNN,high_intent,test,0,0,0.24
+R00036,KNN,high_intent,test,1,0,0.4
+R01586,KNN,high_intent,test,1,0,0.32
+R01472,KNN,high_intent,test,1,0,0.48
+R00163,KNN,high_intent,test,0,0,0.08
+R01195,KNN,high_intent,test,0,0,0.04
+R00921,KNN,high_intent,test,0,0,0.2
+R00815,KNN,high_intent,test,1,0,0.36
+R01287,KNN,high_intent,test,0,0,0.12
+R01222,KNN,high_intent,test,0,0,0.28
+R00651,KNN,high_intent,test,0,0,0.16
+R01708,KNN,high_intent,test,0,1,0.72
+R01027,KNN,high_intent,test,0,0,0.2
+R00952,KNN,high_intent,test,1,0,0.32
+R01627,KNN,high_intent,test,0,0,0.24
+R00038,KNN,high_intent,test,0,0,0.28
+R01951,KNN,high_intent,test,0,1,0.52
+R01163,KNN,high_intent,test,0,0,0.36
+R01792,KNN,high_intent,test,0,0,0.2
+R00252,KNN,high_intent,test,0,0,0.28
+R01136,KNN,high_intent,test,0,0,0.36
+R00314,KNN,high_intent,test,0,0,0.32
+R00838,KNN,high_intent,test,1,1,0.52
+R00616,KNN,high_intent,test,0,0,0.04
+R01204,KNN,high_intent,test,0,0,0.24
+R01150,KNN,high_intent,test,0,0,0.48
+R01564,KNN,high_intent,test,0,0,0.2
+R00271,KNN,high_intent,test,0,0,0.28
+R00065,KNN,high_intent,test,0,0,0.24
+R00137,KNN,high_intent,test,0,0,0.24
+R00161,KNN,high_intent,test,1,0,0.32
+R00677,KNN,high_intent,test,0,0,0.16
+R00379,KNN,high_intent,test,0,0,0.32
+R01806,KNN,high_intent,test,1,0,0.28
+R01450,KNN,high_intent,test,1,1,0.56
+R00454,KNN,high_intent,test,1,0,0.04
+R00178,KNN,high_intent,test,0,0,0.2
+R00520,KNN,high_intent,test,1,0,0.32
+R01965,KNN,high_intent,test,0,0,0.2
+R01660,KNN,high_intent,test,0,0,0.32
+R01423,KNN,high_intent,test,0,0,0.2
+R00247,KNN,high_intent,test,1,0,0.32
+R01874,KNN,high_intent,test,0,0,0.2
+R01416,KNN,high_intent,test,0,1,0.52
+R00021,KNN,high_intent,test,0,0,0.24
+R00896,KNN,high_intent,test,1,0,0.24
+R01022,KNN,high_intent,test,0,0,0.12
+R01683,KNN,high_intent,test,0,0,0.28
+R01963,KNN,high_intent,test,0,0,0.32
+R01657,KNN,high_intent,test,0,0,0.04
+R00987,KNN,high_intent,test,0,0,0.04
+R00362,KNN,high_intent,test,1,0,0.12
+R01015,KNN,high_intent,test,1,0,0.28
+R01350,KNN,high_intent,test,1,0,0.36
+R01873,KNN,high_intent,test,0,0,0.04
+R00775,KNN,high_intent,test,0,0,0.2
+R00524,KNN,high_intent,test,1,0,0.32
+R01838,KNN,high_intent,test,1,0,0.44
+R00660,KNN,high_intent,test,1,0,0.44
+R01235,KNN,high_intent,test,0,0,0.28
+R01095,KNN,high_intent,test,0,0,0.44
+R00702,KNN,high_intent,test,0,0,0.32
+R01839,KNN,high_intent,test,0,0,0.28
+R01984,KNN,high_intent,test,1,0,0.48
+R01213,KNN,high_intent,test,0,0,0.08
+R01894,KNN,high_intent,test,0,0,0.4
+R01580,KNN,high_intent,test,0,0,0.04
+R01298,KNN,high_intent,test,1,1,0.68
+R01307,KNN,high_intent,test,0,0,0.16
+R00892,KNN,high_intent,test,0,0,0.36
+R01948,KNN,high_intent,test,0,0,0.2
+R01824,KNN,high_intent,test,0,0,0.24
+R00883,KNN,high_intent,test,0,0,0.32
+R00565,KNN,high_intent,test,0,0,0.48
+R01735,KNN,high_intent,test,0,0,0.16
+R00666,KNN,high_intent,test,1,0,0.16
+R01160,KNN,high_intent,test,1,0,0.12
+R01112,KNN,high_intent,test,0,0,0.24
+R01230,KNN,high_intent,test,0,0,0.4
+R00704,KNN,high_intent,test,1,0,0.44
+R01893,KNN,high_intent,test,1,0,0.36
+R00968,KNN,high_intent,test,0,0,0.16
+R00872,KNN,high_intent,test,0,0,0.32
+R01952,KNN,high_intent,test,1,1,0.56
+R01219,KNN,high_intent,test,0,1,0.52
+R01661,KNN,high_intent,test,1,0,0.32
+R01609,KNN,high_intent,test,0,0,0.16
+R01064,KNN,high_intent,test,0,0,0.36
+R00724,KNN,high_intent,test,0,0,0.32
+R01483,KNN,high_intent,test,0,0,0.36
+R00429,KNN,high_intent,test,1,0,0.08
+R01418,KNN,high_intent,test,0,0,0.24
+R01305,KNN,high_intent,test,0,0,0.44
+R01389,KNN,high_intent,test,0,0,0.28
+R01440,KNN,high_intent,test,0,0,0.04
+R00602,KNN,high_intent,test,1,1,0.52
+R00445,KNN,high_intent,test,0,0,0.12
+R01996,KNN,high_intent,test,0,0,0.48
+R01111,KNN,high_intent,test,0,0,0.44
+R00547,KNN,high_intent,test,0,0,0.4
+R01188,KNN,high_intent,test,1,0,0.24
+R01876,KNN,high_intent,test,0,0,0.2
+R01972,KNN,high_intent,test,1,0,0.36
+R01141,KNN,high_intent,test,1,0,0.28
+R01462,KNN,high_intent,test,0,0,0.4
+R00934,KNN,high_intent,test,1,0,0.32
+R01599,KNN,high_intent,test,0,0,0.16
+R01173,KNN,high_intent,test,0,0,0.04
+R00982,KNN,high_intent,test,0,0,0.32
+R00859,KNN,high_intent,test,1,0,0.16
+R00232,KNN,high_intent,test,1,0,0.24
+R01341,KNN,high_intent,test,0,0,0.24
+R01469,KNN,high_intent,test,0,0,0.28
+R00246,KNN,high_intent,test,1,0,0.32
+R01245,KNN,high_intent,test,1,0,0.48
+R00029,KNN,high_intent,test,0,0,0.2
+R01969,KNN,high_intent,test,0,0,0.28
+R01590,KNN,high_intent,test,0,0,0.28
+R01697,KNN,high_intent,test,1,0,0.16
+R01114,KNN,high_intent,test,0,0,0.4
+R00255,KNN,high_intent,test,0,0,0.4
+R01740,KNN,high_intent,test,0,0,0.2
+R00052,KNN,high_intent,test,0,0,0.48
+R00077,KNN,high_intent,test,1,0,0.44
+R00280,KNN,high_intent,test,0,0,0.04
+R01076,KNN,high_intent,test,0,0,0.24
+R00922,KNN,high_intent,test,0,0,0.16
+R00334,KNN,high_intent,test,0,0,0.12
+R01361,KNN,high_intent,test,0,0,0.12
+R01410,KNN,high_intent,test,1,1,0.56
+R01754,KNN,high_intent,test,0,1,0.6
+R01905,KNN,high_intent,test,0,0,0.32
+R01176,KNN,high_intent,test,0,0,0.32
+R01589,KNN,high_intent,test,0,0,0.16
+R01415,KNN,high_intent,test,1,0,0.28
+R00383,KNN,high_intent,test,0,0,0.16
+R01233,KNN,high_intent,test,0,0,0.16
+R00906,KNN,high_intent,test,0,0,0.36
+R01118,KNN,high_intent,test,0,0,0.2
+R01813,KNN,high_intent,test,0,0,0.08
+R01422,KNN,high_intent,test,0,0,0.24
+R01100,KNN,high_intent,test,0,0,0.32
+R00176,KNN,high_intent,test,1,0,0.16
+R01518,KNN,high_intent,test,0,0,0.16
+R01491,KNN,high_intent,test,0,0,0.16
+R01953,KNN,high_intent,test,1,1,0.6
+R00354,KNN,high_intent,test,0,0,0.16
+R01829,KNN,high_intent,test,1,0,0.28
+R00994,KNN,high_intent,test,1,0,0.2
+R01606,KNN,high_intent,test,1,0,0.4
+R00329,KNN,high_intent,test,0,0,0.36
+R00028,KNN,high_intent,test,0,0,0.12
+R01282,KNN,high_intent,test,1,1,0.52
+R00399,KNN,high_intent,test,0,0,0.2
+R01658,KNN,high_intent,test,0,0,0.04
+R00160,KNN,high_intent,test,0,0,0.12
+R00213,KNN,high_intent,test,0,0,0.16
+R00196,KNN,high_intent,test,0,0,0.04
+R01179,KNN,high_intent,test,0,0,0.2
+R01152,KNN,high_intent,test,0,0,0.44
+R01078,KNN,high_intent,test,1,0,0.2
+R01653,KNN,high_intent,test,0,0,0.2
+R01157,KNN,high_intent,test,1,0,0.2
+R01429,KNN,high_intent,test,0,0,0.16
+R00116,KNN,high_intent,test,0,0,0.2
+R00129,KNN,high_intent,test,0,0,0.4
+R00402,KNN,high_intent,test,1,0,0.24
+R00202,KNN,high_intent,test,0,0,0.48
+R01258,KNN,high_intent,test,0,0,0.2
+R00557,KNN,high_intent,test,0,0,0.12
+R00459,KNN,high_intent,test,0,0,0.28
+R01942,KNN,high_intent,test,1,0,0.32
+R01507,KNN,high_intent,test,1,0,0.4
+R00382,KNN,high_intent,test,1,0,0.4
+R01831,KNN,high_intent,test,0,0,0.28
+R00743,KNN,high_intent,test,0,0,0.16
+R00658,KNN,high_intent,test,0,0,0.16
+R00964,KNN,high_intent,test,0,0,0.32
+R00554,KNN,high_intent,test,0,0,0.24
+R01632,KNN,high_intent,test,0,0,0.16
+R00676,KNN,high_intent,test,0,0,0.32
+R00020,KNN,high_intent,test,0,0,0.32
+R01296,KNN,high_intent,test,0,0,0.44
+R00653,KNN,high_intent,test,0,0,0.04
+R00437,KNN,high_intent,test,0,0,0.36
+R01527,KNN,high_intent,test,0,0,0.16
+R00122,KNN,high_intent,test,0,0,0.08
+R00278,KNN,high_intent,test,0,0,0.28
+R00656,KNN,high_intent,test,0,0,0.28
+R01672,KNN,high_intent,test,0,0,0.16
+R00396,KNN,high_intent,test,1,0,0.28
+R00544,KNN,high_intent,test,1,0,0.44
+R01693,KNN,high_intent,test,0,0,0.32
+R00514,KNN,high_intent,test,1,0,0.36
+R00466,KNN,high_intent,test,0,0,0.44
+R01404,KNN,high_intent,test,0,1,0.52
+R00069,KNN,high_intent,test,0,0,0.2
+R01812,KNN,high_intent,test,0,0,0.28
+R01851,KNN,high_intent,test,1,0,0.4
+R01019,KNN,high_intent,test,0,0,0.2
+R01843,KNN,high_intent,test,0,0,0.44
+R01315,KNN,high_intent,test,1,0,0.48
+R00535,KNN,high_intent,test,0,0,0.24
+R00819,KNN,high_intent,test,1,0,0.44
+R00777,KNN,high_intent,test,0,0,0.16
+R01947,KNN,high_intent,test,0,0,0.16
+R01776,KNN,high_intent,test,0,0,0.32
+R00613,KNN,high_intent,test,0,0,0.2
+R00002,KNN,high_intent,test,0,0,0.04
+R00168,KNN,high_intent,test,0,0,0.12
+R01598,KNN,high_intent,test,0,0,0.24
+R01757,KNN,high_intent,test,0,0,0.24
+R00300,KNN,high_intent,test,0,0,0.36
+R01552,KNN,high_intent,test,1,0,0.44
+R01437,KNN,high_intent,test,1,0,0.24
+R01828,KNN,high_intent,test,0,0,0.24
+R00226,KNN,high_intent,test,1,1,0.56
+R01654,KNN,high_intent,test,0,0,0.12
+R00193,KNN,high_intent,test,1,0,0.4
+R01702,KNN,high_intent,test,0,1,0.52
+R01796,KNN,high_intent,test,0,0,0.36
+R01231,KNN,high_intent,test,0,0,0.08
+R01011,KNN,high_intent,test,1,0,0.4
+R01939,KNN,high_intent,test,0,0,0.32
+R00200,KNN,high_intent,test,0,0,0.08
+R01613,KNN,high_intent,test,0,0,0.36
+R00845,KNN,high_intent,test,0,0,0.16
+R01367,KNN,high_intent,test,0,0,0.24
+R01198,KNN,high_intent,test,0,0,0.24
+R00321,KNN,high_intent,test,1,0,0.4
+R00538,KNN,high_intent,test,0,0,0.24
+R01943,KNN,high_intent,test,0,0,0.28
+R01976,KNN,high_intent,test,0,0,0.24
+R01486,KNN,high_intent,test,0,0,0.28
+R00047,KNN,high_intent,test,0,0,0.0
+R01909,KNN,high_intent,test,1,0,0.48
+R00969,KNN,high_intent,test,0,0,0.24
+R01009,KNN,high_intent,test,0,0,0.08
+R00639,KNN,high_intent,test,0,0,0.2
+R01468,KNN,high_intent,test,0,0,0.28
+R01504,KNN,high_intent,test,0,1,0.52
+R01428,KNN,high_intent,test,0,0,0.04
+R01349,KNN,high_intent,test,0,0,0.36
+R00960,KNN,high_intent,test,0,0,0.16
+R01779,KNN,high_intent,test,1,0,0.28
+R00587,KNN,high_intent,test,1,0,0.32
+R01088,KNN,high_intent,test,1,1,0.6
+R01585,KNN,high_intent,test,0,0,0.12
+R00058,KNN,high_intent,test,0,0,0.44
+R01081,KNN,high_intent,test,0,0,0.44
+R00667,KNN,high_intent,test,1,0,0.48
+R00201,KNN,high_intent,test,0,0,0.32
+R00357,KNN,high_intent,test,0,0,0.36
+R01494,KNN,high_intent,test,0,0,0.36
+R01961,KNN,high_intent,test,0,0,0.4
+R00801,KNN,high_intent,test,0,0,0.08
+R00046,KNN,high_intent,test,1,0,0.28
+R00711,KNN,high_intent,test,1,0,0.4
+R00171,KNN,high_intent,test,1,0,0.32
+R00199,KNN,high_intent,test,0,0,0.04
+R00536,KNN,high_intent,test,0,0,0.04
+R01211,KNN,high_intent,test,1,1,0.52
+R01568,KNN,high_intent,test,1,0,0.28
+R00898,KNN,high_intent,test,0,0,0.28
+R01820,KNN,high_intent,test,0,0,0.08
+R01733,KNN,high_intent,test,1,1,0.6
+R01374,KNN,high_intent,test,0,0,0.2
+R01643,KNN,high_intent,test,0,0,0.24
+R00967,KNN,high_intent,test,0,0,0.24
+R01900,KNN,high_intent,test,0,0,0.08
+R00007,KNN,high_intent,test,0,0,0.0
+R00023,KNN,high_intent,test,0,0,0.2
+R00706,KNN,high_intent,test,0,0,0.16
+R01419,KNN,high_intent,test,1,0,0.32
+R01336,KNN,high_intent,test,0,0,0.2
+R00474,KNN,high_intent,test,0,0,0.36
+R00556,KNN,high_intent,test,0,0,0.2
+R00671,KNN,high_intent,test,0,0,0.16
+R00366,KNN,high_intent,test,0,0,0.08
+R01167,KNN,high_intent,test,0,0,0.2
+R00411,KNN,high_intent,test,0,0,0.32
+R00356,KNN,high_intent,test,1,0,0.04
+R00754,KNN,high_intent,test,1,0,0.4
+R00435,KNN,high_intent,test,0,0,0.04
+R00296,KNN,high_intent,test,0,0,0.36
+R00190,KNN,high_intent,test,0,0,0.4
+R00850,KNN,high_intent,test,0,0,0.2
+R01866,KNN,high_intent,test,1,0,0.48
+R00984,KNN,high_intent,test,0,0,0.12
+R01256,KNN,high_intent,test,1,0,0.36
+R00790,KNN,high_intent,test,0,0,0.12
+R01445,KNN,high_intent,test,0,0,0.08
+R01250,KNN,high_intent,test,0,0,0.4
+R00074,KNN,high_intent,test,0,0,0.28
+R01171,KNN,high_intent,test,0,0,0.12
+R00025,KNN,high_intent,test,0,0,0.4
+R01170,KNN,high_intent,test,1,1,0.52
+R00560,KNN,high_intent,test,0,0,0.44
+R00126,KNN,high_intent,test,0,0,0.2
+R01718,KNN,high_intent,test,1,0,0.36
+R01090,KNN,high_intent,test,0,0,0.28
+R01889,KNN,high_intent,test,1,0,0.2
+R01225,KNN,high_intent,test,1,0,0.36
+R00703,KNN,high_intent,test,0,0,0.0
+R01745,KNN,high_intent,test,0,0,0.24
+R01577,KNN,high_intent,test,0,0,0.24
+R00705,KNN,high_intent,test,0,0,0.36
+R01228,KNN,high_intent,test,1,0,0.28
+R00949,KNN,high_intent,test,1,0,0.4
+R00758,KNN,high_intent,test,0,0,0.2
+R01063,KNN,high_intent,test,1,0,0.48
+R01348,KNN,high_intent,test,0,0,0.12
+R01239,KNN,high_intent,test,0,0,0.48
+R00854,KNN,high_intent,test,1,0,0.0
+R01306,KNN,high_intent,test,0,0,0.32
+R00543,KNN,high_intent,test,1,0,0.28
+R00688,KNN,high_intent,test,0,0,0.04
+R01403,KNN,high_intent,test,0,0,0.24
+R00857,KNN,high_intent,test,1,0,0.28
+R01886,KNN,high_intent,test,0,0,0.16
+R00393,KNN,high_intent,test,0,0,0.28
+R01391,KNN,high_intent,test,0,0,0.4
+R00333,KNN,high_intent,test,0,0,0.36
+R01189,KNN,high_intent,test,1,0,0.4
+R01871,KNN,high_intent,test,0,0,0.32
+R01393,KNN,high_intent,test,1,0,0.48
+R01808,KNN,high_intent,test,1,0,0.36
+R01619,KNN,high_intent,test,0,0,0.24
+R00661,KNN,high_intent,test,0,0,0.12
+R00243,KNN,high_intent,test,1,0,0.44
+R01509,KNN,high_intent,test,0,0,0.0
+R00631,KNN,high_intent,test,1,0,0.44
+R00276,KNN,high_intent,test,1,0,0.36
+R00718,KNN,high_intent,test,0,1,0.6
+R01487,KNN,high_intent,test,1,0,0.4
+R01913,KNN,high_intent,test,1,0,0.08
+R01434,KNN,high_intent,test,0,0,0.28
+R00682,KNN,high_intent,test,0,0,0.16
+R00797,KNN,high_intent,test,0,0,0.28
+R01342,KNN,high_intent,test,0,0,0.24
+R00907,KNN,high_intent,test,0,0,0.2
+R00875,KNN,high_intent,test,0,0,0.12
+R00966,KNN,high_intent,test,0,0,0.12
+R00408,KNN,high_intent,test,0,0,0.12
+R01533,KNN,high_intent,test,0,0,0.16
+R01777,KNN,high_intent,test,0,0,0.32
+R00904,KNN,high_intent,test,0,0,0.12
+R01488,KNN,high_intent,test,0,0,0.4
+R00929,KNN,high_intent,test,0,0,0.2
+R01221,KNN,high_intent,test,1,0,0.32
+R00477,KNN,high_intent,test,0,0,0.2
+R00899,KNN,high_intent,test,0,0,0.24
+R00895,KNN,high_intent,test,0,0,0.04
+R01402,KNN,high_intent,test,1,0,0.4
+R00641,KNN,high_intent,test,1,0,0.28
+R00917,KNN,high_intent,test,0,0,0.16
+R01270,KNN,high_intent,test,0,0,0.08
+R01563,KNN,high_intent,test,0,0,0.12
+R01559,KNN,high_intent,test,0,0,0.2
+R00420,KNN,high_intent,test,0,0,0.2
+R01709,KNN,high_intent,test,0,0,0.36
+R00870,KNN,high_intent,test,0,0,0.04
+R00915,KNN,high_intent,test,0,0,0.32
+R00341,KNN,high_intent,test,0,0,0.16
+R01763,KNN,high_intent,test,1,1,0.64
+R01664,KNN,high_intent,test,0,0,0.16
+R01395,KNN,high_intent,test,0,0,0.04
+R00839,Decision Tree,high_intent,test,0,0,0.4
+R00307,Decision Tree,high_intent,test,0,0,0.0166
+R00822,Decision Tree,high_intent,test,0,0,0.4
+R01532,Decision Tree,high_intent,test,1,0,0.1839
+R01292,Decision Tree,high_intent,test,1,0,0.1832
+R00149,Decision Tree,high_intent,test,0,0,0.4
+R00779,Decision Tree,high_intent,test,0,0,0.0634
+R01825,Decision Tree,high_intent,test,0,1,0.6667
+R00272,Decision Tree,high_intent,test,0,1,0.6387
+R01257,Decision Tree,high_intent,test,0,1,0.6387
+R01373,Decision Tree,high_intent,test,0,0,0.1429
+R01623,Decision Tree,high_intent,test,0,0,0.1212
+R00988,Decision Tree,high_intent,test,1,1,0.8333
+R01122,Decision Tree,high_intent,test,0,0,0.4
+R01833,Decision Tree,high_intent,test,0,0,0.1212
+R00997,Decision Tree,high_intent,test,0,0,0.1212
+R00378,Decision Tree,high_intent,test,1,1,0.6387
+R01691,Decision Tree,high_intent,test,0,0,0.1212
+R01636,Decision Tree,high_intent,test,1,0,0.2895
+R01640,Decision Tree,high_intent,test,0,0,0.0166
+R01318,Decision Tree,high_intent,test,0,1,0.5
+R01621,Decision Tree,high_intent,test,1,0,0.1832
+R01781,Decision Tree,high_intent,test,0,1,0.8333
+R00209,Decision Tree,high_intent,test,0,0,0.0634
+R00893,Decision Tree,high_intent,test,1,0,0.3067
+R00011,Decision Tree,high_intent,test,0,0,0.4043
+R00812,Decision Tree,high_intent,test,0,0,0.0166
+R00251,Decision Tree,high_intent,test,0,0,0.4
+R01748,Decision Tree,high_intent,test,0,0,0.0634
+R00635,Decision Tree,high_intent,test,0,0,0.0166
+R00130,Decision Tree,high_intent,test,1,0,0.0634
+R01477,Decision Tree,high_intent,test,0,0,0.0634
+R00566,Decision Tree,high_intent,test,0,0,0.0286
+R00901,Decision Tree,high_intent,test,1,0,0.1832
+R00364,Decision Tree,high_intent,test,1,1,0.7917
+R01989,Decision Tree,high_intent,test,1,1,0.6667
+R00212,Decision Tree,high_intent,test,0,0,0.36
+R00766,Decision Tree,high_intent,test,0,0,0.0166
+R01546,Decision Tree,high_intent,test,0,0,0.0634
+R00256,Decision Tree,high_intent,test,0,0,0.0166
+R01207,Decision Tree,high_intent,test,0,0,0.0286
+R00695,Decision Tree,high_intent,test,0,0,0.0166
+R01736,Decision Tree,high_intent,test,0,1,0.5172
+R00162,Decision Tree,high_intent,test,1,1,0.8333
+R01340,Decision Tree,high_intent,test,0,0,0.4043
+R00832,Decision Tree,high_intent,test,0,0,0.0166
+R01124,Decision Tree,high_intent,test,0,0,0.0634
+R01053,Decision Tree,high_intent,test,0,0,0.1839
+R01268,Decision Tree,high_intent,test,1,1,0.6387
+R01919,Decision Tree,high_intent,test,1,0,0.2692
+R01867,Decision Tree,high_intent,test,0,0,0.3067
+R01566,Decision Tree,high_intent,test,0,1,0.6387
+R01310,Decision Tree,high_intent,test,1,0,0.1212
+R00267,Decision Tree,high_intent,test,0,0,0.0634
+R01045,Decision Tree,high_intent,test,0,0,0.1839
+R00644,Decision Tree,high_intent,test,0,0,0.0634
+R00577,Decision Tree,high_intent,test,0,0,0.0634
+R01701,Decision Tree,high_intent,test,0,0,0.1832
+R00983,Decision Tree,high_intent,test,1,1,0.6387
+R00467,Decision Tree,high_intent,test,1,0,0.36
+R00627,Decision Tree,high_intent,test,0,0,0.1832
+R01501,Decision Tree,high_intent,test,0,0,0.1839
+R01879,Decision Tree,high_intent,test,0,0,0.0166
+R01885,Decision Tree,high_intent,test,0,0,0.0634
+R00559,Decision Tree,high_intent,test,0,0,0.1839
+R00172,Decision Tree,high_intent,test,0,1,0.8333
+R00108,Decision Tree,high_intent,test,1,0,0.3067
+R00273,Decision Tree,high_intent,test,0,0,0.1212
+R01569,Decision Tree,high_intent,test,1,1,0.6667
+R00913,Decision Tree,high_intent,test,1,1,0.6667
+R00630,Decision Tree,high_intent,test,0,0,0.1832
+R01582,Decision Tree,high_intent,test,0,0,0.3067
+R01275,Decision Tree,high_intent,test,1,0,0.1212
+R00908,Decision Tree,high_intent,test,1,0,0.1832
+R00431,Decision Tree,high_intent,test,1,0,0.3067
+R01232,Decision Tree,high_intent,test,1,1,0.6667
+R01362,Decision Tree,high_intent,test,0,0,0.0634
+R01052,Decision Tree,high_intent,test,0,0,0.0634
+R00739,Decision Tree,high_intent,test,0,0,0.1832
+R01212,Decision Tree,high_intent,test,1,1,0.6387
+R00049,Decision Tree,high_intent,test,0,1,0.6667
+R01071,Decision Tree,high_intent,test,0,0,0.1839
+R01262,Decision Tree,high_intent,test,1,0,0.1832
+R01086,Decision Tree,high_intent,test,0,0,0.0166
+R01108,Decision Tree,high_intent,test,0,0,0.0166
+R00279,Decision Tree,high_intent,test,0,0,0.3067
+R01523,Decision Tree,high_intent,test,1,0,0.0166
+R01345,Decision Tree,high_intent,test,0,0,0.3067
+R01780,Decision Tree,high_intent,test,0,0,0.0286
+R00545,Decision Tree,high_intent,test,1,0,0.1212
+R00778,Decision Tree,high_intent,test,0,0,0.1212
+R01343,Decision Tree,high_intent,test,0,0,0.2692
+R00529,Decision Tree,high_intent,test,0,0,0.1839
+R01092,Decision Tree,high_intent,test,0,1,0.6387
+R00027,Decision Tree,high_intent,test,0,0,0.0634
+R00962,Decision Tree,high_intent,test,1,0,0.1212
+R01663,Decision Tree,high_intent,test,0,0,0.0166
+R01051,Decision Tree,high_intent,test,0,1,0.6667
+R01196,Decision Tree,high_intent,test,0,0,0.0634
+R01457,Decision Tree,high_intent,test,1,0,0.4043
+R00558,Decision Tree,high_intent,test,0,0,0.3067
+R00546,Decision Tree,high_intent,test,0,0,0.0166
+R00440,Decision Tree,high_intent,test,0,0,0.0166
+R00014,Decision Tree,high_intent,test,1,1,0.6387
+R00087,Decision Tree,high_intent,test,0,0,0.1212
+R01872,Decision Tree,high_intent,test,0,0,0.4043
+R01055,Decision Tree,high_intent,test,0,0,0.1212
+R00446,Decision Tree,high_intent,test,1,0,0.0634
+R00607,Decision Tree,high_intent,test,0,0,0.0166
+R00423,Decision Tree,high_intent,test,0,0,0.129
+R01773,Decision Tree,high_intent,test,0,0,0.0166
+R00312,Decision Tree,high_intent,test,0,0,0.2692
+R00905,Decision Tree,high_intent,test,0,0,0.0166
+R00342,Decision Tree,high_intent,test,0,0,0.129
+R00752,Decision Tree,high_intent,test,0,0,0.0286
+R01980,Decision Tree,high_intent,test,0,0,0.1212
+R01622,Decision Tree,high_intent,test,0,0,0.1212
+R01420,Decision Tree,high_intent,test,1,0,0.3067
+R00240,Decision Tree,high_intent,test,0,1,0.6387
+R01143,Decision Tree,high_intent,test,1,1,0.6387
+R00204,Decision Tree,high_intent,test,0,0,0.0166
+R01714,Decision Tree,high_intent,test,0,0,0.1832
+R00527,Decision Tree,high_intent,test,0,0,0.0634
+R00018,Decision Tree,high_intent,test,1,1,0.8333
+R00220,Decision Tree,high_intent,test,0,0,0.1832
+R00714,Decision Tree,high_intent,test,0,0,0.3067
+R00036,Decision Tree,high_intent,test,1,0,0.4043
+R01586,Decision Tree,high_intent,test,1,1,0.6667
+R01472,Decision Tree,high_intent,test,1,0,0.0634
+R00163,Decision Tree,high_intent,test,0,0,0.0166
+R01195,Decision Tree,high_intent,test,0,0,0.0634
+R00921,Decision Tree,high_intent,test,0,0,0.1839
+R00815,Decision Tree,high_intent,test,1,0,0.1212
+R01287,Decision Tree,high_intent,test,0,0,0.0166
+R01222,Decision Tree,high_intent,test,0,0,0.4043
+R00651,Decision Tree,high_intent,test,0,0,0.1212
+R01708,Decision Tree,high_intent,test,0,1,0.6387
+R01027,Decision Tree,high_intent,test,0,0,0.4
+R00952,Decision Tree,high_intent,test,1,1,0.6387
+R01627,Decision Tree,high_intent,test,0,0,0.0166
+R00038,Decision Tree,high_intent,test,0,0,0.3067
+R01951,Decision Tree,high_intent,test,0,1,0.6387
+R01163,Decision Tree,high_intent,test,0,0,0.3067
+R01792,Decision Tree,high_intent,test,0,0,0.1832
+R00252,Decision Tree,high_intent,test,0,0,0.3067
+R01136,Decision Tree,high_intent,test,0,0,0.1832
+R00314,Decision Tree,high_intent,test,0,0,0.1212
+R00838,Decision Tree,high_intent,test,1,1,0.6387
+R00616,Decision Tree,high_intent,test,0,0,0.0634
+R01204,Decision Tree,high_intent,test,0,0,0.3067
+R01150,Decision Tree,high_intent,test,0,0,0.36
+R01564,Decision Tree,high_intent,test,0,0,0.0166
+R00271,Decision Tree,high_intent,test,0,0,0.0634
+R00065,Decision Tree,high_intent,test,0,0,0.2895
+R00137,Decision Tree,high_intent,test,0,0,0.3067
+R00161,Decision Tree,high_intent,test,1,0,0.1212
+R00677,Decision Tree,high_intent,test,0,0,0.0166
+R00379,Decision Tree,high_intent,test,0,0,0.1212
+R01806,Decision Tree,high_intent,test,1,0,0.1429
+R01450,Decision Tree,high_intent,test,1,0,0.4043
+R00454,Decision Tree,high_intent,test,1,0,0.3067
+R00178,Decision Tree,high_intent,test,0,0,0.3067
+R00520,Decision Tree,high_intent,test,1,1,0.7917
+R01965,Decision Tree,high_intent,test,0,0,0.0634
+R01660,Decision Tree,high_intent,test,0,0,0.3067
+R01423,Decision Tree,high_intent,test,0,0,0.0634
+R00247,Decision Tree,high_intent,test,1,1,0.6387
+R01874,Decision Tree,high_intent,test,0,0,0.0634
+R01416,Decision Tree,high_intent,test,0,0,0.36
+R00021,Decision Tree,high_intent,test,0,0,0.0286
+R00896,Decision Tree,high_intent,test,1,0,0.4
+R01022,Decision Tree,high_intent,test,0,0,0.0166
+R01683,Decision Tree,high_intent,test,0,0,0.1839
+R01963,Decision Tree,high_intent,test,0,0,0.3067
+R01657,Decision Tree,high_intent,test,0,0,0.0634
+R00987,Decision Tree,high_intent,test,0,0,0.0634
+R00362,Decision Tree,high_intent,test,1,1,0.6667
+R01015,Decision Tree,high_intent,test,1,0,0.3067
+R01350,Decision Tree,high_intent,test,1,0,0.2895
+R01873,Decision Tree,high_intent,test,0,0,0.1832
+R00775,Decision Tree,high_intent,test,0,0,0.0166
+R00524,Decision Tree,high_intent,test,1,0,0.1832
+R01838,Decision Tree,high_intent,test,1,0,0.1212
+R00660,Decision Tree,high_intent,test,1,0,0.3067
+R01235,Decision Tree,high_intent,test,0,0,0.3067
+R01095,Decision Tree,high_intent,test,0,0,0.1212
+R00702,Decision Tree,high_intent,test,0,0,0.4043
+R01839,Decision Tree,high_intent,test,0,0,0.1212
+R01984,Decision Tree,high_intent,test,1,0,0.2692
+R01213,Decision Tree,high_intent,test,0,0,0.0634
+R01894,Decision Tree,high_intent,test,0,0,0.1832
+R01580,Decision Tree,high_intent,test,0,0,0.1832
+R01298,Decision Tree,high_intent,test,1,1,0.8333
+R01307,Decision Tree,high_intent,test,0,0,0.0634
+R00892,Decision Tree,high_intent,test,0,0,0.0166
+R01948,Decision Tree,high_intent,test,0,0,0.4
+R01824,Decision Tree,high_intent,test,0,0,0.0634
+R00883,Decision Tree,high_intent,test,0,0,0.1212
+R00565,Decision Tree,high_intent,test,0,0,0.1212
+R01735,Decision Tree,high_intent,test,0,0,0.1212
+R00666,Decision Tree,high_intent,test,1,0,0.1212
+R01160,Decision Tree,high_intent,test,1,1,0.5172
+R01112,Decision Tree,high_intent,test,0,0,0.1212
+R01230,Decision Tree,high_intent,test,0,0,0.1832
+R00704,Decision Tree,high_intent,test,1,0,0.2692
+R01893,Decision Tree,high_intent,test,1,0,0.129
+R00968,Decision Tree,high_intent,test,0,0,0.0634
+R00872,Decision Tree,high_intent,test,0,0,0.4043
+R01952,Decision Tree,high_intent,test,1,1,0.5
+R01219,Decision Tree,high_intent,test,0,1,0.7917
+R01661,Decision Tree,high_intent,test,1,0,0.2895
+R01609,Decision Tree,high_intent,test,0,0,0.0166
+R01064,Decision Tree,high_intent,test,0,1,0.7917
+R00724,Decision Tree,high_intent,test,0,0,0.2692
+R01483,Decision Tree,high_intent,test,0,0,0.1839
+R00429,Decision Tree,high_intent,test,1,0,0.4
+R01418,Decision Tree,high_intent,test,0,0,0.1212
+R01305,Decision Tree,high_intent,test,0,1,0.6667
+R01389,Decision Tree,high_intent,test,0,0,0.3067
+R01440,Decision Tree,high_intent,test,0,0,0.1832
+R00602,Decision Tree,high_intent,test,1,1,0.6387
+R00445,Decision Tree,high_intent,test,0,0,0.0634
+R01996,Decision Tree,high_intent,test,0,0,0.1832
+R01111,Decision Tree,high_intent,test,0,0,0.3067
+R00547,Decision Tree,high_intent,test,0,0,0.0634
+R01188,Decision Tree,high_intent,test,1,0,0.1832
+R01876,Decision Tree,high_intent,test,0,0,0.3067
+R01972,Decision Tree,high_intent,test,1,1,0.8333
+R01141,Decision Tree,high_intent,test,1,0,0.4043
+R01462,Decision Tree,high_intent,test,0,1,0.5172
+R00934,Decision Tree,high_intent,test,1,0,0.36
+R01599,Decision Tree,high_intent,test,0,0,0.0634
+R01173,Decision Tree,high_intent,test,0,0,0.1212
+R00982,Decision Tree,high_intent,test,0,0,0.1832
+R00859,Decision Tree,high_intent,test,1,0,0.4043
+R00232,Decision Tree,high_intent,test,1,0,0.3067
+R01341,Decision Tree,high_intent,test,0,0,0.1212
+R01469,Decision Tree,high_intent,test,0,0,0.0634
+R00246,Decision Tree,high_intent,test,1,0,0.1832
+R01245,Decision Tree,high_intent,test,1,0,0.1212
+R00029,Decision Tree,high_intent,test,0,0,0.0634
+R01969,Decision Tree,high_intent,test,0,0,0.1212
+R01590,Decision Tree,high_intent,test,0,0,0.2692
+R01697,Decision Tree,high_intent,test,1,0,0.1832
+R01114,Decision Tree,high_intent,test,0,0,0.1212
+R00255,Decision Tree,high_intent,test,0,1,0.5
+R01740,Decision Tree,high_intent,test,0,0,0.3067
+R00052,Decision Tree,high_intent,test,0,0,0.2895
+R00077,Decision Tree,high_intent,test,1,1,0.5
+R00280,Decision Tree,high_intent,test,0,0,0.0166
+R01076,Decision Tree,high_intent,test,0,0,0.0286
+R00922,Decision Tree,high_intent,test,0,0,0.0166
+R00334,Decision Tree,high_intent,test,0,0,0.1832
+R01361,Decision Tree,high_intent,test,0,0,0.129
+R01410,Decision Tree,high_intent,test,1,0,0.4043
+R01754,Decision Tree,high_intent,test,0,1,0.8333
+R01905,Decision Tree,high_intent,test,0,0,0.36
+R01176,Decision Tree,high_intent,test,0,0,0.1832
+R01589,Decision Tree,high_intent,test,0,0,0.1839
+R01415,Decision Tree,high_intent,test,1,0,0.1839
+R00383,Decision Tree,high_intent,test,0,0,0.0166
+R01233,Decision Tree,high_intent,test,0,0,0.1832
+R00906,Decision Tree,high_intent,test,0,0,0.1212
+R01118,Decision Tree,high_intent,test,0,0,0.0286
+R01813,Decision Tree,high_intent,test,0,0,0.4
+R01422,Decision Tree,high_intent,test,0,0,0.1839
+R01100,Decision Tree,high_intent,test,0,0,0.1429
+R00176,Decision Tree,high_intent,test,1,0,0.3067
+R01518,Decision Tree,high_intent,test,0,0,0.1832
+R01491,Decision Tree,high_intent,test,0,0,0.0166
+R01953,Decision Tree,high_intent,test,1,1,0.6387
+R00354,Decision Tree,high_intent,test,0,0,0.3067
+R01829,Decision Tree,high_intent,test,1,0,0.1212
+R00994,Decision Tree,high_intent,test,1,0,0.1832
+R01606,Decision Tree,high_intent,test,1,1,0.8333
+R00329,Decision Tree,high_intent,test,0,0,0.36
+R00028,Decision Tree,high_intent,test,0,0,0.0634
+R01282,Decision Tree,high_intent,test,1,1,0.8333
+R00399,Decision Tree,high_intent,test,0,0,0.0166
+R01658,Decision Tree,high_intent,test,0,0,0.0166
+R00160,Decision Tree,high_intent,test,0,0,0.1839
+R00213,Decision Tree,high_intent,test,0,0,0.1832
+R00196,Decision Tree,high_intent,test,0,0,0.3067
+R01179,Decision Tree,high_intent,test,0,0,0.129
+R01152,Decision Tree,high_intent,test,0,1,0.5
+R01078,Decision Tree,high_intent,test,1,0,0.1832
+R01653,Decision Tree,high_intent,test,0,0,0.0166
+R01157,Decision Tree,high_intent,test,1,0,0.0166
+R01429,Decision Tree,high_intent,test,0,0,0.0166
+R00116,Decision Tree,high_intent,test,0,0,0.0634
+R00129,Decision Tree,high_intent,test,0,0,0.4043
+R00402,Decision Tree,high_intent,test,1,0,0.1212
+R00202,Decision Tree,high_intent,test,0,0,0.1832
+R01258,Decision Tree,high_intent,test,0,0,0.4
+R00557,Decision Tree,high_intent,test,0,0,0.0166
+R00459,Decision Tree,high_intent,test,0,0,0.3067
+R01942,Decision Tree,high_intent,test,1,0,0.36
+R01507,Decision Tree,high_intent,test,1,0,0.1212
+R00382,Decision Tree,high_intent,test,1,1,0.6387
+R01831,Decision Tree,high_intent,test,0,0,0.3067
+R00743,Decision Tree,high_intent,test,0,0,0.1212
+R00658,Decision Tree,high_intent,test,0,0,0.0166
+R00964,Decision Tree,high_intent,test,0,0,0.1212
+R00554,Decision Tree,high_intent,test,0,0,0.1212
+R01632,Decision Tree,high_intent,test,0,0,0.0166
+R00676,Decision Tree,high_intent,test,0,1,0.5172
+R00020,Decision Tree,high_intent,test,0,0,0.1429
+R01296,Decision Tree,high_intent,test,0,0,0.4043
+R00653,Decision Tree,high_intent,test,0,0,0.3067
+R00437,Decision Tree,high_intent,test,0,0,0.1212
+R01527,Decision Tree,high_intent,test,0,0,0.4
+R00122,Decision Tree,high_intent,test,0,0,0.4
+R00278,Decision Tree,high_intent,test,0,0,0.0634
+R00656,Decision Tree,high_intent,test,0,0,0.36
+R01672,Decision Tree,high_intent,test,0,0,0.1832
+R00396,Decision Tree,high_intent,test,1,0,0.3067
+R00544,Decision Tree,high_intent,test,1,0,0.4043
+R01693,Decision Tree,high_intent,test,0,0,0.1212
+R00514,Decision Tree,high_intent,test,1,0,0.36
+R00466,Decision Tree,high_intent,test,0,0,0.3067
+R01404,Decision Tree,high_intent,test,0,0,0.1212
+R00069,Decision Tree,high_intent,test,0,0,0.4
+R01812,Decision Tree,high_intent,test,0,0,0.36
+R01851,Decision Tree,high_intent,test,1,0,0.1832
+R01019,Decision Tree,high_intent,test,0,0,0.1212
+R01843,Decision Tree,high_intent,test,0,1,0.8333
+R01315,Decision Tree,high_intent,test,1,1,0.6387
+R00535,Decision Tree,high_intent,test,0,0,0.1212
+R00819,Decision Tree,high_intent,test,1,0,0.3067
+R00777,Decision Tree,high_intent,test,0,0,0.0166
+R01947,Decision Tree,high_intent,test,0,0,0.0166
+R01776,Decision Tree,high_intent,test,0,0,0.3067
+R00613,Decision Tree,high_intent,test,0,0,0.4
+R00002,Decision Tree,high_intent,test,0,0,0.0166
+R00168,Decision Tree,high_intent,test,0,0,0.0166
+R01598,Decision Tree,high_intent,test,0,0,0.0286
+R01757,Decision Tree,high_intent,test,0,1,0.6387
+R00300,Decision Tree,high_intent,test,0,0,0.1839
+R01552,Decision Tree,high_intent,test,1,1,0.5
+R01437,Decision Tree,high_intent,test,1,0,0.3067
+R01828,Decision Tree,high_intent,test,0,0,0.1832
+R00226,Decision Tree,high_intent,test,1,1,0.8333
+R01654,Decision Tree,high_intent,test,0,0,0.0286
+R00193,Decision Tree,high_intent,test,1,0,0.36
+R01702,Decision Tree,high_intent,test,0,1,0.8333
+R01796,Decision Tree,high_intent,test,0,0,0.1212
+R01231,Decision Tree,high_intent,test,0,0,0.0166
+R01011,Decision Tree,high_intent,test,1,1,0.7917
+R01939,Decision Tree,high_intent,test,0,0,0.3067
+R00200,Decision Tree,high_intent,test,0,0,0.4
+R01613,Decision Tree,high_intent,test,0,0,0.1832
+R00845,Decision Tree,high_intent,test,0,0,0.4
+R01367,Decision Tree,high_intent,test,0,0,0.36
+R01198,Decision Tree,high_intent,test,0,0,0.1212
+R00321,Decision Tree,high_intent,test,1,0,0.4043
+R00538,Decision Tree,high_intent,test,0,1,0.6667
+R01943,Decision Tree,high_intent,test,0,0,0.0634
+R01976,Decision Tree,high_intent,test,0,0,0.1212
+R01486,Decision Tree,high_intent,test,0,1,0.6667
+R00047,Decision Tree,high_intent,test,0,0,0.1839
+R01909,Decision Tree,high_intent,test,1,1,0.6387
+R00969,Decision Tree,high_intent,test,0,0,0.0634
+R01009,Decision Tree,high_intent,test,0,0,0.0166
+R00639,Decision Tree,high_intent,test,0,0,0.0634
+R01468,Decision Tree,high_intent,test,0,0,0.3067
+R01504,Decision Tree,high_intent,test,0,0,0.1839
+R01428,Decision Tree,high_intent,test,0,0,0.1832
+R01349,Decision Tree,high_intent,test,0,0,0.2895
+R00960,Decision Tree,high_intent,test,0,0,0.3067
+R01779,Decision Tree,high_intent,test,1,1,0.6387
+R00587,Decision Tree,high_intent,test,1,0,0.36
+R01088,Decision Tree,high_intent,test,1,1,0.8333
+R01585,Decision Tree,high_intent,test,0,0,0.0634
+R00058,Decision Tree,high_intent,test,0,0,0.1212
+R01081,Decision Tree,high_intent,test,0,1,0.5
+R00667,Decision Tree,high_intent,test,1,0,0.3067
+R00201,Decision Tree,high_intent,test,0,0,0.3067
+R00357,Decision Tree,high_intent,test,0,0,0.4043
+R01494,Decision Tree,high_intent,test,0,0,0.3067
+R01961,Decision Tree,high_intent,test,0,0,0.3067
+R00801,Decision Tree,high_intent,test,0,0,0.0634
+R00046,Decision Tree,high_intent,test,1,0,0.3067
+R00711,Decision Tree,high_intent,test,1,1,0.7917
+R00171,Decision Tree,high_intent,test,1,0,0.4043
+R00199,Decision Tree,high_intent,test,0,0,0.1839
+R00536,Decision Tree,high_intent,test,0,0,0.4
+R01211,Decision Tree,high_intent,test,1,1,0.6667
+R01568,Decision Tree,high_intent,test,1,0,0.1832
+R00898,Decision Tree,high_intent,test,0,0,0.3067
+R01820,Decision Tree,high_intent,test,0,0,0.0634
+R01733,Decision Tree,high_intent,test,1,1,0.6387
+R01374,Decision Tree,high_intent,test,0,0,0.1832
+R01643,Decision Tree,high_intent,test,0,0,0.0286
+R00967,Decision Tree,high_intent,test,0,0,0.1212
+R01900,Decision Tree,high_intent,test,0,0,0.0166
+R00007,Decision Tree,high_intent,test,0,0,0.1212
+R00023,Decision Tree,high_intent,test,0,0,0.0634
+R00706,Decision Tree,high_intent,test,0,0,0.1212
+R01419,Decision Tree,high_intent,test,1,0,0.1839
+R01336,Decision Tree,high_intent,test,0,0,0.1839
+R00474,Decision Tree,high_intent,test,0,1,0.6387
+R00556,Decision Tree,high_intent,test,0,0,0.1429
+R00671,Decision Tree,high_intent,test,0,0,0.0634
+R00366,Decision Tree,high_intent,test,0,0,0.0166
+R01167,Decision Tree,high_intent,test,0,0,0.1832
+R00411,Decision Tree,high_intent,test,0,0,0.1839
+R00356,Decision Tree,high_intent,test,1,0,0.4
+R00754,Decision Tree,high_intent,test,1,0,0.3067
+R00435,Decision Tree,high_intent,test,0,0,0.0634
+R00296,Decision Tree,high_intent,test,0,1,0.5
+R00190,Decision Tree,high_intent,test,0,0,0.1212
+R00850,Decision Tree,high_intent,test,0,0,0.0166
+R01866,Decision Tree,high_intent,test,1,1,0.6387
+R00984,Decision Tree,high_intent,test,0,0,0.36
+R01256,Decision Tree,high_intent,test,1,1,0.6387
+R00790,Decision Tree,high_intent,test,0,0,0.3067
+R01445,Decision Tree,high_intent,test,0,0,0.3067
+R01250,Decision Tree,high_intent,test,0,0,0.1839
+R00074,Decision Tree,high_intent,test,0,0,0.1832
+R01171,Decision Tree,high_intent,test,0,0,0.1212
+R00025,Decision Tree,high_intent,test,0,0,0.36
+R01170,Decision Tree,high_intent,test,1,1,0.8333
+R00560,Decision Tree,high_intent,test,0,1,0.6387
+R00126,Decision Tree,high_intent,test,0,0,0.0634
+R01718,Decision Tree,high_intent,test,1,0,0.36
+R01090,Decision Tree,high_intent,test,0,0,0.0634
+R01889,Decision Tree,high_intent,test,1,0,0.1212
+R01225,Decision Tree,high_intent,test,1,1,0.5
+R00703,Decision Tree,high_intent,test,0,0,0.0634
+R01745,Decision Tree,high_intent,test,0,0,0.0166
+R01577,Decision Tree,high_intent,test,0,0,0.4
+R00705,Decision Tree,high_intent,test,0,1,0.6387
+R01228,Decision Tree,high_intent,test,1,0,0.3067
+R00949,Decision Tree,high_intent,test,1,1,0.6387
+R00758,Decision Tree,high_intent,test,0,0,0.3067
+R01063,Decision Tree,high_intent,test,1,1,0.6387
+R01348,Decision Tree,high_intent,test,0,0,0.0166
+R01239,Decision Tree,high_intent,test,0,1,0.6667
+R00854,Decision Tree,high_intent,test,1,0,0.1212
+R01306,Decision Tree,high_intent,test,0,1,0.6387
+R00543,Decision Tree,high_intent,test,1,0,0.3067
+R00688,Decision Tree,high_intent,test,0,0,0.0634
+R01403,Decision Tree,high_intent,test,0,0,0.36
+R00857,Decision Tree,high_intent,test,1,0,0.1839
+R01886,Decision Tree,high_intent,test,0,0,0.0634
+R00393,Decision Tree,high_intent,test,0,0,0.1212
+R01391,Decision Tree,high_intent,test,0,0,0.4
+R00333,Decision Tree,high_intent,test,0,0,0.3067
+R01189,Decision Tree,high_intent,test,1,1,0.8333
+R01871,Decision Tree,high_intent,test,0,0,0.0634
+R01393,Decision Tree,high_intent,test,1,1,0.6667
+R01808,Decision Tree,high_intent,test,1,0,0.4043
+R01619,Decision Tree,high_intent,test,0,0,0.0634
+R00661,Decision Tree,high_intent,test,0,0,0.1832
+R00243,Decision Tree,high_intent,test,1,1,0.6387
+R01509,Decision Tree,high_intent,test,0,0,0.0166
+R00631,Decision Tree,high_intent,test,1,0,0.36
+R00276,Decision Tree,high_intent,test,1,1,0.6387
+R00718,Decision Tree,high_intent,test,0,0,0.1832
+R01487,Decision Tree,high_intent,test,1,0,0.3067
+R01913,Decision Tree,high_intent,test,1,0,0.1832
+R01434,Decision Tree,high_intent,test,0,0,0.2692
+R00682,Decision Tree,high_intent,test,0,0,0.129
+R00797,Decision Tree,high_intent,test,0,0,0.3067
+R01342,Decision Tree,high_intent,test,0,0,0.1832
+R00907,Decision Tree,high_intent,test,0,1,0.5172
+R00875,Decision Tree,high_intent,test,0,0,0.0634
+R00966,Decision Tree,high_intent,test,0,0,0.1212
+R00408,Decision Tree,high_intent,test,0,0,0.1832
+R01533,Decision Tree,high_intent,test,0,0,0.0634
+R01777,Decision Tree,high_intent,test,0,0,0.1839
+R00904,Decision Tree,high_intent,test,0,0,0.1832
+R01488,Decision Tree,high_intent,test,0,1,0.6387
+R00929,Decision Tree,high_intent,test,0,0,0.1212
+R01221,Decision Tree,high_intent,test,1,0,0.1212
+R00477,Decision Tree,high_intent,test,0,0,0.0166
+R00899,Decision Tree,high_intent,test,0,0,0.1832
+R00895,Decision Tree,high_intent,test,0,0,0.1212
+R01402,Decision Tree,high_intent,test,1,0,0.0166
+R00641,Decision Tree,high_intent,test,1,0,0.3067
+R00917,Decision Tree,high_intent,test,0,0,0.0634
+R01270,Decision Tree,high_intent,test,0,0,0.0166
+R01563,Decision Tree,high_intent,test,0,0,0.0634
+R01559,Decision Tree,high_intent,test,0,0,0.1212
+R00420,Decision Tree,high_intent,test,0,0,0.1832
+R01709,Decision Tree,high_intent,test,0,0,0.3067
+R00870,Decision Tree,high_intent,test,0,0,0.1839
+R00915,Decision Tree,high_intent,test,0,0,0.0166
+R00341,Decision Tree,high_intent,test,0,0,0.1212
+R01763,Decision Tree,high_intent,test,1,1,0.8333
+R01664,Decision Tree,high_intent,test,0,0,0.0634
+R01395,Decision Tree,high_intent,test,0,0,0.0286
+R00839,Random Forest,high_intent,test,0,0,0.1248
+R00307,Random Forest,high_intent,test,0,0,0.158
+R00822,Random Forest,high_intent,test,0,0,0.1814
+R01532,Random Forest,high_intent,test,1,0,0.2123
+R01292,Random Forest,high_intent,test,1,0,0.1912
+R00149,Random Forest,high_intent,test,0,0,0.3111
+R00779,Random Forest,high_intent,test,0,0,0.1073
+R01825,Random Forest,high_intent,test,0,1,0.5232
+R00272,Random Forest,high_intent,test,0,0,0.4281
+R01257,Random Forest,high_intent,test,0,1,0.5119
+R01373,Random Forest,high_intent,test,0,0,0.245
+R01623,Random Forest,high_intent,test,0,0,0.3459
+R00988,Random Forest,high_intent,test,1,1,0.6321
+R01122,Random Forest,high_intent,test,0,0,0.1522
+R01833,Random Forest,high_intent,test,0,0,0.1982
+R00997,Random Forest,high_intent,test,0,0,0.2788
+R00378,Random Forest,high_intent,test,1,0,0.437
+R01691,Random Forest,high_intent,test,0,0,0.177
+R01636,Random Forest,high_intent,test,1,0,0.4374
+R01640,Random Forest,high_intent,test,0,0,0.0615
+R01318,Random Forest,high_intent,test,0,0,0.3172
+R01621,Random Forest,high_intent,test,1,0,0.2561
+R01781,Random Forest,high_intent,test,0,1,0.5962
+R00209,Random Forest,high_intent,test,0,0,0.2184
+R00893,Random Forest,high_intent,test,1,0,0.21
+R00011,Random Forest,high_intent,test,0,0,0.4264
+R00812,Random Forest,high_intent,test,0,0,0.1833
+R00251,Random Forest,high_intent,test,0,0,0.1399
+R01748,Random Forest,high_intent,test,0,0,0.1428
+R00635,Random Forest,high_intent,test,0,0,0.0886
+R00130,Random Forest,high_intent,test,1,0,0.2591
+R01477,Random Forest,high_intent,test,0,0,0.1828
+R00566,Random Forest,high_intent,test,0,0,0.0614
+R00901,Random Forest,high_intent,test,1,0,0.2739
+R00364,Random Forest,high_intent,test,1,0,0.381
+R01989,Random Forest,high_intent,test,1,1,0.5245
+R00212,Random Forest,high_intent,test,0,0,0.3156
+R00766,Random Forest,high_intent,test,0,0,0.1535
+R01546,Random Forest,high_intent,test,0,0,0.2711
+R00256,Random Forest,high_intent,test,0,0,0.2297
+R01207,Random Forest,high_intent,test,0,0,0.1559
+R00695,Random Forest,high_intent,test,0,0,0.112
+R01736,Random Forest,high_intent,test,0,0,0.2395
+R00162,Random Forest,high_intent,test,1,1,0.6106
+R01340,Random Forest,high_intent,test,0,0,0.3869
+R00832,Random Forest,high_intent,test,0,0,0.2373
+R01124,Random Forest,high_intent,test,0,0,0.0997
+R01053,Random Forest,high_intent,test,0,0,0.2369
+R01268,Random Forest,high_intent,test,1,0,0.3921
+R01919,Random Forest,high_intent,test,1,0,0.4609
+R01867,Random Forest,high_intent,test,0,0,0.2048
+R01566,Random Forest,high_intent,test,0,1,0.5686
+R01310,Random Forest,high_intent,test,1,0,0.2914
+R00267,Random Forest,high_intent,test,0,0,0.1285
+R01045,Random Forest,high_intent,test,0,0,0.1926
+R00644,Random Forest,high_intent,test,0,0,0.0911
+R00577,Random Forest,high_intent,test,0,0,0.2083
+R01701,Random Forest,high_intent,test,0,0,0.2737
+R00983,Random Forest,high_intent,test,1,0,0.4952
+R00467,Random Forest,high_intent,test,1,0,0.3845
+R00627,Random Forest,high_intent,test,0,0,0.2705
+R01501,Random Forest,high_intent,test,0,0,0.2153
+R01879,Random Forest,high_intent,test,0,0,0.1299
+R01885,Random Forest,high_intent,test,0,0,0.0526
+R00559,Random Forest,high_intent,test,0,0,0.3122
+R00172,Random Forest,high_intent,test,0,1,0.667
+R00108,Random Forest,high_intent,test,1,0,0.1887
+R00273,Random Forest,high_intent,test,0,0,0.2692
+R01569,Random Forest,high_intent,test,1,1,0.5513
+R00913,Random Forest,high_intent,test,1,1,0.5117
+R00630,Random Forest,high_intent,test,0,0,0.0857
+R01582,Random Forest,high_intent,test,0,0,0.3171
+R01275,Random Forest,high_intent,test,1,0,0.2395
+R00908,Random Forest,high_intent,test,1,0,0.3535
+R00431,Random Forest,high_intent,test,1,0,0.2201
+R01232,Random Forest,high_intent,test,1,1,0.5754
+R01362,Random Forest,high_intent,test,0,0,0.2287
+R01052,Random Forest,high_intent,test,0,0,0.1973
+R00739,Random Forest,high_intent,test,0,0,0.2461
+R01212,Random Forest,high_intent,test,1,0,0.4373
+R00049,Random Forest,high_intent,test,0,0,0.4285
+R01071,Random Forest,high_intent,test,0,0,0.2309
+R01262,Random Forest,high_intent,test,1,0,0.3062
+R01086,Random Forest,high_intent,test,0,0,0.1893
+R01108,Random Forest,high_intent,test,0,0,0.0331
+R00279,Random Forest,high_intent,test,0,0,0.1532
+R01523,Random Forest,high_intent,test,1,0,0.2723
+R01345,Random Forest,high_intent,test,0,0,0.2531
+R01780,Random Forest,high_intent,test,0,0,0.1538
+R00545,Random Forest,high_intent,test,1,0,0.2679
+R00778,Random Forest,high_intent,test,0,0,0.2702
+R01343,Random Forest,high_intent,test,0,0,0.3882
+R00529,Random Forest,high_intent,test,0,0,0.245
+R01092,Random Forest,high_intent,test,0,1,0.5427
+R00027,Random Forest,high_intent,test,0,0,0.0684
+R00962,Random Forest,high_intent,test,1,0,0.2152
+R01663,Random Forest,high_intent,test,0,0,0.1428
+R01051,Random Forest,high_intent,test,0,0,0.4748
+R01196,Random Forest,high_intent,test,0,0,0.0575
+R01457,Random Forest,high_intent,test,1,0,0.4639
+R00558,Random Forest,high_intent,test,0,0,0.3531
+R00546,Random Forest,high_intent,test,0,0,0.1205
+R00440,Random Forest,high_intent,test,0,0,0.0438
+R00014,Random Forest,high_intent,test,1,0,0.4904
+R00087,Random Forest,high_intent,test,0,0,0.1595
+R01872,Random Forest,high_intent,test,0,0,0.4249
+R01055,Random Forest,high_intent,test,0,0,0.1794
+R00446,Random Forest,high_intent,test,1,0,0.1621
+R00607,Random Forest,high_intent,test,0,0,0.1459
+R00423,Random Forest,high_intent,test,0,0,0.13
+R01773,Random Forest,high_intent,test,0,0,0.149
+R00312,Random Forest,high_intent,test,0,0,0.3331
+R00905,Random Forest,high_intent,test,0,0,0.2064
+R00342,Random Forest,high_intent,test,0,0,0.0921
+R00752,Random Forest,high_intent,test,0,0,0.0744
+R01980,Random Forest,high_intent,test,0,0,0.1698
+R01622,Random Forest,high_intent,test,0,0,0.2626
+R01420,Random Forest,high_intent,test,1,0,0.2804
+R00240,Random Forest,high_intent,test,0,1,0.5839
+R01143,Random Forest,high_intent,test,1,1,0.6173
+R00204,Random Forest,high_intent,test,0,0,0.0491
+R01714,Random Forest,high_intent,test,0,0,0.333
+R00527,Random Forest,high_intent,test,0,0,0.1
+R00018,Random Forest,high_intent,test,1,1,0.6795
+R00220,Random Forest,high_intent,test,0,0,0.2535
+R00714,Random Forest,high_intent,test,0,0,0.3499
+R00036,Random Forest,high_intent,test,1,1,0.554
+R01586,Random Forest,high_intent,test,1,1,0.5624
+R01472,Random Forest,high_intent,test,1,0,0.2986
+R00163,Random Forest,high_intent,test,0,0,0.132
+R01195,Random Forest,high_intent,test,0,0,0.0653
+R00921,Random Forest,high_intent,test,0,0,0.3019
+R00815,Random Forest,high_intent,test,1,0,0.4015
+R01287,Random Forest,high_intent,test,0,0,0.0625
+R01222,Random Forest,high_intent,test,0,0,0.381
+R00651,Random Forest,high_intent,test,0,0,0.1675
+R01708,Random Forest,high_intent,test,0,1,0.6019
+R01027,Random Forest,high_intent,test,0,0,0.2145
+R00952,Random Forest,high_intent,test,1,0,0.4694
+R01627,Random Forest,high_intent,test,0,0,0.1722
+R00038,Random Forest,high_intent,test,0,0,0.3088
+R01951,Random Forest,high_intent,test,0,0,0.447
+R01163,Random Forest,high_intent,test,0,0,0.2221
+R01792,Random Forest,high_intent,test,0,0,0.2063
+R00252,Random Forest,high_intent,test,0,0,0.2985
+R01136,Random Forest,high_intent,test,0,0,0.2262
+R00314,Random Forest,high_intent,test,0,0,0.2679
+R00838,Random Forest,high_intent,test,1,1,0.5337
+R00616,Random Forest,high_intent,test,0,0,0.0717
+R01204,Random Forest,high_intent,test,0,0,0.2517
+R01150,Random Forest,high_intent,test,0,0,0.3202
+R01564,Random Forest,high_intent,test,0,0,0.168
+R00271,Random Forest,high_intent,test,0,0,0.1503
+R00065,Random Forest,high_intent,test,0,0,0.2233
+R00137,Random Forest,high_intent,test,0,0,0.369
+R00161,Random Forest,high_intent,test,1,0,0.4194
+R00677,Random Forest,high_intent,test,0,0,0.1376
+R00379,Random Forest,high_intent,test,0,0,0.2079
+R01806,Random Forest,high_intent,test,1,0,0.3234
+R01450,Random Forest,high_intent,test,1,1,0.6016
+R00454,Random Forest,high_intent,test,1,0,0.2095
+R00178,Random Forest,high_intent,test,0,0,0.1734
+R00520,Random Forest,high_intent,test,1,0,0.4639
+R01965,Random Forest,high_intent,test,0,0,0.1362
+R01660,Random Forest,high_intent,test,0,0,0.2491
+R01423,Random Forest,high_intent,test,0,0,0.1622
+R00247,Random Forest,high_intent,test,1,0,0.4152
+R01874,Random Forest,high_intent,test,0,0,0.156
+R01416,Random Forest,high_intent,test,0,0,0.4323
+R00021,Random Forest,high_intent,test,0,0,0.1658
+R00896,Random Forest,high_intent,test,1,0,0.3673
+R01022,Random Forest,high_intent,test,0,0,0.0887
+R01683,Random Forest,high_intent,test,0,0,0.2498
+R01963,Random Forest,high_intent,test,0,1,0.5094
+R01657,Random Forest,high_intent,test,0,0,0.0661
+R00987,Random Forest,high_intent,test,0,0,0.1142
+R00362,Random Forest,high_intent,test,1,0,0.3922
+R01015,Random Forest,high_intent,test,1,0,0.2899
+R01350,Random Forest,high_intent,test,1,0,0.3157
+R01873,Random Forest,high_intent,test,0,0,0.1223
+R00775,Random Forest,high_intent,test,0,0,0.1778
+R00524,Random Forest,high_intent,test,1,0,0.2708
+R01838,Random Forest,high_intent,test,1,0,0.3054
+R00660,Random Forest,high_intent,test,1,0,0.4267
+R01235,Random Forest,high_intent,test,0,0,0.2661
+R01095,Random Forest,high_intent,test,0,0,0.3962
+R00702,Random Forest,high_intent,test,0,0,0.4398
+R01839,Random Forest,high_intent,test,0,0,0.2866
+R01984,Random Forest,high_intent,test,1,1,0.5393
+R01213,Random Forest,high_intent,test,0,0,0.1119
+R01894,Random Forest,high_intent,test,0,0,0.2409
+R01580,Random Forest,high_intent,test,0,0,0.1385
+R01298,Random Forest,high_intent,test,1,1,0.7382
+R01307,Random Forest,high_intent,test,0,0,0.1864
+R00892,Random Forest,high_intent,test,0,0,0.1135
+R01948,Random Forest,high_intent,test,0,0,0.2313
+R01824,Random Forest,high_intent,test,0,0,0.1375
+R00883,Random Forest,high_intent,test,0,0,0.335
+R00565,Random Forest,high_intent,test,0,0,0.3201
+R01735,Random Forest,high_intent,test,0,0,0.1474
+R00666,Random Forest,high_intent,test,1,0,0.2156
+R01160,Random Forest,high_intent,test,1,0,0.2645
+R01112,Random Forest,high_intent,test,0,0,0.1925
+R01230,Random Forest,high_intent,test,0,0,0.3055
+R00704,Random Forest,high_intent,test,1,0,0.448
+R01893,Random Forest,high_intent,test,1,0,0.2491
+R00968,Random Forest,high_intent,test,0,0,0.0974
+R00872,Random Forest,high_intent,test,0,0,0.376
+R01952,Random Forest,high_intent,test,1,0,0.4657
+R01219,Random Forest,high_intent,test,0,1,0.5731
+R01661,Random Forest,high_intent,test,1,0,0.3757
+R01609,Random Forest,high_intent,test,0,0,0.0927
+R01064,Random Forest,high_intent,test,0,0,0.4878
+R00724,Random Forest,high_intent,test,0,0,0.4999
+R01483,Random Forest,high_intent,test,0,0,0.2007
+R00429,Random Forest,high_intent,test,1,0,0.1867
+R01418,Random Forest,high_intent,test,0,0,0.125
+R01305,Random Forest,high_intent,test,0,1,0.5227
+R01389,Random Forest,high_intent,test,0,0,0.3345
+R01440,Random Forest,high_intent,test,0,0,0.1261
+R00602,Random Forest,high_intent,test,1,1,0.5795
+R00445,Random Forest,high_intent,test,0,0,0.1538
+R01996,Random Forest,high_intent,test,0,0,0.3163
+R01111,Random Forest,high_intent,test,0,0,0.4181
+R00547,Random Forest,high_intent,test,0,0,0.2044
+R01188,Random Forest,high_intent,test,1,0,0.2776
+R01876,Random Forest,high_intent,test,0,0,0.2159
+R01972,Random Forest,high_intent,test,1,1,0.6062
+R01141,Random Forest,high_intent,test,1,0,0.4373
+R01462,Random Forest,high_intent,test,0,0,0.3145
+R00934,Random Forest,high_intent,test,1,0,0.2834
+R01599,Random Forest,high_intent,test,0,0,0.1663
+R01173,Random Forest,high_intent,test,0,0,0.1238
+R00982,Random Forest,high_intent,test,0,0,0.172
+R00859,Random Forest,high_intent,test,1,0,0.2559
+R00232,Random Forest,high_intent,test,1,0,0.2518
+R01341,Random Forest,high_intent,test,0,0,0.2361
+R01469,Random Forest,high_intent,test,0,0,0.198
+R00246,Random Forest,high_intent,test,1,0,0.2671
+R01245,Random Forest,high_intent,test,1,0,0.3328
+R00029,Random Forest,high_intent,test,0,0,0.1823
+R01969,Random Forest,high_intent,test,0,0,0.2128
+R01590,Random Forest,high_intent,test,0,0,0.3492
+R01697,Random Forest,high_intent,test,1,0,0.1169
+R01114,Random Forest,high_intent,test,0,0,0.2442
+R00255,Random Forest,high_intent,test,0,0,0.4593
+R01740,Random Forest,high_intent,test,0,0,0.1754
+R00052,Random Forest,high_intent,test,0,0,0.3658
+R00077,Random Forest,high_intent,test,1,0,0.4402
+R00280,Random Forest,high_intent,test,0,0,0.0866
+R01076,Random Forest,high_intent,test,0,0,0.2276
+R00922,Random Forest,high_intent,test,0,0,0.055
+R00334,Random Forest,high_intent,test,0,0,0.1155
+R01361,Random Forest,high_intent,test,0,0,0.0982
+R01410,Random Forest,high_intent,test,1,1,0.5312
+R01754,Random Forest,high_intent,test,0,1,0.612
+R01905,Random Forest,high_intent,test,0,0,0.3486
+R01176,Random Forest,high_intent,test,0,0,0.2714
+R01589,Random Forest,high_intent,test,0,0,0.1003
+R01415,Random Forest,high_intent,test,1,0,0.1957
+R00383,Random Forest,high_intent,test,0,0,0.1187
+R01233,Random Forest,high_intent,test,0,0,0.2199
+R00906,Random Forest,high_intent,test,0,0,0.3834
+R01118,Random Forest,high_intent,test,0,0,0.1698
+R01813,Random Forest,high_intent,test,0,0,0.124
+R01422,Random Forest,high_intent,test,0,0,0.2399
+R01100,Random Forest,high_intent,test,0,0,0.3381
+R00176,Random Forest,high_intent,test,1,0,0.245
+R01518,Random Forest,high_intent,test,0,0,0.2389
+R01491,Random Forest,high_intent,test,0,0,0.1318
+R01953,Random Forest,high_intent,test,1,1,0.6538
+R00354,Random Forest,high_intent,test,0,0,0.174
+R01829,Random Forest,high_intent,test,1,0,0.3856
+R00994,Random Forest,high_intent,test,1,0,0.2831
+R01606,Random Forest,high_intent,test,1,1,0.6878
+R00329,Random Forest,high_intent,test,0,0,0.3191
+R00028,Random Forest,high_intent,test,0,0,0.068
+R01282,Random Forest,high_intent,test,1,1,0.674
+R00399,Random Forest,high_intent,test,0,0,0.0927
+R01658,Random Forest,high_intent,test,0,0,0.0798
+R00160,Random Forest,high_intent,test,0,0,0.1752
+R00213,Random Forest,high_intent,test,0,0,0.1802
+R00196,Random Forest,high_intent,test,0,0,0.2641
+R01179,Random Forest,high_intent,test,0,0,0.2149
+R01152,Random Forest,high_intent,test,0,0,0.3558
+R01078,Random Forest,high_intent,test,1,0,0.2655
+R01653,Random Forest,high_intent,test,0,0,0.1084
+R01157,Random Forest,high_intent,test,1,0,0.2313
+R01429,Random Forest,high_intent,test,0,0,0.1011
+R00116,Random Forest,high_intent,test,0,0,0.1608
+R00129,Random Forest,high_intent,test,0,0,0.3767
+R00402,Random Forest,high_intent,test,1,0,0.171
+R00202,Random Forest,high_intent,test,0,0,0.2634
+R01258,Random Forest,high_intent,test,0,0,0.2352
+R00557,Random Forest,high_intent,test,0,0,0.0818
+R00459,Random Forest,high_intent,test,0,0,0.1962
+R01942,Random Forest,high_intent,test,1,0,0.2667
+R01507,Random Forest,high_intent,test,1,0,0.2446
+R00382,Random Forest,high_intent,test,1,1,0.568
+R01831,Random Forest,high_intent,test,0,0,0.331
+R00743,Random Forest,high_intent,test,0,0,0.1914
+R00658,Random Forest,high_intent,test,0,0,0.217
+R00964,Random Forest,high_intent,test,0,0,0.1091
+R00554,Random Forest,high_intent,test,0,0,0.1394
+R01632,Random Forest,high_intent,test,0,0,0.1107
+R00676,Random Forest,high_intent,test,0,0,0.2893
+R00020,Random Forest,high_intent,test,0,0,0.4323
+R01296,Random Forest,high_intent,test,0,0,0.4108
+R00653,Random Forest,high_intent,test,0,0,0.2224
+R00437,Random Forest,high_intent,test,0,0,0.2495
+R01527,Random Forest,high_intent,test,0,0,0.1468
+R00122,Random Forest,high_intent,test,0,0,0.0691
+R00278,Random Forest,high_intent,test,0,0,0.0948
+R00656,Random Forest,high_intent,test,0,0,0.2702
+R01672,Random Forest,high_intent,test,0,0,0.1636
+R00396,Random Forest,high_intent,test,1,0,0.3611
+R00544,Random Forest,high_intent,test,1,0,0.3751
+R01693,Random Forest,high_intent,test,0,0,0.2397
+R00514,Random Forest,high_intent,test,1,0,0.4106
+R00466,Random Forest,high_intent,test,0,0,0.3482
+R01404,Random Forest,high_intent,test,0,0,0.3835
+R00069,Random Forest,high_intent,test,0,0,0.1705
+R01812,Random Forest,high_intent,test,0,0,0.2908
+R01851,Random Forest,high_intent,test,1,0,0.2225
+R01019,Random Forest,high_intent,test,0,0,0.2213
+R01843,Random Forest,high_intent,test,0,1,0.6541
+R01315,Random Forest,high_intent,test,1,1,0.5488
+R00535,Random Forest,high_intent,test,0,0,0.2516
+R00819,Random Forest,high_intent,test,1,0,0.264
+R00777,Random Forest,high_intent,test,0,0,0.0852
+R01947,Random Forest,high_intent,test,0,0,0.1715
+R01776,Random Forest,high_intent,test,0,0,0.4071
+R00613,Random Forest,high_intent,test,0,0,0.2256
+R00002,Random Forest,high_intent,test,0,0,0.1214
+R00168,Random Forest,high_intent,test,0,0,0.1232
+R01598,Random Forest,high_intent,test,0,0,0.1285
+R01757,Random Forest,high_intent,test,0,0,0.4067
+R00300,Random Forest,high_intent,test,0,0,0.241
+R01552,Random Forest,high_intent,test,1,0,0.419
+R01437,Random Forest,high_intent,test,1,0,0.2761
+R01828,Random Forest,high_intent,test,0,0,0.1279
+R00226,Random Forest,high_intent,test,1,1,0.6031
+R01654,Random Forest,high_intent,test,0,0,0.185
+R00193,Random Forest,high_intent,test,1,0,0.2652
+R01702,Random Forest,high_intent,test,0,1,0.7083
+R01796,Random Forest,high_intent,test,0,0,0.3102
+R01231,Random Forest,high_intent,test,0,0,0.077
+R01011,Random Forest,high_intent,test,1,0,0.4337
+R01939,Random Forest,high_intent,test,0,0,0.3947
+R00200,Random Forest,high_intent,test,0,0,0.1481
+R01613,Random Forest,high_intent,test,0,0,0.2844
+R00845,Random Forest,high_intent,test,0,0,0.2108
+R01367,Random Forest,high_intent,test,0,0,0.2712
+R01198,Random Forest,high_intent,test,0,0,0.1792
+R00321,Random Forest,high_intent,test,1,0,0.494
+R00538,Random Forest,high_intent,test,0,0,0.4436
+R01943,Random Forest,high_intent,test,0,0,0.1323
+R01976,Random Forest,high_intent,test,0,0,0.2234
+R01486,Random Forest,high_intent,test,0,0,0.4248
+R00047,Random Forest,high_intent,test,0,0,0.0782
+R01909,Random Forest,high_intent,test,1,1,0.565
+R00969,Random Forest,high_intent,test,0,0,0.1683
+R01009,Random Forest,high_intent,test,0,0,0.0402
+R00639,Random Forest,high_intent,test,0,0,0.1641
+R01468,Random Forest,high_intent,test,0,0,0.2422
+R01504,Random Forest,high_intent,test,0,0,0.2932
+R01428,Random Forest,high_intent,test,0,0,0.167
+R01349,Random Forest,high_intent,test,0,0,0.3561
+R00960,Random Forest,high_intent,test,0,0,0.2306
+R01779,Random Forest,high_intent,test,1,0,0.4443
+R00587,Random Forest,high_intent,test,1,0,0.3502
+R01088,Random Forest,high_intent,test,1,1,0.6297
+R01585,Random Forest,high_intent,test,0,0,0.149
+R00058,Random Forest,high_intent,test,0,0,0.3317
+R01081,Random Forest,high_intent,test,0,0,0.4293
+R00667,Random Forest,high_intent,test,1,0,0.4424
+R00201,Random Forest,high_intent,test,0,0,0.2551
+R00357,Random Forest,high_intent,test,0,0,0.3784
+R01494,Random Forest,high_intent,test,0,0,0.385
+R01961,Random Forest,high_intent,test,0,0,0.3594
+R00801,Random Forest,high_intent,test,0,0,0.1413
+R00046,Random Forest,high_intent,test,1,0,0.2565
+R00711,Random Forest,high_intent,test,1,0,0.3795
+R00171,Random Forest,high_intent,test,1,0,0.4772
+R00199,Random Forest,high_intent,test,0,0,0.0877
+R00536,Random Forest,high_intent,test,0,0,0.0781
+R01211,Random Forest,high_intent,test,1,0,0.4815
+R01568,Random Forest,high_intent,test,1,0,0.2691
+R00898,Random Forest,high_intent,test,0,0,0.3183
+R01820,Random Forest,high_intent,test,0,0,0.1011
+R01733,Random Forest,high_intent,test,1,1,0.6223
+R01374,Random Forest,high_intent,test,0,0,0.1987
+R01643,Random Forest,high_intent,test,0,0,0.1515
+R00967,Random Forest,high_intent,test,0,0,0.2287
+R01900,Random Forest,high_intent,test,0,0,0.1221
+R00007,Random Forest,high_intent,test,0,0,0.124
+R00023,Random Forest,high_intent,test,0,0,0.1174
+R00706,Random Forest,high_intent,test,0,0,0.235
+R01419,Random Forest,high_intent,test,1,0,0.2637
+R01336,Random Forest,high_intent,test,0,0,0.2056
+R00474,Random Forest,high_intent,test,0,0,0.4025
+R00556,Random Forest,high_intent,test,0,0,0.3582
+R00671,Random Forest,high_intent,test,0,0,0.1378
+R00366,Random Forest,high_intent,test,0,0,0.0617
+R01167,Random Forest,high_intent,test,0,0,0.1942
+R00411,Random Forest,high_intent,test,0,0,0.2685
+R00356,Random Forest,high_intent,test,1,0,0.1265
+R00754,Random Forest,high_intent,test,1,0,0.3092
+R00435,Random Forest,high_intent,test,0,0,0.1151
+R00296,Random Forest,high_intent,test,0,0,0.4083
+R00190,Random Forest,high_intent,test,0,0,0.3744
+R00850,Random Forest,high_intent,test,0,0,0.0715
+R01866,Random Forest,high_intent,test,1,1,0.54
+R00984,Random Forest,high_intent,test,0,0,0.2062
+R01256,Random Forest,high_intent,test,1,0,0.4539
+R00790,Random Forest,high_intent,test,0,0,0.162
+R01445,Random Forest,high_intent,test,0,0,0.217
+R01250,Random Forest,high_intent,test,0,0,0.1851
+R00074,Random Forest,high_intent,test,0,0,0.1657
+R01171,Random Forest,high_intent,test,0,0,0.1289
+R00025,Random Forest,high_intent,test,0,0,0.3514
+R01170,Random Forest,high_intent,test,1,1,0.68
+R00560,Random Forest,high_intent,test,0,1,0.5598
+R00126,Random Forest,high_intent,test,0,0,0.115
+R01718,Random Forest,high_intent,test,1,0,0.3268
+R01090,Random Forest,high_intent,test,0,0,0.2434
+R01889,Random Forest,high_intent,test,1,0,0.2479
+R01225,Random Forest,high_intent,test,1,0,0.4158
+R00703,Random Forest,high_intent,test,0,0,0.0665
+R01745,Random Forest,high_intent,test,0,0,0.0932
+R01577,Random Forest,high_intent,test,0,0,0.1794
+R00705,Random Forest,high_intent,test,0,1,0.5122
+R01228,Random Forest,high_intent,test,1,0,0.43
+R00949,Random Forest,high_intent,test,1,1,0.5061
+R00758,Random Forest,high_intent,test,0,0,0.2357
+R01063,Random Forest,high_intent,test,1,1,0.5454
+R01348,Random Forest,high_intent,test,0,0,0.0746
+R01239,Random Forest,high_intent,test,0,1,0.5441
+R00854,Random Forest,high_intent,test,1,0,0.1097
+R01306,Random Forest,high_intent,test,0,0,0.4545
+R00543,Random Forest,high_intent,test,1,0,0.2842
+R00688,Random Forest,high_intent,test,0,0,0.1142
+R01403,Random Forest,high_intent,test,0,0,0.2878
+R00857,Random Forest,high_intent,test,1,0,0.2298
+R01886,Random Forest,high_intent,test,0,0,0.1158
+R00393,Random Forest,high_intent,test,0,0,0.2256
+R01391,Random Forest,high_intent,test,0,0,0.2653
+R00333,Random Forest,high_intent,test,0,0,0.3757
+R01189,Random Forest,high_intent,test,1,1,0.6171
+R01871,Random Forest,high_intent,test,0,0,0.246
+R01393,Random Forest,high_intent,test,1,0,0.4459
+R01808,Random Forest,high_intent,test,1,0,0.4683
+R01619,Random Forest,high_intent,test,0,0,0.1532
+R00661,Random Forest,high_intent,test,0,0,0.1134
+R00243,Random Forest,high_intent,test,1,1,0.558
+R01509,Random Forest,high_intent,test,0,0,0.0806
+R00631,Random Forest,high_intent,test,1,0,0.2784
+R00276,Random Forest,high_intent,test,1,0,0.4655
+R00718,Random Forest,high_intent,test,0,0,0.3574
+R01487,Random Forest,high_intent,test,1,0,0.2969
+R01913,Random Forest,high_intent,test,1,0,0.2037
+R01434,Random Forest,high_intent,test,0,0,0.4256
+R00682,Random Forest,high_intent,test,0,0,0.0898
+R00797,Random Forest,high_intent,test,0,0,0.2737
+R01342,Random Forest,high_intent,test,0,0,0.1869
+R00907,Random Forest,high_intent,test,0,0,0.3899
+R00875,Random Forest,high_intent,test,0,0,0.0693
+R00966,Random Forest,high_intent,test,0,0,0.2086
+R00408,Random Forest,high_intent,test,0,0,0.1734
+R01533,Random Forest,high_intent,test,0,0,0.1555
+R01777,Random Forest,high_intent,test,0,0,0.3367
+R00904,Random Forest,high_intent,test,0,0,0.1491
+R01488,Random Forest,high_intent,test,0,0,0.3989
+R00929,Random Forest,high_intent,test,0,0,0.2106
+R01221,Random Forest,high_intent,test,1,0,0.2447
+R00477,Random Forest,high_intent,test,0,0,0.1937
+R00899,Random Forest,high_intent,test,0,0,0.1657
+R00895,Random Forest,high_intent,test,0,0,0.1383
+R01402,Random Forest,high_intent,test,1,0,0.2486
+R00641,Random Forest,high_intent,test,1,0,0.261
+R00917,Random Forest,high_intent,test,0,0,0.2621
+R01270,Random Forest,high_intent,test,0,0,0.1476
+R01563,Random Forest,high_intent,test,0,0,0.135
+R01559,Random Forest,high_intent,test,0,0,0.2336
+R00420,Random Forest,high_intent,test,0,0,0.2379
+R01709,Random Forest,high_intent,test,0,0,0.2577
+R00870,Random Forest,high_intent,test,0,0,0.1751
+R00915,Random Forest,high_intent,test,0,0,0.2033
+R00341,Random Forest,high_intent,test,0,0,0.156
+R01763,Random Forest,high_intent,test,1,1,0.6339
+R01664,Random Forest,high_intent,test,0,0,0.0656
+R01395,Random Forest,high_intent,test,0,0,0.1031
+R00839,Gradient Boosting,high_intent,test,0,0,0.1066
+R00307,Gradient Boosting,high_intent,test,0,0,0.0815
+R00822,Gradient Boosting,high_intent,test,0,0,0.1845
+R01532,Gradient Boosting,high_intent,test,1,0,0.1774
+R01292,Gradient Boosting,high_intent,test,1,0,0.2944
+R00149,Gradient Boosting,high_intent,test,0,0,0.2845
+R00779,Gradient Boosting,high_intent,test,0,0,0.1013
+R01825,Gradient Boosting,high_intent,test,0,0,0.3881
+R00272,Gradient Boosting,high_intent,test,0,0,0.4645
+R01257,Gradient Boosting,high_intent,test,0,1,0.5389
+R01373,Gradient Boosting,high_intent,test,0,0,0.4071
+R01623,Gradient Boosting,high_intent,test,0,0,0.1375
+R00988,Gradient Boosting,high_intent,test,1,1,0.7318
+R01122,Gradient Boosting,high_intent,test,0,0,0.1717
+R01833,Gradient Boosting,high_intent,test,0,0,0.0938
+R00997,Gradient Boosting,high_intent,test,0,1,0.577
+R00378,Gradient Boosting,high_intent,test,1,0,0.4405
+R01691,Gradient Boosting,high_intent,test,0,0,0.2028
+R01636,Gradient Boosting,high_intent,test,1,1,0.8753
+R01640,Gradient Boosting,high_intent,test,0,0,0.0206
+R01318,Gradient Boosting,high_intent,test,0,0,0.1684
+R01621,Gradient Boosting,high_intent,test,1,0,0.3474
+R01781,Gradient Boosting,high_intent,test,0,1,0.6661
+R00209,Gradient Boosting,high_intent,test,0,0,0.1703
+R00893,Gradient Boosting,high_intent,test,1,0,0.1614
+R00011,Gradient Boosting,high_intent,test,0,0,0.2605
+R00812,Gradient Boosting,high_intent,test,0,0,0.0877
+R00251,Gradient Boosting,high_intent,test,0,0,0.0515
+R01748,Gradient Boosting,high_intent,test,0,0,0.0968
+R00635,Gradient Boosting,high_intent,test,0,0,0.0291
+R00130,Gradient Boosting,high_intent,test,1,0,0.1672
+R01477,Gradient Boosting,high_intent,test,0,0,0.0421
+R00566,Gradient Boosting,high_intent,test,0,0,0.0258
+R00901,Gradient Boosting,high_intent,test,1,0,0.436
+R00364,Gradient Boosting,high_intent,test,1,0,0.4906
+R01989,Gradient Boosting,high_intent,test,1,1,0.7637
+R00212,Gradient Boosting,high_intent,test,0,0,0.2542
+R00766,Gradient Boosting,high_intent,test,0,0,0.0639
+R01546,Gradient Boosting,high_intent,test,0,0,0.0502
+R00256,Gradient Boosting,high_intent,test,0,0,0.107
+R01207,Gradient Boosting,high_intent,test,0,0,0.1898
+R00695,Gradient Boosting,high_intent,test,0,0,0.0374
+R01736,Gradient Boosting,high_intent,test,0,0,0.2535
+R00162,Gradient Boosting,high_intent,test,1,1,0.8401
+R01340,Gradient Boosting,high_intent,test,0,1,0.5029
+R00832,Gradient Boosting,high_intent,test,0,0,0.15
+R01124,Gradient Boosting,high_intent,test,0,0,0.0435
+R01053,Gradient Boosting,high_intent,test,0,0,0.1523
+R01268,Gradient Boosting,high_intent,test,1,0,0.3905
+R01919,Gradient Boosting,high_intent,test,1,0,0.1593
+R01867,Gradient Boosting,high_intent,test,0,0,0.1316
+R01566,Gradient Boosting,high_intent,test,0,1,0.8638
+R01310,Gradient Boosting,high_intent,test,1,0,0.2617
+R00267,Gradient Boosting,high_intent,test,0,0,0.0899
+R01045,Gradient Boosting,high_intent,test,0,0,0.0974
+R00644,Gradient Boosting,high_intent,test,0,0,0.0217
+R00577,Gradient Boosting,high_intent,test,0,0,0.0713
+R01701,Gradient Boosting,high_intent,test,0,0,0.139
+R00983,Gradient Boosting,high_intent,test,1,1,0.6724
+R00467,Gradient Boosting,high_intent,test,1,0,0.4018
+R00627,Gradient Boosting,high_intent,test,0,0,0.1626
+R01501,Gradient Boosting,high_intent,test,0,0,0.2936
+R01879,Gradient Boosting,high_intent,test,0,0,0.0579
+R01885,Gradient Boosting,high_intent,test,0,0,0.0395
+R00559,Gradient Boosting,high_intent,test,0,0,0.282
+R00172,Gradient Boosting,high_intent,test,0,1,0.9108
+R00108,Gradient Boosting,high_intent,test,1,0,0.0931
+R00273,Gradient Boosting,high_intent,test,0,0,0.1129
+R01569,Gradient Boosting,high_intent,test,1,1,0.8543
+R00913,Gradient Boosting,high_intent,test,1,1,0.6968
+R00630,Gradient Boosting,high_intent,test,0,0,0.0758
+R01582,Gradient Boosting,high_intent,test,0,0,0.3055
+R01275,Gradient Boosting,high_intent,test,1,0,0.1842
+R00908,Gradient Boosting,high_intent,test,1,0,0.2763
+R00431,Gradient Boosting,high_intent,test,1,0,0.251
+R01232,Gradient Boosting,high_intent,test,1,1,0.9065
+R01362,Gradient Boosting,high_intent,test,0,0,0.0267
+R01052,Gradient Boosting,high_intent,test,0,0,0.1122
+R00739,Gradient Boosting,high_intent,test,0,0,0.2867
+R01212,Gradient Boosting,high_intent,test,1,0,0.4759
+R00049,Gradient Boosting,high_intent,test,0,1,0.5733
+R01071,Gradient Boosting,high_intent,test,0,0,0.1863
+R01262,Gradient Boosting,high_intent,test,1,0,0.2034
+R01086,Gradient Boosting,high_intent,test,0,0,0.1038
+R01108,Gradient Boosting,high_intent,test,0,0,0.0041
+R00279,Gradient Boosting,high_intent,test,0,0,0.137
+R01523,Gradient Boosting,high_intent,test,1,0,0.1546
+R01345,Gradient Boosting,high_intent,test,0,0,0.1872
+R01780,Gradient Boosting,high_intent,test,0,0,0.1063
+R00545,Gradient Boosting,high_intent,test,1,0,0.2273
+R00778,Gradient Boosting,high_intent,test,0,0,0.0794
+R01343,Gradient Boosting,high_intent,test,0,0,0.1318
+R00529,Gradient Boosting,high_intent,test,0,0,0.2425
+R01092,Gradient Boosting,high_intent,test,0,0,0.4692
+R00027,Gradient Boosting,high_intent,test,0,0,0.0217
+R00962,Gradient Boosting,high_intent,test,1,0,0.1558
+R01663,Gradient Boosting,high_intent,test,0,0,0.0721
+R01051,Gradient Boosting,high_intent,test,0,1,0.7185
+R01196,Gradient Boosting,high_intent,test,0,0,0.0449
+R01457,Gradient Boosting,high_intent,test,1,1,0.6043
+R00558,Gradient Boosting,high_intent,test,0,0,0.4093
+R00546,Gradient Boosting,high_intent,test,0,0,0.0354
+R00440,Gradient Boosting,high_intent,test,0,0,0.008
+R00014,Gradient Boosting,high_intent,test,1,1,0.5834
+R00087,Gradient Boosting,high_intent,test,0,0,0.0936
+R01872,Gradient Boosting,high_intent,test,0,0,0.449
+R01055,Gradient Boosting,high_intent,test,0,0,0.1822
+R00446,Gradient Boosting,high_intent,test,1,0,0.0979
+R00607,Gradient Boosting,high_intent,test,0,0,0.0469
+R00423,Gradient Boosting,high_intent,test,0,0,0.0955
+R01773,Gradient Boosting,high_intent,test,0,0,0.1067
+R00312,Gradient Boosting,high_intent,test,0,0,0.216
+R00905,Gradient Boosting,high_intent,test,0,0,0.0482
+R00342,Gradient Boosting,high_intent,test,0,0,0.0929
+R00752,Gradient Boosting,high_intent,test,0,0,0.0276
+R01980,Gradient Boosting,high_intent,test,0,0,0.1733
+R01622,Gradient Boosting,high_intent,test,0,0,0.1734
+R01420,Gradient Boosting,high_intent,test,1,0,0.2239
+R00240,Gradient Boosting,high_intent,test,0,0,0.4866
+R01143,Gradient Boosting,high_intent,test,1,1,0.7346
+R00204,Gradient Boosting,high_intent,test,0,0,0.0161
+R01714,Gradient Boosting,high_intent,test,0,0,0.2332
+R00527,Gradient Boosting,high_intent,test,0,0,0.0187
+R00018,Gradient Boosting,high_intent,test,1,1,0.9185
+R00220,Gradient Boosting,high_intent,test,0,0,0.1976
+R00714,Gradient Boosting,high_intent,test,0,0,0.4485
+R00036,Gradient Boosting,high_intent,test,1,1,0.8203
+R01586,Gradient Boosting,high_intent,test,1,1,0.9188
+R01472,Gradient Boosting,high_intent,test,1,0,0.1694
+R00163,Gradient Boosting,high_intent,test,0,0,0.1128
+R01195,Gradient Boosting,high_intent,test,0,0,0.0211
+R00921,Gradient Boosting,high_intent,test,0,0,0.277
+R00815,Gradient Boosting,high_intent,test,1,0,0.3851
+R01287,Gradient Boosting,high_intent,test,0,0,0.015
+R01222,Gradient Boosting,high_intent,test,0,0,0.4726
+R00651,Gradient Boosting,high_intent,test,0,0,0.1123
+R01708,Gradient Boosting,high_intent,test,0,1,0.7012
+R01027,Gradient Boosting,high_intent,test,0,0,0.1956
+R00952,Gradient Boosting,high_intent,test,1,0,0.4199
+R01627,Gradient Boosting,high_intent,test,0,0,0.0616
+R00038,Gradient Boosting,high_intent,test,0,1,0.5419
+R01951,Gradient Boosting,high_intent,test,0,1,0.5563
+R01163,Gradient Boosting,high_intent,test,0,0,0.1052
+R01792,Gradient Boosting,high_intent,test,0,0,0.1715
+R00252,Gradient Boosting,high_intent,test,0,0,0.4492
+R01136,Gradient Boosting,high_intent,test,0,0,0.2172
+R00314,Gradient Boosting,high_intent,test,0,0,0.1688
+R00838,Gradient Boosting,high_intent,test,1,1,0.6726
+R00616,Gradient Boosting,high_intent,test,0,0,0.0369
+R01204,Gradient Boosting,high_intent,test,0,0,0.2533
+R01150,Gradient Boosting,high_intent,test,0,0,0.2946
+R01564,Gradient Boosting,high_intent,test,0,0,0.044
+R00271,Gradient Boosting,high_intent,test,0,0,0.2081
+R00065,Gradient Boosting,high_intent,test,0,0,0.0996
+R00137,Gradient Boosting,high_intent,test,0,0,0.3617
+R00161,Gradient Boosting,high_intent,test,1,0,0.185
+R00677,Gradient Boosting,high_intent,test,0,0,0.0566
+R00379,Gradient Boosting,high_intent,test,0,0,0.1045
+R01806,Gradient Boosting,high_intent,test,1,0,0.1646
+R01450,Gradient Boosting,high_intent,test,1,1,0.866
+R00454,Gradient Boosting,high_intent,test,1,0,0.303
+R00178,Gradient Boosting,high_intent,test,0,0,0.0587
+R00520,Gradient Boosting,high_intent,test,1,1,0.7619
+R01965,Gradient Boosting,high_intent,test,0,0,0.0403
+R01660,Gradient Boosting,high_intent,test,0,0,0.247
+R01423,Gradient Boosting,high_intent,test,0,0,0.1092
+R00247,Gradient Boosting,high_intent,test,1,1,0.5448
+R01874,Gradient Boosting,high_intent,test,0,0,0.1532
+R01416,Gradient Boosting,high_intent,test,0,0,0.4695
+R00021,Gradient Boosting,high_intent,test,0,0,0.0995
+R00896,Gradient Boosting,high_intent,test,1,1,0.5501
+R01022,Gradient Boosting,high_intent,test,0,0,0.0376
+R01683,Gradient Boosting,high_intent,test,0,0,0.3097
+R01963,Gradient Boosting,high_intent,test,0,0,0.3409
+R01657,Gradient Boosting,high_intent,test,0,0,0.0093
+R00987,Gradient Boosting,high_intent,test,0,0,0.0816
+R00362,Gradient Boosting,high_intent,test,1,0,0.4419
+R01015,Gradient Boosting,high_intent,test,1,0,0.1347
+R01350,Gradient Boosting,high_intent,test,1,0,0.3809
+R01873,Gradient Boosting,high_intent,test,0,0,0.0348
+R00775,Gradient Boosting,high_intent,test,0,0,0.1296
+R00524,Gradient Boosting,high_intent,test,1,0,0.2822
+R01838,Gradient Boosting,high_intent,test,1,0,0.2445
+R00660,Gradient Boosting,high_intent,test,1,1,0.5949
+R01235,Gradient Boosting,high_intent,test,0,0,0.2596
+R01095,Gradient Boosting,high_intent,test,0,0,0.3248
+R00702,Gradient Boosting,high_intent,test,0,1,0.7528
+R01839,Gradient Boosting,high_intent,test,0,0,0.1108
+R01984,Gradient Boosting,high_intent,test,1,0,0.3968
+R01213,Gradient Boosting,high_intent,test,0,0,0.0281
+R01894,Gradient Boosting,high_intent,test,0,0,0.1447
+R01580,Gradient Boosting,high_intent,test,0,0,0.0292
+R01298,Gradient Boosting,high_intent,test,1,1,0.9416
+R01307,Gradient Boosting,high_intent,test,0,0,0.0615
+R00892,Gradient Boosting,high_intent,test,0,0,0.0777
+R01948,Gradient Boosting,high_intent,test,0,0,0.2477
+R01824,Gradient Boosting,high_intent,test,0,0,0.1759
+R00883,Gradient Boosting,high_intent,test,0,0,0.1315
+R00565,Gradient Boosting,high_intent,test,0,0,0.2985
+R01735,Gradient Boosting,high_intent,test,0,0,0.0386
+R00666,Gradient Boosting,high_intent,test,1,0,0.1428
+R01160,Gradient Boosting,high_intent,test,1,0,0.4441
+R01112,Gradient Boosting,high_intent,test,0,0,0.1848
+R01230,Gradient Boosting,high_intent,test,0,0,0.2536
+R00704,Gradient Boosting,high_intent,test,1,0,0.1966
+R01893,Gradient Boosting,high_intent,test,1,0,0.1602
+R00968,Gradient Boosting,high_intent,test,0,0,0.0248
+R00872,Gradient Boosting,high_intent,test,0,1,0.5985
+R01952,Gradient Boosting,high_intent,test,1,0,0.3125
+R01219,Gradient Boosting,high_intent,test,0,1,0.6945
+R01661,Gradient Boosting,high_intent,test,1,0,0.463
+R01609,Gradient Boosting,high_intent,test,0,0,0.0332
+R01064,Gradient Boosting,high_intent,test,0,1,0.5716
+R00724,Gradient Boosting,high_intent,test,0,0,0.4814
+R01483,Gradient Boosting,high_intent,test,0,0,0.2866
+R00429,Gradient Boosting,high_intent,test,1,0,0.1359
+R01418,Gradient Boosting,high_intent,test,0,0,0.0367
+R01305,Gradient Boosting,high_intent,test,0,1,0.6023
+R01389,Gradient Boosting,high_intent,test,0,0,0.3315
+R01440,Gradient Boosting,high_intent,test,0,0,0.0483
+R00602,Gradient Boosting,high_intent,test,1,1,0.6707
+R00445,Gradient Boosting,high_intent,test,0,0,0.1541
+R01996,Gradient Boosting,high_intent,test,0,0,0.3732
+R01111,Gradient Boosting,high_intent,test,0,0,0.4101
+R00547,Gradient Boosting,high_intent,test,0,0,0.097
+R01188,Gradient Boosting,high_intent,test,1,0,0.2796
+R01876,Gradient Boosting,high_intent,test,0,0,0.225
+R01972,Gradient Boosting,high_intent,test,1,1,0.7945
+R01141,Gradient Boosting,high_intent,test,1,1,0.8509
+R01462,Gradient Boosting,high_intent,test,0,0,0.1915
+R00934,Gradient Boosting,high_intent,test,1,0,0.313
+R01599,Gradient Boosting,high_intent,test,0,0,0.0601
+R01173,Gradient Boosting,high_intent,test,0,0,0.0339
+R00982,Gradient Boosting,high_intent,test,0,0,0.1311
+R00859,Gradient Boosting,high_intent,test,1,0,0.2919
+R00232,Gradient Boosting,high_intent,test,1,0,0.2162
+R01341,Gradient Boosting,high_intent,test,0,0,0.2031
+R01469,Gradient Boosting,high_intent,test,0,0,0.0298
+R00246,Gradient Boosting,high_intent,test,1,0,0.2656
+R01245,Gradient Boosting,high_intent,test,1,0,0.1895
+R00029,Gradient Boosting,high_intent,test,0,0,0.0834
+R01969,Gradient Boosting,high_intent,test,0,0,0.1173
+R01590,Gradient Boosting,high_intent,test,0,0,0.1177
+R01697,Gradient Boosting,high_intent,test,1,0,0.166
+R01114,Gradient Boosting,high_intent,test,0,0,0.122
+R00255,Gradient Boosting,high_intent,test,0,1,0.6957
+R01740,Gradient Boosting,high_intent,test,0,0,0.1841
+R00052,Gradient Boosting,high_intent,test,0,0,0.4015
+R00077,Gradient Boosting,high_intent,test,1,1,0.5195
+R00280,Gradient Boosting,high_intent,test,0,0,0.0225
+R01076,Gradient Boosting,high_intent,test,0,0,0.1605
+R00922,Gradient Boosting,high_intent,test,0,0,0.0078
+R00334,Gradient Boosting,high_intent,test,0,0,0.1492
+R01361,Gradient Boosting,high_intent,test,0,0,0.0393
+R01410,Gradient Boosting,high_intent,test,1,1,0.934
+R01754,Gradient Boosting,high_intent,test,0,1,0.8011
+R01905,Gradient Boosting,high_intent,test,0,0,0.3382
+R01176,Gradient Boosting,high_intent,test,0,0,0.2477
+R01589,Gradient Boosting,high_intent,test,0,0,0.1691
+R01415,Gradient Boosting,high_intent,test,1,0,0.2131
+R00383,Gradient Boosting,high_intent,test,0,0,0.0211
+R01233,Gradient Boosting,high_intent,test,0,0,0.1768
+R00906,Gradient Boosting,high_intent,test,0,0,0.4168
+R01118,Gradient Boosting,high_intent,test,0,0,0.1782
+R01813,Gradient Boosting,high_intent,test,0,0,0.1401
+R01422,Gradient Boosting,high_intent,test,0,0,0.277
+R01100,Gradient Boosting,high_intent,test,0,0,0.0825
+R00176,Gradient Boosting,high_intent,test,1,0,0.3306
+R01518,Gradient Boosting,high_intent,test,0,0,0.1869
+R01491,Gradient Boosting,high_intent,test,0,0,0.059
+R01953,Gradient Boosting,high_intent,test,1,1,0.7697
+R00354,Gradient Boosting,high_intent,test,0,0,0.1654
+R01829,Gradient Boosting,high_intent,test,1,0,0.2977
+R00994,Gradient Boosting,high_intent,test,1,0,0.3112
+R01606,Gradient Boosting,high_intent,test,1,1,0.9353
+R00329,Gradient Boosting,high_intent,test,0,0,0.3303
+R00028,Gradient Boosting,high_intent,test,0,0,0.0538
+R01282,Gradient Boosting,high_intent,test,1,1,0.5814
+R00399,Gradient Boosting,high_intent,test,0,0,0.0298
+R01658,Gradient Boosting,high_intent,test,0,0,0.0192
+R00160,Gradient Boosting,high_intent,test,0,0,0.1877
+R00213,Gradient Boosting,high_intent,test,0,0,0.0932
+R00196,Gradient Boosting,high_intent,test,0,0,0.2857
+R01179,Gradient Boosting,high_intent,test,0,0,0.1561
+R01152,Gradient Boosting,high_intent,test,0,0,0.202
+R01078,Gradient Boosting,high_intent,test,1,0,0.3558
+R01653,Gradient Boosting,high_intent,test,0,0,0.0445
+R01157,Gradient Boosting,high_intent,test,1,0,0.0921
+R01429,Gradient Boosting,high_intent,test,0,0,0.0387
+R00116,Gradient Boosting,high_intent,test,0,0,0.095
+R00129,Gradient Boosting,high_intent,test,0,0,0.4742
+R00402,Gradient Boosting,high_intent,test,1,0,0.08
+R00202,Gradient Boosting,high_intent,test,0,0,0.2251
+R01258,Gradient Boosting,high_intent,test,0,0,0.1391
+R00557,Gradient Boosting,high_intent,test,0,0,0.0586
+R00459,Gradient Boosting,high_intent,test,0,0,0.34
+R01942,Gradient Boosting,high_intent,test,1,0,0.3181
+R01507,Gradient Boosting,high_intent,test,1,0,0.2434
+R00382,Gradient Boosting,high_intent,test,1,1,0.7943
+R01831,Gradient Boosting,high_intent,test,0,0,0.41
+R00743,Gradient Boosting,high_intent,test,0,0,0.09
+R00658,Gradient Boosting,high_intent,test,0,0,0.096
+R00964,Gradient Boosting,high_intent,test,0,0,0.0323
+R00554,Gradient Boosting,high_intent,test,0,0,0.0251
+R01632,Gradient Boosting,high_intent,test,0,0,0.0494
+R00676,Gradient Boosting,high_intent,test,0,0,0.2659
+R00020,Gradient Boosting,high_intent,test,0,0,0.3124
+R01296,Gradient Boosting,high_intent,test,0,1,0.5346
+R00653,Gradient Boosting,high_intent,test,0,0,0.2551
+R00437,Gradient Boosting,high_intent,test,0,0,0.19
+R01527,Gradient Boosting,high_intent,test,0,0,0.1972
+R00122,Gradient Boosting,high_intent,test,0,0,0.0176
+R00278,Gradient Boosting,high_intent,test,0,0,0.0735
+R00656,Gradient Boosting,high_intent,test,0,0,0.227
+R01672,Gradient Boosting,high_intent,test,0,0,0.183
+R00396,Gradient Boosting,high_intent,test,1,0,0.4335
+R00544,Gradient Boosting,high_intent,test,1,1,0.5972
+R01693,Gradient Boosting,high_intent,test,0,0,0.1172
+R00514,Gradient Boosting,high_intent,test,1,0,0.4335
+R00466,Gradient Boosting,high_intent,test,0,0,0.3994
+R01404,Gradient Boosting,high_intent,test,0,0,0.3564
+R00069,Gradient Boosting,high_intent,test,0,0,0.1901
+R01812,Gradient Boosting,high_intent,test,0,0,0.3709
+R01851,Gradient Boosting,high_intent,test,1,0,0.1493
+R01019,Gradient Boosting,high_intent,test,0,0,0.0854
+R01843,Gradient Boosting,high_intent,test,0,1,0.8923
+R01315,Gradient Boosting,high_intent,test,1,1,0.7619
+R00535,Gradient Boosting,high_intent,test,0,0,0.1563
+R00819,Gradient Boosting,high_intent,test,1,0,0.2282
+R00777,Gradient Boosting,high_intent,test,0,0,0.0361
+R01947,Gradient Boosting,high_intent,test,0,0,0.1373
+R01776,Gradient Boosting,high_intent,test,0,0,0.355
+R00613,Gradient Boosting,high_intent,test,0,0,0.1847
+R00002,Gradient Boosting,high_intent,test,0,0,0.0446
+R00168,Gradient Boosting,high_intent,test,0,0,0.0587
+R01598,Gradient Boosting,high_intent,test,0,0,0.0775
+R01757,Gradient Boosting,high_intent,test,0,1,0.7143
+R00300,Gradient Boosting,high_intent,test,0,0,0.3145
+R01552,Gradient Boosting,high_intent,test,1,0,0.4728
+R01437,Gradient Boosting,high_intent,test,1,0,0.2214
+R01828,Gradient Boosting,high_intent,test,0,0,0.1016
+R00226,Gradient Boosting,high_intent,test,1,1,0.8619
+R01654,Gradient Boosting,high_intent,test,0,0,0.1728
+R00193,Gradient Boosting,high_intent,test,1,0,0.2363
+R01702,Gradient Boosting,high_intent,test,0,1,0.944
+R01796,Gradient Boosting,high_intent,test,0,0,0.1313
+R01231,Gradient Boosting,high_intent,test,0,0,0.0639
+R01011,Gradient Boosting,high_intent,test,1,1,0.8942
+R01939,Gradient Boosting,high_intent,test,0,0,0.4983
+R00200,Gradient Boosting,high_intent,test,0,0,0.089
+R01613,Gradient Boosting,high_intent,test,0,0,0.1914
+R00845,Gradient Boosting,high_intent,test,0,0,0.1516
+R01367,Gradient Boosting,high_intent,test,0,0,0.2439
+R01198,Gradient Boosting,high_intent,test,0,0,0.0449
+R00321,Gradient Boosting,high_intent,test,1,1,0.6034
+R00538,Gradient Boosting,high_intent,test,0,1,0.5213
+R01943,Gradient Boosting,high_intent,test,0,0,0.1148
+R01976,Gradient Boosting,high_intent,test,0,0,0.1952
+R01486,Gradient Boosting,high_intent,test,0,1,0.5524
+R00047,Gradient Boosting,high_intent,test,0,0,0.0278
+R01909,Gradient Boosting,high_intent,test,1,1,0.6241
+R00969,Gradient Boosting,high_intent,test,0,0,0.0886
+R01009,Gradient Boosting,high_intent,test,0,0,0.0119
+R00639,Gradient Boosting,high_intent,test,0,0,0.0753
+R01468,Gradient Boosting,high_intent,test,0,0,0.2892
+R01504,Gradient Boosting,high_intent,test,0,0,0.1983
+R01428,Gradient Boosting,high_intent,test,0,0,0.1609
+R01349,Gradient Boosting,high_intent,test,0,0,0.3022
+R00960,Gradient Boosting,high_intent,test,0,0,0.2653
+R01779,Gradient Boosting,high_intent,test,1,1,0.5438
+R00587,Gradient Boosting,high_intent,test,1,0,0.3859
+R01088,Gradient Boosting,high_intent,test,1,1,0.7935
+R01585,Gradient Boosting,high_intent,test,0,0,0.0652
+R00058,Gradient Boosting,high_intent,test,0,0,0.2624
+R01081,Gradient Boosting,high_intent,test,0,0,0.4931
+R00667,Gradient Boosting,high_intent,test,1,1,0.557
+R00201,Gradient Boosting,high_intent,test,0,0,0.2745
+R00357,Gradient Boosting,high_intent,test,0,0,0.1689
+R01494,Gradient Boosting,high_intent,test,0,0,0.3484
+R01961,Gradient Boosting,high_intent,test,0,0,0.4644
+R00801,Gradient Boosting,high_intent,test,0,0,0.0587
+R00046,Gradient Boosting,high_intent,test,1,0,0.2537
+R00711,Gradient Boosting,high_intent,test,1,0,0.4641
+R00171,Gradient Boosting,high_intent,test,1,0,0.4245
+R00199,Gradient Boosting,high_intent,test,0,0,0.0634
+R00536,Gradient Boosting,high_intent,test,0,0,0.0622
+R01211,Gradient Boosting,high_intent,test,1,1,0.8646
+R01568,Gradient Boosting,high_intent,test,1,0,0.3067
+R00898,Gradient Boosting,high_intent,test,0,0,0.3501
+R01820,Gradient Boosting,high_intent,test,0,0,0.0286
+R01733,Gradient Boosting,high_intent,test,1,1,0.784
+R01374,Gradient Boosting,high_intent,test,0,0,0.072
+R01643,Gradient Boosting,high_intent,test,0,0,0.1155
+R00967,Gradient Boosting,high_intent,test,0,0,0.2327
+R01900,Gradient Boosting,high_intent,test,0,0,0.0393
+R00007,Gradient Boosting,high_intent,test,0,0,0.0363
+R00023,Gradient Boosting,high_intent,test,0,0,0.1034
+R00706,Gradient Boosting,high_intent,test,0,0,0.0866
+R01419,Gradient Boosting,high_intent,test,1,0,0.3092
+R01336,Gradient Boosting,high_intent,test,0,0,0.3062
+R00474,Gradient Boosting,high_intent,test,0,0,0.3651
+R00556,Gradient Boosting,high_intent,test,0,0,0.2253
+R00671,Gradient Boosting,high_intent,test,0,0,0.0556
+R00366,Gradient Boosting,high_intent,test,0,0,0.0156
+R01167,Gradient Boosting,high_intent,test,0,0,0.1518
+R00411,Gradient Boosting,high_intent,test,0,0,0.2211
+R00356,Gradient Boosting,high_intent,test,1,0,0.0562
+R00754,Gradient Boosting,high_intent,test,1,0,0.3649
+R00435,Gradient Boosting,high_intent,test,0,0,0.0387
+R00296,Gradient Boosting,high_intent,test,0,0,0.3695
+R00190,Gradient Boosting,high_intent,test,0,0,0.2118
+R00850,Gradient Boosting,high_intent,test,0,0,0.0353
+R01866,Gradient Boosting,high_intent,test,1,0,0.4599
+R00984,Gradient Boosting,high_intent,test,0,0,0.1438
+R01256,Gradient Boosting,high_intent,test,1,0,0.4029
+R00790,Gradient Boosting,high_intent,test,0,0,0.1756
+R01445,Gradient Boosting,high_intent,test,0,0,0.2849
+R01250,Gradient Boosting,high_intent,test,0,0,0.1799
+R00074,Gradient Boosting,high_intent,test,0,0,0.1287
+R01171,Gradient Boosting,high_intent,test,0,0,0.0534
+R00025,Gradient Boosting,high_intent,test,0,0,0.2788
+R01170,Gradient Boosting,high_intent,test,1,1,0.8249
+R00560,Gradient Boosting,high_intent,test,0,1,0.8134
+R00126,Gradient Boosting,high_intent,test,0,0,0.1167
+R01718,Gradient Boosting,high_intent,test,1,0,0.4087
+R01090,Gradient Boosting,high_intent,test,0,0,0.1127
+R01889,Gradient Boosting,high_intent,test,1,0,0.193
+R01225,Gradient Boosting,high_intent,test,1,0,0.4727
+R00703,Gradient Boosting,high_intent,test,0,0,0.0064
+R01745,Gradient Boosting,high_intent,test,0,0,0.0274
+R01577,Gradient Boosting,high_intent,test,0,0,0.2473
+R00705,Gradient Boosting,high_intent,test,0,1,0.502
+R01228,Gradient Boosting,high_intent,test,1,0,0.2566
+R00949,Gradient Boosting,high_intent,test,1,1,0.6871
+R00758,Gradient Boosting,high_intent,test,0,0,0.2444
+R01063,Gradient Boosting,high_intent,test,1,1,0.6882
+R01348,Gradient Boosting,high_intent,test,0,0,0.043
+R01239,Gradient Boosting,high_intent,test,0,1,0.8219
+R00854,Gradient Boosting,high_intent,test,1,0,0.0276
+R01306,Gradient Boosting,high_intent,test,0,1,0.5616
+R00543,Gradient Boosting,high_intent,test,1,0,0.3977
+R00688,Gradient Boosting,high_intent,test,0,0,0.0822
+R01403,Gradient Boosting,high_intent,test,0,0,0.2525
+R00857,Gradient Boosting,high_intent,test,1,0,0.1078
+R01886,Gradient Boosting,high_intent,test,0,0,0.0317
+R00393,Gradient Boosting,high_intent,test,0,0,0.2373
+R01391,Gradient Boosting,high_intent,test,0,0,0.1548
+R00333,Gradient Boosting,high_intent,test,0,0,0.3656
+R01189,Gradient Boosting,high_intent,test,1,1,0.8074
+R01871,Gradient Boosting,high_intent,test,0,0,0.2555
+R01393,Gradient Boosting,high_intent,test,1,0,0.4501
+R01808,Gradient Boosting,high_intent,test,1,0,0.4804
+R01619,Gradient Boosting,high_intent,test,0,0,0.0776
+R00661,Gradient Boosting,high_intent,test,0,0,0.0345
+R00243,Gradient Boosting,high_intent,test,1,0,0.497
+R01509,Gradient Boosting,high_intent,test,0,0,0.0426
+R00631,Gradient Boosting,high_intent,test,1,0,0.3591
+R00276,Gradient Boosting,high_intent,test,1,0,0.4819
+R00718,Gradient Boosting,high_intent,test,0,0,0.3258
+R01487,Gradient Boosting,high_intent,test,1,0,0.2211
+R01913,Gradient Boosting,high_intent,test,1,0,0.177
+R01434,Gradient Boosting,high_intent,test,0,0,0.2261
+R00682,Gradient Boosting,high_intent,test,0,0,0.0181
+R00797,Gradient Boosting,high_intent,test,0,0,0.2464
+R01342,Gradient Boosting,high_intent,test,0,0,0.2096
+R00907,Gradient Boosting,high_intent,test,0,1,0.72
+R00875,Gradient Boosting,high_intent,test,0,0,0.0328
+R00966,Gradient Boosting,high_intent,test,0,0,0.1975
+R00408,Gradient Boosting,high_intent,test,0,0,0.0998
+R01533,Gradient Boosting,high_intent,test,0,0,0.0854
+R01777,Gradient Boosting,high_intent,test,0,0,0.2403
+R00904,Gradient Boosting,high_intent,test,0,0,0.1228
+R01488,Gradient Boosting,high_intent,test,0,1,0.5858
+R00929,Gradient Boosting,high_intent,test,0,0,0.1224
+R01221,Gradient Boosting,high_intent,test,1,0,0.1729
+R00477,Gradient Boosting,high_intent,test,0,0,0.0679
+R00899,Gradient Boosting,high_intent,test,0,0,0.1194
+R00895,Gradient Boosting,high_intent,test,0,0,0.045
+R01402,Gradient Boosting,high_intent,test,1,0,0.1258
+R00641,Gradient Boosting,high_intent,test,1,0,0.3306
+R00917,Gradient Boosting,high_intent,test,0,0,0.1711
+R01270,Gradient Boosting,high_intent,test,0,0,0.0467
+R01563,Gradient Boosting,high_intent,test,0,0,0.0778
+R01559,Gradient Boosting,high_intent,test,0,0,0.3005
+R00420,Gradient Boosting,high_intent,test,0,0,0.37
+R01709,Gradient Boosting,high_intent,test,0,0,0.3015
+R00870,Gradient Boosting,high_intent,test,0,0,0.1012
+R00915,Gradient Boosting,high_intent,test,0,0,0.038
+R00341,Gradient Boosting,high_intent,test,0,0,0.1375
+R01763,Gradient Boosting,high_intent,test,1,1,0.8995
+R01664,Gradient Boosting,high_intent,test,0,0,0.0251
+R01395,Gradient Boosting,high_intent,test,0,0,0.0235

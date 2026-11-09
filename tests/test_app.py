@@ -116,3 +116,16 @@ def test_source_files_unchanged(full):
     run_all_pages(full)
     after = {p.name: p.read_bytes() for p in full.iterdir()}
     assert before == after
+
+
+def test_repository_data_renders_cleanly():
+    """The committed synthetic datasets and model outputs render on every page with no errors or warnings of
+    unrecognised answers."""
+    repo_data = Path(APP).parent / "data"
+    if not (repo_data / "consumer_survey_clean.csv").exists():
+        pytest.skip("no committed data")
+    from dashboard.views.p03_diagnostics import DIAG
+    assert run_all_pages(repo_data, {"diag_sel": [f"{q} · {t}" for q, t in DIAG]}) == {}
+    from dashboard.data.transforms import prepare_consumer
+    _, meta = prepare_consumer(pd.read_csv(repo_data / "consumer_survey_clean.csv"))
+    assert meta["parse_issues"] == {}

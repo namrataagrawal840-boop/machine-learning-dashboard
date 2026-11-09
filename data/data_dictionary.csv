@@ -1,0 +1,195 @@
+file,column,question,description,type,non_empty,rows,example_values
+association_rules.csv,antecedents,,,categorical / text,400,400,Needs: Loss & damage protection terms; Needs: Real-time status; Wants: Group booking; Needs: Individual compartments; Needs: Loss & damage protection terms; Nee
+association_rules.csv,consequents,,,categorical / text,400,400,Needs: 24/7 support; First: Partner drop-off; Venue: Smart lockers; Needs: Loss & damage protection terms
+association_rules.csv,support,,,numeric,400,400,0.0552; 0.0663; 0.0628; 0.0547
+association_rules.csv,confidence,,,numeric,400,400,0.3785; 0.4199; 0.412; 0.5561
+association_rules.csv,lift,,,numeric,400,400,1.3253; 1.2719; 1.2595; 1.2439
+association_rules.csv,leverage,,,numeric,400,400,0.0135; 0.0142; 0.0129; 0.0108
+association_rules.csv,count,,,numeric,400,400,109; 131; 124; 108
+classification_metrics.csv,model,,,categorical / text,10,10,Logistic Regression; KNN; Decision Tree; Random Forest
+classification_metrics.csv,target,,,categorical / text,10,10,"high_intent (stated, Q23 8–10)"
+classification_metrics.csv,split,,,categorical / text,10,10,train; test
+classification_metrics.csv,accuracy,,,numeric,10,10,0.795; 0.7581; 0.757; 0.7215
+classification_metrics.csv,precision,,,numeric,10,10,0.6806; 0.6044; 0.7222; 0.5161
+classification_metrics.csv,recall,,,numeric,10,10,0.5097; 0.3986; 0.2198; 0.1159
+classification_metrics.csv,f1,,,numeric,10,10,0.5829; 0.4803; 0.337; 0.1893
+classification_metrics.csv,roc_auc,,,numeric,10,10,0.8461; 0.788; 0.7808; 0.7328
+classification_metrics.csv,pr_auc,,,numeric,10,10,0.698; 0.5854; 0.5777; 0.4643
+classification_metrics.csv,n,,,numeric,10,10,1473; 492
+classification_metrics.csv,positive_rate,,,numeric,10,10,0.2811; 0.2805
+classification_metrics.csv,features,,,categorical / text,10,10,planning_only; international_resident; age_rank; trips_rank; group_rank; checkout_gap_rank; luggage_mgmt_rank; bags_rank; gap_frequency_rank; inconvenience; sea
+classification_predictions.csv,respondent_id,,Respondent,categorical / text,2460,2460,R00839; R00307; R00822; R01532
+classification_predictions.csv,model,,,categorical / text,2460,2460,Logistic Regression; KNN; Decision Tree; Random Forest
+classification_predictions.csv,target,,,categorical / text,2460,2460,high_intent
+classification_predictions.csv,split,,,categorical / text,2460,2460,test
+classification_predictions.csv,actual,,,numeric,2460,2460,0; 1
+classification_predictions.csv,predicted,,,numeric,2460,2460,0; 1
+classification_predictions.csv,probability,,,numeric,2460,2460,0.0402; 0.0356; 0.0992; 0.0866
+cluster_assignments.csv,respondent_id,,Respondent,categorical / text,1790,1790,R00001; R00002; R00003; R00004
+cluster_assignments.csv,cluster,,Cluster,numeric,1790,1790,0; 1; 2; 3
+cluster_profiles.csv,cluster,,Cluster,numeric,4,4,0; 1; 2; 3
+cluster_profiles.csv,size,,,numeric,4,4,566; 498; 516; 210
+cluster_profiles.csv,share_pct,,,numeric,4,4,31.6; 27.8; 28.8; 11.7
+cluster_profiles.csv,trips_rank,,,numeric,4,4,2.362; 1.857; 2.202; 1.643
+cluster_profiles.csv,group_rank,,,numeric,4,4,1.048; 1.476; 1.222; 1.229
+cluster_profiles.csv,checkout_gap_rank,,,numeric,4,4,3.137; 1.311; 4.086; 2.913
+cluster_profiles.csv,luggage_mgmt_rank,,,numeric,4,4,0.306; 0.711; 3.55; 1.286
+cluster_profiles.csv,bags_rank,,,numeric,4,4,0.795; 1.147; 0.93; 0.933
+cluster_profiles.csv,gap_frequency_rank,,,numeric,4,4,2.111; 1.265; 2.376; 1.552
+cluster_profiles.csv,inconvenience,,,numeric,4,4,1.751; 2.426; 3.764; 2.471
+cluster_profiles.csv,search_difficulty_rank,,,numeric,4,4,1.65; 2.513; 2.209; 2.284
+cluster_profiles.csv,max_detour_rank,,,numeric,4,4,1.912; 1.924; 2.176; 1.994
+cluster_profiles.csv,pickup_only,,,numeric,4,4,0.14; 0.157; 0.153; 0.148
+cluster_profiles.csv,method__carried_the_luggage_with_me,,,numeric,4,4,0.037; 0.743; 0.913; 0.533
+cluster_profiles.csv,method__asked_my_hotel_accommodation_to_hold_it,,,numeric,4,4,0.841; 0.12; 0.176; 0.424
+cluster_profiles.csv,international_resident,,,numeric,4,4,0.0; 0.043; 1.0
+cluster_profiles.csv,k_selected,,,numeric,4,4,4
+cluster_profiles.csv,silhouette_k,,,numeric,4,4,0.1435
+cluster_profiles.csv,silhouette_by_k,,,categorical / text,4,4,k=3: 0.138; k=4: 0.143; k=5: 0.142; k=6: 0.122
+cluster_profiles.csv,features_used,,,categorical / text,4,4,trips_rank; group_rank; checkout_gap_rank; luggage_mgmt_rank; bags_rank; gap_frequency_rank; inconvenience; search_difficulty_rank; max_detour_rank; pickup_only
+cluster_profiles.csv,note,,,categorical / text,4,4,Means of standardisation inputs (ranks / 0–1 flags); planning-only respondents not clustered.
+competitor_locations.csv,competitor_id,,,categorical / text,22,22,C001; C002; C003; C004
+competitor_locations.csv,competitor_name,,,categorical / text,22,22,IGI Airport left luggage / cloakroom (T3 & T1); New Delhi railway station cloakroom (platforms 1 and 16); Old Delhi railway station cloakroom (Fatehpuri-side ex
+competitor_locations.csv,city,Q4,City,categorical / text,22,22,Delhi; Mumbai; Jaipur; Goa
+competitor_locations.csv,microzone,Q5,Microzone,categorical / text,22,22,IGI Airport / Aerocity; New Delhi Railway Station / Paharganj; Old Delhi Railway Station; Connaught Place
+competitor_locations.csv,competitor_category,,,categorical / text,22,22,Official airport / railway storage; Aggregator network; Other short-term storage; Smart locker operator
+competitor_locations.csv,service_type,,,categorical / text,22,22,Airport cloakroom; Railway cloakroom; Partner-venue marketplace; Warehouse storage with pickup
+competitor_locations.csv,latitude,,,numeric,9,22,28.5665; 28.6417; 28.661; 19.0887
+competitor_locations.csv,longitude,,,numeric,9,22,77.103088; 77.2207; 77.2277; 72.8679
+competitor_locations.csv,location_basis,,,categorical / text,22,22,inside airport — node coordinates; inside station — node coordinates; address on listing; not geocoded; address revealed after booking
+competitor_locations.csv,hourly_price,,,numeric,0,22,
+competitor_locations.csv,daily_price,,,numeric,1,22,260.0
+competitor_locations.csv,price_note,,,categorical / text,17,22,Reported ₹100–200 per bag for up to 2 h; ₹300–600 per bag per day by size; ID required; Railway cloakrooms reported at ₹20–50 per bag per 24 h; locked bags and 
+competitor_locations.csv,operating_hours,,,categorical / text,4,22,"24/7 (reported); 24 hours; 24/7 monitored (company-reported); Listed 7 days, 24 h (company-reported)"
+competitor_locations.csv,pickup_available,,,categorical / text,2,22,Yes
+competitor_locations.csv,delivery_available,,,categorical / text,3,22,Inter-terminal transfer ₹250–350 per bag; Yes (to airport/hotel)
+competitor_locations.csv,evidence_status,,,categorical / text,22,22,Third-party reported; Company-reported
+competitor_locations.csv,verification_date,,,categorical / text,22,22,2026-11-10
+competitor_locations.csv,source_url,,,categorical / text,22,22,https://sleepinginairports.net/guides/new-delhi-airport-guide.htm; https://vertoe.com/luggage-storage/delhi; https://bounce.com/city/delhi; https://radicalstora
+competitor_locations.csv,data_source,,,categorical / text,22,22,"secondary research (desk, not field-verified)"
+consumer_survey_clean.csv,respondent_id,,Respondent,categorical / text,1975,1975,R00001; R00002; R00003; R00004
+consumer_survey_clean.csv,travel_status,Q1,,categorical / text,1975,1975,"Both.; Yes, travelled within the last 24 months.; Yes, planning to travel within the next 12 months."
+consumer_survey_clean.csv,past_trip_experience,,,categorical / text,1975,1975,Yes; No — planning only
+consumer_survey_clean.csv,age_group,Q2,Age group,categorical / text,1951,1975,25–34; 35–44; 55 or above; 18–24
+consumer_survey_clean.csv,country,Q3,Country,categorical / text,1975,1975,India
+consumer_survey_clean.csv,residence_country,Q3,Residence country,categorical / text,1975,1975,India; United States; France; Germany
+consumer_survey_clean.csv,city,Q4,City,categorical / text,1975,1975,Goa; Jaipur; Delhi; Mumbai
+consumer_survey_clean.csv,microzone,Q5,Microzone,categorical / text,1975,1975,Panaji; Anjuna & Mapusa; Calangute & Candolim; Mopa & Dabolim airport corridors
+consumer_survey_clean.csv,travel_purpose,Q6,Travel purpose,categorical / text,1975,1975,Education / university.; Leisure / holiday.; Visiting friends or family.; Religious / pilgrimage.
+consumer_survey_clean.csv,trips_12m,Q7,Trips (last 12 months),categorical / text,1975,1975,1.; 4–6.; 2–3.; 7 or more.
+consumer_survey_clean.csv,group_size,Q8,Travel group,categorical / text,1960,1975,One other person.; Alone.; 3–4 people.; More than 6 people.
+consumer_survey_clean.csv,travel_mode,Q9,Transport mode,categorical / text,1975,1975,Aeroplane.; Train.; Personal vehicle / rental car.; Bus.
+consumer_survey_clean.csv,accommodation_type,Q10,Accommodation type,categorical / text,1975,1975,Hostels.; Hotels.; Serviced apartments.; Homestays.
+consumer_survey_clean.csv,checkout_gap_hours,Q11,Checkout-to-departure gap,categorical / text,1975,1975,3–4 hours.; No gap.; 1–2 hours.; 5–6 hours.
+consumer_survey_clean.csv,luggage_management_hours,Q12,Time managing luggage,categorical / text,1975,1975,I did not have to manage it.; 5–6 hours.; Less than 1 hour.; 3–4 hours.
+consumer_survey_clean.csv,bag_count,Q13,Bags to store,categorical / text,1975,1975,1.; 4 or more.; 2.; 3.
+consumer_survey_clean.csv,problem_frequency,Q14,How often the gap occurs,categorical / text,1790,1975,Frequently.; Rarely.; Never.; Occasionally.
+consumer_survey_clean.csv,existing_storage_methods,Q15,Luggage-management methods,multi-select (semicolon-separated),1790,1975,Kept it in a car / taxi.; Asked my hotel / accommodation to hold it.; Changed my itinerary to avoid carrying luggage.; Asked my hotel / accommodation to hold it
+consumer_survey_clean.csv,past_spend_inr,Q16,Past spend per bag,categorical / text,1790,1975,₹0 — Free storage / no spending.; I did not use a paid storage or handling service.; I do not remember.; ₹251–500.
+consumer_survey_clean.csv,inconvenience_score,Q17,Inconvenience (1–5),numeric,1790,1975,1.0; 4.0; 3.0; 2.0
+consumer_survey_clean.csv,storage_search_difficulty,Q18,Ease of finding storage,categorical / text,1790,1975,I was unaware of any such facility.; Easy.; I did not search for one.; Very difficult.
+consumer_survey_clean.csv,existing_barriers,Q19,Difficulties with existing storage,multi-select (semicolon-separated),1790,1975,I have never experienced these difficulties.; Free hotel storage was sufficient.; Operating hours were inconvenient.; Facility was difficult to locate or book.;
+consumer_survey_clean.csv,maximum_detour,Q20,Maximum detour accepted,categorical / text,1975,1975,Up to a 5-minute walk.; Up to a 30-minute journey by vehicle.; Up to a 10-minute walk.; Up to a 15-minute walk.
+consumer_survey_clean.csv,acceptable_venue_types,Q21,Acceptable venue types,multi-select (semicolon-separated),1975,1975,Existing airport / railway-station facilities.; Verified hotels.; Verified hotels.; Dedicated luggage-storage facilities.; Dedicated luggage-storage facilities.
+consumer_survey_clean.csv,security_requirements,Q22,Essential security features,multi-select (semicolon-separated),1957,1975,Unique QR code / luggage identification.; Verified business partners with identifiable addresses.; 24/7 customer support or emergency assistance.; Clear loss an
+consumer_survey_clean.csv,booking_intent_score,Q23,Booking intent (0–10),numeric,1965,1975,4.0; 6.0; 5.0; 9.0
+consumer_survey_clean.csv,first_service_preference,Q24,First service to try,categorical / text,1975,1975,Drop my luggage at a verified partner location and collect it later.; Use a dedicated self-service luggage locker.; Get my luggage picked up from my accommodati
+consumer_survey_clean.csv,preferred_pricing_model,Q25,Preferred pricing model,categorical / text,1955,1975,Pricing based on bag size.; Group / multiple-bag packages.; Fixed price for 3–4 hours.; Fixed half-day pricing.
+consumer_survey_clean.csv,storage_wtp_inr,Q26,"Storage WTP (₹, 3 h, 1 bag)",numeric,1938,1975,110.0; 80.0; 490.0; 190.0
+consumer_survey_clean.csv,pickup_delivery_wtp_inr,Q27,"Pickup/delivery WTP (₹, extra per bag)",numeric,1941,1975,130.0; 0.0; 1050.0; 150.0
+consumer_survey_clean.csv,preferred_features,Q28,Preferred features,multi-select (semicolon-separated),1945,1975,Photographic proof of luggage handover.; Discounts for repeat customers.; Digital luggage identification and security seal.; Insurance or clearly defined luggag
+consumer_survey_clean.csv,main_nonuse_barrier,Q29,Main reason not to use,categorical / text,1953,1975,Other.; I would prefer free hotel storage.; I would not trust a third-party business with my luggage.; The service would be too expensive.
+consumer_survey_clean.csv,pilot_interest,Q30,Pilot interest,categorical / text,1975,1975,"Maybe, depending on the location, price and security arrangements.; Yes, definitely. I would like to try it.; No."
+consumer_survey_clean.csv,storage_wtp_extreme_flag,,,numeric,1975,1975,0; 1
+consumer_survey_clean.csv,pickup_delivery_wtp_extreme_flag,,,numeric,1975,1975,0; 1
+consumer_survey_clean.csv,high_intent,,High stated intent (8–10),numeric,1965,1975,0.0; 1.0
+consumer_survey_clean.csv,data_source,,,categorical / text,1975,1975,synthetic
+consumer_survey_raw_synthetic.csv,respondent_id,,Respondent,categorical / text,2042,2042,R01585; R00716; R01710; R00651
+consumer_survey_raw_synthetic.csv,travel_status,Q1,,categorical / text,2042,2042,"Yes, travelled within the last 24 months.; Both.; Yes, planning to travel within the next 12 months.; Neither. (End survey.)"
+consumer_survey_raw_synthetic.csv,past_trip_experience,,,categorical / text,2042,2042,Yes; No — planning only
+consumer_survey_raw_synthetic.csv,age_group,Q2,Age group,categorical / text,2017,2042,25–34; 18–24; 35–44; 45–54
+consumer_survey_raw_synthetic.csv,country,Q3,Country,categorical / text,2042,2042,India
+consumer_survey_raw_synthetic.csv,residence_country,Q3,Residence country,categorical / text,2042,2042,India; United States; United Arab Emirates; France
+consumer_survey_raw_synthetic.csv,city,Q4,City,categorical / text,2042,2042,Mumbai; Jaipur; Goa; Delhi
+consumer_survey_raw_synthetic.csv,microzone,Q5,Microzone,categorical / text,2042,2042,CSMT / Fort; MI Road / C-Scheme; Panaji; New Delhi Railway Station / Paharganj
+consumer_survey_raw_synthetic.csv,travel_purpose,Q6,Travel purpose,categorical / text,2042,2042,Visiting friends or family.; Leisure / holiday.; Religious / pilgrimage.; Business / professional.
+consumer_survey_raw_synthetic.csv,trips_12m,Q7,Trips (last 12 months),categorical / text,2042,2042,2–3.; 1.; 4–6.; 7 or more.
+consumer_survey_raw_synthetic.csv,group_size,Q8,Travel group,categorical / text,2027,2042,3–4 people.; 5–6 people.; One other person.; Alone.
+consumer_survey_raw_synthetic.csv,travel_mode,Q9,Transport mode,categorical / text,2042,2042,Train.; Aeroplane.; Personal vehicle / rental car.; Bus.
+consumer_survey_raw_synthetic.csv,accommodation_type,Q10,Accommodation type,categorical / text,2042,2042,Friends' or relatives' accommodation.; Hostels.; Homestays.; Hotels.
+consumer_survey_raw_synthetic.csv,checkout_gap_hours,Q11,Checkout-to-departure gap,categorical / text,2042,2042,Less than 1 hour.; 5–6 hours.; More than 8 hours.; 3–4 hours.
+consumer_survey_raw_synthetic.csv,luggage_management_hours,Q12,Time managing luggage,categorical / text,2042,2042,Less than 1 hour.; 3–4 hours.; 7–8 hours.; I did not have to manage it.
+consumer_survey_raw_synthetic.csv,bag_count,Q13,Bags to store,categorical / text,2042,2042,1.; 2.; 4 or more.; 3.
+consumer_survey_raw_synthetic.csv,problem_frequency,Q14,How often the gap occurs,categorical / text,1849,2042,Occasionally.; Frequently.; Rarely.; Almost every trip.
+consumer_survey_raw_synthetic.csv,existing_storage_methods,Q15,Luggage-management methods,multi-select (semicolon-separated),1849,2042,Used a railway station cloakroom.; Carried the luggage with me.; Used a railway station cloakroom.; Used a paid luggage-storage company or smart locker.; Carrie
+consumer_survey_raw_synthetic.csv,past_spend_inr,Q16,Past spend per bag,categorical / text,1849,2042,₹101–250.; I did not use a paid storage or handling service.; ₹0 — Free storage / no spending.; ₹1–100.
+consumer_survey_raw_synthetic.csv,inconvenience_score,Q17,Inconvenience (1–5),numeric,1849,2042,2.0; 3.0; 4.0; 5.0
+consumer_survey_raw_synthetic.csv,storage_search_difficulty,Q18,Ease of finding storage,categorical / text,1849,2042,Very difficult.; Easy.; Difficult.; I did not search for one.
+consumer_survey_raw_synthetic.csv,existing_barriers,Q19,Difficulties with existing storage,multi-select (semicolon-separated),1849,2042,Pickup or delivery was not available.; Prices were too high.; Free hotel storage was sufficient.; Operating hours were inconvenient.; Pickup or delivery was not
+consumer_survey_raw_synthetic.csv,maximum_detour,Q20,Maximum detour accepted,categorical / text,2042,2042,Up to a 5-minute walk.; Up to a 10-minute walk.; Up to a 30-minute journey by vehicle.; No additional distance.
+consumer_survey_raw_synthetic.csv,acceptable_venue_types,Q21,Acceptable venue types,multi-select (semicolon-separated),2042,2042,Dedicated luggage-storage facilities.; Verified hotels.; Verified retail stores.; Verified restaurants / cafés.; Verified retail stores.; Verified hotels.; Exis
+consumer_survey_raw_synthetic.csv,security_requirements,Q22,Essential security features,multi-select (semicolon-separated),2024,2042,Clear loss and damage protection terms.; Tamper-evident luggage seals.; Unique QR code / luggage identification.; Transparent pricing and refund policies.; Iden
+consumer_survey_raw_synthetic.csv,booking_intent_score,Q23,Booking intent (0–10),numeric,2017,2042,1.0; 6.0; 9.0; 8.0
+consumer_survey_raw_synthetic.csv,first_service_preference,Q24,First service to try,categorical / text,2017,2042,None of these.; Use a dedicated self-service luggage locker.; Drop my luggage at a verified partner location and collect it later.; Get my luggage picked up fro
+consumer_survey_raw_synthetic.csv,preferred_pricing_model,Q25,Preferred pricing model,categorical / text,1996,2042,Fixed price for 3–4 hours.; Hourly pricing per bag.; Whichever option is cheapest for my required duration.; Fixed half-day pricing.
+consumer_survey_raw_synthetic.csv,storage_wtp_inr,Q26,"Storage WTP (₹, 3 h, 1 bag)",categorical / text,1988,2042,80.0; 80.0 rs; 600.0; 0.0
+consumer_survey_raw_synthetic.csv,pickup_delivery_wtp_inr,Q27,"Pickup/delivery WTP (₹, extra per bag)",numeric,1983,2042,0.0; 170.0; 250.0; 160.0
+consumer_survey_raw_synthetic.csv,preferred_features,Q28,Preferred features,multi-select (semicolon-separated),1987,2042,Digital luggage identification and security seal.; Group booking for friends travelling together.; Flexible extensions if my departure is delayed.; Discounts fo
+consumer_survey_raw_synthetic.csv,main_nonuse_barrier,Q29,Main reason not to use,categorical / text,1995,2042,I would not trust a third-party business with my luggage.; Storage locations would be inconvenient.; I would not need this service frequently enough.; The servi
+consumer_survey_raw_synthetic.csv,pilot_interest,Q30,Pilot interest,categorical / text,2017,2042,"No.; Yes, definitely. I would like to try it.; Maybe, depending on the location, price and security arrangements."
+data_cleaning_log.csv,step,,,numeric,19,19,1; 2; 3; 4
+data_cleaning_log.csv,column,,,categorical / text,19,19,all; travel_status; travel_mode; accommodation_type
+data_cleaning_log.csv,action,,,categorical / text,19,19,"Removed exact duplicate submissions; Removed screened-out respondents (Q1 = Neither); Standardised case, spacing and punctuation to the questionnaire wording; C"
+data_cleaning_log.csv,rows_affected,,,numeric,19,19,30; 12; 40; 65
+data_cleaning_log.csv,reason,,,categorical / text,19,19,Repeated submissions would double-count respondents.; Outside the target population; the survey should have ended at Q1.; Same answer written differently.; Nume
+geographic_market_audit.csv,city,Q4,City,categorical / text,21,21,Delhi; Mumbai; Jaipur; Goa
+geographic_market_audit.csv,microzone,Q5,Microzone,categorical / text,21,21,New Delhi Railway Station / Paharganj; Old Delhi Railway Station; Connaught Place; IGI Airport / Aerocity
+geographic_market_audit.csv,node_name,,,categorical / text,21,21,New Delhi railway station (NDLS); Paharganj; Delhi Junction / Old Delhi railway station (DLI); Connaught Place (Rajiv Chowk)
+geographic_market_audit.csv,node_type,,,categorical / text,21,21,Railway station; Tourism / budget-hotel district; Commercial / tourism district; Airport
+geographic_market_audit.csv,latitude,,,numeric,21,21,28.6417; 28.642361; 28.661; 28.63278
+geographic_market_audit.csv,longitude,,,numeric,21,21,77.2207; 77.21711; 77.2277; 77.21972
+geographic_market_audit.csv,nearest_storage_option,,,categorical / text,9,21,Station cloakroom (platforms 1 & 16); Station cloakroom; IGI Airport left luggage (T3 & T1); CSMIA left luggage (T1 & T2)
+geographic_market_audit.csv,nearest_storage_distance_m,,,numeric,0,21,
+geographic_market_audit.csv,distance_type,,,categorical / text,9,21,facility at node (no walking distance measured)
+geographic_market_audit.csv,evidence_status,,,categorical / text,21,21,Third-party reported
+geographic_market_audit.csv,source_url,,,categorical / text,21,21,https://www.wikipedia.org/wiki/New_Delhi_railway_station; https://www.latlong.net/place/paharganj-delhi-india-1767.html; https://wiki.krisyotam.com/content/wiki
+geographic_market_audit.csv,storage_info_source,,,categorical / text,1,21,https://adani.com/jaipur-airport/faq
+geographic_market_audit.csv,verification_date,,,categorical / text,21,21,2026-11-10
+partner_survey.csv,partner_id,,,categorical / text,240,240,P0001; P0002; P0003; P0004
+partner_survey.csv,establishment_type,P1,Establishment type,categorical / text,240,240,Restaurant / café.; Hotel / hostel.; Retail store.; Shopping centre / commercial establishment.
+partner_survey.csv,city,Q4,City,categorical / text,240,240,Goa; Jaipur; Delhi; Mumbai
+partner_survey.csv,microzone,Q5,Microzone,categorical / text,240,240,Panaji; Calangute & Candolim; Anjuna & Mapusa; Mopa & Dabolim airport corridors
+partner_survey.csv,opening_time,P3,,categorical / text,240,240,10:00; 07:00; 12:00; 00:00
+partner_survey.csv,closing_time,P3,,categorical / text,240,240,21:00; 23:59; 18:00; 23:00
+partner_survey.csv,days_of_operation,P3,,categorical / text,240,240,All days except holidays; All days; Mon–Sat
+partner_survey.csv,current_storage_offer,P4,,categorical / text,240,240,"No, and we are not interested.; No, but we would consider it.; Only for existing customers.; Yes, free of charge."
+partner_survey.csv,secure_storage_available,P5,Secure storage space,categorical / text,240,240,"Limited space behind the counter / reception.; Yes, a restricted-access area.; Yes, a dedicated storage room.; No suitable space currently available."
+partner_survey.csv,storage_capacity,P6,Bag capacity,numeric,240,240,1; 3; 26; 5
+partner_survey.csv,security_features,P7,Security facilities,multi-select (semicolon-separated),240,240,CCTV.; Fire and emergency safety arrangements.; CCTV.; Restricted staff-only access.; Fire and emergency safety arrangements.; Restricted staff-only access.; De
+partner_survey.csv,partner_willingness,P8,Willing to store non-customers,categorical / text,240,240,"Maybe, depending on compensation.; Definitely yes.; Yes, subject to security procedures.; No."
+partner_survey.csv,commercial_preference,P9,Commercial preference,categorical / text,240,240,Commission per successful booking.; Monthly partnership arrangement.; Fixed payment per bag per hour.; Fixed daily payment per bag.
+partner_survey.csv,expected_payment_inr,P10,Expected payment (₹),numeric,240,240,70; 45; 105; 20
+partner_survey.csv,expected_payment_unit,P10,,categorical / text,240,240,per bag per day; per booking; per bag per hour
+partner_survey.csv,digital_handover_acceptance,P11,Digital handover,categorical / text,240,240,"No.; Yes.; Maybe.; Yes, with basic staff training."
+partner_survey.csv,pickup_delivery_acceptance,P12,Pickup/delivery support,categorical / text,240,240,"Storage only.; Yes, we can receive and release bags for couriers.; No.; Yes, we can also help arrange transportation."
+partner_survey.csv,partner_barriers,P13,Partner concerns,multi-select (semicolon-separated),240,240,Insurance or regulatory concerns.; Additional staff workload.; Liability for lost or damaged luggage.; Security risks.; Liability for lost or damaged luggage.; 
+partner_survey.csv,pilot_participation,P14,,categorical / text,240,240,"Maybe, after discussing terms.; Yes.; No."
+regression_coefficients.csv,model,,,categorical / text,456,456,Linear Regression; Ridge Regression; Lasso Regression
+regression_coefficients.csv,target,,,categorical / text,456,456,storage_wtp_inr; pickup_delivery_wtp_inr
+regression_coefficients.csv,feature,,,categorical / text,456,456,planning_only; international_resident; age_rank; trips_rank
+regression_coefficients.csv,coefficient,,,numeric,456,456,8.1724; 18.3774; -6.5801; 0.4597
+regression_coefficients.csv,scale,,,categorical / text,456,456,₹ per 1 standard deviation of the feature
+regression_metrics.csv,model,,,categorical / text,12,12,Linear Regression; Ridge Regression; Lasso Regression
+regression_metrics.csv,target,,,categorical / text,12,12,storage_wtp_inr; pickup_delivery_wtp_inr
+regression_metrics.csv,split,,,categorical / text,12,12,train; test
+regression_metrics.csv,mae,,,numeric,12,12,131.3367; 127.1018; 126.8703; 121.8752
+regression_metrics.csv,rmse,,,numeric,12,12,309.9628; 183.2012; 312.2714; 177.1501
+regression_metrics.csv,r2,,,numeric,12,12,0.1021; 0.0874; 0.0887; 0.1467
+regression_metrics.csv,n,,,numeric,12,12,1453; 485; 1455; 486
+regression_metrics.csv,alpha,,,numeric,8,12,1000.0; 11.2648; 8.5317
+regression_predictions.csv,respondent_id,,Respondent,categorical / text,2913,2913,R00603; R00933; R00939; R01809
+regression_predictions.csv,model,,,categorical / text,2913,2913,Linear Regression; Ridge Regression; Lasso Regression
+regression_predictions.csv,target,,,categorical / text,2913,2913,storage_wtp_inr; pickup_delivery_wtp_inr
+regression_predictions.csv,split,,,categorical / text,2913,2913,test
+regression_predictions.csv,actual,,,numeric,2913,2913,130.0; 320.0; 180.0; 140.0
+regression_predictions.csv,predicted,,,numeric,2913,2913,110.43; 256.39; 194.89; 147.71

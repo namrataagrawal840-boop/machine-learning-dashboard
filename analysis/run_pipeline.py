@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from analysis import cleaning, models, synthetic
+from analysis import cleaning, market_research, models, synthetic
 
 DATA = Path(__file__).resolve().parents[1] / "data"
 
@@ -28,6 +28,8 @@ def main() -> None:
     partners = synthetic.generate_partners()
     partners.to_csv(DATA / "partner_survey.csv", index=False)
     print(f"partners: {len(partners):,}")
+
+    market_research.main()  # desk research (real, sourced) — not synthetic
 
     cm, cp = models.run_classification(clean)
     cm.to_csv(DATA / "classification_metrics.csv", index=False)

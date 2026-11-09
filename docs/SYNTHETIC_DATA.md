@@ -60,7 +60,7 @@ The model outputs come from real model runs on the synthetic data. None of the n
 
 ## Deliberately NOT generated
 
-- **`competitor_locations.csv` and `geographic_market_audit.csv`:** the brief forbids inventing competitor information or coordinates. These must come from verified research, so the map and market-gap evidence stay "pending".
+- **`competitor_locations.csv` and `geographic_market_audit.csv`** are **not synthetic**. They come from desk research done on 10 Nov 2026 (`analysis/market_research.py`), and every row has a source URL. There are 22 existing storage options (official airport/railway cloakrooms, Bounce, Radical Storage, LuggageHero, SafeStorage, SafeCloak lockers) and 21 transport or tourism points with published coordinates. Nothing was field-checked, so no record is marked "Verified". Prices and hours that were not published are left blank. Partners of the booking platforms have no coordinates, because those platforms show the address only after booking.
 - **`partner_audit.csv`:** this is a record of physical field checks.
 - **`booking_funnel.csv`:** this must contain actual pilot transactions only.
 

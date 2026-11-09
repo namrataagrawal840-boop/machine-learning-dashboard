@@ -4,3 +4,6 @@
 consumer_raw = "synthetic"
 consumer_clean = "synthetic"
 partner_survey = "synthetic"
+# Desk research with source URLs (analysis/market_research.py); not field-verified.
+competitors = "secondary"
+geo_audit = "secondary"

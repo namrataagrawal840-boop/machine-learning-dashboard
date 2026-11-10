@@ -1,0 +1,29 @@
+{
+  "boost_model": "XGBoost",
+  "seed": 20261110,
+  "demand": {
+    "mape_test": 0.02359338050923738
+  },
+  "p2": {
+    "green_fail_value_share": 0.026461439338002733,
+    "green_share": 0.5403005464480874,
+    "refund_days_today_median": 11.0,
+    "keep_it_mae": 15.182825248524134,
+    "keep_it_r2": 0.955911886489747
+  },
+  "p3": {
+    "topic_accuracy": 0.9751056834194457,
+    "topic_macro_f1": 0.9576462006052926,
+    "anger_auc": 0.8529717349375459,
+    "theme_k": 7,
+    "resolution_mae_h": 18.41014880495133,
+    "resolution_r2": 0.5938637346770452,
+    "resolution_intercept": 2.418848719282636,
+    "churn_per_contact_pts": 8.936020462643297,
+    "churn_per_day_pts": 3.415769855896607
+  },
+  "customers": {
+    "npd_accuracy": 0.608342989571263,
+    "npd_baseline": 0.5081112398609502
+  }
+}

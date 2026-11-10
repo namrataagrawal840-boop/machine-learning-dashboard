@@ -1,0 +1,6 @@
+# noon dashboard runtime (Streamlit Community Cloud reads this file because it sits next to streamlit_app.py)
+streamlit>=1.67,<2
+plotly>=5.24
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11

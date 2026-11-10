@@ -1,0 +1,14 @@
+dataset,step,rows_affected,action,why
+orders,Remove duplicates,180,Dropped repeated order_id rows,The same order exported twice would double-count late deliveries.
+orders,Standardise dates,200,Converted DD/MM/YYYY dates to YYYY-MM-DD,Two date formats in one column break monthly trends.
+orders,Fix emirate names,200,"Mapped DXB, RAK, UAQ, case variants",Spelling variants would split one emirate into several.
+orders,Parse order value,300,"Removed 'AED'/'dhs' text and commas, kept the number",Prices typed as text cannot be summed.
+orders,Impossible delivery time,60,Rebuilt hours from actual_days × 24 (upper bound),"A negative duration is a scanner error; the delivered day is still known, so the row is kept."
+orders,Missing zone,90,"Kept rows, zone set to 'Unknown'; excluded only from zone charts",Dropping them would hide late orders; guessing a zone would invent data.
+orders,Derived fields,30000,"Added month, weekday, on_sale, is_bulky, evening, value_band",Plain yes/no and band columns make the charts and models easier to read.
+returns,Remove duplicates,60,Dropped repeated return_id rows,Avoid double-counting refunds.
+returns,Standardise return reasons,70,Mapped short or upper-case reasons to the 6 official labels,One reason must have one name.
+returns,Impossible refund time,40,Set negative refund days to missing,A refund cannot arrive before the return; the rest of the row is still valid.
+tickets,Remove duplicates,70,Dropped repeated ticket_id rows,Avoid double-counting complaints.
+tickets,Out-of-range CSAT,50,Set CSAT outside 1–5 to missing,The survey scale is 1–5; a 7 is a typing error.
+tickets,Empty ticket text,40,"Kept for counts, excluded from text models","There is nothing to read, but the contact still happened."

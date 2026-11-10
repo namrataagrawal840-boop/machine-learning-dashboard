@@ -1,0 +1,16 @@
+problem,feature,importance
+Return fails QC,account_age_months,0.198978385384734
+Return fails QC,item_value_aed,0.114911334828391
+Return fails QC,prior_returns_12m,0.11390724685929514
+Return fails QC,days_since_delivery,0.10785412843288428
+Return fails QC,return_reason = Changed my mind,0.09694376738321099
+Return fails QC,photos_uploaded,0.04204934482781044
+Return fails QC,category = Electronics,0.03664279155447824
+Return fails QC,ordered_two_sizes,0.02257708702753261
+Return fails QC,category = Fashion,0.022189161176769508
+Return fails QC,return_reason = Size or fit issue,0.02201832588032118
+Return fails QC,refund_method = noon wallet,0.016188719126450823
+Return fails QC,refund_method = Card / bank,0.01586972832486485
+Return fails QC,return_reason = Defective / not working,0.015860665889838612
+Return fails QC,return_reason = Not as described,0.015617525046151225
+Return fails QC,membership = Member,0.015508773871977839

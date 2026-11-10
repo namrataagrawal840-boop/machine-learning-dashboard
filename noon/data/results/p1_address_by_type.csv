@@ -1,0 +1,16 @@
+address_quality,zone_type,failed_rate,orders
+Full address,Dense urban,0.07906640130269586,5527
+Full address,Industrial,0.10736196319018405,652
+Full address,Remote,0.116751269035533,985
+Full address,Suburban,0.09709302325581395,1720
+Full address,Villa community,0.13155893536121674,1315
+Map pin,Dense urban,0.04576080853453116,7124
+Map pin,Industrial,0.052924791086350974,718
+Map pin,Remote,0.08191808191808192,1001
+Map pin,Suburban,0.055168986083499,2012
+Map pin,Villa community,0.0805921052631579,1216
+Partial address,Dense urban,0.1913499344692005,3052
+Partial address,Industrial,0.2802013422818792,596
+Partial address,Remote,0.27718360071301246,1122
+Partial address,Suburban,0.239731142643764,1339
+Partial address,Villa community,0.2874768661320173,1621

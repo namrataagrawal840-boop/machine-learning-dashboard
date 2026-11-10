@@ -1,0 +1,2 @@
+model,roc_auc,base_rate
+Logistic regression,0.7005655657293487,0.11546666666666666

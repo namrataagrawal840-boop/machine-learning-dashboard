@@ -9,7 +9,7 @@ const {
 
 const A = path.join(__dirname, "assets");
 const C = JSON.parse(fs.readFileSync(path.join(A, "content.json"), "utf8"));
-const OUT = path.join(__dirname, "Luggage_Marketplace_Analytics_Report.docx");
+const OUT = path.join(__dirname, "Extended_Report_19_pages.docx");
 
 const W = 9638; // content width (A4, 2 cm margins) in DXA
 const FONT = "Arial";

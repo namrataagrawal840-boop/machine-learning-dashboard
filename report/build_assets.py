@@ -328,3 +328,58 @@ C["city_tbl"] = city_tbl.reset_index().to_dict("records")
 
 (OUT / "content.json").write_text(json.dumps(C, indent=1, default=lambda o: o if not isinstance(o, (np.integer, np.floating)) else o.item(), ensure_ascii=False), encoding="utf-8")
 print("assets written:", sorted(p.name for p in OUT.glob("*.png")))
+
+
+# ---------------------------------------------------------------- compact figures for the 5-page report
+fig, axes = plt.subplots(1, 3, figsize=(10, 2.7), gridspec_kw={"width_ratios": [1.1, 1.2, 1.3]})
+vc, n_ = dist("checkout_gap_hours__label", list(d["checkout_gap_hours__label"].cat.categories))
+axes[0].bar(range(len(vc)), vc / n_ * 100, color=[SLATE if i == "Not applicable" else LAV for i in vc.index])
+axes[0].set_xticks(range(len(vc)), [i.replace("Not applicable", "N/A") for i in vc.index], rotation=40, ha="right", fontsize=7)
+axes[0].set_ylabel("% of respondents")
+axes[0].set_title("A. Checkout-to-departure gap")
+barh(axes[1], ["Gap ≥ 3 h", "…and carried bags ≥ 1 h", "Storage hard / unaware", "Unmet need"],
+     [C["long_gap"]["pct"], C["has_problem"]["pct"], C["search_difficulty"]["pct"], C["unmet_need"]["pct"]], LAV)
+axes[1].set_title("B. Problem → unmet need")
+axes[1].tick_params(axis="y", labelsize=7)
+a3 = acc.copy()
+a3.index = [i.replace("Friends' or relatives' accommodation", "Friends/relatives").replace("Airbnb / short-term rentals", "Airbnb/rentals")
+            .replace("Serviced apartments", "Serviced apts") for i in a3.index]
+yy = np.arange(len(a3))
+axes[2].barh(yy - 0.2, a3["held"], 0.4, color=GREEN, label="Accommodation held bags %")
+axes[2].barh(yy + 0.2, a3["unmet"], 0.4, color=LAV, label="Unmet need %")
+axes[2].set_yticks(yy, a3.index, fontsize=7)
+axes[2].invert_yaxis()
+axes[2].legend(fontsize=6.5, frameon=False, loc="upper center", bbox_to_anchor=(0.45, -0.08), ncol=2)
+axes[2].set_title("C. Accommodation vs storage")
+save(fig, "short_fig1")
+
+fig, axes = plt.subplots(1, 3, figsize=(10, 2.8), gridspec_kw={"width_ratios": [1, 1, 1.25]})
+lv = list(range(1, 6))
+axes[0].bar(lv, [C["d7_hi"][str(i)] if str(i) in C["d7_hi"] else C["d7_hi"].get(i, 0) for i in lv], color=GOLD)
+for i in lv:
+    v_ = C["d7_hi"].get(str(i), C["d7_hi"].get(i, 0))
+    axes[0].text(i, v_ + 1.5, f"{v_:.0f}%", ha="center", fontsize=7)
+axes[0].set_xlabel("Inconvenience score (Q17)")
+axes[0].set_ylabel("% High_Intent (Q23 ≥ 8)")
+axes[0].set_title(f"D. Pain drives intent (ρ = {C['d7']['rho']:.2f})")
+w_ = d["storage_wtp_inr__value"].dropna()
+grid = np.unique(np.quantile(w_, np.linspace(0, 0.97, 60)))
+axes[1].step(grid, [(w_ >= p).mean() * 100 for p in grid], where="post", color=BLUE, lw=2)
+for (q, nm), yt in zip(((w_.quantile(.25), "Q1"), (w_.median(), "Median"), (w_.quantile(.75), "Q3")), (40, 70, 96)):
+    axes[1].axvline(q, ls=":", color=MUTED, lw=1)
+    axes[1].text(q + 6, yt, f"{nm} ₹{q:.0f}", fontsize=6.5, color=TEXT, ha="left", va="top")
+axes[1].set_xlabel("Price for 3 h, 1 bag (₹)")
+axes[1].set_ylabel("% willing to pay ≥ price")
+axes[1].set_title("E. Stated price acceptance")
+sv = ["Luggage time", "Inconvenience", "Intent", "Gap", "Storage WTP", "Pickup WTP", "Bags", "Trips"]
+rr = r.loc[sv, sv]
+axes[2].imshow(rr.values, cmap="RdBu", vmin=-1, vmax=1)
+axes[2].set_xticks(range(len(sv)), sv, rotation=45, ha="right", fontsize=6.5)
+axes[2].set_yticks(range(len(sv)), sv, fontsize=6.5)
+for i in range(len(sv)):
+    for j in range(len(sv)):
+        axes[2].text(j, i, f"{rr.values[i, j]:.2f}", ha="center", va="center", fontsize=5.5,
+                     color="white" if abs(rr.values[i, j]) > 0.6 else TEXT)
+axes[2].set_title("F. Spearman correlations")
+save(fig, "short_fig2")
+print("short figures written")

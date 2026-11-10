@@ -1,0 +1,16 @@
+problem,feature,importance
+Churn after complaint,csat_score,0.08704437
+Churn after complaint,contacts,0.08699126
+Churn after complaint,reopened,0.08072771
+Churn after complaint,membership = Non-member,0.07011226
+Churn after complaint,membership = Member,0.059493296
+Churn after complaint,resolution_hours,0.05153897
+Churn after complaint,topic = Wrong / damaged item,0.048662297
+Churn after complaint,topic = Refund delay,0.04520001
+Churn after complaint,topic = Refund rejected,0.041865706
+Churn after complaint,topic = Warranty / seller,0.040016886
+Churn after complaint,order_value_aed,0.03957989
+Churn after complaint,topic = Payment / billing,0.03878556
+Churn after complaint,tenure_months,0.037828203
+Churn after complaint,channel = Social media,0.035979513
+Churn after complaint,channel = Email,0.035716757

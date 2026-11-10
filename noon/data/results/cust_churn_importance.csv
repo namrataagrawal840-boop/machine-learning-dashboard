@@ -1,0 +1,13 @@
+problem,feature,importance
+Customer churn,recency_days,0.13919516
+Customer churn,orders_12m,0.067794345
+Customer churn,rejected_refunds,0.054857954
+Customer churn,emirate = Abu Dhabi,0.043957677
+Customer churn,emirate = Ajman,0.042668898
+Customer churn,age_band = 45–54,0.042526945
+Customer churn,late_orders,0.041737385
+Customer churn,age_band = 18–24,0.040018942
+Customer churn,repeat_contacts,0.038844254
+Customer churn,spend_12m_aed,0.038418196
+Customer churn,membership = Member,0.03729229
+Customer churn,age_band = 55+,0.036497407

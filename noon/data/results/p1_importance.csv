@@ -1,0 +1,16 @@
+problem,feature,importance
+Late delivery,sale_event = Yellow Friday,0.14310645
+Late delivery,fulfilment = Fulfilled by noon,0.064271
+Late delivery,courier = 3PL partner B,0.060207848
+Late delivery,emirate = Abu Dhabi,0.053925227
+Late delivery,seller_late_rate,0.04868373
+Late delivery,courier = In-house fleet,0.041924212
+Late delivery,zone_type = Remote,0.0403204
+Late delivery,zone_type = Villa community,0.039289806
+Late delivery,category = Grocery,0.03599665
+Late delivery,address_quality = Partial address,0.035188157
+Late delivery,time_slot = Evening,0.027290963
+Late delivery,time_slot = Late evening,0.024447305
+Late delivery,sale_event = Dubai Shopping Festival,0.020316118
+Late delivery,zone_type = Dense urban,0.018026287
+Late delivery,km_from_hub,0.017283278

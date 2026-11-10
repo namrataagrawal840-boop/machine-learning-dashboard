@@ -1,0 +1,8 @@
+theme,top_terms,tickets,share,main_actual_topic,purity,angry_share,churn_90d
+Theme 1,"refund, delivered, item, parcel, returned, thank",3628,0.4261717373428873,Refund delay,0.272877618522602,0.39553472987872107,0.24448732083792724
+Theme 3,"order, late, update, update order, order late, late delivery",1581,0.18571596382003994,Delivery delay,0.8614800759013282,0.2605945604048071,0.1840607210626186
+Theme 7,"driver, marked, came, driver came, unavailable, marked unavailable",951,0.1117115000587337,Failed delivery,0.9337539432176656,0.32597266035751843,0.17560462670872765
+Theme 6,"order stuck, stuck, stuck transit, transit, order, update",653,0.0767062140256079,Delivery delay,0.9831546707503829,0.33690658499234305,0.17304747320061256
+Theme 2,"delivery passed, expected delivery, expected, passed, delivery, update",645,0.0757664748032421,Delivery delay,0.9798449612403101,0.3550387596899225,0.17984496124031008
+Theme 5,"promised tomorrow, promised, tomorrow, update, late, order",530,0.06225772348173382,Delivery delay,0.9905660377358491,0.3452830188679245,0.1830188679245283
+Theme 4,"tracking moving, tracking, moving, order, late, update",525,0.061670386467755196,Delivery delay,0.9809523809523809,0.3942857142857143,0.17142857142857143

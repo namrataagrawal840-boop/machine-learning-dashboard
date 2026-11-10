@@ -1,0 +1,6 @@
+# Data generation + models (not needed to run the dashboard; results are committed in data/)
+-r requirements.txt
+scikit-learn>=1.4
+mlxtend>=0.23
+xgboost>=2.0
+pytest>=8

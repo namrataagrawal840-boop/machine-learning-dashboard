@@ -1,0 +1,13 @@
+ticket_id,text,topic,predicted_topic,angry,p_angry
+T903915,Please advise. no update on my order. my order is late. please help.,Delivery delay,Delivery delay,0,0.17
+T902368,Item failed inspection. refund rejected. nobody is helping. never again.,Refund rejected,Refund rejected,1,0.74
+T904476,Order stuck in transit. can you update me. my order is late.,Delivery delay,Delivery delay,0,0.52
+T906046,Please advise. payment deducted but order cancelled. thank you.,Payment / billing,Payment / billing,0,0.21
+T905944,Worst service. where is my parcel. late delivery.,Delivery delay,Delivery delay,0,0.68
+T900066,I was at home all day. please advise. please help. driver could not find my villa.,Failed delivery,Failed delivery,0,0.15
+T906292,Copy paste replies. refund not received.,Refund delay,Refund delay,1,0.71
+T903743,Please advise. hi team. expected delivery passed.,Delivery delay,Delivery delay,0,0.16
+T900070,Need assistance. box was broken. order stuck in transit. was promised tomorrow. can you update me.,Delivery delay,Delivery delay,0,0.22
+T902976,Where is my parcel. please advise.,Delivery delay,Delivery delay,0,0.08
+T907507,Where is my parcel. nobody is helping. no update on my order.,Delivery delay,Delivery delay,1,0.7
+T905238,Item failed inspection. hi team.,Refund rejected,Refund rejected,1,0.35

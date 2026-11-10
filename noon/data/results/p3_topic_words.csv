@@ -1,0 +1,8 @@
+topic,top_words
+Delivery delay,"parcel, delivered, late, order, update order, delivery, late delivery, delayed"
+Failed delivery,"called, driver, attempt failed, delivery attempt, attempt, home, home day, day"
+Payment / billing,"applied, coupon applied, coupon, double charge, double, charge, charged, charged twice"
+Refund delay,"refund, returned, money returned, money, refund received, waiting, waiting refund, received"
+Refund rejected,"rejected, refused refund, refund rejected, refused, failed, item failed, inspection, failed inspection"
+Warranty / seller,"seller, request, repair request, repair, warranty, month, defective month, defective"
+Wrong / damaged item,"ordered, product, item, broken, box broken, box, item damaged, damaged"

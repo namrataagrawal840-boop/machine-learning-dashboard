@@ -49,9 +49,11 @@ Python 3.11 or newer is required (3.12 recommended).
 
 ## Written report
 
-`report/Luggage_Marketplace_Analytics_Report.docx` (and `.pdf`) covers synthetic data generation, cleaning and
-transformation, descriptive, diagnostic and correlation analysis, market research and strategy. Every number and
-figure is produced from `data/` by `python -m report.build_assets` followed by `node report/build_docx.js`.
+`report/Luggage_Marketplace_Report.docx` (and `.pdf`) is the 4-page submission report: how the idea is validated,
+synthetic data generation, cleaning and transformation, explained EDA and correlation graphs, how effectively the
+algorithms apply, and the conclusion. A longer reference version is `report/Extended_Report_19_pages.docx`.
+Every number and figure is produced from `data/`: `python -m report.build_assets`, then
+`node report/build_docx_short.js` (or `node report/build_docx.js` for the extended version).
 
 ## Data included in this repository
 

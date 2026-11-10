@@ -11,8 +11,10 @@ import streamlit as st
 DATA = Path(__file__).resolve().parents[1] / "data"
 RES = DATA / "results"
 RESEARCH = DATA / "research"
+SIM = DATA / "sim"
 DATE_COLS = {"orders.csv": ["order_date"], "returns.csv": ["order_date"], "tickets.csv": ["created_date"],
-             "daily_demand.csv": ["date"], "customers.csv": ["last_order", "first_order"], "p1_demand.csv": ["date"]}
+             "daily_demand.csv": ["date"], "customers.csv": ["last_order", "first_order"], "p1_demand.csv": ["date"], "p1_orders.csv": ["order_date"],
+             "p2_returns.csv": ["order_date"], "p3_tickets.csv": ["created_date"]}
 
 
 @st.cache_data(show_spinner=False)
@@ -20,12 +22,12 @@ def _read(path: str) -> pd.DataFrame:
     p = Path(path)
     if not p.exists():
         return pd.DataFrame()
-    return pd.read_csv(p, parse_dates=DATE_COLS.get(p.name, []))
+    return pd.read_csv(p, parse_dates=DATE_COLS.get(p.name, []), keep_default_na=False, na_values=[""])
 
 
 def table(name: str) -> pd.DataFrame:
     """Load a prepared table by name, looking in data/, data/results/ and data/research/."""
-    for folder in (DATA, RES, RESEARCH):
+    for folder in (DATA, RES, RESEARCH, SIM):
         p = folder / f"{name}.csv"
         if p.exists():
             return _read(str(p)).copy()

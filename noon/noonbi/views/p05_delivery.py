@@ -35,6 +35,7 @@ def render(f: D.Filters) -> None:
                   "derived", theme.BLUE),
         cards.kpi("Recovery test uplift", f"+{ab['uplift_pts']:.1f} pts", f"repeat purchase, p = {ab['p_value']:.3f}", "derived", theme.GREEN),
     ])
+    st.caption("▶ To watch this solution run record by record, open **8 · Solution Simulator** in the sidebar.")
     tabs = st.tabs(["1 · Evidence", "2 · Root causes", "3 · Predict each order", "4 · Recover & test", "5 · Plan capacity"])
     with tabs[0]:
         _evidence(o)
@@ -203,7 +204,7 @@ def _predict() -> None:
             "share_of_all_late": st.column_config.ProgressColumn("Share of all late orders", min_value=0, max_value=1, format="%.2f"),
             "avg_p_late": st.column_config.NumberColumn("Avg predicted risk", format="%.2f"),
             "action": st.column_config.TextColumn("Action", width="large")})
-        st.caption("High-risk orders are under a fifth of all orders but hold about half of the late ones, so effort goes where it pays.")
+        st.caption("High-risk orders are about a fifth of all orders but hold more than half of the late ones, so effort goes where it pays.")
     c1, c2 = st.columns([1.1, 1])
     with c1, cards.card("An honest delivery date (regression, P90)", "How long will this order really take?"):
         d = ps.sort_values("actual_hours").reset_index(drop=True)

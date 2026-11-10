@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from analysis import cleaning, market_research, models
+from analysis import cleaning, market_research, models, simulation_data
 from analysis import synthetic as S
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,9 +43,9 @@ def main() -> None:
     _save(r_raw, DATA / "raw" / "returns_raw.csv")
     _save(t_raw, DATA / "raw" / "tickets_raw.csv")
     log = cleaning.Log()
-    o = cleaning.clean_orders(pd.read_csv(DATA / "raw" / "orders_raw.csv"), log, S.ZONE_DF)
-    r = cleaning.clean_returns(pd.read_csv(DATA / "raw" / "returns_raw.csv"), log)
-    t = cleaning.clean_tickets(pd.read_csv(DATA / "raw" / "tickets_raw.csv"), log)
+    o = cleaning.clean_orders(pd.read_csv(DATA / "raw" / "orders_raw.csv", keep_default_na=False, na_values=[""]), log, S.ZONE_DF)
+    r = cleaning.clean_returns(pd.read_csv(DATA / "raw" / "returns_raw.csv", keep_default_na=False, na_values=[""]), log)
+    t = cleaning.clean_tickets(pd.read_csv(DATA / "raw" / "tickets_raw.csv", keep_default_na=False, na_values=[""]), log)
     cust = S.customer_summary(o.assign(order_date=pd.to_datetime(o["order_date"])), r, t, customers)
     cust_public = cust.drop(columns=[c for c in cust.columns if c.startswith("_")])
     _save(o, DATA / "orders.csv")
@@ -84,6 +84,13 @@ def main() -> None:
                     "customers": infoc})
     (RES / "fix_tree_rules.txt").write_text(info3["fix_tree_rules"], encoding="utf-8")
     (RES / "summary.json").write_text(json.dumps(summary, indent=2, default=float), encoding="utf-8")
+
+    # ---- simulator records (fixed-number replay of today vs solution)
+    SIM = DATA / "sim"
+    _save(simulation_data.problem1_records(o, te1, customers, cust), SIM / "p1_orders.csv")
+    _save(simulation_data.problem2_records(r, out2["p2_test_scores"], customers, cust), SIM / "p2_returns.csv")
+    _save(simulation_data.problem3_records(t, out3["p3_test_pred"], customers, cust), SIM / "p3_tickets.csv")
+    print(f"simulator records done ({time.time() - t0:.0f}s)")
 
     for k, v in market_research.market_tables().items():
         _save(v, DATA / "research" / f"{k}.csv")

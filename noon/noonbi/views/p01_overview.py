@@ -74,6 +74,8 @@ def render(f: D.Filters) -> None:
             '<p><b>Data & cleaning</b> — how the data was built, what was wrong with it and how it was fixed.</p>'
             '<p><b>Customer foundations</b> — segments, lifetime value, churn and next purchase (blogs 2–5).</p>'
             '<p><b>Problems 1–3</b> — one page per problem: evidence, root causes, models and the test.</p>'
+            '<p><b>Solution simulator</b> — pick a problem and press Run to replay it today vs with the solution.</p>'
+            '<p><b>Live platform</b> — a running mini-noon with a live database and alerts.</p>'
             '<p><b>Business case</b> — nine pillars, KPIs, and a gain calculator you can change.</p></div>',
             unsafe_allow_html=True)
 

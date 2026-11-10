@@ -30,6 +30,7 @@ def render(f: D.Filters) -> None:
                   "Refund when the courier collects", "derived", theme.GREEN),
         cards.kpi("Instant-refund test uplift", f"+{ab['uplift_pts']:.1f} pts", f"repeat purchase in 90 days, p = {ab['p_value']:.3f}", "derived", theme.GREEN),
     ])
+    st.caption("▶ To watch this solution run record by record, open **8 · Solution Simulator** in the sidebar.")
     tabs = st.tabs(["1 · Evidence", "2 · Who returns (segments)", "3 · Trust tiers", "4 · Fix the source", "5 · Refund time & keep-it", "6 · Test"])
     with tabs[0]:
         _evidence(r)

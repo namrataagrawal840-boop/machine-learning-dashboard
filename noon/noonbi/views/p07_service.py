@@ -33,6 +33,7 @@ def render(f: D.Filters) -> None:
         cards.kpi("Ticket topic read correctly", C.pct(S.get("topic_accuracy", np.nan)), "TF-IDF + logistic regression", "derived", theme.BLUE),
         cards.kpi("Extra churn per extra contact", f"+{S.get('churn_per_contact_pts', np.nan):.1f} pts", "Market response model", "derived", theme.RED),
     ])
+    st.caption("▶ To watch this solution run record by record, open **8 · Solution Simulator** in the sidebar.")
     tabs = st.tabs(["1 · Evidence", "2 · Read every ticket", "3 · Complaint themes", "4 · Deadline, fix & churn", "5 · Cost of slow service"])
     with tabs[0]:
         _evidence(t)

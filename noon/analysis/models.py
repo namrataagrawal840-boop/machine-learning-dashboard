@@ -471,6 +471,8 @@ def problem3(tickets: pd.DataFrame) -> dict:
     clf = LogisticRegression(max_iter=3000, C=4)
     clf.fit(a, ya)
     pred = clf.predict(b)
+    out["p3_test_pred"] = pd.DataFrame({"ticket_id": t.loc[ib, "ticket_id"].to_numpy(), "predicted_topic": pred,
+                                        "p_angry_dummy": 0}).drop(columns="p_angry_dummy")
     labels = sorted(t["topic"].unique())
     cm = confusion_matrix(yb, pred, labels=labels)
     out["p3_topic_confusion"] = pd.DataFrame(cm, index=labels, columns=labels).reset_index().rename(columns={"index": "actual"})

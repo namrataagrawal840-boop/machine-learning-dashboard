@@ -1,55 +1,78 @@
 problem,if,then,n_items,support,confidence,lift
 Delivery,3PL courier + Poor seller + Seller ships directly,Late,3,0.0369,0.898538961038961,2.793095931112717
 Delivery,Evening order + Poor seller + Seller ships directly,Late,3,0.052033333333333334,0.8904734740444952,2.7680244763583937
+Delivery,Poor seller + Sale day + Seller ships directly,Late,3,0.0382,0.8904428904428904,2.7679294076558607
 Delivery,Evening order + Seller ships directly + Yellow Friday,Late,3,0.0106,0.8808864265927978,2.738223271970152
 Delivery,3PL courier + Yellow Friday,Late,2,0.0188,0.8703703703703703,2.7055342566688543
+Delivery,3PL courier + Poor seller + Sale day,Late,3,0.015566666666666666,0.8696461824953445,2.703283128676856
 Delivery,Bulky item + Poor seller,Late,2,0.012166666666666666,0.869047619047619,2.7014225024793874
 Delivery,Poor seller + Seller ships directly + Villa / remote zone,Late,3,0.0246,0.8682352941176471,2.698897401671269
 Delivery,Partial address + Poor seller + Seller ships directly,Late,3,0.025866666666666666,0.8612652608213097,2.6772311495844257
 Delivery,3PL courier + Evening order + Poor seller,Late,3,0.0212,0.8457446808510638,2.6289856414394275
 Delivery,Seller ships directly + Yellow Friday,Late,2,0.0202,0.8451882845188283,2.6272560911371725
+Delivery,Poor seller + Sale day + Villa / remote zone,Late,3,0.010433333333333333,0.84366576819407,2.6225233702022694
+Delivery,Partial address + Poor seller + Sale day,Late,3,0.010633333333333333,0.8394736842105264,2.60949233512753
 Delivery,Evening order + Poor seller + Villa / remote zone,Late,3,0.014533333333333334,0.8384615384615385,2.606346094067574
 Delivery,Poor seller + Seller ships directly,Late,2,0.0999,0.8369170622731081,2.601545111200212
 Delivery,3PL courier + Partial address + Poor seller,Late,3,0.010766666666666667,0.8367875647668395,2.601142569993284
+Delivery,Evening order + Poor seller + Sale day,Late,3,0.020933333333333335,0.8339973439575034,2.5924692072039273
 Delivery,Evening order + Partial address + Poor seller,Late,3,0.015,0.8302583025830257,2.5808464488126384
 Delivery,Evening order + Yellow Friday,Late,2,0.024733333333333333,0.8189845474613686,2.545802136964155
 Delivery,3PL courier + Poor seller,Late,2,0.03983333333333333,0.8123725356900068,2.5252487898352713
+Delivery,Poor seller + Sale day,Late,2,0.040633333333333334,0.8035596572181938,2.4978540790121038
 Delivery,Partial address + Poor seller + Villa / remote zone,Late,3,0.010033333333333333,0.8026666666666666,2.495078230235209
 Delivery,Evening order + Poor seller,Late,2,0.05533333333333333,0.7934990439770555,2.466580801918109
 Delivery,Poor seller + Villa / remote zone,Late,2,0.0267,0.7807017543859649,2.426800604246083
 Delivery,Villa / remote zone + Yellow Friday,Late,2,0.0122,0.7737843551797041,2.405297964500168
 Delivery,Partial address + Poor seller,Late,2,0.027766666666666665,0.7656249999999999,2.379934721790488
+Delivery,3PL courier + Sale day + Seller ships directly,Late,3,0.034166666666666665,0.7637853949329358,2.374216334886341
 Delivery,Poor seller,Late,1,0.10476666666666666,0.7374472078836226,2.2923444447734616
 Delivery,Yellow Friday,Late,1,0.045733333333333334,0.7352625937834941,2.2855536020624623
 Delivery,3PL courier + Evening order + Seller ships directly,Late,3,0.04416666666666667,0.7240437158469946,2.250679875184938
 Delivery,3PL courier + Partial address + Seller ships directly,Late,3,0.022766666666666668,0.7077720207253886,2.2000995359819355
+Delivery,Sale day + Seller ships directly + Villa / remote zone,Late,3,0.022566666666666665,0.7074190177638454,2.199002231158985
 Delivery,3PL courier + Seller ships directly + Villa / remote zone,Late,3,0.0279,0.6992481203007519,2.1736031094210504
+Delivery,Evening order + Sale day + Seller ships directly,Late,3,0.044366666666666665,0.6932291666666667,2.1548932753082584
+Delivery,Partial address + Sale day + Seller ships directly,Late,3,0.022533333333333332,0.6919140225179119,2.150805167913932
 Delivery,Evening order + Seller ships directly + Villa / remote zone,Late,3,0.029066666666666668,0.682850430696946,2.122631118112981
 Delivery,Evening order + Partial address + Seller ships directly,Late,3,0.030966666666666667,0.6746550472040668,2.0971558818901674
 Delivery,Partial address + Seller ships directly + Villa / remote zone,Late,3,0.021666666666666667,0.6673511293634498,2.074451754315977
+Delivery,3PL courier + Evening order + Sale day,Late,3,0.03936666666666667,0.6557468073292615,2.0383798797925445
 Delivery,3PL courier + Seller ships directly,Late,2,0.08043333333333333,0.653398321148118,2.0310796429845137
 Delivery,Bulky item + Evening order + Seller ships directly,Late,3,0.012866666666666667,0.6487394957983192,2.0165977488290934
 Delivery,3PL courier + Bulky item + Evening order,Late,3,0.010066666666666666,0.6371308016877636,1.9805122837667504
+Delivery,3PL courier + Partial address + Sale day,Late,3,0.0208,0.6265060240963856,1.9474853095939868
+Delivery,Sale day + Seller ships directly,Late,2,0.081,0.6261272867817573,1.9463080098904488
+Delivery,Evening order + Sale day + Villa / remote zone,Late,3,0.026266666666666667,0.6165884194053208,1.9166565725996918
+Delivery,3PL courier + Sale day + Villa / remote zone,Late,3,0.0253,0.6155717761557178,1.9134963511212864
 Delivery,3PL courier + Evening order + Partial address,Late,3,0.027266666666666668,0.6109036594473488,1.8989855749062756
 Delivery,Seller ships directly + Villa / remote zone,Late,2,0.05266666666666667,0.6042065009560229,1.878167550376198
+Delivery,Partial address + Sale day + Villa / remote zone,Late,3,0.0193,0.6006224066390042,1.8670264427696743
 Delivery,Evening order + Seller ships directly,Late,2,0.1052,0.5959214501510575,1.852413584554111
 Delivery,3PL courier + Evening order + Villa / remote zone,Late,3,0.03253333333333333,0.5947592931139549,1.848801035480121
 Delivery,Partial address + Seller ships directly,Late,2,0.054533333333333336,0.5938294010889292,1.8459104789833052
+Delivery,Evening order + Partial address + Sale day,Late,3,0.0259,0.5886363636363636,1.8297679938960636
 Delivery,Evening order + Partial address + Villa / remote zone,Late,3,0.025866666666666666,0.5830202854996244,1.81231049269389
 Delivery,3PL courier + Partial address + Villa / remote zone,Late,3,0.023933333333333334,0.5813765182186236,1.807200864838743
+Delivery,3PL courier + Sale day,Late,2,0.07046666666666666,0.5780694558381186,1.796920907174755
 Delivery,Bulky item + Seller ships directly,Late,2,0.022766666666666668,0.5701168614357263,1.7722003774812753
 Delivery,3PL courier + Bulky item,Late,2,0.016433333333333335,0.5323974082073435,1.6549499788851212
+Delivery,Sale day + Villa / remote zone,Late,2,0.04636666666666667,0.5297029702970297,1.6465743559124333
 Delivery,3PL courier + Evening order,Late,2,0.08773333333333333,0.5269269269269269,1.6379450634968198
 Delivery,Seller ships directly,Late,1,0.18933333333333333,0.5239852398523985,1.6288008699173098
 Delivery,3PL courier + Partial address,Late,2,0.048,0.5161290322580645,1.6043799572833837
 Delivery,3PL courier + Villa / remote zone,Late,2,0.0569,0.5150875075437538,1.6011423921161136
 Delivery,Bulky item + Villa / remote zone,Late,2,0.011066666666666667,0.5139318885448917,1.5975501664435552
+Delivery,Partial address + Sale day,Late,2,0.046,0.5099778270509978,1.5852590209853834
+Delivery,Evening order + Sale day,Late,2,0.08636666666666666,0.5037915613455182,1.56602909961305
 Delivery,Partial address + Villa / remote zone,Late,2,0.0459,0.5020051039008385,1.5604759213579065
 Delivery,Evening order + Villa / remote zone,Late,2,0.059533333333333334,0.49958041958041954,1.5529388236879689
 Delivery,Evening order + Partial address,Late,2,0.06193333333333333,0.4957310565635006,1.5409731319972042
+Delivery,Bulky item + Sale day,Late,2,0.015833333333333335,0.49019607843137253,1.5237677290375273
 Delivery,Bulky item + Partial address,Late,2,0.011433333333333334,0.4851485148514852,1.5080774474712004
 Delivery,Bulky item + Evening order,Late,2,0.021733333333333334,0.4790595150624541,1.489149875854691
 Delivery,3PL courier,Late,1,0.15006666666666665,0.44016425498631206,1.3682444979369353
+Delivery,Sale day,Late,1,0.14966666666666667,0.42547142992513975,1.3225720544766546
 Delivery,Villa / remote zone,Late,1,0.10266666666666667,0.42424242424242425,1.3187517073124784
 Delivery,Partial address,Late,1,0.1071,0.41565329883570507,1.2920525297970316
 Delivery,Bulky item,Late,1,0.0365,0.38884943181818177,1.2087330799446123

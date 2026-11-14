@@ -335,7 +335,95 @@ def demand_forecast(daily: pd.DataFrame) -> dict:
     res["high"] = res["fitted"] * (1 + 1.28 * np.std(resid / pred[trn]))
     ev_eff = pd.DataFrame({"event": [c[3:] for c in X.columns if c.startswith("ev_")],
                            "uplift_pct": [(np.exp(lr2.coef_[i]) - 1) * 100 for i, c in enumerate(X.columns) if c.startswith("ev_")]})
-    return {"p1_demand": res, "p1_demand_events": ev_eff}, {"mape_test": mape}
+    out = {"p1_demand": res, "p1_demand_events": ev_eff}
+    info = {"mape_test": mape}
+    s_out, s_info = _sarima(allx, X, y, trn, tst)
+    out.update(s_out)
+    info.update(s_info)
+    # simple benchmark: same weekday last week (seasonal naive), for the same test months
+    full = allx[allx["orders"].notna()].set_index("date")["orders"]
+    naive = full.shift(7)
+    m = (full.index >= cut)
+    naive_mape = float(np.mean(np.abs(full[m] - naive[m]) / full[m]))
+    out["p1_forecast_compare"] = pd.DataFrame([
+        {"model": "Seasonal ARIMA (SARIMAX)", "test_mape": s_info["sarima_mape_test"],
+         "how_it_works": "Learns from its own recent values and errors, with a weekly seasonal cycle; yearly shape and sale events as extra inputs"},
+        {"model": "Time-series regression", "test_mape": mape,
+         "how_it_works": "Trend + weekday + yearly waves + sale-event flags (Prophet-style)"},
+        {"model": "Same weekday last week (benchmark)", "test_mape": naive_mape,
+         "how_it_works": "Tomorrow = the same weekday one week earlier; uses the real value from 7 days before (easier than forecasting 3 months ahead)"},
+    ])
+    info["naive_mape_test"] = naive_mape
+    return out, info
+
+
+def _sarima(allx: pd.DataFrame, X: pd.DataFrame, y: pd.Series, trn, tst) -> tuple[dict, dict]:
+    """Seasonal ARIMA with exogenous inputs (SARIMAX) on log daily orders.
+
+    Weekly seasonality is the seasonal part (s = 7). The yearly shape (3 Fourier pairs) and sale-event flags are extra
+    inputs, because a 365-day seasonal lag is too long for two years of daily data. Orders are picked by AIC on the
+    training months only; the test months (Aug–Oct 2026) are forecast in one go, 92 days ahead, without peeking.
+    """
+    import warnings
+    from statsmodels.stats.diagnostic import acorr_ljungbox
+    from statsmodels.tsa.statespace.sarimax import SARIMAX
+    from statsmodels.tsa.stattools import acf
+
+    ex_cols = [c for c in X.columns if c.startswith(("sin", "cos", "ev_"))]
+    ex = X[ex_cols].astype(float)
+    grid = [((1, 1, 1), (1, 0, 1, 7)), ((0, 1, 1), (0, 1, 1, 7)), ((1, 1, 1), (0, 1, 1, 7)),
+            ((2, 1, 1), (1, 0, 1, 7)), ((1, 1, 2), (1, 0, 1, 7)), ((1, 0, 1), (1, 0, 1, 7))]
+    rows, best = [], None
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        for order, sorder in grid:
+            try:
+                fit = SARIMAX(y[trn].to_numpy(), exog=ex[trn].to_numpy(), order=order, seasonal_order=sorder,
+                              trend="c" if order[1] == 0 else "n").fit(disp=False, maxiter=200)
+            except Exception:  # pragma: no cover
+                continue
+            rows.append({"order": str(order), "seasonal_order": str(sorder), "aic": fit.aic})
+            if best is None or fit.aic < best[2].aic:
+                best = (order, sorder, fit)
+        order, sorder, fit = best
+        n_tst = int(tst.sum())
+        fc = fit.get_forecast(n_tst, exog=ex[tst].to_numpy())
+        pred_t = np.exp(fc.predicted_mean)
+        ci_t = np.exp(fc.conf_int(alpha=0.2))
+        act = allx.loc[tst, "orders"].to_numpy()
+        mape = float(np.mean(np.abs(act - pred_t) / act))
+        # refit on all known days, forecast the next 45 days
+        known = allx["orders"].notna().to_numpy()
+        fut = ~known
+        fit2 = SARIMAX(y[known].to_numpy(), exog=ex[known].to_numpy(), order=order, seasonal_order=sorder,
+                       trend="c" if order[1] == 0 else "n").fit(disp=False, maxiter=200)
+        fc2 = fit2.get_forecast(int(fut.sum()), exog=ex[fut].to_numpy())
+        resid = fit.resid[8:]
+        lb = acorr_ljungbox(resid, lags=[14], return_df=True)
+        r_acf, r_ci = acf(resid, nlags=21, alpha=0.05)
+    res = allx[["date", "orders"]].copy()
+    res["part"] = np.where(trn, "Train", np.where(tst, "Test", "Forecast"))
+    res["fitted"] = np.nan
+    res["low"] = np.nan
+    res["high"] = np.nan
+    ins = np.exp(fit.fittedvalues)
+    ins[:8] = np.nan  # first days have no history to learn from
+    res.loc[trn, "fitted"] = ins
+    res.loc[tst, "fitted"], res.loc[tst, "low"], res.loc[tst, "high"] = pred_t, ci_t[:, 0], ci_t[:, 1]
+    res.loc[fut, "fitted"] = np.exp(fc2.predicted_mean)
+    ci2 = np.exp(fc2.conf_int(alpha=0.2))
+    res.loc[fut, "low"], res.loc[fut, "high"] = ci2[:, 0], ci2[:, 1]
+    res[["fitted", "low", "high"]] = res[["fitted", "low", "high"]].round()
+    grid_df = pd.DataFrame(rows).sort_values("aic").reset_index(drop=True)
+    grid_df["chosen"] = (grid_df["order"] == str(order)) & (grid_df["seasonal_order"] == str(sorder))
+    acf_df = pd.DataFrame({"lag": np.arange(1, 22), "acf": r_acf[1:], "bound": 1.96 / np.sqrt(len(resid))})
+    p, d, q = order
+    P, D_, Q, s = sorder
+    info = {"sarima_order": f"({p},{d},{q})({P},{D_},{Q})[{s}]", "sarima_aic": float(fit.aic), "sarima_mape_test": mape,
+            "sarima_ljungbox_p": float(lb["lb_pvalue"].iloc[0]),
+            "sarima_peak_forecast": float(res.loc[fut, "fitted"].max()),
+            "sarima_peak_date": str(res.loc[fut].loc[res.loc[fut, "fitted"].idxmax(), "date"].date())}
+    return {"p1_sarima": res, "p1_sarima_grid": grid_df, "p1_sarima_acf": acf_df}, info
 
 
 # ===================================================================== Problem 2 — refunds

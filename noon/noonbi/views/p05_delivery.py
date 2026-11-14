@@ -270,28 +270,85 @@ def _recover(ab: pd.Series) -> None:
 
 def _demand() -> None:
     d, ev = D.table("p1_demand"), D.table("p1_demand_events")
+    sa, grid, acf = D.table("p1_sarima"), D.table("p1_sarima_grid"), D.table("p1_sarima_acf")
+    cmp = D.table("p1_forecast_compare")
     S = D.summary().get("demand", {})
-    with cards.card("Daily order forecast (time-series regression, Blog 6)", "How many couriers will we need, and when?"):
+    with cards.card("Daily order forecast (Blog 6): Seasonal ARIMA vs time-series regression",
+                    "How many orders, couriers and agents will we need, and when?"):
+        view = st.segmented_control("Model", ["Seasonal ARIMA", "Regression", "Both"], default="Seasonal ARIMA", key="p1_fc_model") \
+            or "Seasonal ARIMA"
         fig = go.Figure()
-        fc = d[d["part"] == "Forecast"]
-        fig.add_scatter(x=d["date"], y=d["orders"], name="Actual", mode="lines", line=dict(color=theme.SLATE, width=1))
-        fig.add_scatter(x=d.loc[d["part"] != "Forecast", "date"], y=d.loc[d["part"] != "Forecast", "fitted"], name="Model",
-                        mode="lines", line=dict(color=theme.BLUE, width=1.6))
-        fig.add_scatter(x=pd.concat([fc["date"], fc["date"][::-1]]), y=pd.concat([fc["high"], fc["low"][::-1]]), fill="toself",
-                        fillcolor="rgba(120,164,141,0.18)", line=dict(width=0), name="80% range", hoverinfo="skip")
-        fig.add_scatter(x=fc["date"], y=fc["fitted"], name="Forecast", mode="lines", line=dict(color=theme.GREEN, width=2.4))
+        fig.add_scatter(x=d["date"], y=d["orders"], name="Actual", mode="lines", line=dict(color=theme.TEXT, width=1.4))
+        series = []
+        if view in ("Seasonal ARIMA", "Both"):
+            series.append((sa, "Seasonal ARIMA", theme.LAVENDER, "rgba(155,140,200,0.18)"))
+        if view in ("Regression", "Both"):
+            series.append((d, "Regression", theme.GREEN, "rgba(120,164,141,0.18)"))
+        for df, name, col, band in series:
+            ahead = df[df["part"] != "Train"]
+            fig.add_scatter(x=pd.concat([ahead["date"], ahead["date"][::-1]]), y=pd.concat([ahead["high"], ahead["low"][::-1]]),
+                            fill="toself", fillcolor=band, line=dict(width=0), name=f"{name} · 80% range", hoverinfo="skip")
+            fig.add_scatter(x=df.loc[df["part"] == "Train", "date"], y=df.loc[df["part"] == "Train", "fitted"], name=f"{name} · fit",
+                            mode="lines", line=dict(color=col, width=1.2, dash="dot"), opacity=0.8)
+            fig.add_scatter(x=ahead["date"], y=ahead["fitted"], name=f"{name} · forecast", mode="lines", line=dict(color=col, width=2.6))
         fig.add_vline(x=pd.Timestamp("2026-08-01"), line_dash="dot", line_color=theme.MUTED)
-        fig.update_layout(yaxis_title="Orders per day (all regions)")
-        charts.show(fig, "p1_demand", d, height=380)
-        c1, c2 = st.columns([1, 1.3])
-        c1.markdown(cards.kpi("Forecast error on unseen months", C.pct(S.get("mape_test", np.nan)), "Average % error, Aug–Oct 2026",
-                              "derived", theme.BLUE), unsafe_allow_html=True)
+        fig.add_vline(x=pd.Timestamp("2026-11-01"), line_dash="dot", line_color=theme.MUTED)
+        fig.update_layout(yaxis_title="Orders per day (all regions)", legend=dict(orientation="h", y=-0.18),
+                          xaxis_range=[pd.Timestamp("2025-10-01"), pd.Timestamp("2026-12-16")])
+        charts.show(fig, "p1_demand", sa if view == "Seasonal ARIMA" else d, height=420)
+        st.caption("Zoomed to the last 14 months; drag or double-click the chart to see all two years. Left of the first dotted line: training data (Nov 2024 – Jul 2026). Between the lines: the test months, forecast 92 days ahead "
+                   "without seeing them. Right of the second line: the forecast for the next 45 days, including Yellow Friday.")
+        cards.kpi_grid([
+            cards.kpi("Seasonal ARIMA error (Aug–Oct)", C.pct(S.get("sarima_mape_test", np.nan)), f"Model {S.get('sarima_order', '')}",
+                      "derived", theme.LAVENDER),
+            cards.kpi("Regression error (Aug–Oct)", C.pct(S.get("mape_test", np.nan)), "Trend + weekday + yearly waves + events",
+                      "derived", theme.GREEN),
+            cards.kpi("Benchmark error", C.pct(S.get("naive_mape_test", np.nan)), "'Same weekday last week'", "derived", theme.SLATE),
+            cards.kpi("Forecast peak", f"{S.get('sarima_peak_forecast', 0):,.0f} orders",
+                      f"on {pd.Timestamp(S.get('sarima_peak_date', '2026-11-27')):%a %d %b} (Yellow Friday week)", "derived", theme.GOLD),
+        ])
+    c1, c2 = st.columns([1.2, 1])
+    with c1, cards.card("What Seasonal ARIMA does, in simple words"):
+        st.markdown(
+            '<div class="lc-body">'
+            '<p><b>ARIMA</b> predicts tomorrow from the series itself: recent values (<b>AR</b>, auto-regressive), the change from day '
+            'to day (<b>I</b>, integrated / differencing) and its own recent mistakes (<b>MA</b>, moving average).</p>'
+            '<p><b>Seasonal</b> adds the same idea one week back, because Thursdays look like last Thursday. The <b>X</b> in SARIMAX '
+            'means extra inputs: the yearly shape and the sale-event flags (Ramadan, Eid, DSF, Yellow Friday, 11.11).</p>'
+            f'<p><b>Chosen model: {esc(S.get("sarima_order", ""))}.</b> Read it as: compare each day with the day before and with the '
+            'same weekday last week, then correct with the last day\'s and last week\'s error. This is the classic "airline model" '
+            'and it had the lowest AIC of the six models tried.</p></div>', unsafe_allow_html=True)
+        charts.table(grid, "p1_sarima_grid", "sarima_model_search.csv", column_config={
+            "aic": st.column_config.NumberColumn("AIC (lower = better)", format="%.0f"),
+            "chosen": st.column_config.CheckboxColumn("Chosen")})
+    with c2, cards.card("Is anything left to learn? (residual check)"):
+        fig = go.Figure()
+        fig.add_bar(x=acf["lag"], y=acf["acf"], marker_color=[theme.RED if abs(v) > b else theme.LAVENDER for v, b in zip(acf["acf"], acf["bound"])],
+                    hovertemplate="Lag %{x} days<br>Correlation %{y:.3f}<extra></extra>")
+        b0 = float(acf["bound"].iloc[0])
+        fig.add_hline(y=b0, line_dash="dot", line_color=theme.MUTED)
+        fig.add_hline(y=-b0, line_dash="dot", line_color=theme.MUTED)
+        fig.update_layout(xaxis_title="Lag (days)", yaxis_title="Correlation of leftover errors", showlegend=False)
+        charts.show(fig, "p1_sarima_acf", acf, height=280)
+        lb = S.get("sarima_ljungbox_p", np.nan)
+        st.markdown(cards.kpi("Ljung-Box test (14 days)", f"p = {lb:.2f}",
+                              "Above 0.05 → leftover errors look like random noise" if lb > 0.05 else "Below 0.05 → some pattern is left",
+                              "derived", theme.GREEN if lb > 0.05 else theme.PEACH), unsafe_allow_html=True)
+    with cards.card("Model comparison and sale-day effects"):
+        c1, c2 = st.columns([1.2, 1])
+        with c1:
+            charts.table(cmp, "p1_fc_compare", "forecast_comparison.csv", column_config={
+                "test_mape": st.column_config.NumberColumn("Error on Aug–Oct (MAPE)", format="%.3f"),
+                "how_it_works": st.column_config.TextColumn("How it works", width="large")})
         with c2:
             fig = charts.bar(ev["event"], ev["uplift_pct"], horizontal=True, colour=theme.GOLD, axis_title="Extra orders vs a normal day (%)",
                              value_fmt="{:.0f}%", hover_label="Extra %")
             charts.show(fig, "p1_events", ev, height=260)
-        cards.explanation("A regression with a trend, weekly pattern, yearly seasonality and sale-event flags (the same building "
-                          "blocks Prophet uses), trained to July and tested on August–October.",
-                          "Yellow Friday more than doubles daily orders, and the forecast for mid-November shows the jump coming.",
-                          "Courier and agent capacity can be booked weeks ahead of peaks, which is when most late orders happen.",
-                          "Synthetic series; real daily orders would be plugged into the same model.")
+        cards.explanation("Two forecasting methods, both trained to July and tested on August–October without seeing it, plus a "
+                          "simple benchmark. Error = average % gap between forecast and actual orders (MAPE).",
+                          f"Both models are about {C.pct(S.get('sarima_mape_test', np.nan), 1)} off on unseen months, about four times better "
+                          "than the benchmark. Both see Yellow Friday more than doubling daily orders.",
+                          "Use Seasonal ARIMA for the next few weeks (it reacts to the latest days) and check it against the regression for "
+                          "peaks. Courier and agent capacity can be booked weeks before the surge, when most late orders happen.",
+                          "Synthetic series. A 365-day seasonal lag is too long for two years of daily data, so the yearly shape enters as "
+                          "inputs. The 80% range widens the further ahead it looks.")

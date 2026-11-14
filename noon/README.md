@@ -5,7 +5,7 @@ It covers three linked customer problems and the solution for each:
 
 | Problem | Solution | Techniques shown |
 |---|---|---|
-| 1. Late, unreliable deliveries | Delivery Promise & Recovery Engine | XGBoost / random forest / logistic classification, XGBoost + P90 quantile regression, K-Means (sellers, zones), Apriori, two-model uplift, A/B test, demand forecast |
+| 1. Late, unreliable deliveries | Delivery Promise & Recovery Engine | XGBoost / random forest / logistic classification, XGBoost + P90 quantile regression, K-Means (sellers, zones), Apriori, two-model uplift, A/B test, demand forecast (Seasonal ARIMA + regression) |
 | 2. Slow, complicated refunds | Trust-Tiered Instant Refunds | Random forest trust tiers, K-Means on RFM + returns, Apriori, linear regression (refund time, keep-it cost), A/B test with fraud guardrail |
 | 3. Poor complaint resolution | Case Ownership Engine | TF-IDF + logistic regression, TF-IDF + K-Means themes, resolution-time regression, churn classification, decision tree, market response model |
 

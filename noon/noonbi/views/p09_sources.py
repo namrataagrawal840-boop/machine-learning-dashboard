@@ -40,6 +40,7 @@ def render(f: D.Filters) -> None:
             '<p><b>Clustering:</b> features are standardised; the number of groups is chosen with the silhouette score and business sense.</p>'
             '<p><b>Association rules:</b> Apriori with lift above 1; longer rules are kept only when clearly stronger than the shorter '
             'rules inside them.</p>'
+            '<p><b>Forecasting:</b> Seasonal ARIMA (SARIMAX, statsmodels) on log daily orders, weekly season s = 7, yearly Fourier terms and sale-event flags as inputs; order chosen by AIC on training months; residuals checked with Ljung-Box. Compared with a time-series regression and a same-weekday-last-week benchmark.</p>'
             '<p><b>A/B tests:</b> two-proportion z-test, 95% confidence interval on the difference.</p>'
             '<p><b>Provenance badges:</b> SYNTHETIC = generated for this study; SECONDARY = published source; MODEL OUTPUT = computed '
             'from the synthetic data; ASSUMPTION = the group\'s proposal figures.</p></div>', unsafe_allow_html=True)

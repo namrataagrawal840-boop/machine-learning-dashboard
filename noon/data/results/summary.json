@@ -2,7 +2,14 @@
   "boost_model": "XGBoost",
   "seed": 20261110,
   "demand": {
-    "mape_test": 0.02359338050923738
+    "mape_test": 0.02359338050923738,
+    "sarima_order": "(0,1,1)(0,1,1)[7]",
+    "sarima_aic": -2666.5176060131625,
+    "sarima_mape_test": 0.02369585281355972,
+    "sarima_ljungbox_p": 0.2592821645499867,
+    "sarima_peak_forecast": 196638.0,
+    "sarima_peak_date": "2026-11-27",
+    "naive_mape_test": 0.0999268740547712
   },
   "p2": {
     "green_fail_value_share": 0.026461439338002733,

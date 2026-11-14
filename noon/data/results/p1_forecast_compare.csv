@@ -1,0 +1,4 @@
+model,test_mape,how_it_works
+Seasonal ARIMA (SARIMAX),0.02369585281355972,"Learns from its own recent values and errors, with a weekly seasonal cycle; yearly shape and sale events as extra inputs"
+Time-series regression,0.02359338050923738,Trend + weekday + yearly waves + sale-event flags (Prophet-style)
+Same weekday last week (benchmark),0.0999268740547712,Tomorrow = the same weekday one week earlier; uses the real value from 7 days before (easier than forecasting 3 months ahead)

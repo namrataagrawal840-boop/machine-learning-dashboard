@@ -61,10 +61,10 @@ def render(f: D.Filters) -> None:
     c1, c2 = st.columns(2)
     with c1, cards.card("The plan in one table"):
         st.markdown(cards.html_table([
-            {"Solution": "<b>1 · Delivery Promise & Recovery Engine</b>", "Fixes": "Promise only what we can deliver; warn early; credit only persuadable customers",
+            {"Solution": "<b>1 · Delivery Promise & Recovery Engine</b>", "Fixes": "Promise only what we can deliver; warn early; credit likely-late customers (target once a larger test proves uplift)",
              "Main techniques": "Classification, regression (P90), K-Means, Apriori, uplift, A/B test"},
             {"Solution": "<b>2 · Trust-Tiered Instant Refunds</b>", "Fixes": "Instant refunds for trusted customers; stop bad returns at source",
-             "Main techniques": "Random forest tiers, K-Means on RFM, Apriori, regression, A/B test"},
+             "Main techniques": "Cross-validated, calibrated risk tiers, K-Means on RFM, Apriori, regression, A/B test"},
             {"Solution": "<b>3 · Case Ownership Engine</b>", "Fixes": "One owner per complaint, visible deadline, early contact",
              "Main techniques": "TF-IDF text classification, K-Means themes, regression, churn model"},
         ]), unsafe_allow_html=True)

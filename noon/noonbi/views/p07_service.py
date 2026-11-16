@@ -115,8 +115,8 @@ def _themes(S: dict) -> None:
         charts.show(fig, "p3_month", tm)
     cards.explanation("K-Means groups tickets by the words they use, without being told the topics, so managers see what customers "
                       "actually complain about, including themes nobody planned for.",
-                      "Most themes match one topic closely (purity above 85%). One theme is about template 'copy paste' replies "
-                      "themselves, and one large theme mixes refund and delivery wording.",
+                      "Several small themes match one topic closely (e.g. 'date keeps changing', 'tracking not moving'); one large theme "
+                      "collects short, general messages that mix issues. Greetings ('hi team', 'good morning') are removed first.",
                       "Each theme is sent to the team that owns the cause every week, so the source gets fixed, not just the ticket.",
                       "Unsupervised groups are imperfect; mixed themes are reviewed by a person.")
 

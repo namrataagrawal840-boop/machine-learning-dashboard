@@ -529,13 +529,112 @@ INFO["p1_ab_chart"] = INFO["p1_ab"]
 INFO["p2_ab_chart"] = INFO["p2_ab"]
 
 
+# --- explanations updated for the realistic data; {placeholders} are filled from the results at run time
+_UPDATES = [
+    ('cu_clv_scatter', 'made', 'XGBoost regression on orders, spend, recency, tenure, late orders, failed deliveries, returns, rejected refunds, tickets and repeat contacts. 70/30 split. R² about {clv_r2}.'),
+    ('cu_clv_scatter', 'careful', "Next year's profit comes from a separate simulated future (hidden buying rates, people moving away), so a large part is unpredictable from history. Profit assumes an 11% margin."),
+    ('cu_churn_imp', 'why', 'Recency and order frequency matter most, but late orders, rejected refunds and repeat contacts also appear, linking churn to the three problems.'),
+    ('cu_churn_roc', 'careful', 'AUC about {cust_churn_auc}: churn depends on life events no data shows, so moderate accuracy is expected.'),
+    ('cu_npd', 'careful', 'Honest result: accuracy {npd_acc} vs {npd_base} by always guessing the most common window — no better than guessing. Next-purchase timing is not predictable from these features, so it is not used for decisions.'),
+    ('p1_rules_chart', 'why', 'Combinations matter more than single factors, e.g. a poor seller who ships directly with a 3PL courier is late about {p1_top_rule} of the time.'),
+    ('p1_roc', 'why', 'All three models reach AUC about {p1_auc}; part of every delay (driver, traffic, depot load) cannot be seen at checkout, so no model is perfect.'),
+    ('p1_roc', 'careful', 'The test months include a courier-contract change and 40 new sellers (drift); page 11 shows month-by-month cross-validation.'),
+    ('p1_cm', 'why', '0.4 rather than 0.5 catches more late orders, because missing one costs more than a false alarm; page 11 finds the cost-minimising threshold.'),
+    ('p1_kept', 'why', 'Promise kept rises from about {p1_kept_today} to {p1_kept_p90} overall.'),
+    ('p1_kept', 'careful', 'The P90 date is longer (about {p1_p90_days} vs {p1_today_days} days). Whether that costs sales must be tested.'),
+    ('p1_ab', 'why', '+{p1_ab_up} points repeat buying with p ≈ {p1_ab_p}: unlikely to be chance, but the 95% range is wide ({p1_ab_lo} to {p1_ab_hi} points).'),
+    ('p1_uplift', 'read', 'Green bars = the credit helped; red = it did not. If the bars do not fall steadily from left to right, the model is not ranking reliably.'),
+    ('p1_uplift', 'why', 'Targeting only pays if ranking beats random; the Qini curve below checks this. With one small test it does not reliably, so credits go to all likely-late orders until a larger test.'),
+    ('p1_demand', 'made', 'Seasonal ARIMA {sarima_order} on log orders with yearly waves, sale events, the 14 Jun outage and the new Abu Dhabi hub as inputs, and a regression with trend, weekday, yearly waves and the same flags. Both trained to July 2026.'),
+    ('p1_demand', 'why', 'On unseen months SARIMA is about {sarima_mape} off and the regression {reg_mape} (repeating last week: {naive_mape}). Both see Yellow Friday more than doubling orders, so couriers and agents can be booked weeks ahead.'),
+    ('p1_sarima_acf', 'why', 'A p-value above 0.05 (here about {ljung}) means the errors look like random noise, so the model has captured the pattern.'),
+    ('p2_roc', 'why', 'The models rank reasonably (AUC about {p2_auc}), which is how trust tiers use them; 5-fold cross-validation then picked {p2_model}.'),
+    ('p2_imp', 'why', 'Prior returns, account age, how fast the item came back and missing photos matter most, so a slower refund can be explained to the customer.'),
+    ('p2_cm', 'what', 'On {p2_n} unseen returns, flagging the riskiest (score ≥ {p2_red}, the Red cut-off): {p2_tn} passes correctly left alone, {p2_fp} honest returns sent to inspection, {p2_fn} failures missed, {p2_tp} failures caught.'),
+    ('p2_cm', 'made', 'The cross-validated, calibrated model at the Red cut-off (top 5% of risk scores).'),
+    ('p2_cm', 'why', "As a yes/no judge it is weak (catches {p2_recall} of failures). Saying 'always passes' would be {p2_always} accurate. So it only decides how FAST to refund, never whether to refund: Red means 'inspect first'."),
+    ('p2_cm', 'careful', 'Accuracy alone is misleading because failures are rare.'),
+    ('p2_rules_chart', 'why', 'Ordering two sizes is followed by a return {p2_two_conf} of the time (lift about {p2_two_lift}); fashion from weak sellers or delivered late comes back about 2.5× more often. Fixes: size guide, seller checks, honest delivery dates.'),
+    ('p2_rules_chart', 'careful', 'The two-size flag is recorded on every order (not only returned ones), so the rule is not circular.'),
+    ('p2_ab', 'why', '+{p2_ab_up} points, p ≈ {p2_ab_p}: instant refunds make customers come back more (95% range {p2_ab_lo} to {p2_ab_hi} points).'),
+    ('p2_ab', 'careful', 'The test used a simple low-risk rule; {p2_guard} of instant refunds later failed the check, which is why the stricter model-based Green tier is used.'),
+    ('p3_cm', 'why', 'About {p3_acc} correct on messy text (typos, Arabizi, two issues in one message, 6% wrong agent tags), so most tickets go straight to the right team; unclear ones go to a person.'),
+    ('p3_cm', 'careful', "Some 'mistakes' are the agent's tag being wrong, not the model."),
+    ('p3_themes', 'careful', 'One large theme mixes many short, general messages; mixed themes are reviewed by a person. Greeting words are removed first.'),
+    ('p3_roc', 'read', 'Closer to the top-left = better. AUC around {p3_auc} here.'),
+    ('p3_bc', 'made', 'Synthetic tickets grouped by contacts. A market-response regression puts each extra contact at about +{p3_contact} points of churn.'),
+    ('p3_br', 'made', 'Synthetic tickets grouped by resolution time. Each extra day adds about {p3_day} points of churn.'),
+    ('sim1_d1', 'what', 'In the {sim1_n} simulation orders, the late rate for items fulfilled by noon vs shipped by the seller.'),
+    ('sim1_d3', 'read', 'High-risk orders were late about {p1_high_late} of the time, low-risk orders about {p1_low_late}.'),
+    ('sim2_d1', 'what', 'Return reasons in the {sim2_n} simulation returns.'),
+    ('sim2_d2', 'read', 'Green returns rarely fail; Red returns fail several times more often than average.'),
+    ('sim2_d2', 'made', 'Cross-validated, calibrated model scores on unseen returns.'),
+    ('sim2_d2', 'careful', 'Bands use the default cut-offs {p2_green} and {p2_red}.'),
+]
+for _k, _f, _v in _UPDATES:
+    if _k in INFO:
+        INFO[_k] = dict(INFO[_k], **{_f: _v})
+INFO["p1_ab_chart"] = INFO["p1_ab"]
+INFO["p2_ab_chart"] = INFO["p2_ab"]
+
+
+class _Keep(dict):
+    def __missing__(self, k):
+        return "{" + k + "}"
+
+
+def _values() -> dict:
+    """Numbers quoted in the explanations, read from the results so the text never goes stale."""
+    try:
+        from noonbi import data as D
+        S = D.summary()
+        pc = lambda x, d=0: f"{x * 100:.{d}f}%"  # noqa: E731
+        p1, p2, p3 = D.table("p1_cls_metrics"), D.table("p2_cls_metrics"), D.table("p3_churn_metrics")
+        ab = D.table("ab_tests")
+        cm = D.table("p2_confusion").iloc[0]
+        pr = D.table("p1_promise_compare")
+        rt = D.table("p1_risk_tiers").set_index("risk_tier")
+        r2 = D.table("p2_rules")
+        two = r2[r2["if"] == "Ordered two sizes"]
+        fc = D.table("p1_forecast_compare").set_index("model")["test_mape"]
+        n = cm["true_neg"] + cm["false_pos"] + cm["false_neg"] + cm["true_pos"]
+        return dict(
+            clv_r2=f"{D.table('cust_clv_metrics')['r2'].max():.2f}", cust_churn_auc=f"{D.table('cust_churn_metrics')['roc_auc'].max():.2f}",
+            npd_acc=pc(S["customers"]["npd_accuracy"]), npd_base=pc(S["customers"]["npd_baseline"]),
+            p1_top_rule=pc(D.table("p1_rules")["confidence"].iloc[0]), p1_auc=f"{p1['roc_auc'].max():.2f}",
+            p1_kept_today=pc(pr["kept_rate"].iloc[0]), p1_kept_p90=pc(pr["kept_rate"].iloc[1]),
+            p1_today_days=f"{pr['avg_promised_days'].iloc[0]:.1f}", p1_p90_days=f"{pr['avg_promised_days'].iloc[1]:.1f}",
+            p1_ab_up=f"{ab['uplift_pts'].iloc[0]:.1f}", p1_ab_p=f"{ab['p_value'].iloc[0]:.3f}",
+            p1_ab_lo=f"{ab['ci_low_pts'].iloc[0]:.1f}", p1_ab_hi=f"{ab['ci_high_pts'].iloc[0]:.1f}",
+            p2_ab_up=f"{ab['uplift_pts'].iloc[1]:.1f}", p2_ab_p=f"{ab['p_value'].iloc[1]:.3f}",
+            p2_ab_lo=f"{ab['ci_low_pts'].iloc[1]:.1f}", p2_ab_hi=f"{ab['ci_high_pts'].iloc[1]:.1f}", p2_guard=pc(ab["guardrail_fail_rate"].iloc[1], 1),
+            sarima_order=S["demand"]["sarima_order"], sarima_mape=pc(S["demand"]["sarima_mape_test"], 1),
+            reg_mape=pc(fc.get("Time-series regression", S["demand"]["mape_test"]), 1),
+            naive_mape=pc(S["demand"]["naive_mape_test"], 1), ljung=f"{S['demand']['sarima_ljungbox_p']:.2f}",
+            p2_auc=f"{p2['roc_auc'].max():.2f}", p2_model=S["p2"].get("chosen_model", "the best model"),
+            p2_n=f"{int(n):,}", p2_tn=f"{int(cm['true_neg']):,}", p2_fp=f"{int(cm['false_pos']):,}", p2_fn=f"{int(cm['false_neg']):,}",
+            p2_tp=f"{int(cm['true_pos']):,}", p2_recall=pc(cm["true_pos"] / max(cm["true_pos"] + cm["false_neg"], 1)),
+            p2_always=pc((cm["true_neg"] + cm["false_pos"]) / n, 1), p2_red=f"{S['p2']['red_cutoff']:.2f}", p2_green=f"{S['p2']['green_cutoff']:.3f}",
+            p2_two_conf=pc(two["confidence"].iloc[0]) if len(two) else "often", p2_two_lift=f"{two['lift'].iloc[0]:.1f}" if len(two) else "high",
+            p3_acc=pc(S["p3"]["topic_accuracy"]), p3_auc=f"{p3['roc_auc'].max():.2f}",
+            p3_contact=f"{S['p3']['churn_per_contact_pts']:.0f}", p3_day=f"{S['p3']['churn_per_day_pts']:.0f}",
+            sim1_n=f"{len(D.table('p1_orders')):,}", sim2_n=f"{len(D.table('p2_returns')):,}",
+            p1_high_late=pc(rt.loc["High risk", "actual_late_rate"]), p1_low_late=pc(rt.loc["Low risk", "actual_late_rate"]),
+        )
+    except Exception:  # pragma: no cover - explanations still render, with placeholders
+        return {}
+
+
 def get(key: str) -> dict | None:
-    if key in INFO:
-        return INFO[key]
-    for prefix in ("sim1_live", "sim2_live", "sim3_live"):
-        if key.startswith(prefix):
-            return INFO[prefix]
-    return None
+    inf = INFO.get(key)
+    if inf is None:
+        for prefix in ("sim1_live", "sim2_live", "sim3_live"):
+            if key.startswith(prefix):
+                inf = INFO[prefix]
+    if inf is None:
+        return None
+    vals = _Keep(_values())
+    return {k: (v.format_map(vals) if isinstance(v, str) else v) for k, v in inf.items()}
 
 
 def markdown(info: dict) -> str:
@@ -545,3 +644,64 @@ def markdown(info: dict) -> str:
             f"**How it is made:** {info['made']}\n\n"
             f"**Why it matters:** {info['why']}\n\n"
             f"**Be careful:** {info['careful']}")
+
+
+# --- charts added with the validation work
+INFO.update({
+    "p2_calib": dict(
+        title="Can the refund-risk scores be read as real chances? (calibration)",
+        what="Unseen returns split into ten groups by predicted fail risk: the average prediction (x) against the share that really failed (y).",
+        read="Points on the dotted line = a score of 10% really means 1 in 10 fail. Above the line = the model under-states risk.",
+        made="Model scores and Platt-calibrated scores (sigmoid fitted by 5-fold cross-validation). The Brier score in the legend is the average squared error.",
+        why="The fraud cap is set in money, so the Green cut-off needs honest probabilities, not just a good ranking.",
+        careful="Each point is about 140 returns, so points wobble a little."),
+    "p2_cutoff_curve": dict(
+        title="Speed vs risk: choosing the Green cut-off",
+        what="For every possible Green cut-off: the share of returns refunded instantly (green) and the money paid early on items that later fail inspection, as a share of all refund value (red).",
+        read="Moving right gives more instant refunds but more money at risk. The dotted red line is the 0.5% cap; the dashed line is your slider.",
+        made="Out-of-fold scores on the training returns chose the default ({p2_green}); the chart checks it on unseen returns.",
+        why="Turns a policy (fraud budget) into a number the operations team can set and defend.",
+        careful="Not every failed check is fraud and some value is recovered, so this is an upper bound."),
+    "p1_qini": dict(
+        title="Does ranking by the uplift model beat random? (Qini curve)",
+        what="Extra repeat buyers gained when credits go to the top x% by predicted uplift (green) vs to a random x% (dotted).",
+        read="Green above the dotted line = the model finds persuadable customers. Touching or below = it does not.",
+        made="Two-model uplift scored out-of-fold on the randomised test (about 1,750 late orders).",
+        why="Decides whether to target credits or simply give them to every likely-late order.",
+        careful="Uplift needs much more data than an average effect; a larger test is needed before targeting."),
+    "val_p1_time": dict(
+        title="Late-delivery model, month by month (time-series cross-validation)",
+        what="ROC-AUC when each model is trained on all earlier months and tested on the next month, June to October 2026.",
+        read="A flat line = stable model. A dip = something changed that month.",
+        made="Expanding-window folds; seller history recomputed from the training months each time.",
+        why="Shows how the model behaves in production, where it always predicts the future.",
+        careful="The August dip is drift (courier contract, new sellers) — a reason to retrain monthly."),
+    "val_cost": dict(
+        title="Late-delivery flag: total cost by threshold",
+        what="Cost on unseen orders of false alarms (AED 8 each) plus missed late orders (AED 35 each) for every threshold.",
+        read="The lowest point is the cheapest threshold; a flat bottom means several thresholds are about as good.",
+        made="XGBoost late-risk scores on Aug – Oct 2026 orders; costs are stated assumptions.",
+        why="Thresholds should come from business costs, not the default 0.5.",
+        careful="Replace the cost assumptions with finance figures."),
+    "val_fair": dict(
+        title="Fairness: honest returns sent to the inspection tier",
+        what="For returns that PASSED inspection, the share the model still sent to Red, by account age and emirate.",
+        read="Similar bars = similar treatment. A much longer bar = that group of honest customers is checked more.",
+        made="Calibrated QC model at the default cut-offs on unseen returns.",
+        why="New accounts are checked far more; Red must stay 'inspect first', never 'refuse', and a photo fast-lane is proposed.",
+        careful="Small groups (e.g. Umm Al Quwain) move a lot by chance."),
+    "val_backtest": dict(
+        title="Forecast back-test: four start dates",
+        what="Error (MAPE) of 28-day forecasts started on four different dates, for SARIMA, regression and 'repeat last week'.",
+        read="Lower bar = better. Compare the models within each start date.",
+        made="Each model refitted on data before the start date only, with event, outage and hub flags.",
+        why="One test window can flatter a model; several start dates show which is reliably good.",
+        careful="'Repeat last week' looks good in quiet weeks and fails around events."),
+    "val_resp_chart": dict(
+        title="What the simulator learned from the data (response models)",
+        what="The effect of each input on the chosen outcome, with an 80% range from 100 bootstrap refits.",
+        read="Right = raises the outcome; left = lowers it. A range crossing zero = not clearly different from no effect.",
+        made="Logistic (or linear, for CSAT) regression on the recorded data only; hidden generator variables are never used.",
+        why="These are the numbers that turn 'faster refund' into 'more customers come back' in the simulator.",
+        careful="Credit and instant-refund effects come from randomised tests; the others are associations."),
+})

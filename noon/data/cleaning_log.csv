@@ -10,5 +10,5 @@ returns,Remove duplicates,60,Dropped repeated return_id rows,Avoid double-counti
 returns,Standardise return reasons,70,Mapped short or upper-case reasons to the 6 official labels,One reason must have one name.
 returns,Impossible refund time,40,Set negative refund days to missing,A refund cannot arrive before the return; the rest of the row is still valid.
 tickets,Remove duplicates,70,Dropped repeated ticket_id rows,Avoid double-counting complaints.
-tickets,Out-of-range CSAT,50,Set CSAT outside 1–5 to missing,The survey scale is 1–5; a 7 is a typing error.
+tickets,Out-of-range CSAT,3662,Set CSAT outside 1–5 to missing,The survey scale is 1–5; a 7 is a typing error.
 tickets,Empty ticket text,40,"Kept for counts, excluded from text models","There is nothing to read, but the contact still happened."

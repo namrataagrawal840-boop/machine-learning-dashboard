@@ -1,36 +1,54 @@
 {
   "boost_model": "XGBoost",
   "seed": 20261110,
+  "validation": {
+    "qini_auuc": -0.002354516517349083
+  },
   "demand": {
-    "mape_test": 0.02359338050923738,
-    "sarima_order": "(0,1,1)(0,1,1)[7]",
-    "sarima_aic": -2666.5176060131625,
-    "sarima_mape_test": 0.02369585281355972,
-    "sarima_ljungbox_p": 0.2592821645499867,
-    "sarima_peak_forecast": 196638.0,
+    "mape_test": 0.037937473184998204,
+    "sarima_order": "(1,1,1)(1,0,1)[7]",
+    "sarima_aic": -2732.3371533191657,
+    "sarima_mape_test": 0.04791342974417832,
+    "sarima_ljungbox_p": 0.815168692035836,
+    "sarima_peak_forecast": 198368.0,
     "sarima_peak_date": "2026-11-27",
-    "naive_mape_test": 0.0999268740547712
+    "naive_mape_test": 0.10573625352568018
   },
   "p2": {
-    "green_fail_value_share": 0.026461439338002733,
-    "green_share": 0.5403005464480874,
-    "refund_days_today_median": 11.0,
-    "keep_it_mae": 15.182825248524134,
-    "keep_it_r2": 0.955911886489747
+    "green_fail_value_share": 0.01367863690888345,
+    "green_loss_share_all": 0.0024575582111617594,
+    "green_share": 0.2907647907647908,
+    "green_cutoff": 0.04,
+    "red_cutoff": 0.23251371917274083,
+    "chosen_model": "Random forest (leaf=30)",
+    "brier_oof_raw": 0.06992055893498667,
+    "brier_oof_cal": 0.06944797118498724,
+    "calibrated": true,
+    "brier_test": 0.0666609797409636,
+    "test_auc_chosen": 0.7833561581936613,
+    "auc_ci": [
+      0.740027885328887,
+      0.8265018861236696
+    ],
+    "red_precision": 0.38636363636363635,
+    "red_recall": 0.3008849557522124,
+    "refund_days_today_median": 12.0,
+    "keep_it_mae": 14.91889791913666,
+    "keep_it_r2": 0.9529198993607301
   },
   "p3": {
-    "topic_accuracy": 0.9751056834194457,
-    "topic_macro_f1": 0.9576462006052926,
-    "anger_auc": 0.8529717349375459,
+    "topic_accuracy": 0.815004659832246,
+    "topic_macro_f1": 0.698883480729205,
+    "anger_auc": 0.7860683244436555,
     "theme_k": 7,
-    "resolution_mae_h": 18.41014880495133,
-    "resolution_r2": 0.5938637346770452,
-    "resolution_intercept": 2.418848719282636,
-    "churn_per_contact_pts": 8.936020462643297,
-    "churn_per_day_pts": 3.415769855896607
+    "resolution_mae_h": 19.733013562903334,
+    "resolution_r2": 0.5296620658157973,
+    "resolution_intercept": 0.7606399219102329,
+    "churn_per_contact_pts": 8.876607619969832,
+    "churn_per_day_pts": 3.25977587280371
   },
   "customers": {
-    "npd_accuracy": 0.608342989571263,
-    "npd_baseline": 0.5081112398609502
+    "npd_accuracy": 0.40075853350189633,
+    "npd_baseline": 0.3969658659924147
   }
 }

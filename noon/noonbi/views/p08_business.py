@@ -21,7 +21,7 @@ PILLARS = [
     ("5", "Next purchase day", "When a customer will buy next", "Timing of win-back messages and follow-ups"),
     ("6", "Predicting sales", "Forecast demand ahead", "Courier and agent capacity for Yellow Friday, Ramadan"),
     ("7", "Market response models", "How customers react to what we change", "Effect of contacts and resolution time on churn"),
-    ("8", "Uplift modelling", "Who changes because of our action", "Credits only for persuadable customers"),
+    ("8", "Uplift modelling", "Who changes because of our action", "Target credits once the Qini curve beats random"),
     ("9", "A/B testing", "A fair experiment to prove cause", "Every solution is tested against today's process"),
 ]
 KPIS = [

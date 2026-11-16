@@ -1,16 +1,16 @@
 problem,feature,importance
-Late delivery,sale_event = Yellow Friday,0.13148794
-Late delivery,courier = 3PL partner B,0.067973934
-Late delivery,category = Grocery,0.05568378
-Late delivery,emirate = Abu Dhabi,0.044869028
-Late delivery,seller_late_rate,0.04321722
-Late delivery,zone_type = Remote,0.040953793
-Late delivery,sale_event = None,0.038553037
-Late delivery,zone_type = Villa community,0.038433358
-Late delivery,courier = In-house fleet,0.03600725
-Late delivery,fulfilment = Fulfilled by noon,0.035795137
-Late delivery,address_quality = Partial address,0.033872515
-Late delivery,fulfilment = Ships directly,0.02762408
-Late delivery,emirate = Dubai,0.024999727
-Late delivery,time_slot = Evening,0.023904897
-Late delivery,time_slot = Late evening,0.023233559
+Late delivery,sale_event = Yellow Friday,0.10431513
+Late delivery,courier = 3PL partner B,0.065927945
+Late delivery,emirate = Abu Dhabi,0.053345658
+Late delivery,zone_type = Remote,0.046951156
+Late delivery,category = Grocery,0.045301143
+Late delivery,zone_type = Villa community,0.044299316
+Late delivery,courier = In-house fleet,0.043114793
+Late delivery,sale_event = None,0.042455506
+Late delivery,seller_late_rate,0.036979258
+Late delivery,address_quality = Partial address,0.036071293
+Late delivery,fulfilment = Fulfilled by noon,0.032423045
+Late delivery,time_slot = Late evening,0.0278896
+Late delivery,time_slot = Evening,0.025099913
+Late delivery,fulfilment = Ships directly,0.0183101
+Late delivery,seller_avg_handover_h,0.017759858

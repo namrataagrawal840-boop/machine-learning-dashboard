@@ -290,10 +290,37 @@ def uplift_and_ab(orders: pd.DataFrame) -> dict:
         include_groups=False).reset_index()
     dec["observed_uplift_pts"] = (dec["treated_rate"] - dec["control_rate"]) * 100
     out["p1_uplift_groups"] = dec
+    out["_uplift_frame"] = t[["treated", "repurchase_60d", "pred_uplift"]]
     ab = _two_prop(int(t.loc[t.treated == 0, "repurchase_60d"].sum()), int((t.treated == 0).sum()),
                    int(t.loc[t.treated == 1, "repurchase_60d"].sum()), int((t.treated == 1).sum()))
     ab.update({"test": "Solution 1: early message + credit for likely-late orders", "metric": "Bought again within 60 days"})
     return out, ab
+
+
+def demand_features(dates: pd.Series) -> pd.DataFrame:
+    """Calendar inputs a forecaster knows in advance: trend, weekdays, yearly waves, sale events, and two known
+    one-offs that would otherwise fool the model — the 14 Jun 2026 outage and the new Abu Dhabi hub (from 1 Apr 2026)."""
+    from analysis.synthetic import EVENTS
+    dates = pd.Series(pd.to_datetime(dates)).reset_index(drop=True)
+    X = pd.DataFrame({"trend": (dates - pd.Timestamp("2024-11-01")).dt.days.to_numpy()})
+    for k in range(1, 4):
+        X[f"sin{k}"] = np.sin(2 * np.pi * k * dates.dt.dayofyear / 365.25)
+        X[f"cos{k}"] = np.cos(2 * np.pi * k * dates.dt.dayofyear / 365.25)
+    for dw in range(1, 7):
+        X[f"dow{dw}"] = (dates.dt.dayofweek == dw).astype(int)
+    names = {}
+    for name, a, b, _ in EVENTS:
+        names[name] = [(pd.Timestamp(a) + pd.DateOffset(years=k), pd.Timestamp(b) + pd.DateOffset(years=k)) for k in (-1, 0, 1)]
+    names["Ramadan"] = [(pd.Timestamp("2026-02-18"), pd.Timestamp("2026-03-19")), (pd.Timestamp("2025-03-01"), pd.Timestamp("2025-03-29"))]
+    names["Eid al-Fitr"] = [(pd.Timestamp("2026-03-20"), pd.Timestamp("2026-03-23")), (pd.Timestamp("2025-03-30"), pd.Timestamp("2025-04-02"))]
+    for name, spans in names.items():
+        col = np.zeros(len(dates))
+        for a, b in spans:
+            col[((dates >= a) & (dates <= b)).to_numpy()] = 1
+        X[f"ev_{name}"] = col
+    X["ev_Outage 14 Jun"] = (dates == pd.Timestamp("2026-06-14")).astype(int).to_numpy()
+    X["ev_New Abu Dhabi hub"] = (dates >= pd.Timestamp("2026-04-01")).astype(int).to_numpy()
+    return X
 
 
 def demand_forecast(daily: pd.DataFrame) -> dict:
@@ -301,25 +328,7 @@ def demand_forecast(daily: pd.DataFrame) -> dict:
     from analysis.synthetic import EVENTS
     future = pd.DataFrame({"date": pd.date_range(d["date"].max() + pd.Timedelta(days=1), periods=45)})
     allx = pd.concat([d, future], ignore_index=True)
-    t = (allx["date"] - allx["date"].min()).dt.days.to_numpy()
-    X = pd.DataFrame({"trend": t})
-    for k in range(1, 4):
-        X[f"sin{k}"] = np.sin(2 * np.pi * k * allx["date"].dt.dayofyear / 365.25)
-        X[f"cos{k}"] = np.cos(2 * np.pi * k * allx["date"].dt.dayofyear / 365.25)
-    for dw in range(1, 7):
-        X[f"dow{dw}"] = (allx["date"].dt.dayofweek == dw).astype(int)
-    ev = pd.Series(0, index=allx.index)
-    names = {}
-    for name, a, b, _ in EVENTS:
-        names[name] = [(pd.Timestamp(a), pd.Timestamp(b)), (pd.Timestamp(a) - pd.DateOffset(years=1), pd.Timestamp(b) - pd.DateOffset(years=1)),
-                       (pd.Timestamp(a) + pd.DateOffset(years=1), pd.Timestamp(b) + pd.DateOffset(years=1))]
-    names["Ramadan"] = [(pd.Timestamp("2026-02-18"), pd.Timestamp("2026-03-19")), (pd.Timestamp("2025-03-01"), pd.Timestamp("2025-03-29"))]
-    names["Eid al-Fitr"] = [(pd.Timestamp("2026-03-20"), pd.Timestamp("2026-03-23")), (pd.Timestamp("2025-03-30"), pd.Timestamp("2025-04-02"))]
-    for name, spans in names.items():
-        col = np.zeros(len(allx))
-        for a, b in spans:
-            col[(allx["date"] >= a) & (allx["date"] <= b)] = 1
-        X[f"ev_{name}"] = col
+    X = demand_features(allx["date"])
     y = np.log(allx["orders"])
     cut = pd.Timestamp("2026-08-01")
     trn = allx["date"] < cut
@@ -429,13 +438,15 @@ def _sarima(allx: pd.DataFrame, X: pd.DataFrame, y: pd.Series, trn, tst) -> tupl
 # ===================================================================== Problem 2 — refunds
 P2_CATS = ["category", "return_reason", "refund_method", "fulfilment", "membership", "item_size"]
 P2_NUMS = ["prior_returns_12m", "account_age_months", "days_since_delivery", "item_value_aed", "photos_uploaded",
-           "seller_quality_flag", "ordered_two_sizes"]
+           "photos_missing", "seller_quality_flag", "ordered_two_sizes"]
 
 
 def problem2(returns: pd.DataFrame, orders: pd.DataFrame, cust: pd.DataFrame) -> dict:
     out, info = {}, {}
     r = returns.copy()
     r["qc_failed"] = 1 - r["qc_passed"]
+    r["photos_missing"] = r["photos_uploaded"].isna().astype(int)   # older app version: unknown, not 'no'
+    r["photos_uploaded"] = r["photos_uploaded"].fillna(0)
     X = _design(r, P2_CATS, P2_NUMS)
     X_tr, X_te, y_tr, y_te, i_tr, i_te = train_test_split(X, r["qc_failed"], r.index, test_size=0.3, random_state=RS,
                                                           stratify=r["qc_failed"])
@@ -445,11 +456,24 @@ def problem2(returns: pd.DataFrame, orders: pd.DataFrame, cust: pd.DataFrame) ->
     m, roc, preds = _clf_suite(X_tr, X_te, y_tr.to_numpy(), y_te.to_numpy(), models, 0.5, "Return fails QC")
     out["p2_cls_metrics"], out["p2_roc"] = m, roc
     out["p2_importance"] = _importance(rf, list(X.columns), "Return fails QC")
-    p = preds["Random forest"]
-    out["p2_confusion"] = _confusion(y_te.to_numpy(), p, 0.5, "Return fails QC", "Random forest")
+
+    # ---- choose, tune and calibrate the scoring model using the TRAINING returns only (5-fold CV)
+    from analysis import validation as V
+    sel = V.select_and_calibrate(X_tr, y_tr.to_numpy(), "Return fails QC")
+    out["p2_model_selection"] = sel["table"]
+    chosen = sel["model"]
+    p = chosen.predict_proba(X_te)[:, 1]
+    oof = sel["oof"]
+    # Green cut-off: the highest score where OUT-OF-FOLD money paid early on failed items stays ≤0.5% of all refund value
+    green_cut = V.green_cutoff(oof, y_tr.to_numpy(), r.loc[i_tr, "item_value_aed"].to_numpy(), cap=0.005)
+    red_cut = float(np.quantile(oof, 0.95))  # top 5% of risk scores get a full check before refund
+    out["p2_cutoff_curve"] = V.cutoff_curve(p, y_te.to_numpy(), r.loc[i_te, "item_value_aed"].to_numpy())
+    out["p2_calibration"] = V.calibration_table(y_te.to_numpy(), {"Model scores": sel["raw_test"](X_te),
+                                                                    "Platt-calibrated": sel["cal_test"](X_te)}, "Return fails QC")
+    out["p2_confusion"] = _confusion(y_te.to_numpy(), p, red_cut, "Return fails QC", sel["name"])
     te = r.loc[i_te].copy()
     te["p_fail"] = p
-    te["tier"] = np.select([p < 0.15, p < 0.5], ["Green", "Amber"], "Red")
+    te["tier"] = np.select([p < green_cut, p < red_cut], ["Green", "Amber"], "Red")
     tiers = te.groupby("tier").agg(returns=("return_id", "size"), actual_fail_rate=("qc_failed", "mean"),
                                    avg_value=("item_value_aed", "mean"),
                                    value=("item_value_aed", "sum")).reindex(["Green", "Amber", "Red"]).reset_index()
@@ -457,9 +481,21 @@ def problem2(returns: pd.DataFrame, orders: pd.DataFrame, cust: pd.DataFrame) ->
     loss = te.loc[(te["tier"] == "Green") & (te["qc_failed"] == 1), "item_value_aed"].sum()
     tiers["refund_timing"] = ["When courier collects the item", "When warehouse scans it (≤24h)", "After full quality check"]
     out["p2_tiers"] = tiers
+    out["p2_fairness"] = V.fairness_table(te)
     out["p2_test_scores"] = te[["return_id", "p_fail", "qc_failed", "item_value_aed", "category", "return_reason"]].round(4)
-    info["green_fail_value_share"] = float(loss / te.loc[te["tier"] == "Green", "item_value_aed"].sum())
+    info["green_fail_value_share"] = float(loss / max(te.loc[te["tier"] == "Green", "item_value_aed"].sum(), 1))
+    info["green_loss_share_all"] = float(loss / te["item_value_aed"].sum())
     info["green_share"] = float((te["tier"] == "Green").mean())
+    info["green_cutoff"], info["red_cutoff"] = float(green_cut), float(red_cut)
+    info["chosen_model"] = sel["name"]
+    info["brier_oof_raw"], info["brier_oof_cal"], info["calibrated"] = sel["brier_oof_raw"], sel["brier_oof_cal"], sel["calibrated"]
+    info["brier_test"] = float(np.mean((p - y_te.to_numpy()) ** 2))
+    info["test_auc_chosen"] = float(roc_auc_score(y_te, p))
+    info["auc_ci"] = V.bootstrap_auc(y_te.to_numpy(), p)
+    info["red_precision"] = float(te.loc[te["tier"] == "Red", "qc_failed"].mean())
+    info["red_recall"] = float(te.loc[te["tier"] == "Red", "qc_failed"].sum() / max(te["qc_failed"].sum(), 1))
+    out["_p2_live_model"] = V.export_logit(X_tr, y_tr.to_numpy(), "p_fail")
+    out["_cutoffs"] = (green_cut, red_cut)
     info["refund_days_today_median"] = float(r["refund_days"].median())
 
     # ---- K-Means on RFM + return behaviour
@@ -498,11 +534,10 @@ def problem2(returns: pd.DataFrame, orders: pd.DataFrame, cust: pd.DataFrame) ->
     # ---- Apriori: what goes with a return
     o = orders.copy()
     o["returned"] = o["order_id"].isin(r["order_id"]).astype(int)
-    two = r.set_index("order_id")["ordered_two_sizes"]
     poor = set(r.loc[r["seller_quality_flag"] == 1, "seller_id"])
     items = pd.DataFrame({
         "Fashion": o["category"] == "Fashion", "Electronics": o["category"] == "Electronics",
-        "Ordered two sizes": o["order_id"].map(two).fillna(0).astype(bool),
+        "Ordered two sizes": o["multi_size_basket"] == 1,
         "Poor-quality seller": o["seller_id"].isin(poor), "Late delivery": o["late"] == 1,
         "Sale day": o["on_sale"] == 1, "Seller ships directly": o["fulfilment"] == "Ships directly",
         "Order value AED 500+": o["order_value_aed"] >= 500, "Returned": o["returned"] == 1})
@@ -553,7 +588,11 @@ def problem2(returns: pd.DataFrame, orders: pd.DataFrame, cust: pd.DataFrame) ->
 def problem3(tickets: pd.DataFrame) -> dict:
     out, info = {}, {}
     t = tickets[tickets["has_text"] == 1].copy()
-    vec = TfidfVectorizer(ngram_range=(1, 2), min_df=3, stop_words="english", sublinear_tf=True)
+    # greetings and politeness carry no topic; analysts add them to the stop-word list
+    from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+    polite = {"hi", "hello", "team", "good", "morning", "regards", "kindly", "please", "pls", "plz", "need", "assistance", "check",
+              "thank", "thanks", "help", "advise", "update", "attached", "number", "reply", "write", "time", "2nd"}
+    vec = TfidfVectorizer(ngram_range=(1, 2), min_df=3, stop_words=list(ENGLISH_STOP_WORDS | polite), sublinear_tf=True)
     Xt = vec.fit_transform(t["text"])
     a, b, ya, yb, ia, ib = train_test_split(Xt, t["topic"], t.index, test_size=0.25, random_state=RS, stratify=t["topic"])
     clf = LogisticRegression(max_iter=3000, C=4)
@@ -614,9 +653,11 @@ def problem3(tickets: pd.DataFrame) -> dict:
     info["resolution_intercept"] = float(lin.intercept_)
 
     # ---- churn after a complaint (classification)
+    tk["csat_missing"] = tk["csat"].isna().astype(int)   # skipping the survey is itself a signal (unhappy customers skip it)
     tk["csat_score"] = tk["csat"].fillna(tk["csat"].median())
-    Xc = _design(tk, ["topic", "channel", "membership"], ["contacts", "resolution_hours", "reopened", "csat_score",
+    Xc = _design(tk, ["topic", "channel", "membership"], ["contacts", "resolution_hours", "reopened", "csat_score", "csat_missing",
                                                           "template_reply", "tenure_months", "order_value_aed", "angry"])
+    out["_cv_p3"] = (Xc, tk["churn_90d"].to_numpy())
     ca, cb, cya, cyb = train_test_split(Xc, tk["churn_90d"], test_size=0.3, random_state=RS, stratify=tk["churn_90d"])
     boost = _boost_clf()
     models = {"Logistic regression": LogisticRegression(max_iter=3000, class_weight="balanced"),
@@ -689,6 +730,7 @@ def customer_models(cust: pd.DataFrame) -> dict:
                                                       churn=("churned_next90d", "mean")).reindex(["Low", "Mid", "High"]).reset_index()
     out["cust_clv_sample"] = pd.DataFrame({"actual": yb, "predicted": bo.predict(b)}).sample(min(1500, len(yb)), random_state=RS)
     # churn (Blog 4)
+    out["_cv_cust"] = (X, c["churned_next90d"].to_numpy())
     ca, cb, cya, cyb = train_test_split(X, c["churned_next90d"], test_size=0.3, random_state=RS, stratify=c["churned_next90d"])
     boost = _boost_clf()
     m, roc, _ = _clf_suite(ca, cb, cya.to_numpy(), cyb.to_numpy(),
@@ -697,7 +739,7 @@ def customer_models(cust: pd.DataFrame) -> dict:
     out["cust_churn_importance"] = _importance(boost, list(X.columns), "Customer churn", 12)
     # next purchase day (Blog 5) — classes
     act = c[c["next_purchase_days"].notna()].copy()
-    act["npd_class"] = pd.cut(act["next_purchase_days"], [0, 14, 45, 999], labels=["0–14 days", "15–45 days", "46+ days"]).astype(str)
+    act["npd_class"] = pd.cut(act["next_purchase_days"], [-1, 14, 45, 999], labels=["0–14 days", "15–45 days", "46+ days"]).astype(str)
     Xn = X.loc[act.index]
     na, nb, nya, nyb = train_test_split(Xn, act["npd_class"], test_size=0.3, random_state=RS, stratify=act["npd_class"])
     rf = RandomForestClassifier(300, min_samples_leaf=5, random_state=RS, n_jobs=4).fit(na, nya)

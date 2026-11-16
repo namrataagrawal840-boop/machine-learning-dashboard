@@ -16,7 +16,7 @@ esc = cards.esc
 def render(f: D.Filters) -> None:
     cards.page_header("Problem 1 · Delayed and unreliable deliveries",
                       "Solution: the Delivery Promise & Recovery Engine — promise a date noon can keep, warn the customer "
-                      "before they chase, and give a credit only to customers it will win back.",
+                      "before they chase, and win the customer back with a credit if the order still goes late.",
                       "Classification · regression · clustering · association · uplift · A/B",
                       [("Orders", "synthetic"), ("Models", "derived")])
     o = f.apply(D.table("orders"), "order_date")
@@ -192,11 +192,13 @@ def _predict() -> None:
             C.confusion_chart(cm, key="p1_cm")
         cards.explanation("Three classifiers predict late / on time. Recall = share of truly late orders the model catches; "
                           "precision = share of flagged orders that really are late.",
-                          f"Boosted trees and random forest beat the simple logistic regression slightly (ROC-AUC ≈ {m['roc_auc'].max():.2f}). "
-                          "The biggest drivers are the seller's handover history, who ships the item, and the courier.",
-                          "Flagged orders get action before they are late. The threshold is set at 0.4 rather than 0.5 to catch "
-                          "more late orders, because missing one costs more than a false alarm.",
-                          "Accuracy on real data will differ; the method and the comparison stay the same.")
+                          f"All three models score about the same (ROC-AUC ≈ {m['roc_auc'].max():.2f}): about a fifth of the delay "
+                          "comes from things nobody can see at checkout (driver, traffic, sudden load). The biggest known drivers "
+                          "are the seller's handover history, who ships the item, the courier and sale days.",
+                          "Flagged orders get action before they are late. The threshold of 0.4 used here is close to the "
+                          "cost-minimising one on page 11 (missing a late order costs more than a false alarm).",
+                          "In August a courier contract changed and 40 new sellers joined, so the test months differ from training; "
+                          "page 11 shows the month-by-month cross-validation.")
     with cards.card("Acting by risk level"):
         charts.table(tiers, "p1_tiers", "risk_tiers.csv", column_config={
             "actual_late_rate": st.column_config.ProgressColumn("Actually late", min_value=0, max_value=1, format="%.2f"),
@@ -259,13 +261,27 @@ def _recover(ab: pd.Series) -> None:
                     text=[f"{v:+.1f}" for v in up["observed_uplift_pts"]], textposition="outside", cliponaxis=False)
         fig.update_layout(xaxis_title="Customers ranked by predicted uplift", yaxis_title="Observed extra repeat buying (pts)")
         charts.show(fig, "p1_uplift", up, height=320)
+        q = D.table("val_qini")
+        auuc = D.summary().get("validation", {}).get("qini_auuc", np.nan)
+        fig = go.Figure()
+        fig.add_scatter(x=q["share_targeted"] * 100, y=q["qini"], name="Ranked by the uplift model", line=dict(color=theme.GREEN, width=3))
+        fig.add_scatter(x=q["share_targeted"] * 100, y=q["random"], name="Random targeting", line=dict(color=theme.SLATE, dash="dot"))
+        fig.update_layout(xaxis_title="% of late-order customers given a credit", yaxis_title="Extra repeat buyers (Qini)",
+                          legend=dict(orientation="h", y=-0.25))
+        charts.show(fig, "p1_qini", q, height=300)
         top = up.iloc[:2]
+        works = bool(auuc > 0.002)
         cards.explanation("One model predicts repeat buying <i>with</i> a credit, another <i>without</i>; the difference is each "
-                          "customer's uplift. Customers are ranked by it and the real test results are checked in each group.",
-                          f"The top 40% gain about {top['observed_uplift_pts'].mean():.0f} points from the credit. The bottom group "
-                          "gains nothing or less (they would come back anyway, or will not come back at all).",
-                          "Give credits only to the top groups: most of the benefit for well under half the cost.",
-                          "Uplift is estimated from one 3-month test; it should be re-checked every few months.")
+                          "customer's uplift. The bars check the real test result inside each group; the Qini curve asks whether "
+                          "ranking by the model beats handing credits out at random.",
+                          f"The credit works on average (+{ab['uplift_pts']:.1f} pts, page 6 test). The top 40% by predicted uplift "
+                          f"gained {top['observed_uplift_pts'].mean():+.1f} pts, but the groups jump around and the Qini curve "
+                          + ("stays above" if works else "does not stay above") + " the random line "
+                          f"(area {auuc:+.3f}).",
+                          ("Target credits at the top groups." if works else
+                           "Honest conclusion: with about 1,750 test customers the model cannot reliably pick out who the credit "
+                           "persuades. Give it to all likely-late orders for now, and run a larger test before targeting."),
+                          "Uplift needs far more data than an average effect; one 3-month test is not enough to target individuals.")
 
 
 def _demand() -> None:
@@ -314,10 +330,11 @@ def _demand() -> None:
             '<p><b>ARIMA</b> predicts tomorrow from the series itself: recent values (<b>AR</b>, auto-regressive), the change from day '
             'to day (<b>I</b>, integrated / differencing) and its own recent mistakes (<b>MA</b>, moving average).</p>'
             '<p><b>Seasonal</b> adds the same idea one week back, because Thursdays look like last Thursday. The <b>X</b> in SARIMAX '
-            'means extra inputs: the yearly shape and the sale-event flags (Ramadan, Eid, DSF, Yellow Friday, 11.11).</p>'
-            f'<p><b>Chosen model: {esc(S.get("sarima_order", ""))}.</b> Read it as: compare each day with the day before and with the '
-            'same weekday last week, then correct with the last day\'s and last week\'s error. This is the classic "airline model" '
-            'and it had the lowest AIC of the six models tried.</p></div>', unsafe_allow_html=True)
+            'means extra inputs: the yearly shape, the sale-event flags (Ramadan, Eid, DSF, Yellow Friday, 11.11) and two known '
+            'one-offs a forecaster would mark by hand: the 14 Jun outage and the new Abu Dhabi hub from April.</p>'
+            f'<p><b>Chosen model: {esc(S.get("sarima_order", ""))}</b>, the lowest AIC of the six models tried on the training months. '
+            'Read (p,d,q)(P,D,Q)[7] as: p days of history, d differences, q past errors, and the same three for the weekly cycle.</p></div>',
+            unsafe_allow_html=True)
         charts.table(grid, "p1_sarima_grid", "sarima_model_search.csv", column_config={
             "aic": st.column_config.NumberColumn("AIC (lower = better)", format="%.0f"),
             "chosen": st.column_config.CheckboxColumn("Chosen")})
@@ -346,9 +363,10 @@ def _demand() -> None:
             charts.show(fig, "p1_events", ev, height=260)
         cards.explanation("Two forecasting methods, both trained to July and tested on August–October without seeing it, plus a "
                           "simple benchmark. Error = average % gap between forecast and actual orders (MAPE).",
-                          f"Both models are about {C.pct(S.get('sarima_mape_test', np.nan), 1)} off on unseen months, about four times better "
-                          "than the benchmark. Both see Yellow Friday more than doubling daily orders.",
-                          "Use Seasonal ARIMA for the next few weeks (it reacts to the latest days) and check it against the regression for "
-                          "peaks. Courier and agent capacity can be booked weeks before the surge, when most late orders happen.",
+                          f"SARIMA is {C.pct(S.get('sarima_mape_test', np.nan), 1)} off and the regression {C.pct(S.get('mape_test', np.nan), 1)} on "
+                          f"unseen months, against {C.pct(S.get('naive_mape_test', np.nan), 1)} for the benchmark. The simpler regression is as good or "
+                          "slightly better here; the 4-date back-test on page 11 shows the two trade places. Both see Yellow Friday more than doubling orders.",
+                          "Use both and plan on the higher of the two for peaks. Courier and agent capacity can be booked weeks before the "
+                          "surge, when most late orders happen.",
                           "Synthetic series. A 365-day seasonal lag is too long for two years of daily data, so the yearly shape enters as "
                           "inputs. The 80% range widens the further ahead it looks.")

@@ -1,11 +1,11 @@
 factor,extra_days
-refund_method = Card / bank,8.821537467021779
-fulfilment = Ships directly,1.272808982696024
-category = Furniture,-0.9738626159949052
-category = Sports & Outdoors,-0.6230970304349253
-category = Home & Kitchen,-0.5923384177496477
-category = Beauty & Fragrance,-0.5117784507653156
-category = Fashion,-0.4093457258620972
-emirate = Abu Dhabi,0.3323032161023775
-category = Electronics,-0.22759506269577706
-emirate = Sharjah,0.17988999924170077
+refund_method = Card / bank,9.999164489131845
+fulfilment = Ships directly,1.1781503245191227
+category = Baby & Toys,0.6082107912088894
+emirate = Ajman,-0.39530666593878105
+category = Furniture,0.3683325751378477
+emirate = Ras Al Khaimah,0.31010632889993545
+category = Home & Kitchen,0.28130487257528786
+emirate = Abu Dhabi,0.2787854650521191
+category = Fashion,0.19559218933628655
+category = Beauty & Fragrance,-0.1402680348846532

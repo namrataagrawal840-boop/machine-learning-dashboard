@@ -41,9 +41,18 @@ def render(f: D.Filters) -> None:
             '<p><b>Association rules:</b> Apriori with lift above 1; longer rules are kept only when clearly stronger than the shorter '
             'rules inside them.</p>'
             '<p><b>Forecasting:</b> Seasonal ARIMA (SARIMAX, statsmodels) on log daily orders, weekly season s = 7, yearly Fourier terms and sale-event flags as inputs; order chosen by AIC on training months; residuals checked with Ljung-Box. Compared with a time-series regression and a same-weekday-last-week benchmark.</p>'
-            '<p><b>A/B tests:</b> two-proportion z-test, 95% confidence interval on the difference.</p>'
+            '<p><b>A/B tests:</b> two-proportion z-test, 95% confidence interval on the difference, confirmed with a 2,000-draw bootstrap.</p>'
+            '<p><b>Realistic data:</b> outcomes depend on hidden causes the models never see (loyalty, life events, driver skill, depot '
+            'load, inspector strictness, complaining habit), plus recording noise, wrong labels, drift from August 2026, missing values '
+            'that carry meaning, and a separately simulated future for churn and CLV. Hidden columns are removed before any model runs.</p>'
+            '<p><b>Validation (page 11):</b> 5-fold cross-validation (monthly expanding window for delivery), a small hyper-parameter '
+            'search chosen on cross-validated AUC, Platt calibration kept only if it lowers the out-of-fold Brier score, thresholds from '
+            'costs and the 0.5% fraud budget, Qini curve for uplift, bootstrap CIs, fairness by account age and emirate, and a '
+            'four-origin forecast back-test.</p>'
+            '<p><b>Simulator:</b> customer responses come from logistic/linear models fitted on the recorded data with 100 bootstrap '
+            'refits (uncertainty bands); the live platform scores returns with an exported logistic model on observable fields only.</p>'
             '<p><b>Provenance badges:</b> SYNTHETIC = generated for this study; SECONDARY = published source; MODEL OUTPUT = computed '
             'from the synthetic data; ASSUMPTION = the group\'s proposal figures.</p></div>', unsafe_allow_html=True)
     with cards.card("Rebuild everything"):
-        st.code("cd noon\npip install -r requirements-analysis.txt\npython -m analysis.run_pipeline   # data + models (~30 s)\n"
+        st.code("cd noon\npip install -r requirements-analysis.txt\npython -m analysis.run_pipeline   # data + models + validation (~2 min)\n"
                 "streamlit run streamlit_app.py", language="bash")

@@ -76,8 +76,9 @@ def render(f: D.Filters) -> None:
             charts.show(fig, "cu_clv_tiers", clvt, height=260)
         cards.explanation("Regression predicts a number: the profit each customer will bring in the next 12 months, from what "
                           "they did in the last 12 (orders, spend, recency, bad experiences).",
-                          "The model explains about three quarters of the differences between customers. Points close to the "
-                          "dotted line are predicted well; the biggest spenders are the hardest to predict exactly.",
+                          f"The model explains about {best_clv['r2'] * 100:.0f}% of the differences between customers (R² {best_clv['r2']:.2f}). "
+                          "Next year depends on things history cannot show (moving away, new habits), so use CLV to rank customers into "
+                          "tiers, not as an exact forecast for one person.",
                           "CLV decides how much noon should spend to keep someone: who gets a credit, an instant refund or a "
                           "senior agent.", "Profit uses an assumed 11% margin; synthetic data.")
     with tabs[2]:
@@ -89,7 +90,7 @@ def render(f: D.Filters) -> None:
             C.importance_chart(chimp, "cu_churn_imp", colour=theme.ROSE)
         cards.explanation("Classification predicts yes/no: will this customer stop buying? ROC-AUC shows how well the model ranks "
                           "customers from most to least at risk.",
-                          "Recency and engagement matter most, but late orders, rejected refunds and repeat contacts also raise "
+                          "Recency and order frequency matter most, but late orders, rejected refunds and repeat contacts also raise "
                           "the risk, which links churn directly to the three problems.",
                           "Customers with a bad experience and high churn risk are the ones the recovery actions should reach first.",
                           "Synthetic data; with real data the drivers' ranking may change.")
@@ -102,4 +103,5 @@ def render(f: D.Filters) -> None:
                               f"The model is right {C.pct(S.get('npd_accuracy', float('nan')), 0)} of the time, against "
                               f"{C.pct(S.get('npd_baseline', float('nan')), 0)} for always guessing the most common window.",
                               "A recovery message or follow-up works best just before the customer would normally reorder.",
-                              "Modest accuracy: use it to time messages, not to make big spending decisions.")
+                              "Honest result: this is no better than guessing. When to buy next depends on hidden habits and life events, "
+                              "so the window is NOT used for decisions; message timing uses simple recency rules instead.")

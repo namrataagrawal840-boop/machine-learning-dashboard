@@ -117,8 +117,11 @@ def generate_customers(rng: np.random.Generator, n: int = 9000) -> pd.DataFrame:
 
 
 # ======================================================================= sellers
-def generate_sellers(rng: np.random.Generator, n: int = 320) -> pd.DataFrame:
-    q = rng.choice(["Good", "Average", "Poor"], n, p=[0.55, 0.30, 0.15])
+def generate_sellers(rng: np.random.Generator, n: int = 320, n_new: int = 40) -> pd.DataFrame:
+    """320 established sellers + a wave of 40 new sellers onboarded on 1 Aug 2026 (no history before the test months)."""
+    n_all = n + n_new
+    q = rng.choice(["Good", "Average", "Poor"], n_all, p=[0.55, 0.30, 0.15])
+    n = n_all
     handover = np.select([q == "Good", q == "Average"], [4, 10], 26) * rng.lognormal(0, 0.25, n)
     return pd.DataFrame({
         "seller_id": [f"S{3000 + i}" for i in range(n)],
@@ -127,6 +130,7 @@ def generate_sellers(rng: np.random.Generator, n: int = 320) -> pd.DataFrame:
                                "Fulfilled by noon", "Ships directly"),
         "_handover_mean_h": handover.round(1),
         "_defect_rate": np.select([q == "Good", q == "Average"], [0.02, 0.045], 0.10),
+        "_onboard": np.where(np.arange(n) >= n - 40, "2026-08-01", "2024-01-01"),
     })
 
 
@@ -153,18 +157,34 @@ def generate_orders(rng, customers, sellers, n: int = 30000) -> pd.DataFrame:
         m = cat == k
         size[m] = rng.choice(["Small", "Medium", "Bulky"], m.sum(), p=CATEGORIES[k][1])
         value[m] = CATEGORIES[k][2] * rng.lognormal(0, 0.55, m.sum())
-    si = rng.choice(len(sellers), n)
+    # sellers: new sellers only after their onboarding date (they get ~25% of orders from Aug 2026)
+    old_idx = np.where(sellers["_onboard"].to_numpy() == "2024-01-01")[0]
+    new_idx = np.where(sellers["_onboard"].to_numpy() != "2024-01-01")[0]
+    after = od >= pd.Timestamp("2026-08-01")
+    si = np.where(after & (rng.random(n) < 0.25), rng.choice(new_idx, n), rng.choice(old_idx, n))
     s = sellers.iloc[si].reset_index(drop=True)
     is_grocery = cat == "Grocery"
     fulfil = np.where(is_grocery, "Fulfilled by noon", s["fulfilment"].to_numpy())
     courier = np.where(rng.random(n) < 0.70, "In-house fleet", np.where(rng.random(n) < 0.6, "3PL partner A", "3PL partner B"))
     courier = np.where(zinfo["zone_type"].eq("Remote") & (rng.random(n) < 0.5), "3PL partner B", courier)
+    # HIDDEN drivers the models never see: daily network load (AR(1) backlog), weather/traffic shock days,
+    # driver experience, and a contract change that makes 3PL partner B faster from Aug 2026 (drift)
+    day_index = pd.DatetimeIndex(days)
+    load = np.zeros(len(day_index))
+    for k in range(1, len(load)):
+        load[k] = 0.7 * load[k - 1] + rng.normal(0, 2.5)
+    shock_days = set(rng.choice(len(day_index), 9, replace=False))
+    shock = np.array([12.0 if k in shock_days else 0.0 for k in range(len(day_index))])
+    day_pos = ((od.normalize() - day_index[0]).days).to_numpy()
+    hidden_day = load[day_pos] + shock[day_pos]
+    driver_skill = rng.normal(0, 3.5, n)
     hw = np.array([1, .5, .3, .2, .2, .3, .6, 1.2, 2, 2.6, 3, 3.2, 3.4, 3.2, 3, 3, 3.3, 3.8, 4.5, 5.2, 5.6, 5, 3.6, 2])
     hour = rng.choice(24, n, p=hw / hw.sum())
     slot = pd.cut(hour, [-1, 5, 11, 16, 20, 23], labels=["Night", "Morning", "Afternoon", "Evening", "Late evening"]).astype(str)
     event = _event_for(pd.Series(od)).to_numpy()
     on_sale = event != "None"
     addr_p = np.array([0.45, 0.35, 0.20])
+    multi_size = (cat == "Fashion") & (rng.random(n) < np.where(c["_returner"].to_numpy() == "Size-swapper", 0.55, 0.08))
     addr = np.array([rng.choice(["Map pin", "Full address", "Partial address"],
                                 p=(addr_p + np.array([-0.12, -0.03, 0.15]) * ADDR_RISK[t]) /
                                 (addr_p + np.array([-0.12, -0.03, 0.15]) * ADDR_RISK[t]).sum())
@@ -181,8 +201,11 @@ def generate_orders(rng, customers, sellers, n: int = 30000) -> pd.DataFrame:
              + np.where(on_sale, 7 * rng.random(n) + np.where(event == "Yellow Friday", 9, 0), 0)
              + np.where(size == "Bulky", 27, np.where(size == "Medium", 2, 0))
              + np.where(np.isin(slot, ["Evening", "Late evening"]), 4, 0)
-             + np.where(courier == "In-house fleet", 0, np.where(courier == "3PL partner A", 4, 9))
-             + rng.gamma(2.0, 1.5, n))
+             + np.where(courier == "In-house fleet", 0, np.where(courier == "3PL partner A", 4,
+                                                                  np.where(after, 4, 9)))
+             + np.maximum(hidden_day + driver_skill, -6)
+             + rng.gamma(2.0, 1.4, n) - 1.5)
+    hours = np.maximum(hours, 2.0)
     # failed first attempt (driver cannot find address / customer away)
     p_fail = sigmoid(-3.3 + np.select([addr == "Partial address", addr == "Full address"], [1.7, 0.6], 0)
                      + 0.5 * zinfo["zone_type"].map(ADDR_RISK).to_numpy()
@@ -193,6 +216,10 @@ def generate_orders(rng, customers, sellers, n: int = 30000) -> pd.DataFrame:
     actual_days = np.ceil(hours / 24).astype(int)
     late = actual_days > promised
     notified = np.where(late, rng.random(n) < 0.12, False)
+    # MEASUREMENT noise in what is recorded: handover logged roughly, ~4% of address types mislabelled at checkout
+    handover_rec = np.round(handover * rng.lognormal(0, 0.30, n))
+    flip = rng.random(n) < 0.04
+    addr_rec = np.where(flip, rng.choice(["Map pin", "Full address", "Partial address"], n), addr)
 
     orders = pd.DataFrame({
         "order_id": [f"N{7000000 + i}" for i in range(n)],
@@ -200,8 +227,8 @@ def generate_orders(rng, customers, sellers, n: int = 30000) -> pd.DataFrame:
         "emirate": zinfo["emirate"], "zone": zinfo["zone"], "zone_type": zinfo["zone_type"],
         "km_from_hub": zinfo["km_from_hub"], "category": cat, "item_size": size,
         "order_value_aed": value.round(2), "seller_id": s["seller_id"], "fulfilment": fulfil,
-        "seller_handover_hours": handover.round(1), "courier": courier, "sale_event": event,
-        "address_quality": addr, "promised_days": promised, "actual_hours": hours.round(1),
+        "seller_handover_hours": handover_rec, "courier": courier, "sale_event": event,
+        "address_quality": addr_rec, "multi_size_basket": multi_size.astype(int), "promised_days": promised, "actual_hours": hours.round(1),
         "actual_days": actual_days, "late": late.astype(int), "days_late": np.maximum(actual_days - promised, 0),
         "failed_first_attempt": failed.astype(int), "unavailable_gps_verified": gps_at_door.astype(int),
         "proactive_update_sent": notified.astype(int), "membership": c["membership"],
@@ -220,7 +247,9 @@ def generate_orders(rng, customers, sellers, n: int = 30000) -> pd.DataFrame:
     sure = e > 0.85
     lost = e < -1.0
     effect = np.select([persuadable, sure, lost], [0.15, 0.005, 0.0], 0.02)
-    base = sigmoid(-0.30 + 0.85 * e - 0.55 * orders["late"] - 0.12 * orders["days_late"].clip(0, 4)
+    life = rng.normal(0, 0.8, n)  # hidden: moved, new job, budget changes
+    sens = np.clip(rng.normal(1, 0.5, n), 0, None)  # hidden: how much each customer cares about lateness
+    base = sigmoid(-0.30 + 0.85 * e + life - sens * (0.55 * orders["late"] + 0.12 * orders["days_late"].clip(0, 4))
                    + 0.35 * orders["proactive_update_sent"])
     p_rep = np.clip(base + treat * effect, 0, 1)
     orders["recovery_test_group"] = np.where(in_test, np.where(treat, "Treatment", "Control"), "Not in test")
@@ -243,9 +272,10 @@ def generate_returns(rng, orders, customers, sellers) -> pd.DataFrame:
     mult = pd.Series(returner).map({"Typical": 1.0, "Size-swapper": 2.4, "Serial returner": 4.2,
                                     "Possible abuser": 5.0}).to_numpy()
     base = o["category"].map({k: v[3] for k, v in CATEGORIES.items()}).to_numpy()
-    two_sizes = (o["category"] == "Fashion").to_numpy() & (rng.random(n) < np.where(returner == "Size-swapper", 0.6, 0.10))
+    two_sizes = o["multi_size_basket"].to_numpy() == 1  # recorded on the ORDER, so non-returned baskets carry it too
     defect = o["seller_id"].map(sell["_defect_rate"]).to_numpy()
-    p_ret = np.clip(base * mult + np.where(two_sizes, 0.55, 0) + defect * 0.8 + 0.05 * o["late"], 0, 0.95)
+    p_ret = np.clip(base * mult + np.where(two_sizes, 0.40, 0) + defect * 0.8 + 0.05 * o["late"]
+                    + rng.normal(0, 0.03, n), 0, 0.92)
     is_ret = rng.random(n) < p_ret
     r = o.loc[is_ret].reset_index(drop=True)
     r["ordered_two_sizes"] = two_sizes[is_ret].astype(int)
@@ -265,22 +295,29 @@ def generate_returns(rng, orders, customers, sellers) -> pd.DataFrame:
         p = np.clip(p, 0.005, None)
         reason[i] = rng.choice(REASONS, p=p / p.sum())
     r["return_reason"] = reason
-    r["days_since_delivery"] = np.where(rt == "Possible abuser", rng.integers(1, 6, m), rng.integers(1, 16, m))
-    r["prior_returns_12m"] = rng.poisson(pd.Series(rt).map({"Typical": 0.6, "Size-swapper": 3, "Serial returner": 6,
-                                                            "Possible abuser": 5}).to_numpy())
-    r["account_age_months"] = np.where(rt == "Possible abuser", rng.integers(1, 5, m), r["tenure_months"])
-    r["photos_uploaded"] = (rng.random(m) < np.where(rt == "Possible abuser", 0.3, 0.58)).astype(int)
+    # behaviour overlaps between types, so the recorded history only partly reveals who is who
+    r["days_since_delivery"] = np.where((rt == "Possible abuser") & (rng.random(m) < 0.7), rng.integers(1, 6, m), rng.integers(1, 16, m))
+    r["prior_returns_12m"] = rng.poisson(pd.Series(rt).map({"Typical": 0.9, "Size-swapper": 2.6, "Serial returner": 4.5,
+                                                            "Possible abuser": 3.5}).to_numpy())
+    r["account_age_months"] = np.where((rt == "Possible abuser") & (rng.random(m) < 0.7), rng.integers(1, 7, m), r["tenure_months"])
+    photos = (rng.random(m) < np.where(rt == "Possible abuser", 0.25, 0.60)).astype(float)
+    photos[rng.random(m) < 0.15] = np.nan  # older app version does not record photos (missing, not 'no')
+    r["photos_uploaded"] = photos
     r["seller_quality_flag"] = r["seller_id"].map(sell["_quality"]).eq("Poor").astype(int)
     # QC result: passes unless the item is used / not the original / abuse
-    p_fail = (0.03 + np.where(reason == "Changed my mind", 0.13, 0) + np.where(rt == "Possible abuser", 0.55, 0)
+    p_fail = (np.where((rt == "Typical") & (r["tenure_months"].to_numpy() >= 12), 0.008, 0.03)
+              + np.where(reason == "Changed my mind", 0.13, 0) + np.where(rt == "Possible abuser", 0.55, 0)
               + np.where(rt == "Serial returner", 0.08, 0)
               + np.where(r["category"].isin(["Electronics", "Beauty & Fragrance"]), 0.05, 0)
-              - 0.03 * r["photos_uploaded"])
-    r["qc_passed"] = (rng.random(m) > np.clip(p_fail, 0.005, 0.95)).astype(int)
+              - 0.03 * np.nan_to_num(r["photos_uploaded"].to_numpy())
+              + rng.normal(0, 0.04, m))  # hidden: inspector strictness varies by shift
+    qc = (rng.random(m) > np.clip(p_fail, 0.005, 0.95)).astype(int)
+    noise = rng.random(m) < 0.005  # inspection recording errors
+    r["qc_passed"] = np.where(noise, 1 - qc, qc)
     # refund time today: pickup wait + inspection + payment rail (+ seller dispute)
     pickup = rng.integers(1, 6, m)
     inspect = rng.integers(2, 6, m)
-    rail = np.where(rng.random(m) < 0.35, rng.integers(0, 2, m), rng.integers(5, 15, m))  # wallet vs card
+    rail = np.where(rng.random(m) < 0.35, rng.integers(0, 2, m), rng.integers(5, 15, m) + rng.poisson(1.0, m))  # wallet vs card (+ hidden bank delays)
     dispute = np.where(r["fulfilment"].eq("Ships directly") & (rng.random(m) < 0.25), rng.integers(3, 8, m), 0)
     r["refund_method"] = np.where(rail <= 1, "noon wallet", "Card / bank")
     r["refund_days"] = np.where(r["qc_passed"] == 1, pickup + inspect + rail + dispute, np.nan)
@@ -297,7 +334,7 @@ def generate_returns(rng, orders, customers, sellers) -> pd.DataFrame:
     r.loc[instant & (r["qc_passed"] == 1), "refund_days"] = rng.uniform(0, 1, (instant & (r["qc_passed"] == 1)).sum()).round(1)
     eng = r["customer_id"].map(cust["_engagement"]).to_numpy()
     rd = r["refund_days"].fillna(25).to_numpy()
-    p_rep = sigmoid(-0.05 + 0.7 * eng - 0.012 * rd - 1.1 * (r["qc_passed"] == 0) + 0.18 * instant)
+    p_rep = sigmoid(-0.05 + 0.7 * eng + rng.normal(0, 0.8, m) - 0.012 * rd - 1.1 * (r["qc_passed"] == 0) + 0.18 * instant)
     r["repurchase_90d"] = (rng.random(m) < p_rep).astype(int)
     r["_returner"] = rt
     r = r.rename(columns={"order_value_aed": "item_value_aed"})
@@ -313,46 +350,80 @@ def generate_returns(rng, orders, customers, sellers) -> pd.DataFrame:
 # ======================================================================= tickets
 PHRASES = {
     "Delivery delay": ["my order is late", "still not delivered", "delivery delayed again", "was promised tomorrow",
-                       "no update on my order", "tracking not moving", "order stuck in transit", "where is my parcel",
-                       "expected delivery passed", "late delivery"],
+                       "tracking not moving", "order stuck in transit", "where is my parcel", "expected delivery passed",
+                       "it says out for delivery since 2 days", "the date keeps changing", "ordered on friday still nothing",
+                       "shipment status same since monday", "you said express", "parcel not reached yet"],
     "Failed delivery": ["driver marked me unavailable", "i was at home all day", "driver could not find my villa",
-                        "delivery attempt failed", "nobody called me", "marked customer not available",
-                        "driver never came", "wrong location pin"],
+                        "delivery attempt failed", "nobody called me", "driver never came", "wrong location pin",
+                        "they said customer not reachable but my phone was on", "driver cancelled the delivery",
+                        "attempted delivery but no one knocked", "courier says address not found"],
     "Refund delay": ["refund not received", "waiting for my refund", "refund still pending", "money not returned",
-                     "returned item two weeks ago", "when will i get refund", "refund status not updated"],
+                     "returned item two weeks ago", "when will i get refund", "refund status not updated",
+                     "picked up the return 10 days back", "still no money in my card", "bank says nothing received"],
     "Refund rejected": ["refund rejected", "qc failed without reason", "return rejected", "item failed inspection",
-                        "they refused my refund", "rejected after pickup", "quality check rejected"],
+                        "they refused my refund", "rejected after pickup", "quality check rejected",
+                        "you say item used but it was sealed", "return declined no explanation", "inspection is wrong"],
     "Warranty / seller": ["warranty claim", "seller not responding", "product stopped working", "repair request",
-                          "seller refused warranty", "passed between seller and noon", "defective after a month"],
+                          "seller refused warranty", "passed between seller and noon", "defective after a month",
+                          "stopped charging after 3 weeks", "screen went black", "seller says contact noon"],
     "Wrong / damaged item": ["wrong item delivered", "received different product", "item damaged", "box was broken",
-                             "missing parts", "fake product", "not the one i ordered"],
+                             "missing parts", "fake product", "not the one i ordered", "wrong colour came",
+                             "glass was shattered", "only one piece in the box"],
     "Payment / billing": ["charged twice", "payment deducted but order cancelled", "coupon not applied",
-                          "wallet balance missing", "cash on delivery issue", "double charge"],
+                          "wallet balance missing", "cash on delivery issue", "double charge", "amount debited twice",
+                          "promo code not working", "card charged but no order"],
 }
+VAGUE = ["any update??", "hello?", "pls check", "what is happening", "order issue", "need help with my order",
+         "still waiting", "this is the 2nd time i write", "plz reply", "hi"]
+ARABIZI = ["yalla", "mafi update", "khalas", "inshallah today", "habibi please", "wallah", "shu fi", "ya3ni when"]
 ANGER = ["this is unacceptable", "worst service", "very disappointed", "i am fed up", "never again",
-         "third time contacting", "nobody is helping", "copy paste replies", "escalate this now", "terrible experience"]
+         "third time contacting", "nobody is helping", "copy paste replies", "escalate this now", "terrible experience",
+         "i will post on twitter", "cancel my account", "useless support"]
 NEUTRAL = ["please help", "kindly check", "can you update me", "thank you", "order number attached",
-           "hi team", "please advise", "need assistance"]
+           "hi team", "please advise", "need assistance", "regards", "good morning"]
+
+
+def _typo(rng, text: str) -> str:
+    """Real customers type fast: drop/duplicate/swap letters and shorten words."""
+    out = []
+    for w in text.split(" "):
+        r = rng.random()
+        if len(w) > 3 and r < 0.06:
+            i = int(rng.integers(1, len(w) - 1))
+            w = w[:i] + w[i + 1:]
+        elif len(w) > 3 and r < 0.10:
+            i = int(rng.integers(1, len(w) - 1))
+            w = w[:i] + w[i + 1] + w[i] + w[i + 2:]
+        out.append({"please": "pls", "you": "u", "are": "r", "refund": "refnd" if r > 0.97 else "refund"}.get(w, w)
+                   if rng.random() < 0.2 else w)
+    return " ".join(out)
 
 
 def _ticket_text(rng, topic: str, angry: bool) -> str:
-    parts = list(rng.choice(PHRASES[topic], rng.integers(1, 3), replace=False))
-    if rng.random() < 0.18:  # some tickets mention a second issue, which makes reading harder
+    if rng.random() < 0.10:  # one-line messages with almost no information
+        parts = list(rng.choice(VAGUE, int(rng.integers(1, 3)), replace=False))
+    else:
+        parts = list(rng.choice(PHRASES[topic], int(rng.integers(1, 3)), replace=False))
+    if rng.random() < 0.30:  # mixed issues: a late order AND a refund question, etc.
         other = rng.choice([t for t in PHRASES if t != topic])
         parts.append(rng.choice(PHRASES[other]))
-    # tone words are noisy on purpose: some angry customers write politely and vice versa
-    pool = ANGER if (rng.random() < (0.8 if angry else 0.12)) else NEUTRAL
-    parts += list(rng.choice(pool, rng.integers(1, 3), replace=False))
+    if rng.random() < 0.15:
+        parts.append(rng.choice(ARABIZI))
+    pool = ANGER if (rng.random() < (0.75 if angry else 0.15)) else NEUTRAL
+    parts += list(rng.choice(pool, int(rng.integers(1, 3)), replace=False))
     rng.shuffle(parts)
-    return ". ".join(parts).capitalize() + "."
+    return _typo(rng, ". ".join(parts)).capitalize() + rng.choice([".", "!!", "?", "", "..."])
 
 
 def generate_tickets(rng, orders, returns, customers) -> pd.DataFrame:
     cust = customers.set_index("customer_id")
     rows = []
 
+    # hidden: some people complain about everything, others never write in
+    complainer = pd.Series(rng.lognormal(0, 0.5, len(cust)), index=cust.index)
+
     def add(cid, order_id, date, topic, trigger, p):
-        if rng.random() < p:
+        if rng.random() < min(0.98, p * complainer[cid]):
             rows.append((cid, order_id, date + pd.Timedelta(days=int(rng.integers(0, 4))), topic, trigger))
 
     for o in orders.itertuples(index=False):
@@ -401,17 +472,23 @@ def generate_tickets(rng, orders, returns, customers) -> pd.DataFrame:
     good = fix == t["topic"].map(good_fix).to_numpy()
     recontact_7d = rng.random(m) < sigmoid(-0.9 + 0.5 * (contacts - 1) - 1.3 * good + 0.4 * template)
     order_val = t["order_id"].map(orders.set_index("order_id")["order_value_aed"]).to_numpy()
-    p_churn = sigmoid(-1.6 - 0.75 * eng + 0.35 * (contacts - 1) + 0.006 * res_h + 0.6 * reopened
+    p_churn = sigmoid(-1.6 - 0.75 * eng + rng.normal(0, 0.8, m) + 0.35 * (contacts - 1) + 0.006 * res_h + 0.6 * reopened
                       + 0.45 * (t["topic"] == "Refund rejected") - 0.25 * (csat - 3) + 0.5 * recontact_7d)
     t["churn_90d"] = (rng.random(m) < np.clip(p_churn, 0, 0.97)).astype(int)
-    t["text"] = [_ticket_text(rng, tp, a) for tp, a in zip(t["topic"], angry)]
+    t["text"] = [_ticket_text(rng, tp, a) for tp, a in zip(t["topic"], angry)]  # written from the TRUE topic
     t["channel"] = rng.choice(["Chat", "Email", "Phone", "Social media"], m, p=[.46, .26, .2, .08])
     t["angry"] = angry.astype(int)
     t["contacts"] = contacts
     t["resolution_hours"] = res_h.round(1)
     t["reopened"] = reopened.astype(int)
     t["template_reply"] = template.astype(int)
-    t["csat"] = csat
+    # CSAT survey non-response is NOT random: unhappy customers skip it more often
+    answered = rng.random(m) < sigmoid(0.2 + 0.45 * (csat - 3))
+    t["csat"] = np.where(answered, csat, np.nan)
+    # agents tag ~6% of tickets with the wrong topic; models only ever see the recorded tag
+    t["_true_topic"] = t["topic"]
+    wrong = rng.random(m) < 0.06
+    t.loc[wrong, "topic"] = [rng.choice([x for x in PHRASES if x != tp]) for tp in t.loc[wrong, "_true_topic"]]
     t["fix_applied"] = fix
     t["recontact_7d"] = recontact_7d.astype(int)
     t["order_value_aed"] = order_val
@@ -439,40 +516,66 @@ def customer_summary(orders, returns, tickets, customers) -> pd.DataFrame:
     s["repeat_contacts"] = tickets.groupby("customer_id")["contacts"].apply(lambda x: (x - 1).sum()).reindex(s.index).fillna(0).astype(int)
     c = customers.set_index("customer_id").loc[s.index]
     s = s.join(c[["emirate", "home_zone", "tenure_months", "membership", "age_band", "_engagement", "_returner"]])
-    # next-12-month profit (CLV) and churn, driven by engagement and experience
+    # The NEXT 12 months are simulated as a separate future process: each customer's hidden buying rate, hidden
+    # sensitivity to bad experiences and random life events (moving away, new job). CLV, churn and next purchase are
+    # then READ OFF the simulated future orders, never written as a formula of the features the models see.
     rng = np.random.default_rng(SEED + 7)
+    n = len(s)
+    e = s["_engagement"].to_numpy()
+    sens = np.clip(rng.normal(1.0, 0.6, n), 0, None)
+    bad = 0.10 * s["late_orders"] + 0.30 * s["rejected_refunds"] + 0.08 * s["repeat_contacts"]
+    rate = 3.8 * np.exp(0.9 * e + rng.normal(0, 0.3, n) - sens * bad.to_numpy())
+    life = rng.random(n)
+    rate = np.where(life < 0.04, 0.0, np.where(life > 0.90, rate * 1.5, rate))  # moved away / new job
+    n_future = rng.poisson(rate)
+    basket = (s["spend_12m_aed"] / s["orders_12m"]).to_numpy()
     margin = 0.11
-    future_orders = np.maximum(0, s["orders_12m"] * np.exp(0.25 * s["_engagement"] - 0.10 * s["late_orders"]
-                                                           - 0.25 * s["rejected_refunds"] - 0.08 * s["repeat_contacts"])
-                               * rng.lognormal(0, 0.35, len(s)))
-    s["clv_next12m_aed"] = (future_orders * (s["spend_12m_aed"] / s["orders_12m"]) * margin).round(2)
-    p = sigmoid(-2.5 - 0.9 * s["_engagement"] + 0.012 * s["recency_days"] + 0.25 * s["late_orders"].clip(0, 4)
-                + 0.6 * s["rejected_refunds"].clip(0, 2) + 0.2 * s["repeat_contacts"].clip(0, 5))
-    s["churned_next90d"] = (rng.random(len(s)) < p).astype(int)
-    gap = np.clip(rng.gamma(1.6, np.clip(40 / s["orders_12m"], 2, 120)), 1, 180)
-    s["next_purchase_days"] = np.where(s["churned_next90d"] == 1, np.nan, gap.round())
+    first_gap, clv = np.full(n, np.nan), np.zeros(n)
+    for i in range(n):
+        k = n_future[i]
+        if k:
+            times = rng.uniform(0, 365, k)
+            first_gap[i] = times.min()
+            clv[i] = (basket[i] * rng.lognormal(0, 0.5, k)).sum() * margin
+    s["clv_next12m_aed"] = clv.round(2)
+    s["churned_next90d"] = (~(first_gap <= 90)).astype(int)
+    s["next_purchase_days"] = np.where(s["churned_next90d"] == 1, np.nan, np.round(first_gap))
     return s.reset_index().rename(columns={"index": "customer_id"})
 
 
 # ======================================================================= daily demand
 def daily_demand(rng) -> pd.DataFrame:
+    """Two years of daily orders with the messiness real series have: event sizes that differ by year, a new
+    Abu Dhabi hub from 1 Apr 2026 (a lasting level shift), a platform outage on 14 Jun 2026, weekly patterns that
+    soften in summer, and correlated (AR(1)) day-to-day noise."""
     days = pd.date_range("2024-11-01", END, freq="D")
     rows = []
+    ev_draw = {}
+    for name, a, b, m in EVENTS:
+        for yr in (0, -1):
+            ev_draw[(name, yr)] = 1 + (m - 1) * rng.lognormal(0, 0.10)  # same event, different size each year
     for em, share in {"Dubai": .40, "Abu Dhabi": .27, "Sharjah": .17, "Northern Emirates": .16}.items():
         t = np.arange(len(days))
         base = 52000 * share * (1 + 0.18 * t / 365)
-        weekly = 1 + np.select([days.dayofweek == 3, days.dayofweek == 4, days.dayofweek == 6], [.10, .14, -.06], 0)
+        if em == "Abu Dhabi":
+            base = base * np.where(days >= "2026-04-01", 1.14, 1.0)
+        summer = np.exp(-((days.dayofyear - 200) / 40) ** 2)
+        weekly = 1 + np.select([days.dayofweek == 3, days.dayofweek == 4, days.dayofweek == 6], [.10, .14, -.06], 0) * (1 - 0.5 * summer)
         evm = np.ones(len(days))
-        for _, a, b, m in EVENTS:
+        for name, a, b, _m in EVENTS:
             for yr_shift in (0, -1):
                 a2, b2 = pd.Timestamp(a) + pd.DateOffset(years=yr_shift), pd.Timestamp(b) + pd.DateOffset(years=yr_shift)
-                if _ == "Ramadan" and yr_shift == -1:
+                if name == "Ramadan" and yr_shift == -1:
                     a2, b2 = pd.Timestamp("2025-03-01"), pd.Timestamp("2025-03-29")
-                if _ == "Eid al-Fitr" and yr_shift == -1:
+                if name == "Eid al-Fitr" and yr_shift == -1:
                     a2, b2 = pd.Timestamp("2025-03-30"), pd.Timestamp("2025-04-02")
-                evm[(days >= a2) & (days <= b2)] = np.maximum(evm[(days >= a2) & (days <= b2)], m)
-        summer = 1 - 0.10 * np.exp(-((days.dayofyear - 200) / 30) ** 2)
-        y = base * weekly * evm * summer * rng.lognormal(0, 0.05, len(days))
+                sel = (days >= a2) & (days <= b2)
+                evm[sel] = np.maximum(evm[sel], ev_draw[(name, yr_shift)])
+        noise = np.zeros(len(days))
+        for k in range(1, len(days)):
+            noise[k] = 0.55 * noise[k - 1] + rng.normal(0, 0.045)
+        y = base * weekly * evm * (1 - 0.10 * summer) * np.exp(noise)
+        y = np.where(days == pd.Timestamp("2026-06-14"), y * 0.4, y)  # outage
         rows.append(pd.DataFrame({"date": days, "region": em, "orders": y.round().astype(int)}))
     return pd.concat(rows, ignore_index=True)
 

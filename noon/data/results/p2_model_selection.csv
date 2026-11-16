@@ -1,0 +1,8 @@
+problem,model,cv_auc_mean,cv_auc_sd,chosen
+Return fails QC,Random forest (leaf=30),0.7321353897879981,0.013215078976547443,True
+Return fails QC,Random forest (leaf=10),0.7253440233462431,0.01241572162275753,False
+Return fails QC,XGBoost (depth=2),0.7124078769916727,0.02422321326635213,False
+Return fails QC,Logistic regression (C=0.05),0.7091085826657414,0.02327882192247654,False
+Return fails QC,Logistic regression (C=0.3),0.7040034019501278,0.027205886577731167,False
+Return fails QC,Logistic regression (C=1.0),0.7028683379349305,0.028016092274773502,False
+Return fails QC,XGBoost (depth=3),0.7018322982973372,0.02817481519568815,False

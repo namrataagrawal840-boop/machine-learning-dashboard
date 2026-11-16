@@ -22,7 +22,6 @@ def render(f: D.Filters) -> None:
         return
     tiers, m, ab = D.table("p2_tiers"), D.table("p2_cls_metrics"), D.table("ab_tests").iloc[1]
     S = D.summary().get("p2", {})
-    rf = m[m["model"] == "Random forest"].iloc[0]
     cards.kpi_grid([
         cards.kpi("Median refund time today", f"{r['refund_days'].median():.0f} days", "Request → money back (passed QC)", "synthetic", theme.GOLD),
         cards.kpi("Returns rejected at quality check", C.pct(1 - r["qc_passed"].mean()), "Most then turn into a complaint", "synthetic", theme.PEACH),
@@ -37,7 +36,7 @@ def render(f: D.Filters) -> None:
     with tabs[1]:
         _segments()
     with tabs[2]:
-        _tiers(m, tiers)
+        _tiers(m, tiers, S)
     with tabs[3]:
         _rules()
     with tabs[4]:
@@ -46,7 +45,8 @@ def render(f: D.Filters) -> None:
         with cards.card("A/B test: instant refund vs standard refund for low-risk customers"):
             C.ab_card(ab, "p2_ab", f"Guardrail: QC failures in the instant group were {C.pct(ab['guardrail_fail_rate'])} of returns "
                                    f"({C.pct(ab['guardrail_value_share'])} of refund value). The test used a simple rule for "
-                                   "'low risk'; the model-based Green tier on tab 3 is stricter, which is how fraud is kept under the cap.")
+                                   "'low risk'; the model-based Green tier on tab 3 is stricter, which is how fraud is kept under the cap. "
+                                   "A bootstrap check of the same uplift is on page 11 · Model Quality.")
 
 
 def _evidence(r: pd.DataFrame) -> None:
@@ -95,44 +95,106 @@ def _segments() -> None:
                           "Synthetic data; segment labels are interpretations of the cluster averages.")
 
 
-def _tiers(m: pd.DataFrame, tiers: pd.DataFrame) -> None:
+def _tiers(m: pd.DataFrame, tiers: pd.DataFrame, S: dict) -> None:
     roc, imp, cm, sc = D.table("p2_roc"), D.table("p2_importance"), D.table("p2_confusion"), D.table("p2_test_scores")
+    sel, cal, cur = D.table("p2_model_selection"), D.table("p2_calibration"), D.table("p2_cutoff_curve")
+    g_cut, r_cut = S.get("green_cutoff", 0.04), S.get("red_cutoff", 0.24)
+    ci = S.get("auc_ci", [np.nan, np.nan])
     with cards.card("Will this return fail the quality check? (classification)"):
         c1, c2 = st.columns([1.1, 1])
         with c1:
-            C.metrics_table(m, "p2_m", "f1")
+            C.metrics_table(m, "p2_m", "roc_auc")
             C.roc_chart(roc, m, "p2_roc")
         with c2:
             C.importance_chart(imp, "p2_imp", colour=theme.LAVENDER)
             C.confusion_chart(cm, ("Passes QC", "Fails QC"), "p2_cm")
-        cards.explanation("Random forest predicts whether a return will fail inspection, from the customer's history, product, "
-                          "seller, reason, timing and whether photos were uploaded.",
-                          "Prior returns, account age and how fast the item came back matter most. Only about 8% of returns fail, "
-                          "so the model is judged on ranking (ROC-AUC) and F1, not accuracy.",
-                          "The score turns into a tier. Because random forest shows which factors drove a decision, a rejected "
-                          "refund can be explained to the customer.", "Synthetic data.")
+        cards.explanation("Three models predict whether a return will fail inspection, from what noon can see: the customer's return "
+                          "history and account age, the product, seller, reason, timing and whether photos were uploaded.",
+                          f"Only about {C.pct(sc['qc_failed'].mean(), 0)} of returns fail, so accuracy is misleading (always saying 'pass' "
+                          f"scores {C.pct(1 - sc['qc_failed'].mean(), 0)}). The models are judged on ranking: ROC-AUC around "
+                          f"{m['roc_auc'].max():.2f}. The confusion matrix is drawn at the Red cut-off ({r_cut:.2f}): the model finds "
+                          f"{C.pct(S.get('red_recall', np.nan), 0)} of the failures while checking only {C.pct((sc['p_fail'] >= r_cut).mean(), 0)} of returns.",
+                          "The model is a good ranker and a weak yes/no judge, which is exactly how it is used: it decides how FAST to "
+                          "refund, never whether to refund. Red means 'inspect first', not 'refuse'.",
+                          "The table above uses a fixed 70/30 split; the cross-validated scores below are the fairer comparison.")
+    with cards.card("Which model, and can its scores be trusted? (5-fold cross-validation + calibration)"):
+        c1, c2 = st.columns([1, 1.1])
+        with c1:
+            charts.table(sel[["model", "cv_auc_mean", "cv_auc_sd", "chosen"]], "p2_sel", "p2_model_selection.csv", column_config={
+                "cv_auc_mean": st.column_config.ProgressColumn("CV ROC-AUC (mean)", min_value=0.5, max_value=1, format="%.3f"),
+                "cv_auc_sd": st.column_config.NumberColumn("± sd across folds", format="%.3f"),
+                "chosen": st.column_config.CheckboxColumn("Chosen")})
+            st.caption(f"Seven model settings were compared on the training returns only. Chosen: **{S.get('chosen_model', '—')}**. "
+                       f"Test ROC-AUC {S.get('test_auc_chosen', np.nan):.2f} (95% bootstrap CI {ci[0]:.2f}–{ci[1]:.2f}).")
+        with c2:
+            fig = go.Figure()
+            for i, (v, d) in enumerate(cal.groupby("version", sort=False)):
+                fig.add_scatter(x=d["mean_pred"], y=d["observed"], mode="lines+markers", name=f"{v} (Brier {d['brier'].iloc[0]:.3f})",
+                                line=dict(color=[theme.SLATE, theme.LAVENDER][i % 2], width=2.4))
+            mx = float(max(cal["mean_pred"].max(), cal["observed"].max())) * 1.05
+            fig.add_scatter(x=[0, mx], y=[0, mx], mode="lines", name="Perfectly calibrated", line=dict(dash="dot", color=theme.SLATE, width=1))
+            fig.update_layout(xaxis_title="Predicted chance of failing QC", yaxis_title="Share that actually failed", xaxis_tickformat=".0%",
+                              yaxis_tickformat=".0%", legend=dict(orientation="h", y=-0.38), margin=dict(b=90))
+            charts.show(fig, "p2_calib", cal, height=370)
+        cards.explanation("Cross-validation trains and tests five times on different slices, so one lucky split cannot flatter a model. "
+                          "Calibration checks that a score of 10% really means about 1 in 10 fail.",
+                          "The models are close; differences smaller than the ± sd are noise. Points near the dotted line mean the "
+                          "scores can be read as real probabilities, which the money-at-risk calculation needs.",
+                          "Because the scores are probabilities, the Green cut-off can be set from the fraud budget directly.",
+                          f"Calibration kept only if it lowers the out-of-fold Brier score (here: {'kept' if S.get('calibrated') else 'not needed'}).")
     with cards.card("Set the Green-tier cut-off", "How much fraud risk is acceptable for instant refunds?"):
-        thr = st.slider("Green if predicted fail risk is below", 0.02, 0.40, 0.15, 0.01, key="p2_thr")
-        red = st.slider("Red if predicted fail risk is above", 0.20, 0.90, 0.50, 0.05, key="p2_red")
+        thr = st.slider("Green if predicted fail risk is below", 0.01, 0.30, float(round(g_cut, 3)), 0.005, key="p2_thr", format="%.3f")
+        red = st.slider("Red if predicted fail risk is above", 0.10, 0.60, float(round(r_cut, 2)), 0.01, key="p2_red")
         g = sc["p_fail"] < thr
         rd = sc["p_fail"] >= red
         green_val = sc.loc[g, "item_value_aed"].sum()
         risk_val = sc.loc[g & (sc["qc_failed"] == 1), "item_value_aed"].sum()
+        all_val = sc["item_value_aed"].sum()
         cards.kpi_grid([
             cards.kpi("Returns refunded instantly (Green)", C.pct(g.mean(), 0), f"{C.num(g.sum())} of {C.num(len(sc))} test returns", "derived", theme.GREEN),
             cards.kpi("Green returns that would fail QC", C.pct(sc.loc[g, "qc_failed"].mean()), "Refunded before inspection", "derived", theme.PEACH),
-            cards.kpi("Value at risk in Green", C.pct(risk_val / green_val if green_val else np.nan), "Share of Green refund value", "derived", theme.RED),
+            cards.kpi("Money at risk (share of ALL refunds)", C.pct(risk_val / all_val if all_val else np.nan, 2),
+                      f"Cap 0.50% · {C.pct(risk_val / green_val if green_val else np.nan)} of Green value", "derived",
+                      theme.GREEN if all_val and risk_val / all_val <= 0.005 else theme.RED),
             cards.kpi("Red: full check before refund", C.pct(rd.mean(), 0), f"Fail rate {C.pct(sc.loc[rd, 'qc_failed'].mean(), 0)}", "derived", theme.SLATE),
         ])
-        st.caption("Not every QC failure is fraud (many are used or incomplete items), so 'value at risk' is an upper bound. Some of it is "
-                   "recovered from sellers through the dispute process. Lower the Green cut-off until the risk sits under the agreed cap.")
-    with cards.card("Tiers at the default cut-offs (0.15 / 0.50)"):
+        fig = go.Figure()
+        fig.add_scatter(x=cur["cutoff"], y=cur["green_share"] * 100, name="Returns refunded instantly (%)", line=dict(color=theme.GREEN, width=3))
+        fig.add_scatter(x=cur["cutoff"], y=cur["loss_share_all_refunds"] * 100, name="Money at risk, % of all refunds", yaxis="y2",
+                        line=dict(color=theme.RED, width=3))
+        fig.add_hline(y=0.5, line=dict(color=theme.RED, dash="dot"), yref="y2", annotation_text="0.5% cap")
+        fig.add_vline(x=thr, line=dict(color=theme.SLATE, dash="dash"), annotation_text="your cut-off")
+        fig.update_layout(xaxis_title="Green cut-off (predicted fail risk)", yaxis_title="% refunded instantly",
+                          yaxis2=dict(title="% of refund value at risk", overlaying="y", side="right", showgrid=False, tickformat=".1f",
+                                      rangemode="tozero"),
+                          legend=dict(orientation="h", y=-0.3), margin=dict(b=80))
+        charts.show(fig, "p2_cutoff_curve", cur, height=330)
+        st.caption(f"The default cut-off ({g_cut:.3f}) was chosen on the TRAINING returns (out-of-fold scores) as the highest value that keeps "
+                   "money paid early on failed items at or under 0.5% of all refund value; the chart checks it on unseen returns. "
+                   "Not every QC failure is fraud, and some value is recovered from sellers, so this is an upper bound.")
+    with cards.card(f"Tiers at the default cut-offs ({g_cut:.3f} / {r_cut:.2f})"):
         charts.table(tiers, "p2_tiers", "trust_tiers.csv", column_config={
             "actual_fail_rate": st.column_config.ProgressColumn("Actual fail rate", min_value=0, max_value=1, format="%.3f"),
             "share": st.column_config.ProgressColumn("Share of returns", min_value=0, max_value=1, format="%.2f"),
             "avg_value": st.column_config.NumberColumn("Avg value (AED)", format="%.0f"),
             "value": st.column_config.NumberColumn("Total value (AED)", format="%.0f"),
             "refund_timing": st.column_config.TextColumn("When the refund arrives", width="large")})
+        st.caption("Fairness check (new accounts and emirates) is on page 11 · Model Quality & Fairness.")
+
+
+def _rule(rules, lhs):
+    r = rules[rules["if"] == lhs]
+    return r.iloc[0] if len(r) else None
+
+
+def _conf(rules, lhs):
+    r = _rule(rules, lhs)
+    return np.nan if r is None else r["confidence"]
+
+
+def _lift(rules, lhs):
+    r = _rule(rules, lhs)
+    return np.nan if r is None else r["lift"]
 
 
 def _rules() -> None:
@@ -144,8 +206,8 @@ def _rules() -> None:
         with c2:
             C.rules_chart(rules, "p2_rules_chart", 12)
         cards.explanation("Apriori finds 'if this, then that' patterns across all orders, with 'Returned' as the result.",
-                          "Ordering the same item in two sizes is followed by a return every time (lift ≈ 6). Fashion from "
-                          "poor-quality sellers and late deliveries also raise the chance of a return.",
+                          f"Ordering the same item in two sizes is followed by a return in {C.pct(_conf(rules, 'Ordered two sizes'), 0)} of cases "
+                          f"(lift ≈ {_lift(rules, 'Ordered two sizes'):.1f}). Fashion from poor-quality sellers and late deliveries also raise the chance of a return.",
                           "Show a size guide or fit advice when two sizes go in the basket, and send sellers with high return "
                           "patterns to a quality check. Fewer returns is cheaper than faster refunds.",
                           "Support = how common the pattern is; small-support rules are real but affect few orders.")

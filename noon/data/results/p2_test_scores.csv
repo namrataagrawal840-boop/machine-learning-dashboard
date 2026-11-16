@@ -1,1465 +1,1387 @@
 return_id,p_fail,qc_failed,item_value_aed,category,return_reason
-R502118,0.4485,0,171.99,Home & Kitchen,Changed my mind
-R501219,0.5481,1,200.85,Fashion,Size or fit issue
-R503566,0.1762,0,129.02,Home & Kitchen,Not as described
-R501612,0.3147,0,403.42,Electronics,Defective / not working
-R500153,0.2676,0,181.24,Electronics,Defective / not working
-R504313,0.1599,0,197.75,Electronics,Not as described
-R500359,0.0912,0,329.08,Electronics,Not as described
-R501212,0.1475,0,103.07,Electronics,Wrong item delivered
-R501936,0.1167,0,76.92,Home & Kitchen,Defective / not working
-R503230,0.0895,0,68.45,Fashion,Size or fit issue
-R501244,0.0969,0,46.59,Home & Kitchen,Defective / not working
-R502228,0.1707,1,63.23,Home & Kitchen,Damaged in delivery
-R500189,0.5052,1,91.54,Beauty & Fragrance,Changed my mind
-R503274,0.1292,0,110.84,Baby & Toys,Wrong item delivered
-R502994,0.0742,0,66.37,Fashion,Defective / not working
-R503238,0.1074,0,800.8,Furniture,Defective / not working
-R504107,0.1349,0,174.65,Fashion,Size or fit issue
-R500612,0.0379,0,168.07,Baby & Toys,Not as described
-R504876,0.0044,0,124.15,Fashion,Size or fit issue
-R502530,0.5767,1,100.47,Baby & Toys,Not as described
-R502544,0.2886,0,194.31,Home & Kitchen,Defective / not working
-R504516,0.1972,0,195.61,Home & Kitchen,Wrong item delivered
-R503700,0.3803,0,227.71,Electronics,Changed my mind
-R503634,0.0238,0,255.81,Fashion,Size or fit issue
-R500950,0.0943,0,94.14,Home & Kitchen,Not as described
-R500072,0.1077,0,98.82,Baby & Toys,Defective / not working
-R504687,0.114,0,250.51,Home & Kitchen,Not as described
-R500185,0.345,0,154.29,Fashion,Size or fit issue
-R503353,0.1606,0,309.2,Electronics,Wrong item delivered
-R500725,0.5317,1,289.41,Electronics,Wrong item delivered
-R504190,0.5744,0,661.49,Electronics,Changed my mind
-R504463,0.6247,0,413.55,Electronics,Wrong item delivered
-R503407,0.3377,0,421.98,Furniture,Changed my mind
-R501912,0.1499,0,159.63,Fashion,Size or fit issue
-R503432,0.1226,0,473.51,Furniture,Defective / not working
-R500619,0.0874,0,127.34,Fashion,Size or fit issue
-R501891,0.0359,0,134.87,Baby & Toys,Defective / not working
-R501875,0.4384,0,951.91,Furniture,Changed my mind
-R504826,0.0284,0,80.45,Baby & Toys,Defective / not working
-R502343,0.1195,0,65.75,Fashion,Size or fit issue
-R504555,0.411,0,87.37,Sports & Outdoors,Changed my mind
-R502498,0.3906,1,165.0,Baby & Toys,Changed my mind
-R502401,0.4049,0,449.33,Electronics,Damaged in delivery
-R503714,0.3066,0,78.01,Beauty & Fragrance,Changed my mind
-R504501,0.1355,0,79.95,Home & Kitchen,Damaged in delivery
-R504432,0.3917,0,449.07,Electronics,Defective / not working
-R502423,0.2612,0,393.03,Furniture,Defective / not working
-R502159,0.1637,0,506.55,Furniture,Defective / not working
-R504808,0.0241,0,81.51,Fashion,Size or fit issue
-R504576,0.2187,0,77.52,Sports & Outdoors,Defective / not working
-R504228,0.1233,0,39.94,Fashion,Size or fit issue
-R502200,0.0435,0,179.6,Fashion,Defective / not working
-R504532,0.3857,0,671.76,Furniture,Changed my mind
-R504509,0.0898,0,44.03,Beauty & Fragrance,Size or fit issue
-R503259,0.5875,0,239.2,Electronics,Changed my mind
-R502090,0.0488,0,184.35,Home & Kitchen,Not as described
-R504682,0.3331,0,154.47,Fashion,Size or fit issue
-R503950,0.3259,0,86.2,Baby & Toys,Changed my mind
-R501599,0.0824,0,172.99,Fashion,Size or fit issue
-R500749,0.0497,0,80.28,Fashion,Size or fit issue
-R504219,0.8196,1,234.27,Home & Kitchen,Not as described
-R504037,0.1307,0,321.33,Fashion,Not as described
-R501957,0.2161,0,98.96,Grocery,Damaged in delivery
-R503294,0.1914,0,120.57,Electronics,Defective / not working
-R501358,0.3134,0,478.44,Electronics,Defective / not working
-R504553,0.0794,0,68.06,Grocery,Not as described
-R502660,0.0913,1,125.86,Fashion,Size or fit issue
-R504341,0.1343,1,144.6,Sports & Outdoors,Not as described
-R502659,0.3516,0,151.58,Home & Kitchen,Changed my mind
-R502982,0.154,0,52.41,Fashion,Size or fit issue
-R500005,0.0736,0,135.33,Home & Kitchen,Wrong item delivered
-R500041,0.0424,0,134.29,Fashion,Size or fit issue
-R503214,0.1414,0,152.81,Fashion,Size or fit issue
-R500212,0.4536,0,169.23,Baby & Toys,Changed my mind
-R502505,0.253,0,113.38,Baby & Toys,Not as described
-R501491,0.027,0,149.9,Home & Kitchen,Not as described
-R501003,0.1647,0,495.81,Fashion,Size or fit issue
-R504630,0.0169,0,141.06,Fashion,Size or fit issue
-R503384,0.396,0,312.21,Electronics,Changed my mind
-R502367,0.3074,0,423.47,Electronics,Wrong item delivered
-R500814,0.2436,0,434.15,Electronics,Damaged in delivery
-R502219,0.0636,0,191.82,Grocery,Defective / not working
-R502242,0.5687,0,280.21,Home & Kitchen,Changed my mind
-R500121,0.0292,0,78.26,Fashion,Size or fit issue
-R502332,0.1605,0,68.43,Fashion,Damaged in delivery
-R504155,0.0329,0,185.0,Fashion,Size or fit issue
-R503578,0.0255,0,118.8,Fashion,Size or fit issue
-R502676,0.2094,0,369.44,Electronics,Not as described
-R500004,0.2394,0,2943.84,Furniture,Wrong item delivered
-R500273,0.1131,0,101.11,Sports & Outdoors,Defective / not working
-R502956,0.2541,0,669.74,Electronics,Not as described
-R502865,0.0994,0,195.62,Fashion,Size or fit issue
-R500069,0.1617,0,100.63,Fashion,Size or fit issue
-R501934,0.054,0,61.06,Fashion,Defective / not working
-R500761,0.1668,0,202.08,Fashion,Size or fit issue
-R503658,0.2248,0,530.11,Furniture,Defective / not working
-R501835,0.2863,0,142.19,Home & Kitchen,Changed my mind
-R502983,0.0942,0,207.09,Home & Kitchen,Defective / not working
-R502794,0.0929,0,111.3,Home & Kitchen,Not as described
-R502209,0.0894,0,107.36,Fashion,Size or fit issue
-R503684,0.0835,0,144.51,Baby & Toys,Wrong item delivered
-R501147,0.008,0,85.64,Fashion,Size or fit issue
-R504303,0.1596,0,188.28,Sports & Outdoors,Defective / not working
-R504778,0.3077,0,243.42,Electronics,Size or fit issue
-R504529,0.1839,0,335.68,Fashion,Size or fit issue
-R501435,0.0263,0,135.16,Fashion,Size or fit issue
-R501215,0.4356,1,688.09,Electronics,Changed my mind
-R501283,0.0295,0,47.62,Fashion,Damaged in delivery
-R502265,0.2023,0,194.97,Fashion,Size or fit issue
-R501464,0.1766,0,271.99,Fashion,Defective / not working
-R503935,0.0942,0,71.87,Baby & Toys,Defective / not working
-R500926,0.3853,0,87.69,Beauty & Fragrance,Changed my mind
-R500898,0.4006,0,576.68,Electronics,Changed my mind
-R500572,0.0881,0,624.45,Electronics,Not as described
-R504016,0.1093,0,204.15,Fashion,Size or fit issue
-R503295,0.0486,0,332.99,Fashion,Size or fit issue
-R504153,0.1107,0,76.21,Grocery,Damaged in delivery
-R502919,0.0792,0,164.72,Fashion,Size or fit issue
-R503225,0.0859,0,144.38,Fashion,Defective / not working
-R502179,0.1841,0,601.64,Furniture,Damaged in delivery
-R501490,0.1141,0,58.28,Home & Kitchen,Defective / not working
-R503031,0.1068,0,1746.29,Furniture,Defective / not working
-R504271,0.3668,0,219.21,Electronics,Defective / not working
-R500417,0.0721,0,73.35,Beauty & Fragrance,Size or fit issue
-R504642,0.2179,0,157.3,Fashion,Not as described
-R504419,0.1918,0,1782.67,Furniture,Defective / not working
-R502169,0.0343,0,133.36,Fashion,Damaged in delivery
-R504079,0.5021,0,416.45,Electronics,Changed my mind
-R504860,0.5181,0,64.71,Beauty & Fragrance,Changed my mind
-R502751,0.0393,0,121.2,Fashion,Size or fit issue
-R501863,0.124,0,132.13,Fashion,Not as described
-R504596,0.2053,0,751.4,Electronics,Size or fit issue
-R504372,0.1152,1,199.6,Fashion,Size or fit issue
-R501985,0.1108,0,1005.0,Fashion,Not as described
-R504677,0.1809,0,198.0,Home & Kitchen,Wrong item delivered
-R503247,0.0561,0,39.83,Fashion,Size or fit issue
-R504123,0.0299,0,260.95,Sports & Outdoors,Not as described
-R501554,0.4288,1,33.23,Beauty & Fragrance,Changed my mind
-R502005,0.06,0,543.52,Furniture,Not as described
-R502862,0.1829,1,1200.18,Electronics,Size or fit issue
-R500788,0.0365,0,183.57,Fashion,Size or fit issue
-R504690,0.0307,0,106.88,Fashion,Size or fit issue
-R501075,0.066,0,122.13,Beauty & Fragrance,Defective / not working
-R500983,0.0621,0,302.94,Fashion,Size or fit issue
-R500429,0.0215,0,130.5,Fashion,Size or fit issue
-R500454,0.2034,0,191.69,Electronics,Not as described
-R504556,0.2334,0,571.98,Electronics,Damaged in delivery
-R502063,0.3006,0,390.76,Electronics,Defective / not working
-R501552,0.0472,0,305.94,Home & Kitchen,Not as described
-R503382,0.1763,0,201.4,Baby & Toys,Defective / not working
-R503431,0.0182,0,85.53,Fashion,Size or fit issue
-R501005,0.5249,0,122.7,Baby & Toys,Changed my mind
-R503017,0.2993,0,433.47,Electronics,Not as described
-R504455,0.0531,0,304.39,Fashion,Size or fit issue
-R500404,0.1516,0,109.5,Home & Kitchen,Wrong item delivered
-R500195,0.1857,0,340.75,Baby & Toys,Size or fit issue
-R504804,0.0245,0,192.18,Fashion,Size or fit issue
-R501785,0.0348,0,173.28,Fashion,Size or fit issue
-R503703,0.3392,0,596.37,Electronics,Wrong item delivered
-R502864,0.0152,0,60.91,Fashion,Size or fit issue
-R500259,0.1105,0,103.77,Fashion,Size or fit issue
-R500760,0.8358,1,126.14,Baby & Toys,Defective / not working
-R504060,0.1268,0,153.97,Beauty & Fragrance,Wrong item delivered
-R500831,0.2067,0,98.28,Fashion,Damaged in delivery
-R500074,0.2065,0,142.97,Electronics,Defective / not working
-R500695,0.0895,0,106.17,Sports & Outdoors,Defective / not working
-R500123,0.1151,0,55.88,Home & Kitchen,Defective / not working
-R501648,0.2412,0,50.09,Fashion,Changed my mind
-R501210,0.3342,0,110.56,Fashion,Changed my mind
-R504136,0.041,0,125.77,Fashion,Size or fit issue
-R504052,0.0281,0,227.55,Fashion,Size or fit issue
-R502241,0.0129,0,106.28,Fashion,Size or fit issue
-R504695,0.3297,1,314.75,Electronics,Size or fit issue
-R500732,0.3835,0,459.09,Sports & Outdoors,Changed my mind
-R500786,0.4021,0,1391.68,Furniture,Changed my mind
-R504385,0.4405,1,327.96,Fashion,Changed my mind
-R503293,0.1194,0,209.63,Fashion,Size or fit issue
-R503093,0.0374,0,193.94,Home & Kitchen,Defective / not working
-R501684,0.4017,0,809.76,Electronics,Damaged in delivery
-R503448,0.2794,0,286.32,Electronics,Defective / not working
-R504117,0.4994,0,254.65,Home & Kitchen,Changed my mind
-R503156,0.0114,0,126.74,Fashion,Size or fit issue
-R502724,0.1509,0,75.07,Grocery,Wrong item delivered
-R503832,0.098,0,313.23,Baby & Toys,Size or fit issue
-R500740,0.4446,1,72.32,Beauty & Fragrance,Changed my mind
-R501263,0.2432,0,57.74,Baby & Toys,Changed my mind
-R502339,0.3281,1,276.73,Fashion,Defective / not working
-R504564,0.028,0,233.09,Sports & Outdoors,Not as described
-R503361,0.139,0,234.33,Home & Kitchen,Defective / not working
-R503689,0.1602,0,144.65,Baby & Toys,Not as described
-R502718,0.2303,0,383.33,Electronics,Damaged in delivery
-R502696,0.4196,0,177.45,Electronics,Changed my mind
-R504066,0.1268,0,65.24,Fashion,Size or fit issue
-R503166,0.1174,0,151.1,Home & Kitchen,Not as described
-R504204,0.0527,0,72.34,Beauty & Fragrance,Damaged in delivery
-R504726,0.23,0,219.08,Fashion,Defective / not working
-R501556,0.0536,0,97.92,Fashion,Size or fit issue
-R504466,0.1838,0,57.74,Grocery,Defective / not working
-R501847,0.1039,0,1886.11,Furniture,Not as described
-R502638,0.0945,0,134.99,Fashion,Size or fit issue
-R504333,0.0272,0,110.91,Fashion,Size or fit issue
-R503968,0.1744,0,213.15,Fashion,Not as described
-R503433,0.0689,0,252.89,Fashion,Size or fit issue
-R502995,0.2326,0,154.43,Fashion,Size or fit issue
-R502010,0.0827,0,150.75,Sports & Outdoors,Wrong item delivered
-R501465,0.1215,0,141.33,Fashion,Not as described
-R502830,0.2424,0,361.96,Electronics,Defective / not working
-R502851,0.394,0,209.49,Sports & Outdoors,Changed my mind
-R501598,0.1289,0,465.46,Sports & Outdoors,Wrong item delivered
-R502827,0.6257,0,531.9,Electronics,Not as described
-R500791,0.5537,1,265.74,Fashion,Size or fit issue
-R500332,0.4395,0,193.35,Electronics,Changed my mind
-R501430,0.2977,0,537.93,Electronics,Wrong item delivered
-R503153,0.8603,0,154.56,Fashion,Not as described
-R504108,0.1446,0,526.99,Electronics,Not as described
-R504085,0.1323,1,96.15,Sports & Outdoors,Not as described
-R503716,0.0408,1,110.34,Fashion,Size or fit issue
-R503900,0.2079,0,225.82,Electronics,Wrong item delivered
-R501851,0.1084,0,238.05,Home & Kitchen,Defective / not working
-R501989,0.3419,0,203.41,Electronics,Defective / not working
-R503589,0.2176,0,44.75,Baby & Toys,Defective / not working
-R500164,0.1347,0,1826.75,Furniture,Wrong item delivered
-R500394,0.0334,0,144.83,Fashion,Size or fit issue
-R502222,0.3555,0,184.47,Electronics,Damaged in delivery
-R503229,0.04,0,124.23,Fashion,Size or fit issue
-R501016,0.2579,0,54.22,Home & Kitchen,Defective / not working
-R502719,0.1341,0,660.66,Furniture,Defective / not working
-R500369,0.1099,0,168.1,Home & Kitchen,Wrong item delivered
-R500704,0.2163,0,89.35,Fashion,Size or fit issue
-R503521,0.4586,0,187.29,Home & Kitchen,Wrong item delivered
-R503352,0.0722,0,147.54,Home & Kitchen,Wrong item delivered
-R504709,0.6812,1,78.94,Fashion,Defective / not working
-R503248,0.1596,0,230.56,Beauty & Fragrance,Damaged in delivery
-R503335,0.1628,0,711.69,Electronics,Defective / not working
-R503118,0.3196,0,145.17,Sports & Outdoors,Changed my mind
-R501662,0.3684,0,363.41,Electronics,Not as described
-R502817,0.2433,1,884.17,Electronics,Not as described
-R500373,0.5316,0,696.34,Electronics,Defective / not working
-R501583,0.3696,0,644.07,Electronics,Defective / not working
-R502439,0.0448,0,279.65,Fashion,Size or fit issue
-R502223,0.0831,0,92.38,Baby & Toys,Defective / not working
-R504710,0.1411,0,171.79,Fashion,Defective / not working
-R500528,0.1842,0,201.92,Fashion,Size or fit issue
-R502510,0.0892,0,173.91,Fashion,Size or fit issue
-R502979,0.1684,0,357.27,Electronics,Defective / not working
-R502324,0.0529,0,81.19,Baby & Toys,Not as described
-R504440,0.2841,0,85.01,Grocery,Damaged in delivery
-R503013,0.0343,0,131.94,Fashion,Size or fit issue
-R501019,0.2041,0,231.51,Electronics,Defective / not working
-R503694,0.0621,0,83.86,Beauty & Fragrance,Defective / not working
-R502348,0.2404,0,384.83,Sports & Outdoors,Defective / not working
-R501031,0.0628,0,140.57,Fashion,Size or fit issue
-R501386,0.1049,0,78.06,Home & Kitchen,Defective / not working
-R501393,0.2036,0,2487.52,Furniture,Size or fit issue
-R500784,0.204,0,167.65,Home & Kitchen,Defective / not working
-R503372,0.0971,0,123.35,Beauty & Fragrance,Defective / not working
-R503999,0.046,0,248.53,Fashion,Size or fit issue
-R501052,0.2118,0,249.94,Fashion,Not as described
-R503159,0.0649,0,88.92,Fashion,Size or fit issue
-R501322,0.2224,0,297.07,Home & Kitchen,Changed my mind
-R503909,0.0767,0,116.9,Fashion,Size or fit issue
-R503125,0.0998,0,319.36,Sports & Outdoors,Not as described
-R501799,0.1448,0,51.44,Fashion,Size or fit issue
-R501631,0.5175,0,176.62,Baby & Toys,Changed my mind
-R504474,0.4437,0,163.94,Home & Kitchen,Changed my mind
-R503350,0.5703,0,826.38,Furniture,Defective / not working
-R500842,0.5368,0,123.86,Home & Kitchen,Changed my mind
-R500750,0.4377,0,553.17,Electronics,Defective / not working
-R503740,0.385,1,257.98,Electronics,Damaged in delivery
-R504261,0.0819,0,134.68,Baby & Toys,Not as described
-R503678,0.2207,0,581.41,Sports & Outdoors,Not as described
-R502240,0.2908,0,159.88,Home & Kitchen,Changed my mind
-R502297,0.2309,0,201.13,Sports & Outdoors,Defective / not working
-R502693,0.0899,0,86.33,Grocery,Wrong item delivered
-R502967,0.014,0,53.22,Fashion,Size or fit issue
-R500058,0.1597,0,423.6,Furniture,Defective / not working
-R502939,0.0885,0,266.59,Beauty & Fragrance,Wrong item delivered
-R501238,0.108,0,214.48,Fashion,Size or fit issue
-R501821,0.3766,0,222.64,Electronics,Wrong item delivered
-R500999,0.4727,0,119.0,Beauty & Fragrance,Changed my mind
-R504524,0.0608,0,133.03,Fashion,Size or fit issue
-R502703,0.0552,0,117.29,Beauty & Fragrance,Damaged in delivery
-R503339,0.1797,0,340.67,Electronics,Not as described
-R500127,0.308,0,250.9,Electronics,Size or fit issue
-R500839,0.0477,0,134.7,Beauty & Fragrance,Defective / not working
-R504469,0.0995,0,162.27,Fashion,Size or fit issue
-R504766,0.2755,0,354.09,Electronics,Defective / not working
-R500512,0.1252,0,837.82,Electronics,Damaged in delivery
-R501107,0.0149,0,87.36,Fashion,Size or fit issue
-R502460,0.3572,0,89.01,Grocery,Changed my mind
-R501232,0.0597,0,1728.16,Furniture,Defective / not working
-R501171,0.1436,0,671.22,Furniture,Not as described
-R503029,0.1014,0,98.17,Baby & Toys,Wrong item delivered
-R503202,0.0343,0,91.94,Grocery,Defective / not working
-R500648,0.2327,0,115.06,Beauty & Fragrance,Not as described
-R502074,0.2538,0,128.08,Fashion,Not as described
-R502416,0.4912,0,172.81,Fashion,Changed my mind
-R502846,0.2647,0,330.18,Fashion,Size or fit issue
-R502177,0.0521,1,233.35,Home & Kitchen,Damaged in delivery
-R500734,0.1364,0,157.1,Fashion,Size or fit issue
-R502993,0.1567,0,118.66,Fashion,Size or fit issue
-R502314,0.0831,0,96.45,Fashion,Defective / not working
-R502885,0.0304,0,180.17,Fashion,Size or fit issue
-R502707,0.2279,0,181.78,Electronics,Defective / not working
-R500942,0.4644,0,441.08,Home & Kitchen,Not as described
-R500971,0.2162,0,319.68,Fashion,Size or fit issue
-R504262,0.376,0,177.81,Fashion,Changed my mind
-R503631,0.2269,0,483.92,Electronics,Wrong item delivered
-R502729,0.078,0,134.66,Sports & Outdoors,Not as described
-R504702,0.146,0,208.9,Home & Kitchen,Damaged in delivery
-R501686,0.4312,0,383.99,Fashion,Changed my mind
-R502882,0.0492,0,619.24,Furniture,Wrong item delivered
-R500692,0.4697,0,380.33,Electronics,Not as described
-R500744,0.228,0,361.88,Electronics,Defective / not working
-R502682,0.7113,1,69.71,Beauty & Fragrance,Defective / not working
-R504070,0.2904,0,197.03,Electronics,Wrong item delivered
-R500365,0.1547,0,714.29,Electronics,Not as described
-R501387,0.0619,0,423.03,Furniture,Damaged in delivery
-R503696,0.0486,0,305.1,Home & Kitchen,Defective / not working
-R504672,0.0295,0,173.77,Fashion,Size or fit issue
-R501078,0.0424,0,130.25,Fashion,Size or fit issue
-R503143,0.0224,0,53.09,Fashion,Defective / not working
-R500625,0.0429,0,213.3,Home & Kitchen,Not as described
-R502576,0.0744,0,294.3,Home & Kitchen,Damaged in delivery
-R501625,0.3524,0,166.73,Home & Kitchen,Changed my mind
-R504504,0.1451,0,91.51,Beauty & Fragrance,Damaged in delivery
-R500086,0.0413,0,147.68,Beauty & Fragrance,Damaged in delivery
-R503148,0.1157,0,91.74,Beauty & Fragrance,Not as described
-R501892,0.3526,0,126.02,Fashion,Size or fit issue
-R502220,0.0673,0,125.97,Fashion,Size or fit issue
-R504666,0.3515,0,533.67,Electronics,Defective / not working
-R500350,0.111,0,127.97,Sports & Outdoors,Defective / not working
-R501515,0.7872,1,278.66,Home & Kitchen,Defective / not working
-R500333,0.0292,0,134.13,Sports & Outdoors,Defective / not working
-R502778,0.0826,0,574.69,Fashion,Size or fit issue
-R504493,0.0319,0,107.23,Fashion,Size or fit issue
-R501550,0.1875,0,456.53,Furniture,Defective / not working
-R502774,0.0712,0,83.8,Fashion,Size or fit issue
-R504389,0.0777,0,78.27,Grocery,Damaged in delivery
-R503505,0.0244,0,51.85,Fashion,Size or fit issue
-R504781,0.0197,0,80.6,Fashion,Defective / not working
-R500173,0.5021,0,156.34,Grocery,Defective / not working
-R501036,0.0556,0,250.12,Fashion,Size or fit issue
-R501488,0.046,0,123.4,Fashion,Size or fit issue
-R504580,0.0735,0,358.2,Fashion,Size or fit issue
-R500306,0.8765,1,363.77,Electronics,Defective / not working
-R502233,0.08,0,133.5,Fashion,Not as described
-R504014,0.1591,0,1022.55,Electronics,Wrong item delivered
-R503281,0.0197,0,142.68,Fashion,Size or fit issue
-R504119,0.0521,0,137.98,Fashion,Size or fit issue
-R501659,0.1513,0,84.09,Home & Kitchen,Not as described
-R502023,0.0515,0,223.12,Home & Kitchen,Defective / not working
-R501518,0.3148,0,519.83,Electronics,Not as described
-R504510,0.1988,0,223.97,Fashion,Size or fit issue
-R502072,0.1067,0,124.51,Sports & Outdoors,Defective / not working
-R504413,0.0413,0,77.74,Fashion,Defective / not working
-R501789,0.3421,0,61.18,Baby & Toys,Changed my mind
-R503780,0.2859,0,408.92,Electronics,Not as described
-R500660,0.0329,0,227.05,Fashion,Size or fit issue
-R502061,0.1836,0,441.32,Furniture,Damaged in delivery
-R502068,0.0477,0,48.49,Fashion,Size or fit issue
-R503870,0.4437,0,535.23,Electronics,Changed my mind
-R503803,0.2283,1,314.61,Electronics,Defective / not working
-R503807,0.8211,1,573.37,Sports & Outdoors,Defective / not working
-R501656,0.0344,0,59.87,Beauty & Fragrance,Defective / not working
-R501242,0.1035,0,322.39,Baby & Toys,Size or fit issue
-R504367,0.1188,0,98.87,Fashion,Size or fit issue
-R503227,0.3789,0,160.73,Baby & Toys,Changed my mind
-R503026,0.7976,0,71.06,Grocery,Wrong item delivered
-R504286,0.2096,0,807.06,Electronics,Defective / not working
-R502145,0.0884,0,125.02,Fashion,Defective / not working
-R503034,0.3467,0,148.66,Baby & Toys,Changed my mind
-R501805,0.1083,0,260.47,Fashion,Size or fit issue
-R503038,0.0623,0,181.98,Fashion,Size or fit issue
-R503151,0.0255,0,102.53,Fashion,Defective / not working
-R502133,0.2185,0,659.8,Electronics,Defective / not working
-R504122,0.0183,0,75.18,Fashion,Defective / not working
-R504168,0.1441,0,37.71,Beauty & Fragrance,Not as described
-R500142,0.1958,0,218.29,Fashion,Size or fit issue
-R502182,0.1443,0,481.93,Electronics,Damaged in delivery
-R502342,0.798,0,1962.75,Furniture,Not as described
-R502357,0.0226,0,126.68,Fashion,Size or fit issue
-R503067,0.0373,0,55.33,Fashion,Size or fit issue
-R500139,0.128,0,90.18,Baby & Toys,Not as described
-R504594,0.4156,0,368.6,Fashion,Size or fit issue
-R502344,0.068,0,94.63,Baby & Toys,Defective / not working
-R503181,0.014,0,141.69,Sports & Outdoors,Not as described
-R502796,0.0151,0,82.96,Grocery,Not as described
-R500026,0.0811,0,56.65,Grocery,Defective / not working
-R503967,0.0412,0,123.6,Fashion,Size or fit issue
-R502375,0.3785,0,238.04,Electronics,Defective / not working
-R500944,0.1919,0,203.28,Electronics,Not as described
-R504548,0.0463,0,194.94,Fashion,Size or fit issue
-R503767,0.4319,1,354.18,Electronics,Defective / not working
-R502957,0.3374,0,84.27,Fashion,Size or fit issue
-R502925,0.1025,0,29.48,Sports & Outdoors,Defective / not working
-R504371,0.1424,0,652.89,Furniture,Defective / not working
-R500294,0.3589,0,322.01,Baby & Toys,Changed my mind
-R504870,0.154,0,171.58,Beauty & Fragrance,Wrong item delivered
-R502738,0.0274,0,47.42,Fashion,Size or fit issue
-R504512,0.4656,1,448.65,Electronics,Defective / not working
-R500289,0.1594,0,83.0,Home & Kitchen,Defective / not working
-R502268,0.0624,0,139.49,Fashion,Size or fit issue
-R502613,0.2762,0,217.28,Sports & Outdoors,Wrong item delivered
-R502666,0.4508,0,70.63,Fashion,Changed my mind
-R504546,0.3371,1,268.51,Electronics,Changed my mind
-R503428,0.1414,0,749.35,Electronics,Not as described
-R503765,0.1799,0,103.04,Sports & Outdoors,Not as described
-R500988,0.0187,0,158.25,Fashion,Size or fit issue
-R501391,0.215,0,854.63,Furniture,Defective / not working
-R500093,0.223,1,929.34,Electronics,Damaged in delivery
-R504774,0.037,0,249.04,Fashion,Size or fit issue
-R502441,0.0619,0,84.81,Fashion,Size or fit issue
-R503368,0.3855,0,222.15,Sports & Outdoors,Changed my mind
-R504157,0.0603,0,101.77,Grocery,Size or fit issue
-R504426,0.0803,0,144.01,Fashion,Size or fit issue
-R504288,0.1202,0,71.8,Fashion,Size or fit issue
-R502048,0.3377,0,318.73,Fashion,Size or fit issue
-R500377,0.1385,0,1092.02,Furniture,Damaged in delivery
-R502691,0.1763,0,344.96,Electronics,Not as described
-R503877,0.1309,0,80.97,Grocery,Defective / not working
-R501798,0.4153,0,201.59,Fashion,Changed my mind
-R501447,0.1171,0,317.14,Fashion,Size or fit issue
-R504719,0.0728,0,200.23,Sports & Outdoors,Defective / not working
-R501020,0.2941,0,217.63,Electronics,Defective / not working
-R501839,0.255,0,1085.57,Furniture,Defective / not working
-R503348,0.043,0,90.2,Home & Kitchen,Size or fit issue
-R501157,0.1317,0,125.99,Baby & Toys,Damaged in delivery
-R501795,0.1674,0,245.15,Fashion,Size or fit issue
-R501236,0.0342,0,450.44,Home & Kitchen,Not as described
-R503321,0.3317,0,139.85,Beauty & Fragrance,Not as described
-R500817,0.1026,0,113.19,Fashion,Size or fit issue
-R504656,0.1132,0,108.3,Fashion,Size or fit issue
-R500867,0.1138,0,63.43,Fashion,Size or fit issue
-R502616,0.0793,0,59.83,Fashion,Size or fit issue
-R500152,0.1508,1,247.88,Fashion,Size or fit issue
-R501177,0.0798,0,220.57,Fashion,Size or fit issue
-R503402,0.0475,0,215.19,Fashion,Size or fit issue
-R503555,0.3664,0,255.93,Home & Kitchen,Defective / not working
-R502184,0.6855,1,270.93,Home & Kitchen,Defective / not working
-R500516,0.3481,0,641.2,Beauty & Fragrance,Changed my mind
-R501639,0.1049,1,115.07,Home & Kitchen,Defective / not working
-R501214,0.204,0,101.47,Fashion,Size or fit issue
-R501959,0.2333,0,272.13,Electronics,Defective / not working
-R504246,0.0198,0,111.29,Fashion,Size or fit issue
-R503882,0.0335,0,274.69,Home & Kitchen,Defective / not working
-R500946,0.442,0,167.37,Fashion,Changed my mind
-R502431,0.4001,0,138.62,Sports & Outdoors,Not as described
-R500719,0.0784,0,43.1,Beauty & Fragrance,Wrong item delivered
-R503764,0.7641,1,199.29,Beauty & Fragrance,Defective / not working
-R504715,0.6806,0,380.79,Electronics,Changed my mind
-R504829,0.0556,0,128.73,Baby & Toys,Damaged in delivery
-R500678,0.3558,1,221.2,Baby & Toys,Changed my mind
-R504872,0.3605,0,247.88,Sports & Outdoors,Changed my mind
-R502261,0.1405,0,212.77,Grocery,Not as described
-R502988,0.237,0,755.41,Electronics,Not as described
-R501740,0.0651,0,125.5,Fashion,Size or fit issue
-R501427,0.4177,0,357.91,Electronics,Defective / not working
-R501995,0.0744,0,84.16,Fashion,Not as described
-R502629,0.1997,0,293.47,Electronics,Wrong item delivered
-R503047,0.5074,0,149.24,Home & Kitchen,Changed my mind
-R503606,0.1316,0,131.35,Fashion,Size or fit issue
-R502850,0.0154,0,160.95,Fashion,Size or fit issue
-R500387,0.1978,0,178.41,Home & Kitchen,Not as described
-R503447,0.0844,0,108.31,Fashion,Defective / not working
-R503334,0.1206,1,262.56,Fashion,Defective / not working
-R503464,0.095,0,300.42,Grocery,Defective / not working
-R501434,0.0971,0,349.23,Sports & Outdoors,Damaged in delivery
-R504711,0.3047,0,127.87,Home & Kitchen,Changed my mind
-R500491,0.3334,0,1262.35,Electronics,Changed my mind
-R500587,0.2184,0,201.0,Home & Kitchen,Defective / not working
-R503308,0.6017,1,629.61,Electronics,Changed my mind
-R503087,0.1008,0,44.13,Fashion,Size or fit issue
-R503233,0.593,1,783.36,Furniture,Damaged in delivery
-R503376,0.0902,0,522.92,Electronics,Not as described
-R500804,0.0561,0,100.58,Fashion,Size or fit issue
-R500922,0.0389,1,84.09,Home & Kitchen,Damaged in delivery
-R502980,0.7064,0,265.42,Electronics,Changed my mind
-R501623,0.1081,0,95.5,Beauty & Fragrance,Damaged in delivery
-R501372,0.1539,0,185.96,Beauty & Fragrance,Defective / not working
-R504056,0.0925,0,100.27,Fashion,Size or fit issue
-R503379,0.3008,0,462.54,Fashion,Size or fit issue
-R500657,0.1413,0,644.28,Furniture,Damaged in delivery
-R503213,0.0344,0,188.1,Home & Kitchen,Defective / not working
-R503581,0.3937,0,200.46,Sports & Outdoors,Changed my mind
-R500994,0.1116,0,293.52,Electronics,Not as described
-R501606,0.1531,0,244.1,Home & Kitchen,Defective / not working
-R503168,0.0241,0,158.88,Fashion,Size or fit issue
-R504484,0.3308,1,238.54,Fashion,Changed my mind
-R504526,0.2172,0,437.0,Electronics,Damaged in delivery
-R501538,0.1584,0,50.06,Fashion,Size or fit issue
-R501319,0.0998,0,331.15,Fashion,Size or fit issue
-R504435,0.0461,0,335.76,Fashion,Size or fit issue
-R503802,0.1266,1,35.9,Beauty & Fragrance,Not as described
-R503887,0.1818,0,657.19,Electronics,Not as described
-R501423,0.1611,0,115.89,Fashion,Wrong item delivered
-R504605,0.1865,0,173.02,Baby & Toys,Wrong item delivered
-R503280,0.1651,0,508.21,Electronics,Not as described
-R500975,0.0394,0,155.93,Fashion,Not as described
-R503762,0.06,0,238.97,Fashion,Size or fit issue
-R501040,0.3891,0,144.99,Home & Kitchen,Changed my mind
-R502267,0.1713,0,79.47,Home & Kitchen,Defective / not working
-R501570,0.0097,0,124.75,Fashion,Size or fit issue
-R503659,0.0493,0,562.93,Furniture,Defective / not working
-R504542,0.4251,1,233.67,Fashion,Changed my mind
-R501073,0.1504,0,59.59,Beauty & Fragrance,Not as described
-R502942,0.0273,0,33.12,Fashion,Size or fit issue
-R502386,0.5536,0,269.46,Fashion,Size or fit issue
-R500923,0.2456,0,149.46,Fashion,Changed my mind
-R500130,0.1263,0,174.43,Home & Kitchen,Damaged in delivery
-R501061,0.1261,0,933.21,Furniture,Defective / not working
-R500833,0.1081,0,102.77,Baby & Toys,Defective / not working
-R500517,0.0637,0,174.29,Home & Kitchen,Defective / not working
-R500834,0.1018,0,140.46,Fashion,Defective / not working
-R502497,0.4617,0,212.37,Sports & Outdoors,Not as described
-R504350,0.043,0,363.13,Home & Kitchen,Not as described
-R503650,0.4682,0,654.7,Electronics,Changed my mind
-R503097,0.1538,0,376.26,Electronics,Not as described
-R504775,0.1409,0,120.07,Home & Kitchen,Wrong item delivered
-R503338,0.1781,0,642.52,Furniture,Damaged in delivery
-R502539,0.1206,0,108.74,Home & Kitchen,Damaged in delivery
-R500495,0.1445,0,919.67,Furniture,Defective / not working
-R502766,0.0641,0,246.27,Fashion,Size or fit issue
-R503775,0.4406,0,173.24,Fashion,Changed my mind
-R501267,0.3861,0,87.41,Fashion,Size or fit issue
-R500717,0.1946,0,128.23,Fashion,Damaged in delivery
-R501609,0.1679,0,568.28,Electronics,Wrong item delivered
-R500590,0.0481,0,271.78,Home & Kitchen,Not as described
-R503468,0.012,0,148.89,Fashion,Size or fit issue
-R504563,0.2127,0,548.02,Electronics,Not as described
-R503470,0.3831,0,82.36,Grocery,Defective / not working
-R500071,0.5111,1,574.53,Electronics,Changed my mind
-R503799,0.0403,0,239.56,Fashion,Size or fit issue
-R502446,0.4996,1,108.72,Grocery,Defective / not working
-R504618,0.0452,0,324.85,Baby & Toys,Not as described
-R501786,0.068,0,339.92,Sports & Outdoors,Damaged in delivery
-R501307,0.0567,0,615.77,Furniture,Wrong item delivered
-R500003,0.168,0,153.53,Fashion,Size or fit issue
-R502079,0.1277,0,131.45,Fashion,Size or fit issue
-R502556,0.248,0,841.24,Electronics,Not as described
-R503549,0.4742,0,161.14,Fashion,Changed my mind
-R503501,0.0713,0,231.34,Baby & Toys,Not as described
-R503162,0.0146,0,112.43,Fashion,Defective / not working
-R501420,0.0827,0,339.01,Fashion,Size or fit issue
-R501971,0.0687,0,100.95,Grocery,Not as described
-R503037,0.0451,0,186.3,Baby & Toys,Defective / not working
-R504110,0.3083,0,300.04,Electronics,Size or fit issue
-R500970,0.1409,0,181.36,Fashion,Defective / not working
-R503117,0.1326,0,216.32,Electronics,Wrong item delivered
-R503395,0.1843,0,98.0,Home & Kitchen,Not as described
-R503920,0.2995,0,315.88,Sports & Outdoors,Changed my mind
-R503094,0.0304,0,53.86,Home & Kitchen,Not as described
-R502081,0.0681,0,71.64,Fashion,Size or fit issue
-R500089,0.089,0,295.97,Beauty & Fragrance,Not as described
-R500358,0.0372,0,323.18,Fashion,Size or fit issue
-R504130,0.0697,0,105.96,Fashion,Damaged in delivery
-R501771,0.1788,0,457.46,Home & Kitchen,Defective / not working
-R501101,0.1368,0,436.68,Electronics,Not as described
-R504004,0.0988,0,371.74,Sports & Outdoors,Not as described
-R500690,0.1264,0,1491.7,Furniture,Size or fit issue
-R500314,0.0717,0,271.35,Home & Kitchen,Not as described
-R501710,0.0471,0,125.22,Grocery,Not as described
-R504731,0.021,0,147.92,Fashion,Size or fit issue
-R503702,0.415,0,175.45,Sports & Outdoors,Changed my mind
-R503618,0.0763,0,451.54,Home & Kitchen,Damaged in delivery
-R503600,0.023,0,96.66,Fashion,Size or fit issue
-R502800,0.4306,0,595.35,Electronics,Changed my mind
-R503077,0.0112,0,155.82,Fashion,Size or fit issue
-R500106,0.1943,0,403.08,Electronics,Not as described
-R503541,0.1119,0,96.61,Fashion,Defective / not working
-R501967,0.4229,0,997.79,Furniture,Changed my mind
-R500998,0.2612,1,132.46,Fashion,Not as described
-R503750,0.2062,1,104.67,Sports & Outdoors,Damaged in delivery
-R501186,0.7555,1,409.67,Furniture,Defective / not working
-R502948,0.0831,0,128.17,Fashion,Size or fit issue
-R504725,0.0877,0,93.17,Fashion,Size or fit issue
-R503773,0.1279,0,162.91,Fashion,Damaged in delivery
-R504500,0.2644,0,404.83,Electronics,Damaged in delivery
-R500584,0.0311,0,107.5,Grocery,Defective / not working
-R502996,0.1346,0,136.76,Home & Kitchen,Defective / not working
-R503480,0.5659,1,239.89,Fashion,Size or fit issue
-R504078,0.5152,0,126.35,Fashion,Changed my mind
-R503349,0.0797,0,125.31,Fashion,Size or fit issue
-R500672,0.0834,0,141.52,Fashion,Size or fit issue
-R503292,0.1869,0,158.26,Home & Kitchen,Defective / not working
-R502654,0.0773,0,167.79,Home & Kitchen,Defective / not working
-R503367,0.0083,0,150.61,Fashion,Size or fit issue
-R500654,0.1514,0,57.14,Beauty & Fragrance,Defective / not working
-R500924,0.0208,0,51.59,Fashion,Size or fit issue
-R504738,0.1913,0,503.52,Electronics,Defective / not working
-R501116,0.1022,0,611.46,Furniture,Not as described
-R500703,0.2655,0,341.43,Fashion,Size or fit issue
-R502859,0.2293,0,703.37,Electronics,Size or fit issue
-R501749,0.4668,0,91.67,Sports & Outdoors,Changed my mind
-R501774,0.4783,1,611.72,Electronics,Changed my mind
-R504185,0.7473,1,666.84,Electronics,Not as described
-R501987,0.1275,0,135.45,Fashion,Size or fit issue
-R503513,0.1537,0,138.55,Fashion,Size or fit issue
-R502711,0.0901,0,93.6,Home & Kitchen,Damaged in delivery
-R500937,0.0194,0,256.62,Fashion,Size or fit issue
-R503669,0.7883,0,80.07,Home & Kitchen,Defective / not working
-R503871,0.0294,0,88.43,Fashion,Size or fit issue
-R504404,0.4568,0,100.06,Home & Kitchen,Changed my mind
-R504477,0.0694,0,275.79,Home & Kitchen,Not as described
-R503157,0.0628,0,52.26,Fashion,Size or fit issue
-R504040,0.1112,0,398.94,Furniture,Not as described
-R501796,0.07,0,183.29,Grocery,Damaged in delivery
-R504093,0.6426,1,402.55,Electronics,Changed my mind
-R500894,0.0614,0,345.32,Sports & Outdoors,Not as described
-R500588,0.361,1,139.08,Electronics,Changed my mind
-R502536,0.389,0,146.6,Fashion,Changed my mind
-R500778,0.3363,0,316.15,Electronics,Not as described
-R500418,0.1643,0,192.01,Fashion,Size or fit issue
-R502176,0.0478,0,157.6,Fashion,Size or fit issue
-R503721,0.1975,0,46.36,Grocery,Size or fit issue
-R503974,0.0561,1,57.71,Beauty & Fragrance,Defective / not working
-R502892,0.0774,0,68.0,Fashion,Size or fit issue
-R503410,0.12,0,114.57,Fashion,Size or fit issue
-R501066,0.1501,0,79.63,Home & Kitchen,Size or fit issue
-R501216,0.6293,1,98.85,Fashion,Damaged in delivery
-R500471,0.2503,0,408.13,Fashion,Size or fit issue
-R500029,0.0658,0,75.19,Fashion,Size or fit issue
-R503196,0.0159,0,152.95,Fashion,Size or fit issue
-R501245,0.0441,0,225.36,Home & Kitchen,Defective / not working
-R501390,0.0678,0,148.68,Home & Kitchen,Wrong item delivered
-R502024,0.2389,0,320.61,Electronics,Damaged in delivery
-R502003,0.546,0,235.88,Electronics,Changed my mind
-R504300,0.1377,0,65.58,Fashion,Size or fit issue
-R501241,0.2588,0,143.93,Electronics,Damaged in delivery
-R501311,0.0589,0,122.98,Fashion,Size or fit issue
-R503052,0.1829,0,121.42,Baby & Toys,Damaged in delivery
-R504201,0.1785,0,356.27,Fashion,Defective / not working
-R502578,0.1203,0,2346.57,Furniture,Defective / not working
-R501118,0.0808,0,149.3,Beauty & Fragrance,Defective / not working
-R504429,0.2603,0,313.87,Electronics,Size or fit issue
-R503596,0.0155,0,86.64,Fashion,Size or fit issue
-R500287,0.0935,0,223.33,Fashion,Size or fit issue
-R500779,0.3293,0,200.97,Fashion,Changed my mind
-R503115,0.0229,0,72.96,Fashion,Size or fit issue
-R500396,0.0777,0,94.56,Beauty & Fragrance,Defective / not working
-R501022,0.1487,0,113.46,Sports & Outdoors,Wrong item delivered
-R500315,0.5258,0,137.67,Baby & Toys,Changed my mind
-R504245,0.2312,0,757.03,Electronics,Not as described
-R501618,0.0748,0,88.91,Fashion,Size or fit issue
-R501715,0.5906,0,160.66,Baby & Toys,Changed my mind
-R501070,0.0779,0,63.39,Home & Kitchen,Wrong item delivered
-R504706,0.8021,0,133.8,Baby & Toys,Not as described
-R500224,0.3669,0,197.97,Home & Kitchen,Changed my mind
-R503485,0.2422,0,782.59,Electronics,Damaged in delivery
-R501836,0.5351,0,212.13,Fashion,Changed my mind
-R500437,0.2051,0,83.75,Home & Kitchen,Size or fit issue
-R503306,0.0718,0,227.93,Sports & Outdoors,Size or fit issue
-R500274,0.0754,0,47.23,Grocery,Not as described
-R502181,0.2132,0,165.55,Home & Kitchen,Defective / not working
-R500279,0.1748,0,1017.17,Electronics,Not as described
-R503423,0.1368,0,158.02,Sports & Outdoors,Defective / not working
-R501511,0.0714,0,154.11,Fashion,Defective / not working
-R501109,0.5613,0,374.96,Electronics,Changed my mind
-R500421,0.0483,0,99.26,Fashion,Size or fit issue
-R503307,0.4116,0,122.39,Fashion,Changed my mind
-R500100,0.0458,0,114.95,Baby & Toys,Defective / not working
-R503215,0.0273,0,224.73,Sports & Outdoors,Defective / not working
-R504206,0.4421,0,145.61,Fashion,Changed my mind
-R502238,0.554,0,170.54,Home & Kitchen,Changed my mind
-R501318,0.6329,0,145.12,Fashion,Size or fit issue
-R504536,0.0297,0,212.62,Sports & Outdoors,Defective / not working
-R503314,0.0113,0,51.0,Fashion,Not as described
-R503881,0.1368,0,66.87,Fashion,Size or fit issue
-R501597,0.0842,0,143.76,Fashion,Size or fit issue
-R503986,0.1089,1,98.03,Fashion,Size or fit issue
-R503101,0.1078,0,94.44,Home & Kitchen,Defective / not working
-R500840,0.0502,0,142.47,Fashion,Size or fit issue
-R501349,0.4862,1,91.75,Fashion,Size or fit issue
-R504357,0.0688,0,215.46,Fashion,Size or fit issue
-R500270,0.7477,1,1059.32,Electronics,Not as described
-R502384,0.1501,0,288.09,Sports & Outdoors,Defective / not working
-R501166,0.4776,0,88.9,Beauty & Fragrance,Changed my mind
-R500662,0.6028,0,532.72,Electronics,Changed my mind
-R504349,0.0097,0,73.13,Fashion,Size or fit issue
-R502818,0.0237,0,254.81,Sports & Outdoors,Not as described
-R500579,0.6127,0,1324.79,Furniture,Defective / not working
-R500310,0.4658,0,70.96,Fashion,Changed my mind
-R502786,0.0457,0,68.85,Home & Kitchen,Defective / not working
-R503132,0.1326,0,34.53,Beauty & Fragrance,Defective / not working
-R504864,0.081,0,135.96,Sports & Outdoors,Damaged in delivery
-R501471,0.1149,0,235.76,Sports & Outdoors,Defective / not working
-R500043,0.2465,0,261.19,Electronics,Not as described
-R500711,0.0939,0,98.25,Fashion,Wrong item delivered
-R500446,0.0821,0,106.79,Fashion,Size or fit issue
-R501082,0.0758,0,38.5,Beauty & Fragrance,Damaged in delivery
-R504577,0.1341,0,123.06,Sports & Outdoors,Not as described
-R501445,0.0877,0,81.22,Home & Kitchen,Not as described
-R500064,0.0403,0,109.36,Fashion,Size or fit issue
-R503427,0.2439,0,404.81,Electronics,Damaged in delivery
-R500256,0.0122,0,184.75,Fashion,Size or fit issue
-R504067,0.5393,1,184.12,Sports & Outdoors,Changed my mind
-R502323,0.1021,0,155.71,Fashion,Size or fit issue
-R502388,0.0815,0,235.13,Fashion,Size or fit issue
-R500893,0.2427,0,563.33,Electronics,Wrong item delivered
-R503486,0.237,0,32.7,Grocery,Not as described
-R502591,0.306,0,251.71,Sports & Outdoors,Defective / not working
-R501154,0.0598,0,73.44,Fashion,Defective / not working
-R504197,0.0328,0,74.18,Fashion,Size or fit issue
-R504835,0.2252,0,786.95,Furniture,Changed my mind
-R500463,0.08,0,97.57,Home & Kitchen,Wrong item delivered
-R501660,0.2256,0,57.4,Beauty & Fragrance,Not as described
-R503629,0.0681,0,119.4,Grocery,Not as described
-R504216,0.014,0,172.4,Fashion,Size or fit issue
-R500017,0.0882,0,46.68,Fashion,Size or fit issue
-R500730,0.0289,0,76.1,Fashion,Size or fit issue
-R502790,0.3566,0,70.87,Grocery,Changed my mind
-R502146,0.0212,0,73.01,Fashion,Size or fit issue
-R503430,0.2147,0,140.4,Home & Kitchen,Defective / not working
-R500452,0.2606,0,309.99,Home & Kitchen,Defective / not working
-R504676,0.0497,0,146.37,Fashion,Size or fit issue
-R501399,0.0626,0,372.2,Home & Kitchen,Not as described
-R504739,0.0894,0,86.87,Fashion,Wrong item delivered
-R504634,0.0223,0,156.02,Fashion,Defective / not working
-R500556,0.0665,0,388.26,Home & Kitchen,Size or fit issue
-R502987,0.026,0,98.98,Fashion,Size or fit issue
-R501470,0.7613,1,161.62,Fashion,Size or fit issue
-R503572,0.144,0,136.2,Home & Kitchen,Size or fit issue
-R501991,0.2562,0,749.33,Electronics,Not as described
-R503751,0.1683,1,52.97,Beauty & Fragrance,Defective / not working
-R503906,0.1398,0,120.85,Fashion,Size or fit issue
-R503893,0.4995,1,306.0,Electronics,Not as described
-R501304,0.0135,0,192.23,Fashion,Size or fit issue
-R502527,0.5572,0,148.52,Baby & Toys,Changed my mind
-R504567,0.3123,0,137.04,Home & Kitchen,Damaged in delivery
-R501814,0.2031,0,364.55,Electronics,Damaged in delivery
-R503107,0.0808,0,274.12,Sports & Outdoors,Size or fit issue
-R502472,0.2177,1,370.42,Electronics,Not as described
-R502336,0.1502,0,136.94,Fashion,Size or fit issue
-R504747,0.2481,0,111.39,Fashion,Changed my mind
-R504105,0.2619,0,252.37,Electronics,Defective / not working
-R500850,0.2638,0,142.78,Home & Kitchen,Defective / not working
-R500575,0.6393,1,531.2,Electronics,Changed my mind
-R503176,0.0297,0,112.96,Home & Kitchen,Defective / not working
-R500530,0.0719,1,120.2,Fashion,Defective / not working
-R504363,0.3227,0,146.66,Beauty & Fragrance,Defective / not working
-R501531,0.1599,0,739.39,Electronics,Wrong item delivered
-R504663,0.6011,0,102.96,Sports & Outdoors,Not as described
-R500059,0.4065,0,411.36,Electronics,Defective / not working
-R500550,0.0063,0,161.21,Fashion,Size or fit issue
-R503792,0.1792,1,716.9,Electronics,Defective / not working
-R501345,0.7874,0,123.48,Fashion,Size or fit issue
-R501722,0.4084,0,580.65,Electronics,Defective / not working
-R504240,0.0104,0,182.15,Fashion,Size or fit issue
-R503821,0.0505,0,951.12,Furniture,Wrong item delivered
-R500407,0.0299,0,396.02,Home & Kitchen,Not as described
-R504437,0.3663,0,297.4,Fashion,Changed my mind
-R501815,0.0505,0,276.65,Fashion,Size or fit issue
-R501504,0.0717,0,609.87,Furniture,Damaged in delivery
-R501426,0.0854,0,1167.24,Furniture,Not as described
-R502602,0.159,0,98.94,Fashion,Size or fit issue
-R504467,0.0525,0,104.64,Fashion,Size or fit issue
-R502785,0.0837,0,98.45,Fashion,Damaged in delivery
-R502052,0.122,0,223.27,Home & Kitchen,Not as described
-R504746,0.4716,0,273.03,Electronics,Changed my mind
-R500571,0.142,0,130.35,Fashion,Size or fit issue
-R502168,0.2649,0,351.56,Electronics,Not as described
-R502612,0.5379,1,642.23,Electronics,Changed my mind
-R503437,0.4962,0,749.4,Furniture,Changed my mind
-R504343,0.0136,0,77.88,Fashion,Size or fit issue
-R504803,0.4869,0,87.18,Beauty & Fragrance,Changed my mind
-R503763,0.1616,0,174.98,Fashion,Not as described
-R500045,0.0273,0,156.5,Sports & Outdoors,Damaged in delivery
-R504732,0.0948,0,70.52,Grocery,Defective / not working
-R500558,0.0485,0,216.12,Fashion,Size or fit issue
-R502165,0.1121,0,292.45,Sports & Outdoors,Not as described
-R502447,0.0358,0,143.08,Fashion,Size or fit issue
-R501027,0.2171,0,205.51,Home & Kitchen,Defective / not working
-R503412,0.0235,0,123.14,Fashion,Size or fit issue
-R503628,0.2494,0,189.05,Fashion,Size or fit issue
-R500632,0.0459,0,168.61,Home & Kitchen,Not as described
-R501918,0.0422,0,99.15,Fashion,Defective / not working
-R501458,0.1144,0,146.24,Beauty & Fragrance,Not as described
-R502022,0.0388,0,397.91,Sports & Outdoors,Not as described
-R502608,0.0361,0,109.48,Fashion,Size or fit issue
-R500146,0.1772,0,51.41,Grocery,Defective / not working
-R500204,0.2693,0,344.77,Sports & Outdoors,Defective / not working
-R504452,0.031,0,96.27,Fashion,Defective / not working
-R503129,0.3133,0,76.52,Home & Kitchen,Changed my mind
-R504487,0.0751,0,94.22,Beauty & Fragrance,Not as described
-R502610,0.3675,0,168.5,Fashion,Size or fit issue
-R501350,0.0247,0,51.19,Fashion,Size or fit issue
-R504199,0.0787,0,49.43,Fashion,Not as described
-R504029,0.1497,0,102.86,Fashion,Size or fit issue
-R502586,0.0564,0,296.95,Fashion,Size or fit issue
-R501762,0.2516,0,181.16,Sports & Outdoors,Not as described
-R503857,0.0317,0,203.04,Home & Kitchen,Not as described
-R500145,0.0765,0,710.31,Furniture,Damaged in delivery
-R501505,0.0186,0,95.38,Fashion,Size or fit issue
-R504737,0.0771,0,85.18,Fashion,Size or fit issue
-R504065,0.1165,0,126.94,Fashion,Size or fit issue
-R503161,0.1051,0,127.54,Grocery,Wrong item delivered
-R500368,0.0371,0,101.83,Fashion,Size or fit issue
-R500532,0.0529,0,105.27,Fashion,Size or fit issue
-R500770,0.0545,0,83.05,Baby & Toys,Defective / not working
-R502833,0.0098,0,136.84,Home & Kitchen,Not as described
-R501409,0.0742,0,210.69,Fashion,Size or fit issue
-R500872,0.3064,0,186.76,Fashion,Size or fit issue
-R503835,0.2404,0,140.8,Electronics,Wrong item delivered
-R502965,0.2724,0,164.72,Fashion,Changed my mind
-R500608,0.0184,0,79.46,Home & Kitchen,Not as described
-R501820,0.0857,0,185.95,Fashion,Size or fit issue
-R501982,0.12,0,111.63,Beauty & Fragrance,Defective / not working
-R504008,0.2129,0,698.07,Electronics,Not as described
-R502835,0.191,0,300.91,Fashion,Size or fit issue
-R503728,0.2936,0,531.91,Electronics,Damaged in delivery
-R503897,0.4891,0,142.69,Electronics,Changed my mind
-R502210,0.0726,0,93.73,Fashion,Size or fit issue
-R504280,0.4965,0,455.27,Electronics,Changed my mind
-R504351,0.1025,0,201.35,Fashion,Damaged in delivery
-R501675,0.0329,0,92.04,Fashion,Size or fit issue
-R501057,0.4792,0,375.62,Electronics,Changed my mind
-R503042,0.0717,0,81.62,Fashion,Size or fit issue
-R504036,0.1265,0,332.71,Beauty & Fragrance,Not as described
-R503636,0.353,0,93.87,Fashion,Changed my mind
-R504140,0.0627,0,167.36,Beauty & Fragrance,Wrong item delivered
-R500220,0.462,0,411.72,Electronics,Changed my mind
-R503681,0.1109,0,149.19,Home & Kitchen,Defective / not working
-R502484,0.138,0,224.21,Electronics,Not as described
-R503626,0.0771,0,66.79,Fashion,Size or fit issue
-R500186,0.048,0,152.35,Fashion,Wrong item delivered
-R504012,0.1414,0,195.95,Fashion,Size or fit issue
-R503136,0.1989,0,170.33,Electronics,Defective / not working
-R504562,0.2496,1,304.88,Beauty & Fragrance,Size or fit issue
-R502247,0.0235,0,340.1,Fashion,Size or fit issue
-R503185,0.2489,0,178.06,Home & Kitchen,Wrong item delivered
-R502311,0.3209,0,472.58,Fashion,Changed my mind
-R502235,0.5885,0,93.49,Beauty & Fragrance,Damaged in delivery
-R501557,0.3892,1,175.58,Baby & Toys,Changed my mind
-R500140,0.1601,0,272.22,Fashion,Size or fit issue
-R504735,0.0384,0,334.88,Fashion,Size or fit issue
-R504003,0.3365,1,99.61,Beauty & Fragrance,Wrong item delivered
-R500114,0.4903,0,822.23,Electronics,Changed my mind
-R504064,0.0356,0,132.44,Sports & Outdoors,Not as described
-R504167,0.1095,0,79.26,Grocery,Damaged in delivery
-R504674,0.1121,0,318.0,Fashion,Size or fit issue
-R504076,0.4083,0,588.27,Electronics,Changed my mind
-R503216,0.3181,1,1363.17,Electronics,Defective / not working
-R503587,0.2987,0,98.87,Fashion,Size or fit issue
-R504149,0.0174,0,117.82,Fashion,Size or fit issue
-R501148,0.3379,0,900.88,Furniture,Changed my mind
-R500519,0.304,0,181.42,Electronics,Defective / not working
-R500487,0.0566,0,202.43,Fashion,Size or fit issue
-R502317,0.012,0,182.36,Fashion,Size or fit issue
-R501777,0.0333,0,49.93,Fashion,Size or fit issue
-R504307,0.0713,0,93.3,Fashion,Size or fit issue
-R504833,0.2153,0,334.84,Fashion,Size or fit issue
-R504458,0.177,0,340.97,Fashion,Not as described
-R503498,0.072,0,86.19,Fashion,Size or fit issue
-R501323,0.5688,0,1470.41,Furniture,Wrong item delivered
-R501781,0.0534,0,168.34,Sports & Outdoors,Defective / not working
-R503254,0.3071,0,136.86,Beauty & Fragrance,Changed my mind
-R501809,0.0328,0,155.79,Grocery,Wrong item delivered
-R500773,0.4889,0,85.81,Fashion,Changed my mind
-R502413,0.1778,0,223.81,Electronics,Not as described
-R502418,0.0365,0,62.55,Fashion,Wrong item delivered
-R502504,0.0629,1,182.38,Home & Kitchen,Defective / not working
-R500628,0.1512,0,399.23,Sports & Outdoors,Defective / not working
-R503705,0.3062,0,159.95,Fashion,Changed my mind
-R500367,0.075,0,93.83,Fashion,Size or fit issue
-R503190,0.3823,0,354.3,Fashion,Changed my mind
-R500828,0.4923,0,571.34,Electronics,Changed my mind
-R503284,0.02,0,119.94,Fashion,Size or fit issue
-R502109,0.3461,0,132.54,Fashion,Changed my mind
-R500247,0.0277,0,120.59,Fashion,Size or fit issue
-R501881,0.1374,0,289.22,Fashion,Size or fit issue
-R500343,0.0376,0,88.05,Fashion,Damaged in delivery
-R500823,0.3854,0,53.31,Fashion,Changed my mind
-R502961,0.1795,0,187.65,Beauty & Fragrance,Defective / not working
-R503837,0.0669,0,128.65,Beauty & Fragrance,Defective / not working
-R503267,0.1501,0,126.28,Fashion,Size or fit issue
-R501203,0.0952,0,272.73,Home & Kitchen,Not as described
-R501037,0.2776,0,850.87,Electronics,Not as described
-R504355,0.7803,0,160.45,Beauty & Fragrance,Changed my mind
-R500258,0.2525,0,602.83,Electronics,Size or fit issue
-R501034,0.5538,1,78.26,Fashion,Size or fit issue
-R502130,0.0054,0,110.72,Fashion,Size or fit issue
-R500721,0.4423,0,202.48,Electronics,Defective / not working
-R500508,0.4718,0,130.2,Beauty & Fragrance,Changed my mind
-R502105,0.0648,0,195.88,Home & Kitchen,Size or fit issue
-R503141,0.4089,0,429.06,Sports & Outdoors,Changed my mind
-R501095,0.134,0,51.19,Grocery,Defective / not working
-R501123,0.0792,0,39.4,Baby & Toys,Size or fit issue
-R503098,0.0749,1,73.2,Fashion,Size or fit issue
-R500835,0.3884,0,88.69,Baby & Toys,Changed my mind
-R503336,0.0444,0,130.51,Home & Kitchen,Not as described
-R503477,0.4102,0,374.62,Beauty & Fragrance,Changed my mind
-R504379,0.0789,0,114.1,Beauty & Fragrance,Not as described
-R503647,0.1534,0,516.77,Furniture,Defective / not working
-R500891,0.071,0,64.48,Beauty & Fragrance,Damaged in delivery
-R503759,0.0289,0,232.01,Fashion,Size or fit issue
-R500389,0.0547,0,53.8,Grocery,Damaged in delivery
-R504856,0.1159,0,724.05,Furniture,Defective / not working
-R502583,0.2245,0,424.9,Electronics,Wrong item delivered
-R502383,0.0797,0,241.37,Fashion,Size or fit issue
-R502932,0.4073,0,800.0,Furniture,Changed my mind
-R500405,0.2636,0,140.09,Home & Kitchen,Not as described
-R501103,0.089,0,1091.81,Furniture,Defective / not working
-R504046,0.0745,0,267.74,Sports & Outdoors,Defective / not working
-R502020,0.0826,0,265.76,Fashion,Size or fit issue
-R502950,0.0951,0,456.45,Electronics,Not as described
-R503662,0.0955,0,83.17,Home & Kitchen,Defective / not working
-R501493,0.6136,1,170.11,Fashion,Size or fit issue
-R504425,0.5748,0,144.81,Home & Kitchen,Changed my mind
-R502399,0.0811,0,230.59,Fashion,Size or fit issue
-R503784,0.059,0,232.97,Baby & Toys,Defective / not working
-R503567,0.3212,0,433.01,Electronics,Damaged in delivery
-R502611,0.2799,0,286.14,Furniture,Changed my mind
-R501305,0.1075,0,94.76,Beauty & Fragrance,Wrong item delivered
-R503006,0.0916,0,61.34,Grocery,Not as described
-R500548,0.0901,0,134.52,Fashion,Size or fit issue
-R504316,0.0676,0,113.95,Home & Kitchen,Not as described
-R502516,0.0261,0,94.97,Fashion,Size or fit issue
-R504840,0.0636,0,210.32,Sports & Outdoors,Defective / not working
-R500216,0.0743,0,367.58,Fashion,Size or fit issue
-R503833,0.5484,0,389.09,Electronics,Changed my mind
-R501764,0.0601,0,148.7,Grocery,Wrong item delivered
-R502327,0.1292,0,140.34,Electronics,Defective / not working
-R501840,0.1293,0,180.66,Fashion,Size or fit issue
-R504127,0.2711,0,328.03,Electronics,Defective / not working
-R502411,0.0847,1,135.4,Fashion,Size or fit issue
-R504401,0.0773,0,85.93,Fashion,Size or fit issue
-R502025,0.3226,0,138.56,Fashion,Defective / not working
-R500863,0.172,0,289.25,Sports & Outdoors,Defective / not working
-R503969,0.6131,0,544.38,Fashion,Size or fit issue
-R502366,0.7645,1,132.83,Fashion,Size or fit issue
-R503908,0.2942,0,1284.85,Electronics,Defective / not working
-R502234,0.0689,0,105.45,Fashion,Not as described
-R504266,0.3046,0,209.98,Beauty & Fragrance,Changed my mind
-R503910,0.0446,0,214.48,Fashion,Size or fit issue
-R500223,0.4448,0,206.54,Fashion,Changed my mind
-R503317,0.045,0,215.15,Home & Kitchen,Defective / not working
-R504817,0.0866,0,138.75,Home & Kitchen,Defective / not working
-R503791,0.1113,0,221.13,Fashion,Size or fit issue
-R504364,0.0535,1,37.83,Fashion,Size or fit issue
-R504366,0.1336,0,281.54,Electronics,Not as described
-R503794,0.055,0,164.45,Home & Kitchen,Size or fit issue
-R501451,0.1574,0,50.76,Fashion,Size or fit issue
-R500088,0.0785,0,421.98,Fashion,Damaged in delivery
-R503463,0.1027,0,111.43,Baby & Toys,Defective / not working
-R502353,0.3249,0,114.78,Baby & Toys,Changed my mind
-R501440,0.13,0,744.16,Electronics,Wrong item delivered
-R502735,0.3474,0,188.43,Fashion,Changed my mind
-R502953,0.1576,0,407.42,Electronics,Not as described
-R504689,0.1848,0,320.99,Fashion,Size or fit issue
-R501150,0.0975,0,263.79,Fashion,Size or fit issue
-R504792,0.068,0,95.87,Fashion,Size or fit issue
-R504051,0.1287,0,295.97,Sports & Outdoors,Damaged in delivery
-R501677,0.0214,0,87.89,Fashion,Size or fit issue
-R500537,0.2456,0,130.1,Beauty & Fragrance,Not as described
-R503800,0.0404,0,93.75,Fashion,Size or fit issue
-R504050,0.0947,0,201.99,Baby & Toys,Defective / not working
-R503914,0.0468,0,292.75,Fashion,Size or fit issue
-R504502,0.1099,0,253.39,Fashion,Size or fit issue
-R501133,0.2681,0,1004.3,Furniture,Changed my mind
-R501955,0.1225,0,228.39,Fashion,Size or fit issue
-R502043,0.088,0,1231.35,Furniture,Not as described
-R500248,0.2437,0,156.82,Beauty & Fragrance,Not as described
-R501833,0.2109,0,129.04,Fashion,Not as described
-R500680,0.0299,0,324.32,Home & Kitchen,Not as described
-R500102,0.166,0,254.1,Home & Kitchen,Defective / not working
-R502104,0.1709,0,71.02,Beauty & Fragrance,Size or fit issue
-R500933,0.1243,0,332.61,Fashion,Defective / not working
-R503130,0.6335,0,532.31,Electronics,Changed my mind
-R503729,0.2615,0,778.19,Furniture,Changed my mind
-R500036,0.0661,0,477.28,Furniture,Not as described
-R504378,0.3547,0,177.81,Beauty & Fragrance,Changed my mind
-R502918,0.2271,0,205.86,Fashion,Size or fit issue
-R502101,0.0532,0,62.68,Fashion,Size or fit issue
-R503617,0.0486,0,117.06,Fashion,Size or fit issue
-R500182,0.1161,0,1630.18,Furniture,Defective / not working
-R504442,0.0185,0,125.31,Fashion,Size or fit issue
-R504231,0.0821,0,435.75,Sports & Outdoors,Defective / not working
-R502076,0.1263,0,59.35,Baby & Toys,Defective / not working
-R504851,0.2143,0,119.34,Fashion,Size or fit issue
-R502106,0.0549,0,140.59,Fashion,Size or fit issue
-R504259,0.0896,0,119.12,Grocery,Not as described
-R503680,0.6812,0,205.81,Grocery,Wrong item delivered
-R502486,0.0579,0,119.52,Fashion,Size or fit issue
-R501353,0.1628,0,228.05,Fashion,Damaged in delivery
-R502804,0.8057,1,132.94,Baby & Toys,Size or fit issue
-R500562,0.2328,0,278.94,Fashion,Size or fit issue
-R503970,0.87,1,371.06,Beauty & Fragrance,Defective / not working
-R502960,0.0842,0,143.2,Fashion,Size or fit issue
-R501303,0.4632,0,571.99,Electronics,Defective / not working
-R501585,0.0484,0,265.24,Sports & Outdoors,Defective / not working
-R503942,0.2965,0,127.95,Fashion,Size or fit issue
-R502809,0.888,1,287.66,Electronics,Defective / not working
-R501854,0.3497,0,66.6,Beauty & Fragrance,Changed my mind
-R502293,0.109,0,102.28,Home & Kitchen,Damaged in delivery
-R501009,0.1716,0,206.6,Fashion,Not as described
-R504570,0.4302,0,878.66,Furniture,Defective / not working
-R502875,0.1537,0,1227.69,Furniture,Defective / not working
-R503192,0.1397,0,96.31,Beauty & Fragrance,Defective / not working
-R503841,0.0741,0,99.86,Fashion,Size or fit issue
-R503502,0.1578,0,26.27,Fashion,Size or fit issue
-R503069,0.5034,0,48.59,Grocery,Changed my mind
-R500166,0.3834,0,820.8,Furniture,Changed my mind
-R502160,0.0451,0,309.43,Fashion,Size or fit issue
-R503442,0.2748,0,415.2,Electronics,Defective / not working
-R502518,0.139,0,586.35,Grocery,Defective / not working
-R500726,0.1,0,164.01,Baby & Toys,Defective / not working
-R501708,0.0276,0,158.34,Fashion,Size or fit issue
-R500918,0.3663,0,104.93,Baby & Toys,Changed my mind
-R503237,0.0698,0,203.56,Fashion,Size or fit issue
-R503269,0.3704,0,100.38,Sports & Outdoors,Changed my mind
-R503347,0.0898,0,323.78,Fashion,Not as described
-R500616,0.3574,0,164.89,Baby & Toys,Changed my mind
-R501916,0.1371,0,82.05,Sports & Outdoors,Not as described
-R500081,0.1792,0,71.73,Fashion,Defective / not working
-R503913,0.0786,0,140.04,Fashion,Size or fit issue
-R501857,0.0177,0,144.41,Grocery,Not as described
-R502667,0.4023,0,193.74,Home & Kitchen,Changed my mind
-R504193,0.0288,0,72.23,Beauty & Fragrance,Damaged in delivery
-R500775,0.2134,0,84.73,Beauty & Fragrance,Not as described
-R500155,0.334,0,131.26,Baby & Toys,Changed my mind
-R500144,0.054,0,174.25,Home & Kitchen,Defective / not working
-R502153,0.3675,0,440.26,Electronics,Defective / not working
-R503707,0.0519,0,119.67,Grocery,Defective / not working
-R504088,0.405,0,548.61,Electronics,Size or fit issue
-R500525,0.0844,1,143.87,Grocery,Defective / not working
-R501601,0.1351,0,318.18,Electronics,Defective / not working
-R501415,0.0075,0,108.79,Fashion,Size or fit issue
-R502008,0.0468,0,90.95,Fashion,Size or fit issue
-R502054,0.4636,0,183.21,Fashion,Changed my mind
-R502574,0.3489,0,417.7,Electronics,Size or fit issue
-R504118,0.0335,0,55.37,Fashion,Size or fit issue
-R503949,0.078,0,205.28,Home & Kitchen,Wrong item delivered
-R503584,0.1303,0,223.14,Fashion,Wrong item delivered
-R500424,0.3417,0,685.09,Electronics,Wrong item delivered
-R502877,0.1268,0,181.78,Fashion,Size or fit issue
-R501590,0.0853,0,156.79,Home & Kitchen,Damaged in delivery
-R503959,0.1561,0,243.53,Fashion,Size or fit issue
-R504327,0.1382,0,399.57,Furniture,Defective / not working
-R501237,0.2334,0,666.6,Home & Kitchen,Changed my mind
-R500291,0.1983,0,2128.0,Furniture,Defective / not working
-R504853,0.1679,0,263.31,Fashion,Size or fit issue
-R504143,0.0537,0,108.02,Grocery,Size or fit issue
-R504242,0.3094,0,77.32,Fashion,Changed my mind
-R502326,0.1073,0,61.99,Fashion,Size or fit issue
-R501137,0.2815,0,127.2,Fashion,Size or fit issue
-R503819,0.4747,0,373.23,Electronics,Defective / not working
-R501846,0.4804,0,132.09,Fashion,Changed my mind
-R501448,0.0089,0,118.21,Fashion,Size or fit issue
-R504308,0.1849,0,160.02,Fashion,Size or fit issue
-R500901,0.1178,0,88.86,Fashion,Size or fit issue
-R500475,0.0416,0,253.31,Fashion,Size or fit issue
-R501747,0.845,0,102.05,Beauty & Fragrance,Defective / not working
-R501329,0.2298,0,45.1,Beauty & Fragrance,Not as described
-R503198,0.3952,0,571.15,Electronics,Defective / not working
-R503174,0.0628,0,274.6,Baby & Toys,Not as described
-R500885,0.0154,0,136.25,Fashion,Size or fit issue
-R503527,0.1305,0,215.3,Sports & Outdoors,Not as described
-R503514,0.0778,0,269.31,Sports & Outdoors,Wrong item delivered
-R504784,0.021,0,116.24,Fashion,Size or fit issue
-R504708,0.0864,0,108.91,Fashion,Size or fit issue
-R502120,0.3132,0,89.09,Fashion,Changed my mind
-R503393,0.2442,0,606.66,Electronics,Defective / not working
-R503605,0.2286,0,535.21,Electronics,Not as described
-R503561,0.0623,0,39.46,Fashion,Size or fit issue
-R502116,0.1062,0,66.96,Grocery,Not as described
-R503683,0.2363,0,433.83,Electronics,Not as described
-R501726,0.0829,0,80.05,Grocery,Not as described
-R502001,0.0496,0,144.99,Grocery,Wrong item delivered
-R500671,0.1499,0,181.45,Fashion,Size or fit issue
-R502501,0.258,0,221.63,Electronics,Not as described
-R502117,0.0931,0,160.54,Fashion,Size or fit issue
-R502246,0.1089,0,307.99,Fashion,Size or fit issue
-R504374,0.1211,0,312.03,Furniture,Not as described
-R502677,0.1918,0,264.39,Fashion,Damaged in delivery
-R504828,0.0346,0,132.05,Fashion,Size or fit issue
-R500307,0.5328,1,220.79,Electronics,Changed my mind
-R503926,0.1958,0,153.7,Fashion,Size or fit issue
-R503079,0.135,0,73.11,Baby & Toys,Defective / not working
-R503627,0.1521,0,129.17,Fashion,Defective / not working
-R500585,0.1601,0,124.39,Sports & Outdoors,Defective / not working
-R500011,0.2539,0,283.83,Electronics,Wrong item delivered
-R503517,0.015,0,241.17,Fashion,Size or fit issue
-R502188,0.2574,0,89.96,Fashion,Size or fit issue
-R503760,0.553,0,176.89,Home & Kitchen,Changed my mind
-R502588,0.1512,0,482.48,Sports & Outdoors,Not as described
-R502154,0.137,0,308.85,Electronics,Not as described
-R503754,0.2983,0,72.8,Fashion,Changed my mind
-R500148,0.3312,0,341.0,Sports & Outdoors,Changed my mind
-R503730,0.5438,0,403.98,Electronics,Changed my mind
-R501264,0.0446,0,230.41,Fashion,Size or fit issue
-R501042,0.0895,0,76.83,Fashion,Size or fit issue
-R502402,0.0193,0,104.27,Fashion,Damaged in delivery
-R502331,0.1503,0,383.08,Electronics,Not as described
-R504135,0.0652,0,247.36,Sports & Outdoors,Wrong item delivered
-R501689,0.8581,1,770.58,Furniture,Damaged in delivery
-R501673,0.1964,0,641.64,Home & Kitchen,Damaged in delivery
-R503533,0.1093,0,138.98,Beauty & Fragrance,Defective / not working
-R503405,0.0152,0,70.03,Fashion,Size or fit issue
-R502915,0.0526,0,106.51,Fashion,Size or fit issue
-R500515,0.2625,0,164.48,Electronics,Not as described
-R502281,0.0405,0,523.04,Home & Kitchen,Not as described
-R501421,0.3704,0,152.53,Home & Kitchen,Defective / not working
-R500956,0.1908,0,668.68,Fashion,Size or fit issue
-R502065,0.0431,0,218.21,Sports & Outdoors,Damaged in delivery
-R502041,0.0951,1,188.19,Fashion,Size or fit issue
-R500952,0.1756,0,128.99,Home & Kitchen,Size or fit issue
-R503085,0.2619,0,178.52,Electronics,Wrong item delivered
-R501317,0.3674,1,160.29,Baby & Toys,Changed my mind
-R500903,0.3827,0,772.51,Electronics,Defective / not working
-R504041,0.4294,0,78.95,Beauty & Fragrance,Changed my mind
-R502034,0.1062,0,76.3,Fashion,Size or fit issue
-R503388,0.0234,0,203.9,Fashion,Size or fit issue
-R500652,0.1024,1,667.54,Electronics,Wrong item delivered
-R504091,0.4201,0,1015.91,Electronics,Defective / not working
-R504845,0.0319,0,126.41,Fashion,Size or fit issue
-R504598,0.0277,0,77.01,Fashion,Size or fit issue
-R504569,0.0955,0,33.12,Home & Kitchen,Size or fit issue
-R504282,0.2675,0,379.36,Home & Kitchen,Changed my mind
-R504380,0.0592,0,76.39,Fashion,Size or fit issue
-R501011,0.2606,1,1775.64,Furniture,Changed my mind
-R503059,0.209,0,855.37,Electronics,Defective / not working
-R501482,0.087,0,1329.32,Furniture,Wrong item delivered
-R500920,0.106,0,243.06,Fashion,Size or fit issue
-R500925,0.4103,0,172.35,Fashion,Changed my mind
-R503971,0.3725,0,236.54,Grocery,Changed my mind
-R504268,0.142,0,93.01,Fashion,Not as described
-R502780,0.7076,0,66.12,Fashion,Size or fit issue
-R501838,0.1108,0,58.76,Fashion,Size or fit issue
-R504771,0.4601,0,1071.42,Electronics,Changed my mind
-R501297,0.3176,0,96.37,Grocery,Defective / not working
-R501429,0.4658,1,91.3,Baby & Toys,Changed my mind
-R501356,0.8411,0,138.61,Baby & Toys,Changed my mind
-R501748,0.2421,0,128.73,Electronics,Size or fit issue
-R501878,0.1828,0,92.55,Fashion,Size or fit issue
-R504538,0.3632,0,115.67,Fashion,Changed my mind
-R504365,0.1804,0,790.06,Electronics,Not as described
-R502765,0.8195,0,212.59,Home & Kitchen,Defective / not working
-R501134,0.1644,0,94.16,Fashion,Size or fit issue
-R502073,0.0879,0,100.14,Baby & Toys,Defective / not working
-R504272,0.4781,0,184.81,Home & Kitchen,Changed my mind
-R501039,0.3217,0,180.73,Electronics,Changed my mind
-R503173,0.1046,0,232.67,Fashion,Size or fit issue
-R503661,0.1237,0,311.93,Fashion,Size or fit issue
-R502647,0.0919,0,90.25,Fashion,Size or fit issue
-R504550,0.0646,0,133.44,Fashion,Size or fit issue
-R503071,0.3148,0,207.35,Grocery,Changed my mind
-R501104,0.0473,0,84.78,Fashion,Size or fit issue
-R503853,0.2096,0,263.94,Electronics,Not as described
-R504482,0.0594,0,128.23,Fashion,Size or fit issue
-R503731,0.3723,0,1402.51,Electronics,Defective / not working
-R502802,0.0807,1,889.18,Furniture,Not as described
-R501077,0.0695,0,268.5,Fashion,Size or fit issue
-R502015,0.5039,0,301.82,Home & Kitchen,Changed my mind
-R502787,0.208,0,299.87,Grocery,Wrong item delivered
-R503503,0.0093,0,62.85,Fashion,Size or fit issue
-R500803,0.054,0,171.14,Fashion,Size or fit issue
-R504873,0.0429,0,170.98,Grocery,Not as described
-R503025,0.0945,0,119.16,Fashion,Size or fit issue
-R502984,0.0899,0,161.03,Beauty & Fragrance,Not as described
-R500825,0.1061,0,60.08,Fashion,Size or fit issue
-R502767,0.0507,0,599.81,Furniture,Defective / not working
-R503096,0.0933,0,47.65,Fashion,Size or fit issue
-R501365,0.4307,0,278.54,Sports & Outdoors,Changed my mind
-R501388,0.0645,0,127.33,Grocery,Not as described
-R504332,0.1282,0,62.14,Fashion,Size or fit issue
-R503126,0.0872,0,114.94,Beauty & Fragrance,Not as described
-R502433,0.6792,1,155.93,Fashion,Size or fit issue
-R502028,0.1687,1,92.91,Fashion,Defective / not working
-R500570,0.0668,0,135.49,Baby & Toys,Defective / not working
-R503603,0.0774,0,152.37,Home & Kitchen,Wrong item delivered
-R500489,0.3673,1,193.12,Grocery,Changed my mind
-R500533,0.5187,0,648.39,Electronics,Changed my mind
-R500759,0.3606,0,332.77,Sports & Outdoors,Changed my mind
-R501537,0.1472,0,597.3,Home & Kitchen,Defective / not working
-R501680,0.8006,1,472.27,Sports & Outdoors,Size or fit issue
-R500249,0.0787,0,95.51,Fashion,Not as described
-R500227,0.0875,0,79.37,Grocery,Defective / not working
-R503329,0.1355,0,174.0,Baby & Toys,Wrong item delivered
-R502248,0.0345,0,144.53,Fashion,Size or fit issue
-R500083,0.1189,0,55.44,Grocery,Not as described
-R503244,0.4732,0,107.89,Home & Kitchen,Changed my mind
-R504337,0.1612,0,296.2,Sports & Outdoors,Defective / not working
-R502752,0.0292,0,102.17,Home & Kitchen,Not as described
-R502731,0.0986,0,136.02,Fashion,Size or fit issue
-R501622,0.0677,0,277.92,Home & Kitchen,Defective / not working
-R500252,0.2704,0,342.71,Fashion,Size or fit issue
-R501484,0.0887,0,298.62,Fashion,Size or fit issue
-R504620,0.0271,0,216.33,Fashion,Size or fit issue
-R502288,0.6156,0,153.74,Fashion,Damaged in delivery
-R501099,0.0528,0,92.21,Beauty & Fragrance,Defective / not working
-R501268,0.2445,0,246.56,Electronics,Defective / not working
-R502135,0.3174,0,270.26,Home & Kitchen,Wrong item delivered
-R501089,0.0372,0,129.72,Fashion,Size or fit issue
-R502958,0.0196,0,120.46,Sports & Outdoors,Not as described
-R501829,0.3767,0,747.73,Electronics,Defective / not working
-R500959,0.1103,0,170.96,Fashion,Size or fit issue
-R502189,0.0447,0,82.64,Fashion,Size or fit issue
-R500225,0.0699,0,370.67,Fashion,Size or fit issue
-R501994,0.0825,0,243.86,Fashion,Size or fit issue
-R501172,0.0223,0,119.44,Fashion,Size or fit issue
-R501914,0.0393,0,202.24,Beauty & Fragrance,Defective / not working
-R502549,0.4265,0,721.5,Electronics,Defective / not working
-R502178,0.4711,0,91.75,Home & Kitchen,Changed my mind
-R503830,0.0731,0,347.29,Home & Kitchen,Defective / not working
-R501894,0.1973,1,131.54,Beauty & Fragrance,Not as described
-R502060,0.1372,0,355.17,Sports & Outdoors,Size or fit issue
-R501661,0.0295,0,169.68,Fashion,Not as described
-R504400,0.3764,0,471.68,Electronics,Defective / not working
-R503061,0.0508,0,157.92,Fashion,Size or fit issue
-R504132,0.5827,0,234.11,Electronics,Changed my mind
-R501151,0.1068,0,63.95,Beauty & Fragrance,Not as described
-R501778,0.391,0,715.78,Electronics,Defective / not working
-R503816,0.0087,0,179.62,Fashion,Size or fit issue
-R501779,0.2001,0,39.46,Beauty & Fragrance,Defective / not working
-R504063,0.1442,0,291.08,Fashion,Size or fit issue
-R502470,0.0951,0,84.11,Fashion,Defective / not working
-R502656,0.0577,0,232.53,Fashion,Size or fit issue
-R501153,0.5162,0,320.03,Electronics,Defective / not working
-R504645,0.0581,0,209.49,Home & Kitchen,Defective / not working
-R504439,0.0539,0,65.63,Sports & Outdoors,Not as described
-R502334,0.3585,0,112.51,Fashion,Changed my mind
-R501516,0.1336,0,145.43,Fashion,Size or fit issue
-R500229,0.3273,0,1109.43,Electronics,Damaged in delivery
-R502538,0.2954,0,192.54,Fashion,Size or fit issue
-R502580,0.0602,0,111.55,Fashion,Damaged in delivery
-R504376,0.022,0,178.07,Home & Kitchen,Defective / not working
-R500019,0.3026,1,437.93,Sports & Outdoors,Changed my mind
-R500949,0.4106,0,283.12,Electronics,Defective / not working
-R503219,0.3106,0,341.78,Electronics,Defective / not working
-R501826,0.0386,0,139.56,Beauty & Fragrance,Defective / not working
-R502671,0.4591,0,230.64,Fashion,Changed my mind
-R504086,0.0943,0,115.17,Fashion,Size or fit issue
-R504675,0.3821,0,95.53,Baby & Toys,Changed my mind
-R500050,0.1692,0,59.71,Beauty & Fragrance,Wrong item delivered
-R502398,0.0761,0,141.73,Fashion,Size or fit issue
-R504114,0.1224,0,185.31,Home & Kitchen,Defective / not working
-R501855,0.0756,1,142.26,Fashion,Not as described
-R500884,0.4042,0,1126.21,Electronics,Changed my mind
-R503529,0.464,0,327.25,Sports & Outdoors,Changed my mind
-R503332,0.0221,0,233.42,Fashion,Not as described
-R502163,0.1951,0,505.9,Electronics,Defective / not working
-R502715,0.1266,0,270.46,Beauty & Fragrance,Wrong item delivered
-R500954,0.0413,0,114.45,Fashion,Size or fit issue
-R501271,0.0386,0,178.62,Fashion,Size or fit issue
-R501975,0.049,0,145.82,Baby & Toys,Defective / not working
-R501403,0.073,0,200.16,Fashion,Size or fit issue
-R503966,0.1916,1,539.61,Electronics,Wrong item delivered
-R501251,0.044,0,93.83,Fashion,Size or fit issue
-R500890,0.6114,1,165.85,Beauty & Fragrance,Defective / not working
-R502037,0.1221,0,209.14,Home & Kitchen,Not as described
-R504030,0.0131,0,72.46,Fashion,Not as described
-R503814,0.174,0,291.94,Electronics,Wrong item delivered
-R504799,0.503,0,260.82,Electronics,Changed my mind
-R504397,0.4059,0,471.18,Electronics,Defective / not working
-R503604,0.2312,0,235.86,Sports & Outdoors,Defective / not working
-R500181,0.0234,0,201.55,Fashion,Size or fit issue
-R502019,0.139,0,187.87,Home & Kitchen,Defective / not working
-R503551,0.2857,0,108.04,Home & Kitchen,Changed my mind
-R503510,0.0608,0,109.22,Fashion,Size or fit issue
-R503923,0.3247,0,652.16,Fashion,Size or fit issue
-R503239,0.03,0,59.74,Fashion,Size or fit issue
-R501651,0.0278,0,80.5,Fashion,Size or fit issue
-R502481,0.0522,0,99.5,Fashion,Defective / not working
-R500213,0.0299,0,134.65,Grocery,Not as described
-R504234,0.1977,0,80.08,Home & Kitchen,Wrong item delivered
-R503675,0.0649,0,1955.12,Furniture,Defective / not working
-R500098,0.0558,0,85.35,Fashion,Not as described
-R503829,0.046,0,51.12,Sports & Outdoors,Not as described
-R502468,0.125,0,437.91,Furniture,Not as described
-R500559,0.0835,0,118.15,Fashion,Size or fit issue
-R503846,0.0555,0,74.56,Baby & Toys,Damaged in delivery
-R504236,0.0217,0,63.15,Fashion,Size or fit issue
-R503203,0.5599,1,122.08,Beauty & Fragrance,Changed my mind
-R503105,0.0646,0,36.0,Fashion,Size or fit issue
-R500132,0.2021,0,114.51,Fashion,Size or fit issue
-R501476,0.0765,0,237.92,Fashion,Size or fit issue
-R503977,0.033,0,98.78,Home & Kitchen,Not as described
-R502258,0.2452,0,85.79,Beauty & Fragrance,Not as described
-R500613,0.0324,0,190.81,Fashion,Size or fit issue
-R501343,0.1409,0,56.55,Beauty & Fragrance,Defective / not working
-R500977,0.2191,0,521.16,Electronics,Damaged in delivery
-R504813,0.2755,0,636.09,Electronics,Not as described
-R501290,0.1288,0,90.97,Home & Kitchen,Defective / not working
-R504325,0.5859,1,173.96,Home & Kitchen,Not as described
-R503109,0.0209,0,80.26,Fashion,Size or fit issue
-R500391,0.172,0,474.5,Electronics,Not as described
-R500827,0.1062,0,142.7,Fashion,Size or fit issue
-R502256,0.4272,0,357.2,Electronics,Changed my mind
-R504024,0.0681,0,121.87,Fashion,Size or fit issue
-R501119,0.0483,0,138.65,Sports & Outdoors,Damaged in delivery
-R502113,0.0552,0,365.12,Sports & Outdoors,Defective / not working
-R501712,0.1415,0,281.36,Sports & Outdoors,Size or fit issue
-R504704,0.022,0,255.44,Fashion,Size or fit issue
-R500710,0.116,0,420.92,Furniture,Wrong item delivered
-R503583,0.6818,0,79.76,Fashion,Size or fit issue
-R504384,0.2045,0,1188.69,Furniture,Not as described
-R500485,0.0651,0,1449.88,Furniture,Defective / not working
-R502108,0.0467,0,58.38,Fashion,Size or fit issue
-R502655,0.1456,0,329.33,Fashion,Wrong item delivered
-R504249,0.3244,0,741.75,Furniture,Changed my mind
-R500266,0.0644,0,937.24,Furniture,Wrong item delivered
-R503333,0.0285,0,113.0,Fashion,Size or fit issue
-R503403,0.1034,0,230.52,Fashion,Size or fit issue
-R502716,0.1211,0,184.83,Sports & Outdoors,Not as described
-R502225,0.0497,0,407.98,Home & Kitchen,Defective / not working
-R501257,0.0443,0,147.72,Fashion,Size or fit issue
-R503706,0.0038,0,170.56,Fashion,Size or fit issue
-R500679,0.1662,0,55.5,Fashion,Defective / not working
-R502403,0.0775,0,74.66,Fashion,Size or fit issue
-R501664,0.0328,0,108.68,Fashion,Damaged in delivery
-R501693,0.1564,0,801.15,Furniture,Defective / not working
-R501114,0.3681,0,232.35,Fashion,Changed my mind
-R502636,0.6653,1,179.66,Fashion,Defective / not working
-R502937,0.4517,0,77.62,Beauty & Fragrance,Changed my mind
-R500741,0.1936,0,118.99,Fashion,Size or fit issue
-R502027,0.0734,0,241.18,Home & Kitchen,Defective / not working
-R501362,0.0094,0,140.16,Fashion,Size or fit issue
-R503748,0.1807,0,390.04,Electronics,Not as described
-R501193,0.193,0,392.92,Electronics,Wrong item delivered
-R504457,0.0747,0,137.6,Beauty & Fragrance,Defective / not working
-R504089,0.3673,0,113.11,Beauty & Fragrance,Changed my mind
-R500265,0.0984,0,136.81,Sports & Outdoors,Not as described
-R503781,0.2641,0,639.87,Electronics,Defective / not working
-R502978,0.0637,0,189.59,Fashion,Not as described
-R500859,0.0956,0,139.64,Beauty & Fragrance,Wrong item delivered
-R502603,0.4925,0,850.91,Electronics,Changed my mind
-R503493,0.0813,0,213.68,Fashion,Size or fit issue
-R503434,0.0426,0,72.99,Fashion,Size or fit issue
-R500507,0.116,0,101.66,Home & Kitchen,Defective / not working
-R502492,0.4322,0,56.87,Beauty & Fragrance,Changed my mind
-R500422,0.1301,0,404.68,Electronics,Not as described
-R500864,0.0883,0,1937.77,Furniture,Damaged in delivery
-R503050,0.3752,0,1518.07,Furniture,Changed my mind
-R503228,0.0749,0,126.46,Fashion,Size or fit issue
-R502973,0.0899,0,183.52,Home & Kitchen,Defective / not working
-R500927,0.243,0,780.91,Electronics,Not as described
-R503809,0.4498,0,379.82,Electronics,Defective / not working
-R504398,0.0935,0,156.23,Home & Kitchen,Not as described
-R503946,0.6763,1,271.16,Electronics,Changed my mind
-R504072,0.2421,0,163.71,Electronics,Wrong item delivered
-R503873,0.0354,0,152.43,Fashion,Size or fit issue
-R500792,0.0428,0,531.7,Sports & Outdoors,Not as described
-R502174,0.0386,0,334.97,Fashion,Size or fit issue
-R504121,0.6167,0,584.98,Electronics,Not as described
-R503208,0.4557,1,388.3,Sports & Outdoors,Changed my mind
-R500160,0.0901,0,301.12,Fashion,Size or fit issue
-R500809,0.0956,0,71.76,Fashion,Size or fit issue
-R502466,0.245,0,180.17,Fashion,Changed my mind
-R502304,0.0834,0,118.28,Baby & Toys,Damaged in delivery
-R503055,0.0653,0,79.4,Fashion,Not as described
-R502563,0.128,0,108.99,Fashion,Size or fit issue
-R503193,0.3129,0,244.81,Fashion,Size or fit issue
-R504138,0.0461,0,152.41,Home & Kitchen,Wrong item delivered
-R500037,0.4688,1,89.94,Home & Kitchen,Changed my mind
-R504352,0.0685,0,149.23,Home & Kitchen,Not as described
-R500240,0.3566,0,159.25,Fashion,Changed my mind
-R500080,0.0262,0,393.58,Home & Kitchen,Not as described
-R500896,0.2083,0,221.12,Electronics,Damaged in delivery
-R504545,0.1786,0,141.76,Fashion,Size or fit issue
-R500281,0.088,0,88.78,Fashion,Size or fit issue
-R502940,0.4324,0,101.29,Sports & Outdoors,Changed my mind
-R502839,0.1104,0,142.96,Baby & Toys,Size or fit issue
-R500352,0.0927,0,58.36,Fashion,Size or fit issue
-R501377,0.1029,0,73.96,Beauty & Fragrance,Not as described
-R503380,0.0887,0,94.87,Fashion,Size or fit issue
-R500545,0.3865,0,84.72,Baby & Toys,Changed my mind
-R500039,0.2878,0,543.56,Electronics,Damaged in delivery
-R502469,0.2443,0,119.32,Home & Kitchen,Wrong item delivered
-R500768,0.0969,0,349.25,Fashion,Size or fit issue
-R504752,0.1693,0,171.36,Beauty & Fragrance,Wrong item delivered
-R501252,0.0346,0,87.18,Fashion,Size or fit issue
-R501053,0.2175,0,120.76,Fashion,Size or fit issue
-R501770,0.1066,1,100.5,Fashion,Size or fit issue
-R504410,0.1123,0,248.77,Beauty & Fragrance,Not as described
-R504520,0.0862,0,234.97,Fashion,Size or fit issue
-R501063,0.0481,0,130.72,Fashion,Size or fit issue
-R500563,0.1112,0,1486.61,Furniture,Not as described
-R502744,0.2822,0,117.98,Beauty & Fragrance,Damaged in delivery
-R503374,0.0923,0,126.8,Beauty & Fragrance,Defective / not working
-R504146,0.4402,0,295.42,Electronics,Changed my mind
-R501871,0.1084,0,84.44,Fashion,Size or fit issue
-R501253,0.056,0,188.88,Fashion,Size or fit issue
-R504173,0.4434,0,231.95,Fashion,Changed my mind
-R503653,0.2625,0,1168.89,Furniture,Changed my mind
-R500010,0.0684,0,563.35,Fashion,Size or fit issue
-R502251,0.3595,0,405.17,Electronics,Defective / not working
-R502467,0.4751,0,313.04,Electronics,Changed my mind
-R502854,0.0344,0,265.32,Fashion,Size or fit issue
-R500129,0.1214,0,53.63,Fashion,Defective / not working
-R503035,0.2089,0,534.29,Electronics,Defective / not working
-R500724,0.224,0,182.98,Beauty & Fragrance,Defective / not working
-R501167,0.0296,0,207.35,Fashion,Size or fit issue
-R503978,0.0834,0,157.79,Fashion,Size or fit issue
-R502926,0.3136,1,99.31,Home & Kitchen,Changed my mind
-R500361,0.0521,0,137.07,Sports & Outdoors,Defective / not working
-R503152,0.0603,0,256.42,Fashion,Size or fit issue
-R501199,0.1773,0,113.03,Fashion,Size or fit issue
-R501745,0.4251,1,188.67,Fashion,Changed my mind
-R501922,0.4914,0,154.91,Fashion,Changed my mind
-R500066,0.0994,0,47.05,Fashion,Size or fit issue
-R502972,0.0249,0,183.68,Fashion,Size or fit issue
-R502653,0.813,1,223.18,Home & Kitchen,Wrong item delivered
-R501832,0.0418,0,1617.47,Furniture,Defective / not working
-R502577,0.6859,1,75.76,Fashion,Size or fit issue
-R502670,0.0115,0,47.9,Fashion,Size or fit issue
-R504664,0.1109,0,181.73,Home & Kitchen,Defective / not working
-R502148,0.192,0,182.16,Fashion,Size or fit issue
-R501045,0.1676,0,134.14,Home & Kitchen,Wrong item delivered
-R501000,0.1505,0,30.97,Grocery,Not as described
-R502407,0.0271,0,183.51,Fashion,Size or fit issue
-R503911,0.0062,0,96.64,Fashion,Size or fit issue
-R504825,0.3127,0,702.35,Electronics,Defective / not working
-R504323,0.0561,0,336.17,Fashion,Size or fit issue
-R502018,0.0461,0,105.07,Fashion,Size or fit issue
-R500411,0.0498,0,59.73,Fashion,Size or fit issue
-R500097,0.2007,0,579.54,Electronics,Not as described
-R504256,0.1348,0,137.48,Fashion,Size or fit issue
-R502093,0.0283,0,83.87,Fashion,Size or fit issue
-R500428,0.037,0,56.51,Baby & Toys,Not as described
-R501697,0.5071,1,211.11,Fashion,Changed my mind
-R502389,0.3416,0,354.66,Home & Kitchen,Changed my mind
-R504287,0.1315,1,158.88,Grocery,Defective / not working
-R500054,0.0134,0,113.65,Fashion,Size or fit issue
-R502900,0.0191,0,198.72,Fashion,Defective / not working
-R500607,0.0402,0,251.99,Fashion,Size or fit issue
-R502350,0.0504,0,176.37,Home & Kitchen,Damaged in delivery
-R501247,0.2074,0,460.82,Electronics,Damaged in delivery
-R503648,0.0079,0,107.69,Fashion,Size or fit issue
-R502665,0.3223,0,147.09,Fashion,Changed my mind
-R502204,0.143,0,111.36,Fashion,Damaged in delivery
-R502997,0.5026,1,161.18,Beauty & Fragrance,Changed my mind
-R503103,0.0567,0,102.52,Baby & Toys,Not as described
-R503449,0.3562,1,293.1,Electronics,Defective / not working
-R502799,0.3152,1,90.27,Grocery,Changed my mind
-R501360,0.1028,0,115.75,Fashion,Size or fit issue
-R503064,0.0323,0,81.23,Fashion,Size or fit issue
-R503932,0.0212,0,84.83,Fashion,Size or fit issue
-R500178,0.5484,1,439.13,Fashion,Size or fit issue
-R500796,0.0475,0,143.22,Fashion,Size or fit issue
-R502147,0.3803,1,65.38,Fashion,Changed my mind
-R503535,0.3125,0,368.17,Electronics,Wrong item delivered
-R504490,0.0638,0,83.68,Fashion,Size or fit issue
-R500899,0.1732,0,122.82,Fashion,Size or fit issue
-R504112,0.8247,1,442.46,Electronics,Defective / not working
-R501169,0.1277,0,53.75,Fashion,Damaged in delivery
-R504396,0.2505,0,153.24,Home & Kitchen,Changed my mind
-R503980,0.1104,0,281.09,Sports & Outdoors,Not as described
-R504823,0.0749,0,172.18,Sports & Outdoors,Defective / not working
-R502262,0.0805,0,190.37,Fashion,Size or fit issue
-R501831,0.1571,0,94.22,Beauty & Fragrance,Wrong item delivered
-R502419,0.0639,0,152.42,Home & Kitchen,Wrong item delivered
-R503793,0.0773,0,157.64,Home & Kitchen,Wrong item delivered
-R503360,0.049,0,189.84,Fashion,Size or fit issue
-R500771,0.0823,0,206.41,Fashion,Size or fit issue
-R500787,0.2566,0,1930.82,Furniture,Size or fit issue
-R503554,0.2284,0,398.46,Electronics,Not as described
-R501714,0.0328,0,123.91,Fashion,Size or fit issue
-R501509,0.1317,0,96.07,Beauty & Fragrance,Not as described
-R502066,0.596,0,899.04,Electronics,Not as described
-R504438,0.1592,0,223.9,Fashion,Size or fit issue
-R500681,0.1858,0,89.85,Fashion,Size or fit issue
-R504104,0.0155,0,158.78,Sports & Outdoors,Defective / not working
-R502395,0.4829,0,273.92,Electronics,Changed my mind
-R502352,0.0914,0,41.54,Beauty & Fragrance,Defective / not working
+R503223,0.2092,0,168.22,Home & Kitchen,Changed my mind
+R503586,0.0304,0,144.64,Fashion,Size or fit issue
+R501309,0.0764,0,602.36,Electronics,Wrong item delivered
+R504469,0.0328,0,136.65,Home & Kitchen,Defective / not working
+R500426,0.0351,0,204.74,Fashion,Size or fit issue
+R502501,0.042,0,255.38,Home & Kitchen,Not as described
+R501552,0.1301,0,211.69,Electronics,Defective / not working
+R503180,0.0348,0,317.13,Fashion,Size or fit issue
+R501874,0.1843,1,69.15,Grocery,Changed my mind
+R503433,0.0413,0,317.7,Home & Kitchen,Wrong item delivered
+R503401,0.2275,1,456.05,Electronics,Changed my mind
+R503326,0.383,0,790.28,Electronics,Changed my mind
+R500079,0.0824,0,102.53,Home & Kitchen,Changed my mind
+R500758,0.0815,0,87.18,Fashion,Changed my mind
+R502745,0.0815,0,157.27,Fashion,Size or fit issue
+R502160,0.0281,0,113.87,Fashion,Size or fit issue
+R502054,0.0402,0,124.45,Fashion,Wrong item delivered
+R504333,0.0768,0,113.62,Home & Kitchen,Defective / not working
+R500897,0.2252,1,607.96,Electronics,Changed my mind
+R504599,0.0476,1,546.2,Electronics,Defective / not working
+R502389,0.0538,0,57.64,Grocery,Changed my mind
+R503679,0.0779,0,85.88,Beauty & Fragrance,Changed my mind
+R504022,0.0405,0,156.79,Baby & Toys,Not as described
+R501734,0.0337,0,111.55,Fashion,Size or fit issue
+R501217,0.0344,0,372.1,Baby & Toys,Defective / not working
+R500579,0.0493,0,79.76,Fashion,Size or fit issue
+R503175,0.0564,0,348.02,Fashion,Size or fit issue
+R503831,0.0372,0,122.05,Fashion,Size or fit issue
+R503206,0.086,0,476.2,Baby & Toys,Wrong item delivered
+R502318,0.1058,0,471.29,Electronics,Defective / not working
+R504102,0.0417,0,177.18,Home & Kitchen,Defective / not working
+R504240,0.0611,0,178.47,Fashion,Size or fit issue
+R503482,0.0334,0,187.98,Fashion,Size or fit issue
+R502258,0.0497,0,110.72,Fashion,Size or fit issue
+R503273,0.0957,0,113.85,Home & Kitchen,Not as described
+R501168,0.0359,0,1443.46,Furniture,Defective / not working
+R501335,0.0795,1,70.35,Beauty & Fragrance,Changed my mind
+R501385,0.0449,0,200.29,Fashion,Size or fit issue
+R500046,0.0446,0,160.59,Fashion,Defective / not working
+R500071,0.0542,0,782.29,Electronics,Defective / not working
+R500832,0.0407,0,121.51,Home & Kitchen,Wrong item delivered
+R500135,0.0435,0,73.99,Fashion,Size or fit issue
+R502141,0.0327,0,180.8,Fashion,Defective / not working
+R504146,0.0392,0,481.93,Electronics,Wrong item delivered
+R500044,0.0864,0,225.49,Fashion,Size or fit issue
+R503828,0.209,0,402.79,Electronics,Not as described
+R504033,0.0614,0,677.15,Electronics,Defective / not working
+R500042,0.1101,0,224.47,Home & Kitchen,Defective / not working
+R502278,0.2758,0,542.82,Home & Kitchen,Defective / not working
+R501153,0.0479,0,1111.46,Furniture,Size or fit issue
+R503000,0.2477,0,230.73,Home & Kitchen,Wrong item delivered
+R504430,0.1034,0,267.37,Electronics,Defective / not working
+R503267,0.041,0,118.34,Home & Kitchen,Defective / not working
+R501359,0.0317,0,159.64,Fashion,Size or fit issue
+R501927,0.1916,0,249.12,Home & Kitchen,Changed my mind
+R503919,0.3477,0,445.22,Electronics,Changed my mind
+R502830,0.0362,0,101.78,Fashion,Defective / not working
+R501347,0.0452,0,267.74,Sports & Outdoors,Wrong item delivered
+R504115,0.0324,0,183.97,Fashion,Size or fit issue
+R501583,0.0617,0,163.9,Fashion,Defective / not working
+R500837,0.0331,0,96.15,Fashion,Size or fit issue
+R504545,0.098,0,68.76,Fashion,Changed my mind
+R500729,0.0435,0,47.9,Fashion,Damaged in delivery
+R500494,0.0543,0,509.05,Electronics,Damaged in delivery
+R502131,0.1503,0,282.08,Sports & Outdoors,Changed my mind
+R500209,0.1047,0,351.34,Fashion,Size or fit issue
+R502477,0.0377,0,64.54,Fashion,Not as described
+R500141,0.0297,0,134.52,Fashion,Defective / not working
+R502027,0.0322,0,92.67,Fashion,Size or fit issue
+R500554,0.0593,0,86.86,Grocery,Changed my mind
+R500133,0.0348,0,68.13,Home & Kitchen,Not as described
+R502744,0.0411,0,201.49,Fashion,Size or fit issue
+R501077,0.2162,1,511.76,Electronics,Defective / not working
+R500412,0.0381,0,86.95,Grocery,Not as described
+R503149,0.0671,0,104.57,Fashion,Size or fit issue
+R503833,0.0354,0,288.46,Fashion,Size or fit issue
+R500710,0.07,0,363.74,Electronics,Defective / not working
+R503061,0.1203,0,1285.35,Furniture,Not as described
+R503018,0.044,0,111.36,Fashion,Size or fit issue
+R503587,0.1433,1,838.86,Electronics,Not as described
+R503584,0.087,1,179.23,Home & Kitchen,Not as described
+R500781,0.0573,0,219.63,Home & Kitchen,Wrong item delivered
+R503503,0.062,0,89.39,Beauty & Fragrance,Defective / not working
+R503200,0.2677,0,473.7,Electronics,Changed my mind
+R502518,0.0342,0,188.66,Sports & Outdoors,Defective / not working
+R501907,0.0482,0,329.68,Fashion,Size or fit issue
+R503632,0.072,0,135.86,Beauty & Fragrance,Size or fit issue
+R504153,0.0357,0,105.21,Home & Kitchen,Defective / not working
+R502941,0.0346,0,145.11,Baby & Toys,Defective / not working
+R503373,0.1651,0,173.56,Fashion,Changed my mind
+R503460,0.042,0,250.92,Fashion,Size or fit issue
+R504132,0.0314,0,100.77,Grocery,Defective / not working
+R503656,0.1842,0,150.17,Home & Kitchen,Changed my mind
+R502251,0.0356,0,102.14,Baby & Toys,Wrong item delivered
+R502459,0.036,0,38.38,Fashion,Size or fit issue
+R500019,0.0456,0,1699.09,Furniture,Defective / not working
+R500811,0.0753,0,364.55,Electronics,Defective / not working
+R500010,0.137,0,130.65,Home & Kitchen,Changed my mind
+R504024,0.0327,0,165.8,Fashion,Defective / not working
+R500387,0.0785,0,713.24,Electronics,Not as described
+R503455,0.0378,0,394.5,Fashion,Size or fit issue
+R503518,0.0702,0,930.81,Electronics,Defective / not working
+R500654,0.1479,1,344.24,Electronics,Defective / not working
+R500481,0.093,0,249.42,Home & Kitchen,Changed my mind
+R503213,0.0658,0,97.64,Grocery,Changed my mind
+R500263,0.0295,0,56.8,Fashion,Size or fit issue
+R503395,0.0372,0,119.73,Sports & Outdoors,Defective / not working
+R502434,0.0539,0,150.69,Fashion,Size or fit issue
+R501242,0.0901,0,253.05,Home & Kitchen,Not as described
+R501706,0.0446,0,70.24,Home & Kitchen,Damaged in delivery
+R504377,0.1173,0,134.15,Fashion,Size or fit issue
+R502097,0.2502,0,178.03,Electronics,Changed my mind
+R502225,0.0668,0,116.99,Beauty & Fragrance,Defective / not working
+R502003,0.043,0,123.19,Grocery,Damaged in delivery
+R502505,0.0382,0,73.45,Fashion,Size or fit issue
+R502181,0.0345,0,63.14,Fashion,Wrong item delivered
+R500257,0.0289,0,72.83,Fashion,Size or fit issue
+R500539,0.0743,0,56.78,Baby & Toys,Not as described
+R500281,0.0392,0,234.81,Sports & Outdoors,Defective / not working
+R502709,0.047,1,67.44,Beauty & Fragrance,Defective / not working
+R502236,0.062,0,205.86,Fashion,Defective / not working
+R502564,0.0417,0,44.18,Home & Kitchen,Wrong item delivered
+R501774,0.0336,0,139.0,Fashion,Size or fit issue
+R501890,0.0522,1,538.79,Furniture,Wrong item delivered
+R503761,0.0343,0,53.03,Baby & Toys,Defective / not working
+R500537,0.0535,0,333.3,Home & Kitchen,Not as described
+R503688,0.067,0,1211.38,Electronics,Not as described
+R501928,0.0477,0,250.17,Fashion,Size or fit issue
+R502496,0.142,0,334.84,Fashion,Size or fit issue
+R500723,0.0986,1,104.82,Home & Kitchen,Defective / not working
+R503902,0.0469,0,646.9,Electronics,Defective / not working
+R502076,0.0906,1,213.85,Grocery,Changed my mind
+R500051,0.0437,0,274.31,Fashion,Size or fit issue
+R500752,0.0321,0,274.6,Fashion,Size or fit issue
+R502636,0.0594,1,119.53,Beauty & Fragrance,Changed my mind
+R502466,0.0432,1,45.88,Fashion,Size or fit issue
+R501132,0.041,0,89.28,Baby & Toys,Not as described
+R504172,0.0358,0,78.36,Baby & Toys,Not as described
+R500256,0.2532,0,146.04,Beauty & Fragrance,Changed my mind
+R501096,0.0547,0,940.69,Electronics,Defective / not working
+R501741,0.0319,0,81.99,Fashion,Size or fit issue
+R504170,0.036,0,113.95,Home & Kitchen,Not as described
+R500610,0.1009,0,198.0,Home & Kitchen,Defective / not working
+R503141,0.0304,0,115.68,Fashion,Size or fit issue
+R503616,0.0333,0,70.7,Fashion,Size or fit issue
+R504350,0.0418,0,123.36,Fashion,Not as described
+R500574,0.0383,0,34.66,Baby & Toys,Defective / not working
+R503771,0.0464,0,292.88,Fashion,Size or fit issue
+R504450,0.1587,0,304.64,Grocery,Changed my mind
+R501986,0.152,0,237.7,Sports & Outdoors,Changed my mind
+R500440,0.0369,0,54.88,Grocery,Damaged in delivery
+R502068,0.1241,0,180.01,Electronics,Not as described
+R501073,0.0427,0,133.53,Fashion,Size or fit issue
+R502346,0.0522,0,225.75,Fashion,Size or fit issue
+R504256,0.0293,0,89.36,Fashion,Size or fit issue
+R501265,0.0348,0,191.71,Fashion,Size or fit issue
+R503243,0.1219,0,132.45,Electronics,Defective / not working
+R501324,0.0791,0,290.95,Electronics,Not as described
+R503221,0.036,0,134.92,Fashion,Size or fit issue
+R501095,0.2361,0,590.14,Electronics,Changed my mind
+R500742,0.0623,0,79.15,Beauty & Fragrance,Not as described
+R502297,0.0303,0,77.98,Fashion,Size or fit issue
+R503671,0.0598,0,96.27,Home & Kitchen,Changed my mind
+R501239,0.0384,0,305.01,Home & Kitchen,Defective / not working
+R500120,0.0415,0,154.45,Grocery,Wrong item delivered
+R501935,0.0291,0,128.13,Fashion,Size or fit issue
+R501438,0.0573,0,48.46,Beauty & Fragrance,Not as described
+R501882,0.0365,0,111.89,Fashion,Size or fit issue
+R502641,0.0729,0,100.34,Home & Kitchen,Not as described
+R501286,0.0301,0,126.4,Fashion,Size or fit issue
+R503522,0.0602,0,732.21,Furniture,Defective / not working
+R502500,0.0494,0,67.05,Home & Kitchen,Damaged in delivery
+R500950,0.0791,0,127.73,Fashion,Changed my mind
+R500782,0.0683,0,429.27,Electronics,Defective / not working
+R503650,0.0451,0,73.17,Fashion,Size or fit issue
+R501050,0.0408,0,58.68,Beauty & Fragrance,Wrong item delivered
+R500103,0.0338,0,109.33,Fashion,Defective / not working
+R503583,0.0359,0,308.43,Sports & Outdoors,Defective / not working
+R502826,0.1207,0,432.02,Furniture,Damaged in delivery
+R502045,0.1675,0,222.3,Sports & Outdoors,Changed my mind
+R502616,0.0313,0,129.22,Fashion,Size or fit issue
+R504485,0.0565,0,508.57,Electronics,Not as described
+R501721,0.041,0,321.1,Fashion,Defective / not working
+R503031,0.0974,0,107.7,Beauty & Fragrance,Damaged in delivery
+R500355,0.0315,0,90.33,Grocery,Defective / not working
+R502554,0.0474,0,129.63,Beauty & Fragrance,Wrong item delivered
+R500040,0.0454,0,51.39,Baby & Toys,Not as described
+R502172,0.0521,0,246.04,Home & Kitchen,Wrong item delivered
+R500527,0.1121,1,103.9,Home & Kitchen,Changed my mind
+R504436,0.0336,0,173.84,Fashion,Size or fit issue
+R502845,0.0304,0,98.49,Grocery,Defective / not working
+R500380,0.1859,0,402.19,Electronics,Defective / not working
+R503226,0.3305,0,409.04,Electronics,Wrong item delivered
+R502731,0.0417,0,680.01,Furniture,Defective / not working
+R500771,0.1446,1,104.63,Sports & Outdoors,Damaged in delivery
+R504307,0.0371,0,377.17,Fashion,Size or fit issue
+R503708,0.0332,0,121.16,Fashion,Wrong item delivered
+R504416,0.0753,0,749.0,Electronics,Not as described
+R503595,0.078,0,266.33,Home & Kitchen,Defective / not working
+R500067,0.0402,0,156.19,Home & Kitchen,Defective / not working
+R503027,0.0342,0,96.75,Home & Kitchen,Defective / not working
+R501164,0.0314,0,167.61,Fashion,Size or fit issue
+R500869,0.1867,0,489.02,Electronics,Not as described
+R502116,0.0657,0,579.46,Furniture,Size or fit issue
+R504181,0.459,1,319.69,Sports & Outdoors,Defective / not working
+R502677,0.1967,1,239.73,Electronics,Changed my mind
+R502785,0.0356,0,189.52,Fashion,Size or fit issue
+R504472,0.0722,0,84.78,Home & Kitchen,Defective / not working
+R503929,0.0435,0,75.1,Fashion,Size or fit issue
+R503737,0.0674,0,107.35,Home & Kitchen,Changed my mind
+R502660,0.0451,0,186.35,Fashion,Size or fit issue
+R503163,0.1293,0,298.57,Home & Kitchen,Changed my mind
+R504182,0.1885,0,290.68,Home & Kitchen,Changed my mind
+R500889,0.0943,0,392.73,Sports & Outdoors,Defective / not working
+R501131,0.0307,0,84.3,Grocery,Defective / not working
+R500200,0.0301,0,63.71,Fashion,Size or fit issue
+R501705,0.033,0,79.39,Fashion,Size or fit issue
+R502196,0.0426,0,109.44,Fashion,Size or fit issue
+R502175,0.0349,0,181.61,Home & Kitchen,Defective / not working
+R500122,0.0364,0,86.84,Fashion,Not as described
+R502912,0.2253,0,84.02,Fashion,Size or fit issue
+R503714,0.0288,0,26.27,Fashion,Size or fit issue
+R504012,0.0332,0,182.36,Fashion,Size or fit issue
+R501334,0.0603,0,123.25,Fashion,Not as described
+R500999,0.0321,0,164.0,Sports & Outdoors,Defective / not working
+R501841,0.0651,0,77.79,Beauty & Fragrance,Not as described
+R503778,0.0363,0,408.13,Fashion,Size or fit issue
+R504570,0.0462,0,298.88,Electronics,Defective / not working
+R503114,0.1579,0,129.15,Electronics,Changed my mind
+R501432,0.0358,0,167.97,Fashion,Size or fit issue
+R503748,0.3924,0,751.15,Electronics,Changed my mind
+R503999,0.0337,0,133.36,Fashion,Wrong item delivered
+R504324,0.0436,0,129.87,Beauty & Fragrance,Not as described
+R501078,0.2104,0,357.9,Fashion,Size or fit issue
+R504119,0.2503,0,244.3,Electronics,Changed my mind
+R500163,0.0357,0,126.57,Grocery,Defective / not working
+R501657,0.0318,0,142.39,Sports & Outdoors,Defective / not working
+R502390,0.0532,0,512.6,Electronics,Damaged in delivery
+R503686,0.0805,0,168.12,Fashion,Size or fit issue
+R501056,0.1205,0,152.95,Fashion,Size or fit issue
+R503420,0.3564,0,41.39,Grocery,Not as described
+R503660,0.3567,1,1424.46,Furniture,Defective / not working
+R500110,0.0373,0,79.83,Sports & Outdoors,Wrong item delivered
+R500691,0.0479,0,94.27,Fashion,Size or fit issue
+R502013,0.0416,0,155.85,Grocery,Damaged in delivery
+R501594,0.0548,0,102.87,Beauty & Fragrance,Not as described
+R501457,0.0445,0,149.46,Fashion,Size or fit issue
+R502086,0.0348,0,152.87,Home & Kitchen,Not as described
+R501268,0.0391,0,133.79,Grocery,Not as described
+R501681,0.1724,0,393.95,Beauty & Fragrance,Changed my mind
+R500028,0.0423,0,602.63,Furniture,Damaged in delivery
+R501850,0.0874,0,436.55,Electronics,Defective / not working
+R504083,0.0535,0,86.73,Fashion,Size or fit issue
+R503749,0.0343,0,102.95,Fashion,Size or fit issue
+R504338,0.0805,0,94.63,Baby & Toys,Defective / not working
+R500790,0.2515,1,253.7,Electronics,Changed my mind
+R503085,0.0894,0,2180.79,Furniture,Not as described
+R501982,0.0566,0,146.11,Fashion,Wrong item delivered
+R501357,0.0784,0,140.4,Home & Kitchen,Damaged in delivery
+R503542,0.0421,0,97.34,Grocery,Not as described
+R500402,0.0571,0,130.39,Fashion,Defective / not working
+R504428,0.0411,0,325.68,Grocery,Defective / not working
+R503387,0.1846,0,197.44,Sports & Outdoors,Changed my mind
+R503055,0.1109,0,342.52,Sports & Outdoors,Damaged in delivery
+R500485,0.0378,0,42.58,Grocery,Damaged in delivery
+R502382,0.0306,0,100.56,Fashion,Size or fit issue
+R503506,0.0621,0,90.92,Fashion,Changed my mind
+R502253,0.0318,0,174.11,Fashion,Defective / not working
+R502769,0.0585,0,142.75,Electronics,Not as described
+R500704,0.0308,0,97.79,Grocery,Defective / not working
+R502747,0.0904,0,793.08,Electronics,Not as described
+R503224,0.033,0,122.25,Grocery,Defective / not working
+R501881,0.0596,0,82.77,Fashion,Changed my mind
+R504420,0.0318,0,62.11,Grocery,Defective / not working
+R501428,0.0309,0,65.24,Fashion,Size or fit issue
+R503492,0.0459,0,201.39,Baby & Toys,Defective / not working
+R504475,0.0374,0,149.87,Fashion,Not as described
+R501958,0.0677,0,164.4,Home & Kitchen,Wrong item delivered
+R501234,0.0635,0,100.46,Sports & Outdoors,Changed my mind
+R502065,0.0357,0,80.42,Grocery,Size or fit issue
+R502369,0.1281,0,194.02,Home & Kitchen,Changed my mind
+R504248,0.0836,0,134.05,Home & Kitchen,Defective / not working
+R503454,0.0595,0,335.89,Electronics,Defective / not working
+R500125,0.0441,0,94.87,Fashion,Size or fit issue
+R503886,0.2521,0,357.07,Electronics,Changed my mind
+R502791,0.0561,0,259.3,Electronics,Not as described
+R501995,0.1217,0,111.93,Fashion,Size or fit issue
+R504440,0.0307,0,108.99,Fashion,Size or fit issue
+R503543,0.0553,0,130.63,Beauty & Fragrance,Changed my mind
+R504328,0.0423,0,254.13,Fashion,Defective / not working
+R503313,0.0392,0,180.25,Fashion,Size or fit issue
+R502019,0.3468,0,84.9,Baby & Toys,Defective / not working
+R503964,0.0397,0,113.25,Beauty & Fragrance,Defective / not working
+R504213,0.0516,0,201.53,Sports & Outdoors,Size or fit issue
+R504008,0.0329,0,65.75,Fashion,Size or fit issue
+R504116,0.0396,0,194.02,Fashion,Defective / not working
+R503689,0.0448,0,289.69,Home & Kitchen,Not as described
+R500453,0.1291,1,327.25,Sports & Outdoors,Defective / not working
+R502312,0.3511,1,559.53,Electronics,Wrong item delivered
+R503476,0.0534,0,93.67,Fashion,Size or fit issue
+R503006,0.0333,0,235.35,Fashion,Size or fit issue
+R502666,0.0303,0,84.81,Fashion,Size or fit issue
+R504142,0.0334,0,170.98,Fashion,Size or fit issue
+R504125,0.1312,0,141.77,Fashion,Changed my mind
+R501529,0.0511,0,150.96,Fashion,Size or fit issue
+R500603,0.046,1,507.38,Electronics,Defective / not working
+R500988,0.2874,1,351.87,Electronics,Changed my mind
+R502980,0.0376,0,281.1,Baby & Toys,Not as described
+R502432,0.1697,0,136.42,Fashion,Not as described
+R503124,0.0361,0,171.56,Fashion,Size or fit issue
+R504339,0.041,0,128.34,Fashion,Damaged in delivery
+R501942,0.052,0,210.94,Electronics,Defective / not working
+R501243,0.0397,0,144.6,Baby & Toys,Defective / not working
+R500879,0.0381,0,87.08,Grocery,Defective / not working
+R501023,0.2134,0,204.43,Fashion,Size or fit issue
+R503951,0.0947,0,135.88,Sports & Outdoors,Changed my mind
+R504491,0.0532,0,101.39,Beauty & Fragrance,Not as described
+R500422,0.0572,0,902.02,Furniture,Damaged in delivery
+R502412,0.0992,0,232.2,Electronics,Defective / not working
+R500769,0.0316,0,82.65,Fashion,Size or fit issue
+R502810,0.0299,0,90.96,Grocery,Size or fit issue
+R501363,0.0394,0,363.09,Sports & Outdoors,Not as described
+R503402,0.1914,0,210.18,Fashion,Changed my mind
+R502876,0.0435,0,255.83,Fashion,Size or fit issue
+R503990,0.0335,0,64.38,Fashion,Size or fit issue
+R500596,0.0443,0,193.07,Home & Kitchen,Wrong item delivered
+R502887,0.1983,0,101.75,Fashion,Size or fit issue
+R500197,0.1721,0,1716.54,Furniture,Changed my mind
+R500398,0.1167,0,163.68,Home & Kitchen,Not as described
+R500312,0.0348,0,204.29,Fashion,Defective / not working
+R501998,0.1674,0,62.94,Home & Kitchen,Changed my mind
+R500087,0.0356,0,310.41,Sports & Outdoors,Defective / not working
+R502544,0.1442,0,109.4,Grocery,Changed my mind
+R504230,0.0605,0,78.16,Beauty & Fragrance,Wrong item delivered
+R503994,0.1067,0,88.15,Grocery,Changed my mind
+R501115,0.0441,0,824.33,Furniture,Not as described
+R504099,0.0374,0,84.22,Home & Kitchen,Defective / not working
+R502457,0.0635,0,187.37,Grocery,Not as described
+R500773,0.0647,0,291.68,Home & Kitchen,Wrong item delivered
+R504188,0.1204,0,319.5,Electronics,Damaged in delivery
+R501314,0.0669,0,102.08,Fashion,Wrong item delivered
+R504480,0.0736,0,243.98,Electronics,Wrong item delivered
+R503868,0.0373,0,72.9,Fashion,Not as described
+R501089,0.2366,1,410.11,Electronics,Defective / not working
+R500385,0.0514,0,140.16,Fashion,Size or fit issue
+R500004,0.0449,0,125.53,Fashion,Size or fit issue
+R501709,0.156,0,275.59,Electronics,Damaged in delivery
+R502323,0.1546,0,421.98,Fashion,Changed my mind
+R503277,0.0327,0,155.49,Fashion,Size or fit issue
+R502033,0.2579,1,210.83,Electronics,Changed my mind
+R502252,0.0484,0,111.01,Beauty & Fragrance,Wrong item delivered
+R500519,0.0654,0,65.03,Fashion,Defective / not working
+R500880,0.0398,0,195.45,Home & Kitchen,Wrong item delivered
+R503053,0.031,0,123.86,Fashion,Size or fit issue
+R500825,0.0977,0,245.12,Home & Kitchen,Changed my mind
+R501954,0.0537,0,238.6,Home & Kitchen,Defective / not working
+R500697,0.0501,0,171.13,Beauty & Fragrance,Damaged in delivery
+R501146,0.0405,0,231.37,Fashion,Damaged in delivery
+R502640,0.3084,1,334.05,Electronics,Changed my mind
+R500971,0.1233,0,152.43,Fashion,Changed my mind
+R500799,0.2011,0,98.2,Fashion,Damaged in delivery
+R502684,0.0375,0,226.43,Baby & Toys,Defective / not working
+R501801,0.0572,0,203.89,Electronics,Size or fit issue
+R503397,0.0422,0,71.11,Home & Kitchen,Wrong item delivered
+R500703,0.0515,0,486.66,Fashion,Size or fit issue
+R503093,0.0307,0,96.96,Grocery,Size or fit issue
+R502063,0.1142,0,198.13,Electronics,Defective / not working
+R503779,0.0393,0,1044.36,Furniture,Defective / not working
+R500170,0.0345,0,47.13,Fashion,Size or fit issue
+R501483,0.0307,0,92.68,Fashion,Size or fit issue
+R500725,0.0551,0,84.5,Fashion,Size or fit issue
+R501267,0.0631,0,130.08,Home & Kitchen,Defective / not working
+R503917,0.047,0,337.8,Home & Kitchen,Not as described
+R503606,0.0665,0,239.66,Fashion,Size or fit issue
+R502324,0.0313,0,63.46,Grocery,Size or fit issue
+R501849,0.0512,0,152.84,Beauty & Fragrance,Wrong item delivered
+R502896,0.0495,0,387.39,Electronics,Not as described
+R500264,0.0305,0,154.78,Fashion,Defective / not working
+R501535,0.0443,0,429.13,Home & Kitchen,Damaged in delivery
+R502655,0.2016,0,392.15,Electronics,Changed my mind
+R502328,0.0381,0,165.61,Fashion,Size or fit issue
+R503822,0.058,0,129.17,Fashion,Size or fit issue
+R500584,0.0536,0,651.18,Electronics,Not as described
+R504604,0.039,0,107.76,Home & Kitchen,Defective / not working
+R503858,0.1522,0,85.31,Home & Kitchen,Changed my mind
+R504423,0.1149,0,220.36,Electronics,Defective / not working
+R503799,0.0498,0,276.65,Fashion,Size or fit issue
+R501732,0.0343,0,269.21,Baby & Toys,Not as described
+R503961,0.1607,0,741.86,Furniture,Changed my mind
+R502782,0.1715,0,1598.81,Furniture,Defective / not working
+R503303,0.0493,0,72.43,Home & Kitchen,Defective / not working
+R501913,0.1961,0,439.53,Home & Kitchen,Changed my mind
+R504062,0.043,0,179.61,Beauty & Fragrance,Not as described
+R501150,0.0664,0,76.03,Fashion,Size or fit issue
+R500831,0.0473,0,78.0,Home & Kitchen,Not as described
+R501266,0.0373,1,61.27,Fashion,Wrong item delivered
+R503139,0.0426,0,73.93,Beauty & Fragrance,Defective / not working
+R502018,0.0366,0,150.67,Fashion,Size or fit issue
+R504418,0.0336,0,126.93,Fashion,Size or fit issue
+R503419,0.0431,0,207.43,Home & Kitchen,Not as described
+R502147,0.1096,0,71.08,Grocery,Wrong item delivered
+R503208,0.0665,0,76.02,Fashion,Size or fit issue
+R503809,0.2668,1,1227.57,Electronics,Not as described
+R503530,0.0866,0,244.13,Sports & Outdoors,Not as described
+R500920,0.0454,0,90.82,Grocery,Not as described
+R501376,0.0524,0,164.23,Fashion,Size or fit issue
+R500016,0.0366,0,316.11,Fashion,Defective / not working
+R501817,0.2477,0,186.67,Electronics,Changed my mind
+R504176,0.082,0,54.87,Home & Kitchen,Not as described
+R504195,0.0715,0,248.78,Fashion,Size or fit issue
+R501287,0.0479,0,1424.3,Furniture,Not as described
+R503165,0.0288,0,110.86,Fashion,Size or fit issue
+R500531,0.0945,0,169.61,Baby & Toys,Defective / not working
+R501300,0.0533,0,484.85,Electronics,Defective / not working
+R503126,0.0323,0,206.6,Baby & Toys,Defective / not working
+R504179,0.2844,1,650.35,Electronics,Changed my mind
+R501697,0.2942,1,1968.1,Furniture,Changed my mind
+R501251,0.044,0,948.0,Furniture,Defective / not working
+R502931,0.1262,0,212.31,Sports & Outdoors,Not as described
+R501037,0.0367,0,130.46,Fashion,Defective / not working
+R502396,0.2544,0,105.07,Fashion,Not as described
+R502879,0.0857,0,406.52,Fashion,Size or fit issue
+R501742,0.1295,0,274.66,Sports & Outdoors,Changed my mind
+R500546,0.1534,0,558.07,Electronics,Wrong item delivered
+R500080,0.0513,0,1075.76,Electronics,Not as described
+R502410,0.0356,0,86.2,Home & Kitchen,Size or fit issue
+R500420,0.0678,0,305.17,Electronics,Damaged in delivery
+R500666,0.0635,0,89.74,Beauty & Fragrance,Not as described
+R501909,0.0685,0,277.02,Electronics,Defective / not working
+R500623,0.044,0,364.01,Fashion,Size or fit issue
+R502051,0.0489,0,262.71,Baby & Toys,Defective / not working
+R501608,0.0449,0,215.19,Baby & Toys,Not as described
+R504066,0.0418,0,260.3,Fashion,Size or fit issue
+R500886,0.0405,0,92.8,Beauty & Fragrance,Defective / not working
+R500735,0.0334,0,89.71,Fashion,Defective / not working
+R500005,0.0296,0,114.88,Fashion,Size or fit issue
+R503693,0.0382,0,126.24,Fashion,Wrong item delivered
+R503723,0.0761,0,146.69,Home & Kitchen,Not as described
+R500145,0.0426,0,136.97,Home & Kitchen,Not as described
+R501258,0.0818,1,765.24,Electronics,Size or fit issue
+R500916,0.0397,0,463.51,Fashion,Defective / not working
+R503589,0.0832,0,143.63,Beauty & Fragrance,Not as described
+R503531,0.0397,0,180.76,Fashion,Size or fit issue
+R501110,0.0655,0,368.86,Sports & Outdoors,Damaged in delivery
+R501820,0.0389,0,792.39,Furniture,Defective / not working
+R502972,0.0339,0,111.24,Home & Kitchen,Defective / not working
+R503555,0.0434,0,373.18,Home & Kitchen,Defective / not working
+R502384,0.0667,0,50.32,Grocery,Changed my mind
+R501785,0.0794,1,77.78,Home & Kitchen,Changed my mind
+R502303,0.0376,0,264.29,Home & Kitchen,Defective / not working
+R500861,0.0473,0,216.85,Fashion,Size or fit issue
+R504387,0.0323,0,126.1,Grocery,Defective / not working
+R500249,0.0415,0,94.56,Beauty & Fragrance,Defective / not working
+R503043,0.0451,0,148.77,Fashion,Not as described
+R503091,0.136,0,144.01,Electronics,Defective / not working
+R500212,0.0712,0,44.52,Grocery,Changed my mind
+R502377,0.0605,0,49.39,Fashion,Changed my mind
+R503288,0.0832,0,78.51,Beauty & Fragrance,Changed my mind
+R500549,0.0293,0,72.86,Fashion,Size or fit issue
+R500377,0.0533,0,174.5,Fashion,Size or fit issue
+R502947,0.0773,0,44.75,Beauty & Fragrance,Not as described
+R502272,0.0328,0,280.27,Fashion,Size or fit issue
+R503374,0.0457,0,126.2,Home & Kitchen,Damaged in delivery
+R501824,0.0387,0,128.55,Fashion,Size or fit issue
+R502130,0.0367,0,128.82,Fashion,Size or fit issue
+R504107,0.0952,0,234.66,Home & Kitchen,Not as described
+R502726,0.0343,0,86.94,Sports & Outdoors,Size or fit issue
+R504299,0.0613,0,116.65,Home & Kitchen,Damaged in delivery
+R500604,0.0467,0,419.98,Fashion,Size or fit issue
+R500176,0.4545,0,359.57,Fashion,Size or fit issue
+R500236,0.0858,0,83.92,Sports & Outdoors,Defective / not working
+R501462,0.0821,0,407.42,Electronics,Defective / not working
+R504386,0.0323,0,132.33,Baby & Toys,Defective / not working
+R503942,0.15,0,197.61,Fashion,Changed my mind
+R503918,0.171,0,94.47,Fashion,Size or fit issue
+R503249,0.0438,0,126.52,Home & Kitchen,Not as described
+R503906,0.3927,1,251.47,Electronics,Not as described
+R504412,0.0311,0,82.18,Fashion,Size or fit issue
+R501659,0.075,0,328.75,Electronics,Not as described
+R501250,0.0529,0,409.6,Electronics,Defective / not working
+R504383,0.0659,0,183.08,Fashion,Size or fit issue
+R501156,0.0385,0,49.8,Home & Kitchen,Not as described
+R503263,0.0309,0,138.29,Fashion,Size or fit issue
+R500992,0.0354,0,127.67,Fashion,Size or fit issue
+R501808,0.0948,0,64.46,Fashion,Changed my mind
+R502259,0.1134,1,369.44,Baby & Toys,Not as described
+R501826,0.0333,0,49.19,Fashion,Defective / not working
+R502532,0.1396,0,242.47,Sports & Outdoors,Changed my mind
+R502571,0.0277,0,115.86,Fashion,Size or fit issue
+R501756,0.0429,0,461.69,Sports & Outdoors,Damaged in delivery
+R504384,0.0962,0,94.5,Fashion,Damaged in delivery
+R500524,0.2869,0,348.33,Electronics,Damaged in delivery
+R502976,0.0341,0,40.98,Fashion,Size or fit issue
+R504180,0.0366,0,188.62,Sports & Outdoors,Defective / not working
+R500655,0.0709,0,166.79,Home & Kitchen,Defective / not working
+R504515,0.0346,0,145.26,Fashion,Size or fit issue
+R502700,0.1838,0,347.85,Fashion,Changed my mind
+R501189,0.034,0,149.26,Sports & Outdoors,Wrong item delivered
+R503794,0.0408,0,128.51,Home & Kitchen,Not as described
+R504447,0.0306,0,41.79,Fashion,Size or fit issue
+R500902,0.0502,0,52.26,Fashion,Size or fit issue
+R503348,0.0429,0,104.51,Beauty & Fragrance,Defective / not working
+R503997,0.0983,0,302.38,Sports & Outdoors,Changed my mind
+R504567,0.0358,0,81.36,Fashion,Size or fit issue
+R501033,0.0759,0,315.83,Electronics,Not as described
+R504075,0.0559,0,144.01,Sports & Outdoors,Not as described
+R503049,0.1565,0,215.85,Fashion,Changed my mind
+R500113,0.0952,0,432.78,Home & Kitchen,Changed my mind
+R500216,0.0365,0,81.11,Grocery,Not as described
+R504067,0.0403,0,109.52,Fashion,Size or fit issue
+R502066,0.0867,0,48.11,Fashion,Wrong item delivered
+R500162,0.0331,0,157.79,Fashion,Size or fit issue
+R502580,0.0968,0,240.09,Electronics,Not as described
+R502762,0.04,0,337.93,Fashion,Size or fit issue
+R501515,0.0383,0,534.94,Furniture,Defective / not working
+R503195,0.2472,0,163.71,Home & Kitchen,Changed my mind
+R503340,0.1674,0,168.13,Home & Kitchen,Changed my mind
+R500214,0.0387,0,2339.96,Furniture,Not as described
+R504614,0.1371,0,538.06,Electronics,Wrong item delivered
+R502506,0.0609,0,478.44,Electronics,Defective / not working
+R504554,0.0539,0,364.45,Furniture,Defective / not working
+R503193,0.0695,0,150.62,Home & Kitchen,Not as described
+R503614,0.0618,0,180.17,Fashion,Defective / not working
+R504507,0.0402,0,85.06,Beauty & Fragrance,Defective / not working
+R502748,0.0523,0,228.47,Sports & Outdoors,Wrong item delivered
+R502824,0.0341,0,79.99,Baby & Toys,Not as described
+R500641,0.032,0,188.43,Fashion,Size or fit issue
+R502381,0.1785,0,480.54,Furniture,Changed my mind
+R501473,0.2945,0,469.54,Electronics,Changed my mind
+R503807,0.0594,0,586.66,Electronics,Not as described
+R501166,0.0974,0,171.49,Baby & Toys,Size or fit issue
+R501046,0.0348,0,252.89,Fashion,Not as described
+R502231,0.0457,0,236.67,Baby & Toys,Defective / not working
+R502988,0.0867,0,184.24,Home & Kitchen,Defective / not working
+R503045,0.1203,0,118.67,Baby & Toys,Defective / not working
+R504279,0.1892,0,651.87,Furniture,Changed my mind
+R500146,0.0851,0,134.98,Home & Kitchen,Changed my mind
+R500631,0.0516,0,53.61,Fashion,Size or fit issue
+R501204,0.1038,0,75.11,Beauty & Fragrance,Not as described
+R502568,0.0516,0,1271.38,Electronics,Defective / not working
+R501235,0.0407,0,201.86,Fashion,Damaged in delivery
+R504467,0.188,1,91.14,Home & Kitchen,Defective / not working
+R502336,0.1948,0,122.91,Beauty & Fragrance,Changed my mind
+R502851,0.2788,0,335.37,Electronics,Damaged in delivery
+R500942,0.0627,0,126.29,Fashion,Size or fit issue
+R502081,0.2965,1,458.52,Electronics,Changed my mind
+R501597,0.1113,0,157.02,Fashion,Wrong item delivered
+R500229,0.0588,0,160.42,Fashion,Size or fit issue
+R503362,0.1143,0,95.22,Beauty & Fragrance,Not as described
+R501426,0.1062,0,295.82,Sports & Outdoors,Changed my mind
+R500791,0.0925,0,168.1,Fashion,Defective / not working
+R503738,0.065,0,294.3,Home & Kitchen,Size or fit issue
+R500661,0.1755,1,84.88,Sports & Outdoors,Defective / not working
+R503415,0.0435,0,464.01,Electronics,Damaged in delivery
+R502943,0.0632,0,55.46,Beauty & Fragrance,Changed my mind
+R502849,0.1811,1,439.85,Electronics,Changed my mind
+R503287,0.0362,0,208.33,Fashion,Defective / not working
+R502169,0.0307,0,117.57,Fashion,Size or fit issue
+R504364,0.403,1,662.32,Electronics,Changed my mind
+R501656,0.0699,0,280.9,Electronics,Defective / not working
+R503010,0.2337,0,2943.84,Furniture,Changed my mind
+R500277,0.0675,0,271.82,Home & Kitchen,Defective / not working
+R503885,0.0588,0,289.62,Home & Kitchen,Not as described
+R502034,0.0905,0,317.35,Sports & Outdoors,Defective / not working
+R502647,0.0379,0,148.4,Fashion,Wrong item delivered
+R501910,0.1909,0,1096.46,Furniture,Changed my mind
+R500382,0.19,0,101.14,Beauty & Fragrance,Changed my mind
+R501163,0.0475,0,1888.04,Furniture,Defective / not working
+R504519,0.0374,0,204.23,Fashion,Size or fit issue
+R502990,0.0438,0,151.39,Home & Kitchen,Wrong item delivered
+R504551,0.0524,0,170.9,Sports & Outdoors,Damaged in delivery
+R503035,0.0323,0,129.11,Fashion,Size or fit issue
+R502577,0.103,0,1658.28,Furniture,Damaged in delivery
+R504537,0.1274,0,850.43,Furniture,Changed my mind
+R503147,0.0914,0,68.3,Grocery,Changed my mind
+R503242,0.0652,0,48.85,Grocery,Wrong item delivered
+R501838,0.0532,0,115.73,Fashion,Changed my mind
+R501413,0.0388,0,99.31,Baby & Toys,Defective / not working
+R504201,0.0381,0,110.59,Fashion,Size or fit issue
+R500268,0.0317,0,49.43,Fashion,Size or fit issue
+R502092,0.2167,1,601.43,Electronics,Changed my mind
+R501103,0.2584,0,224.9,Fashion,Size or fit issue
+R504546,0.0392,0,326.82,Fashion,Size or fit issue
+R500906,0.0724,0,269.12,Electronics,Defective / not working
+R501703,0.2227,0,73.48,Fashion,Size or fit issue
+R500247,0.0548,0,92.18,Fashion,Changed my mind
+R503958,0.0393,0,165.7,Home & Kitchen,Size or fit issue
+R503058,0.1858,0,393.8,Furniture,Changed my mind
+R501355,0.0328,0,85.1,Fashion,Size or fit issue
+R501829,0.0639,0,123.86,Home & Kitchen,Defective / not working
+R503422,0.088,0,1020.78,Furniture,Size or fit issue
+R503381,0.0421,0,149.04,Sports & Outdoors,Wrong item delivered
+R501764,0.2319,0,113.27,Fashion,Size or fit issue
+R503274,0.0345,0,79.47,Grocery,Size or fit issue
+R502212,0.0824,0,206.4,Fashion,Not as described
+R502846,0.0717,0,216.55,Fashion,Size or fit issue
+R501076,0.0309,0,93.22,Fashion,Size or fit issue
+R504032,0.2279,1,170.69,Home & Kitchen,Changed my mind
+R503191,0.0671,0,171.66,Fashion,Not as described
+R500696,0.0799,0,218.02,Fashion,Size or fit issue
+R503101,0.0318,0,116.24,Fashion,Defective / not working
+R502939,0.0384,0,158.95,Fashion,Size or fit issue
+R500358,0.0477,0,551.72,Electronics,Defective / not working
+R500407,0.0465,0,73.81,Grocery,Damaged in delivery
+R500689,0.0308,0,92.92,Fashion,Defective / not working
+R500442,0.186,0,483.53,Furniture,Wrong item delivered
+R502246,0.0625,0,154.8,Electronics,Not as described
+R502099,0.0577,0,136.81,Fashion,Size or fit issue
+R502015,0.0849,0,48.72,Beauty & Fragrance,Not as described
+R502039,0.1257,0,282.87,Fashion,Size or fit issue
+R500948,0.0386,0,242.34,Fashion,Size or fit issue
+R500039,0.3536,0,39.79,Grocery,Damaged in delivery
+R501769,0.034,0,90.07,Grocery,Defective / not working
+R500270,0.0304,0,166.84,Fashion,Size or fit issue
+R501371,0.0359,0,236.45,Fashion,Size or fit issue
+R502140,0.0317,0,58.06,Fashion,Not as described
+R501978,0.0334,0,73.81,Fashion,Size or fit issue
+R504222,0.0325,0,136.83,Fashion,Size or fit issue
+R503363,0.0457,0,169.31,Home & Kitchen,Defective / not working
+R503867,0.0462,0,151.03,Fashion,Defective / not working
+R504129,0.0919,0,96.75,Fashion,Changed my mind
+R501256,0.153,0,755.25,Furniture,Changed my mind
+R501568,0.2188,0,404.49,Electronics,Changed my mind
+R503926,0.0538,0,229.8,Home & Kitchen,Wrong item delivered
+R500124,0.0479,0,255.73,Grocery,Defective / not working
+R503231,0.0944,0,129.27,Grocery,Damaged in delivery
+R500009,0.0391,0,131.03,Fashion,Size or fit issue
+R503108,0.0707,0,787.28,Electronics,Damaged in delivery
+R503462,0.1538,0,1624.82,Furniture,Changed my mind
+R504018,0.0448,0,147.1,Fashion,Wrong item delivered
+R503342,0.2205,0,89.99,Baby & Toys,Changed my mind
+R503343,0.1181,0,220.55,Electronics,Defective / not working
+R501614,0.0576,0,207.96,Fashion,Defective / not working
+R502399,0.0573,0,512.61,Furniture,Damaged in delivery
+R502712,0.0317,0,124.42,Fashion,Size or fit issue
+R501392,0.1889,0,530.31,Electronics,Changed my mind
+R501390,0.0345,0,84.35,Sports & Outdoors,Defective / not working
+R500835,0.0466,0,159.17,Home & Kitchen,Damaged in delivery
+R500828,0.1759,0,1213.16,Electronics,Wrong item delivered
+R504438,0.0551,0,292.75,Fashion,Not as described
+R503832,0.0762,0,101.77,Grocery,Defective / not working
+R503427,0.08,0,259.33,Fashion,Size or fit issue
+R502288,0.0412,0,97.2,Fashion,Size or fit issue
+R502232,0.1607,0,98.96,Sports & Outdoors,Defective / not working
+R501592,0.0388,0,232.35,Fashion,Size or fit issue
+R501054,0.0526,0,99.26,Grocery,Not as described
+R502967,0.0585,0,304.71,Beauty & Fragrance,Defective / not working
+R502084,0.0691,0,685.26,Electronics,Defective / not working
+R500738,0.1204,0,348.9,Home & Kitchen,Size or fit issue
+R500152,0.0896,0,419.7,Electronics,Defective / not working
+R503873,0.074,0,44.92,Grocery,Damaged in delivery
+R502392,0.0466,0,244.81,Fashion,Size or fit issue
+R504168,0.0379,0,178.34,Fashion,Size or fit issue
+R502841,0.043,0,194.37,Fashion,Size or fit issue
+R502973,0.1804,0,967.43,Furniture,Changed my mind
+R503592,0.096,0,275.02,Fashion,Size or fit issue
+R502771,0.0439,0,150.1,Home & Kitchen,Not as described
+R504052,0.0672,1,59.23,Baby & Toys,Changed my mind
+R500892,0.044,0,232.66,Home & Kitchen,Defective / not working
+R503623,0.0413,0,203.11,Fashion,Size or fit issue
+R501921,0.1674,1,323.89,Fashion,Size or fit issue
+R502025,0.0338,0,108.7,Baby & Toys,Defective / not working
+R502599,0.0363,0,174.92,Fashion,Defective / not working
+R503028,0.0446,0,40.84,Fashion,Damaged in delivery
+R502866,0.067,1,130.41,Home & Kitchen,Changed my mind
+R501561,0.0335,0,148.9,Fashion,Size or fit issue
+R504068,0.0579,0,318.79,Fashion,Size or fit issue
+R502552,0.344,1,1409.32,Electronics,Defective / not working
+R504200,0.1855,0,532.72,Electronics,Not as described
+R500562,0.1517,0,176.98,Home & Kitchen,Changed my mind
+R504517,0.2004,1,474.87,Sports & Outdoors,Damaged in delivery
+R504193,0.0348,0,68.11,Grocery,Wrong item delivered
+R504341,0.0327,0,539.74,Fashion,Defective / not working
+R502153,0.0559,0,398.92,Electronics,Defective / not working
+R503891,0.0503,0,46.75,Beauty & Fragrance,Damaged in delivery
+R500973,0.0353,0,61.84,Fashion,Defective / not working
+R501717,0.0366,0,192.12,Fashion,Size or fit issue
+R502192,0.0737,0,291.02,Electronics,Size or fit issue
+R503644,0.0409,0,457.78,Furniture,Defective / not working
+R501294,0.0431,0,63.08,Fashion,Size or fit issue
+R500994,0.1223,0,201.92,Fashion,Changed my mind
+R500922,0.1735,1,409.7,Home & Kitchen,Changed my mind
+R501064,0.041,0,682.2,Electronics,Defective / not working
+R504110,0.034,0,123.2,Fashion,Size or fit issue
+R504287,0.0717,0,323.18,Electronics,Defective / not working
+R503134,0.0335,0,103.65,Fashion,Not as described
+R500069,0.0416,0,42.71,Grocery,Not as described
+R503959,0.3597,1,294.0,Electronics,Defective / not working
+R502142,0.059,0,664.54,Electronics,Wrong item delivered
+R500396,0.0719,0,283.4,Fashion,Size or fit issue
+R500824,0.0329,0,139.14,Fashion,Size or fit issue
+R504431,0.0639,0,454.09,Electronics,Defective / not working
+R502786,0.0309,0,139.54,Fashion,Size or fit issue
+R500896,0.2609,0,111.2,Beauty & Fragrance,Changed my mind
+R503747,0.2325,0,176.97,Electronics,Changed my mind
+R502952,0.0467,0,201.79,Baby & Toys,Not as described
+R501403,0.0664,0,116.94,Sports & Outdoors,Defective / not working
+R502996,0.049,1,810.5,Electronics,Defective / not working
+R502126,0.1874,0,178.91,Sports & Outdoors,Wrong item delivered
+R501509,0.0357,0,106.28,Fashion,Defective / not working
+R502073,0.0365,0,161.26,Fashion,Size or fit issue
+R501240,0.26,0,499.29,Electronics,Changed my mind
+R501962,0.0394,0,146.73,Fashion,Size or fit issue
+R501027,0.0388,0,114.59,Beauty & Fragrance,Defective / not working
+R504443,0.0336,0,160.54,Fashion,Size or fit issue
+R504013,0.0408,0,168.16,Grocery,Defective / not working
+R503811,0.0829,0,90.82,Beauty & Fragrance,Changed my mind
+R502383,0.0692,0,97.86,Baby & Toys,Changed my mind
+R501450,0.0503,0,212.32,Beauty & Fragrance,Defective / not working
+R503500,0.0836,0,324.88,Electronics,Not as described
+R502241,0.0443,0,200.46,Sports & Outdoors,Damaged in delivery
+R500820,0.0369,0,277.8,Fashion,Defective / not working
+R500138,0.2156,0,224.44,Fashion,Size or fit issue
+R502796,0.0354,0,147.92,Fashion,Defective / not working
+R502450,0.0438,0,205.77,Beauty & Fragrance,Defective / not working
+R504113,0.0336,0,153.53,Home & Kitchen,Not as described
+R501059,0.0357,0,137.97,Baby & Toys,Not as described
+R504070,0.0744,0,135.29,Home & Kitchen,Wrong item delivered
+R503017,0.0433,0,148.89,Fashion,Wrong item delivered
+R502703,0.1501,0,152.82,Baby & Toys,Changed my mind
+R503310,0.044,0,70.94,Beauty & Fragrance,Damaged in delivery
+R502352,0.0746,0,47.73,Grocery,Changed my mind
+R500240,0.1951,0,1082.42,Furniture,Changed my mind
+R500646,0.1018,0,186.72,Electronics,Defective / not working
+R500967,0.2515,0,544.61,Electronics,Changed my mind
+R504002,0.0491,0,256.24,Fashion,Size or fit issue
+R500118,0.0417,0,278.91,Sports & Outdoors,Not as described
+R500553,0.1542,0,300.98,Electronics,Not as described
+R503605,0.0438,0,96.09,Baby & Toys,Not as described
+R504253,0.1152,0,232.53,Fashion,Size or fit issue
+R504306,0.1443,0,370.52,Home & Kitchen,Changed my mind
+R502238,0.0466,0,100.38,Fashion,Wrong item delivered
+R504360,0.112,1,239.15,Fashion,Size or fit issue
+R500924,0.0336,0,161.86,Fashion,Size or fit issue
+R504026,0.2673,0,453.14,Electronics,Changed my mind
+R500137,0.071,0,248.79,Sports & Outdoors,Not as described
+R502104,0.2008,0,153.37,Baby & Toys,Changed my mind
+R504069,0.3844,1,230.83,Fashion,Size or fit issue
+R502461,0.0311,0,120.86,Fashion,Size or fit issue
+R501768,0.0772,0,83.85,Fashion,Changed my mind
+R503865,0.0311,0,68.14,Fashion,Size or fit issue
+R502665,0.1553,0,99.73,Home & Kitchen,Not as described
+R501645,0.0579,0,814.06,Electronics,Defective / not working
+R503642,0.0913,0,128.65,Sports & Outdoors,Changed my mind
+R500767,0.3074,0,409.24,Electronics,Damaged in delivery
+R500949,0.0842,0,807.08,Electronics,Size or fit issue
+R503872,0.2083,0,176.53,Baby & Toys,Changed my mind
+R502224,0.0382,0,120.19,Home & Kitchen,Size or fit issue
+R504093,0.1114,0,107.57,Fashion,Size or fit issue
+R503773,0.036,0,69.69,Grocery,Defective / not working
+R502981,0.0359,0,88.15,Home & Kitchen,Wrong item delivered
+R503356,0.0643,0,320.8,Electronics,Not as described
+R501724,0.1364,1,568.28,Electronics,Not as described
+R500690,0.0312,0,99.25,Fashion,Size or fit issue
+R501149,0.0337,0,32.84,Fashion,Size or fit issue
+R503344,0.0557,0,427.19,Electronics,Not as described
+R501587,0.1007,0,240.3,Fashion,Size or fit issue
+R503896,0.0366,0,102.49,Grocery,Defective / not working
+R501789,0.054,0,300.44,Electronics,Damaged in delivery
+R500260,0.0351,0,99.66,Baby & Toys,Not as described
+R504501,0.0458,0,384.64,Sports & Outdoors,Defective / not working
+R503475,0.0337,0,53.08,Grocery,Not as described
+R503337,0.0459,0,39.28,Baby & Toys,Defective / not working
+R504376,0.0986,0,259.83,Fashion,Size or fit issue
+R502059,0.0538,0,206.64,Fashion,Size or fit issue
+R504088,0.0348,0,146.73,Home & Kitchen,Defective / not working
+R503434,0.0343,0,50.67,Fashion,Not as described
+R503969,0.2558,1,152.61,Beauty & Fragrance,Changed my mind
+R502476,0.0336,0,355.55,Fashion,Wrong item delivered
+R503096,0.0732,0,274.94,Electronics,Defective / not working
+R501860,0.0863,0,864.88,Electronics,Defective / not working
+R501169,0.1202,0,827.94,Electronics,Not as described
+R500105,0.0384,1,64.98,Fashion,Size or fit issue
+R500030,0.1863,1,224.53,Electronics,Wrong item delivered
+R503171,0.032,0,107.74,Fashion,Size or fit issue
+R504572,0.0388,0,45.06,Grocery,Defective / not working
+R500675,0.2049,0,262.94,Home & Kitchen,Changed my mind
+R504165,0.2019,0,168.14,Home & Kitchen,Defective / not working
+R503325,0.0288,0,133.83,Fashion,Size or fit issue
+R500367,0.1354,0,91.32,Beauty & Fragrance,Wrong item delivered
+R502928,0.0412,0,107.16,Fashion,Size or fit issue
+R502661,0.0304,0,143.47,Sports & Outdoors,Defective / not working
+R503438,0.1663,0,105.58,Baby & Toys,Defective / not working
+R500055,0.0558,0,341.21,Electronics,Defective / not working
+R502589,0.0657,0,269.49,Home & Kitchen,Not as described
+R502989,0.0489,0,308.75,Fashion,Defective / not working
+R501735,0.3033,1,467.0,Electronics,Changed my mind
+R500534,0.0579,0,284.55,Fashion,Wrong item delivered
+R502333,0.1363,0,164.41,Beauty & Fragrance,Changed my mind
+R502565,0.1387,0,54.65,Fashion,Size or fit issue
+R502798,0.0696,0,145.88,Beauty & Fragrance,Wrong item delivered
+R501772,0.04,0,245.15,Fashion,Not as described
+R503700,0.0368,0,152.69,Fashion,Size or fit issue
+R502158,0.2484,0,217.6,Electronics,Damaged in delivery
+R503620,0.084,0,109.34,Grocery,Changed my mind
+R502343,0.1752,0,189.71,Home & Kitchen,Damaged in delivery
+R502819,0.1122,0,219.35,Sports & Outdoors,Changed my mind
+R502974,0.0452,0,209.76,Fashion,Defective / not working
+R501648,0.1562,0,118.57,Beauty & Fragrance,Changed my mind
+R501009,0.0513,0,158.85,Fashion,Size or fit issue
+R504014,0.0629,0,241.99,Fashion,Size or fit issue
+R502784,0.0424,0,658.89,Furniture,Wrong item delivered
+R504397,0.0335,0,173.52,Sports & Outdoors,Defective / not working
+R501563,0.0761,0,462.54,Fashion,Wrong item delivered
+R501361,0.2338,0,431.02,Furniture,Changed my mind
+R500109,0.2776,1,560.69,Electronics,Changed my mind
+R500435,0.0403,0,101.61,Fashion,Size or fit issue
+R501306,0.0343,0,132.05,Fashion,Defective / not working
+R501844,0.3512,0,240.72,Electronics,Not as described
+R501329,0.0841,0,168.97,Fashion,Size or fit issue
+R501807,0.0353,0,93.81,Home & Kitchen,Defective / not working
+R500899,0.0335,0,232.21,Fashion,Size or fit issue
+R500357,0.0328,0,119.47,Fashion,Size or fit issue
+R500499,0.0766,1,84.28,Beauty & Fragrance,Changed my mind
+R501221,0.1376,0,2002.16,Furniture,Changed my mind
+R503615,0.0345,0,78.66,Home & Kitchen,Defective / not working
+R501830,0.085,0,132.69,Home & Kitchen,Defective / not working
+R500427,0.0336,0,185.22,Fashion,Size or fit issue
+R503210,0.0411,0,132.39,Fashion,Wrong item delivered
+R503770,0.0299,0,100.35,Fashion,Size or fit issue
+R501180,0.0433,0,116.01,Home & Kitchen,Wrong item delivered
+R501922,0.0331,0,22.97,Grocery,Defective / not working
+R504274,0.0323,0,60.89,Grocery,Defective / not working
+R504130,0.1274,1,297.44,Electronics,Defective / not working
+R500250,0.256,0,700.2,Home & Kitchen,Changed my mind
+R502777,0.0671,0,251.43,Electronics,Not as described
+R501387,0.2115,0,123.56,Fashion,Size or fit issue
+R500563,0.0306,0,188.99,Fashion,Size or fit issue
+R500284,0.0896,0,87.77,Grocery,Wrong item delivered
+R503653,0.066,0,249.1,Electronics,Wrong item delivered
+R502202,0.0586,0,88.45,Fashion,Size or fit issue
+R501593,0.1482,0,920.17,Electronics,Wrong item delivered
+R502057,0.2545,0,181.85,Home & Kitchen,Changed my mind
+R504047,0.0401,0,89.08,Fashion,Wrong item delivered
+R501034,0.0366,0,43.08,Fashion,Defective / not working
+R501770,0.1668,0,351.64,Home & Kitchen,Defective / not working
+R503366,0.0362,0,121.33,Fashion,Size or fit issue
+R501031,0.209,0,389.03,Electronics,Changed my mind
+R504128,0.0316,0,61.07,Fashion,Size or fit issue
+R501673,0.0325,0,97.71,Home & Kitchen,Defective / not working
+R504288,0.1966,0,533.58,Sports & Outdoors,Changed my mind
+R502214,0.0298,0,97.1,Fashion,Size or fit issue
+R501209,0.0332,0,133.64,Home & Kitchen,Defective / not working
+R500923,0.0344,0,27.27,Grocery,Defective / not working
+R502052,0.0399,0,225.67,Fashion,Size or fit issue
+R500498,0.0324,0,215.74,Fashion,Size or fit issue
+R502695,0.0858,0,250.03,Home & Kitchen,Defective / not working
+R502112,0.0862,0,158.71,Fashion,Size or fit issue
+R503423,0.0726,0,146.66,Beauty & Fragrance,Size or fit issue
+R500783,0.0417,0,269.85,Fashion,Size or fit issue
+R504488,0.0628,0,165.69,Sports & Outdoors,Defective / not working
+R501949,0.0749,0,83.82,Beauty & Fragrance,Defective / not working
+R504016,0.0707,0,83.24,Home & Kitchen,Changed my mind
+R501743,0.0808,0,101.74,Fashion,Changed my mind
+R500065,0.0365,0,143.44,Fashion,Size or fit issue
+R501967,0.0291,0,95.07,Fashion,Size or fit issue
+R503638,0.1307,0,354.8,Electronics,Damaged in delivery
+R501687,0.0485,0,42.27,Fashion,Size or fit issue
+R500720,0.0496,0,192.68,Fashion,Size or fit issue
+R503750,0.0508,0,124.08,Beauty & Fragrance,Damaged in delivery
+R503697,0.1259,0,162.64,Grocery,Changed my mind
+R503233,0.1697,0,597.62,Sports & Outdoors,Changed my mind
+R502223,0.0733,0,367.6,Electronics,Defective / not working
+R503593,0.2242,0,203.68,Electronics,Changed my mind
+R504061,0.0437,0,81.75,Beauty & Fragrance,Defective / not working
+R500935,0.0376,0,57.63,Grocery,Size or fit issue
+R504254,0.0399,1,224.09,Fashion,Size or fit issue
+R500684,0.0973,0,178.15,Fashion,Size or fit issue
+R503102,0.1332,0,820.09,Furniture,Not as described
+R501939,0.0472,0,175.22,Home & Kitchen,Defective / not working
+R501797,0.2054,0,169.41,Sports & Outdoors,Changed my mind
+R500952,0.0505,0,514.07,Home & Kitchen,Damaged in delivery
+R502827,0.1432,0,414.16,Fashion,Changed my mind
+R503153,0.045,0,230.67,Home & Kitchen,Wrong item delivered
+R501868,0.0352,0,193.49,Fashion,Defective / not working
+R501837,0.1425,1,106.24,Grocery,Changed my mind
+R500656,0.4286,1,369.46,Electronics,Changed my mind
+R503290,0.0451,0,422.12,Fashion,Size or fit issue
+R502908,0.0294,0,75.54,Fashion,Size or fit issue
+R501039,0.0334,1,74.19,Fashion,Size or fit issue
+R500243,0.0768,0,475.01,Electronics,Damaged in delivery
+R502901,0.1067,1,196.88,Beauty & Fragrance,Wrong item delivered
+R502707,0.0544,0,1804.95,Furniture,Not as described
+R500082,0.2307,0,270.47,Sports & Outdoors,Changed my mind
+R502114,0.0447,0,826.38,Furniture,Not as described
+R500904,0.08,0,251.17,Fashion,Size or fit issue
+R500474,0.0381,0,94.15,Fashion,Size or fit issue
+R504293,0.0957,0,135.49,Baby & Toys,Wrong item delivered
+R501245,0.1665,0,253.35,Electronics,Not as described
+R503157,0.076,0,382.51,Electronics,Defective / not working
+R501213,0.0376,0,79.84,Fashion,Size or fit issue
+R502855,0.0409,0,164.51,Grocery,Defective / not working
+R503628,0.0594,0,352.89,Electronics,Defective / not working
+R503468,0.0349,0,127.39,Grocery,Defective / not working
+R502987,0.0492,0,106.32,Home & Kitchen,Defective / not working
+R503647,0.043,0,1490.05,Furniture,Defective / not working
+R500201,0.0571,0,50.86,Grocery,Not as described
+R503554,0.0551,0,458.88,Fashion,Size or fit issue
+R503106,0.0626,0,115.67,Baby & Toys,Defective / not working
+R501446,0.0425,0,176.32,Fashion,Defective / not working
+R502528,0.2088,0,1836.36,Furniture,Changed my mind
+R501503,0.0623,0,90.25,Fashion,Changed my mind
+R500895,0.0473,0,96.72,Beauty & Fragrance,Size or fit issue
+R504003,0.0575,0,165.21,Home & Kitchen,Damaged in delivery
+R502100,0.0339,0,142.87,Fashion,Not as described
+R501468,0.0932,0,186.72,Electronics,Damaged in delivery
+R504331,0.0432,0,75.14,Beauty & Fragrance,Not as described
+R503021,0.0799,0,371.6,Fashion,Size or fit issue
+R502948,0.1041,0,135.08,Fashion,Changed my mind
+R504400,0.0482,0,434.36,Electronics,Defective / not working
+R503560,0.0325,0,164.37,Fashion,Defective / not working
+R502340,0.0637,0,77.7,Beauty & Fragrance,Changed my mind
+R503335,0.0388,0,327.92,Fashion,Defective / not working
+R502699,0.0422,1,117.06,Fashion,Defective / not working
+R500418,0.0407,0,227.05,Fashion,Size or fit issue
+R503148,0.0343,0,115.94,Fashion,Size or fit issue
+R501549,0.0923,0,192.19,Home & Kitchen,Not as described
+R501482,0.2837,1,134.68,Baby & Toys,Changed my mind
+R502550,0.0628,0,467.22,Electronics,Defective / not working
+R502710,0.0429,0,55.42,Fashion,Size or fit issue
+R503152,0.2606,0,1118.83,Electronics,Changed my mind
+R503684,0.0546,0,969.69,Furniture,Not as described
+R503567,0.0389,0,57.59,Fashion,Damaged in delivery
+R502173,0.1505,0,298.39,Electronics,Damaged in delivery
+R504446,0.0604,0,465.79,Electronics,Not as described
+R500238,0.1141,1,563.49,Electronics,Damaged in delivery
+R502566,0.0543,0,63.26,Fashion,Size or fit issue
+R503077,0.0403,0,73.18,Fashion,Size or fit issue
+R502633,0.0487,0,314.37,Fashion,Not as described
+R502014,0.0366,0,386.41,Fashion,Size or fit issue
+R503424,0.1034,0,414.3,Fashion,Defective / not working
+R500778,0.0584,1,463.6,Electronics,Not as described
+R503099,0.0399,0,133.48,Baby & Toys,Not as described
+R500822,0.046,0,54.61,Beauty & Fragrance,Defective / not working
+R503160,0.0439,1,165.95,Home & Kitchen,Wrong item delivered
+R502913,0.036,0,197.64,Baby & Toys,Not as described
+R502163,0.0552,0,412.75,Sports & Outdoors,Not as described
+R503888,0.1042,1,80.72,Electronics,Defective / not working
+R501680,0.0346,0,54.64,Fashion,Size or fit issue
+R502048,0.0553,0,681.49,Electronics,Not as described
+R501566,0.0714,0,119.97,Fashion,Size or fit issue
+R503429,0.043,0,204.3,Grocery,Defective / not working
+R500893,0.2627,1,444.93,Electronics,Changed my mind
+R500218,0.0331,0,80.91,Fashion,Size or fit issue
+R504494,0.0879,0,218.77,Electronics,Not as described
+R502362,0.0546,0,70.03,Baby & Toys,Not as described
+R501674,0.0606,0,97.88,Beauty & Fragrance,Damaged in delivery
+R501147,0.0552,0,347.49,Electronics,Wrong item delivered
+R501787,0.0671,0,57.47,Grocery,Not as described
+R502951,0.0511,0,483.48,Electronics,Wrong item delivered
+R504381,0.2617,1,209.9,Home & Kitchen,Not as described
+R501836,0.0408,0,166.79,Beauty & Fragrance,Defective / not working
+R501708,0.0764,0,214.88,Electronics,Wrong item delivered
+R504553,0.1368,1,112.54,Grocery,Defective / not working
+R502654,0.0369,0,176.11,Home & Kitchen,Defective / not working
+R503804,0.1111,0,93.23,Home & Kitchen,Defective / not working
+R502315,0.0797,0,22.09,Beauty & Fragrance,Not as described
+R500925,0.0353,0,65.61,Baby & Toys,Defective / not working
+R503041,0.1216,0,249.82,Fashion,Size or fit issue
+R501813,0.1367,0,380.56,Fashion,Defective / not working
+R503130,0.0332,0,231.48,Fashion,Size or fit issue
+R503063,0.0367,0,238.48,Fashion,Size or fit issue
+R500497,0.0624,0,53.45,Fashion,Defective / not working
+R504555,0.3408,0,786.0,Electronics,Changed my mind
+R501632,0.0345,0,344.36,Fashion,Size or fit issue
+R501617,0.0368,0,66.27,Fashion,Size or fit issue
+R504074,0.0786,0,182.16,Fashion,Wrong item delivered
+R503317,0.0299,0,145.47,Fashion,Defective / not working
+R500986,0.0385,1,113.03,Fashion,Defective / not working
+R501330,0.1673,1,285.25,Home & Kitchen,Changed my mind
+R503820,0.0426,0,82.96,Baby & Toys,Not as described
+R500993,0.0416,0,241.31,Home & Kitchen,Damaged in delivery
+R501444,0.0503,0,34.82,Beauty & Fragrance,Damaged in delivery
+R501105,0.08,0,120.92,Fashion,Size or fit issue
+R503963,0.2797,1,397.97,Fashion,Size or fit issue
+R500727,0.1612,0,158.96,Fashion,Changed my mind
+R503667,0.2098,0,187.47,Fashion,Changed my mind
+R500854,0.0527,1,196.78,Electronics,Defective / not working
+R502215,0.0361,0,115.93,Home & Kitchen,Not as described
+R503524,0.044,0,117.49,Fashion,Not as described
+R503599,0.0653,0,93.73,Fashion,Changed my mind
+R502659,0.0444,0,59.22,Grocery,Damaged in delivery
+R500504,0.166,0,380.74,Electronics,Defective / not working
+R502512,0.0387,0,470.73,Electronics,Size or fit issue
+R501784,0.0672,1,134.36,Fashion,Size or fit issue
+R502279,0.0358,0,105.42,Sports & Outdoors,Size or fit issue
+R500505,0.0402,0,443.6,Fashion,Not as described
+R500127,0.0556,0,163.5,Electronics,Size or fit issue
+R503095,0.1717,0,150.93,Fashion,Changed my mind
+R503816,0.0481,0,471.18,Electronics,Defective / not working
+R504531,0.0337,0,159.82,Fashion,Size or fit issue
+R501865,0.0991,0,636.59,Fashion,Defective / not working
+R504366,0.033,0,105.56,Fashion,Size or fit issue
+R500495,0.1166,0,104.15,Fashion,Size or fit issue
+R501602,0.1043,0,953.32,Electronics,Damaged in delivery
+R501823,0.0353,0,95.49,Baby & Toys,Wrong item delivered
+R500673,0.1032,0,330.49,Electronics,Defective / not working
+R503728,0.045,0,296.86,Home & Kitchen,Not as described
+R502283,0.0593,0,81.56,Fashion,Defective / not working
+R500569,0.0394,0,30.61,Grocery,Not as described
+R504566,0.0538,1,47.57,Grocery,Changed my mind
+R504456,0.13,0,105.19,Fashion,Size or fit issue
+R504464,0.1172,0,124.84,Beauty & Fragrance,Changed my mind
+R503618,0.0606,0,226.01,Home & Kitchen,Damaged in delivery
+R502217,0.0323,0,156.34,Grocery,Defective / not working
+R500997,0.1149,0,125.14,Beauty & Fragrance,Changed my mind
+R501980,0.0749,0,285.74,Fashion,Size or fit issue
+R500003,0.0462,0,762.29,Electronics,Not as described
+R504369,0.0875,0,364.16,Electronics,Damaged in delivery
+R501773,0.0816,0,104.09,Fashion,Changed my mind
+R504224,0.0459,0,411.36,Electronics,Damaged in delivery
+R502485,0.0411,0,83.34,Grocery,Damaged in delivery
+R503192,0.1677,1,73.3,Fashion,Not as described
+R503064,0.0809,1,252.92,Sports & Outdoors,Defective / not working
+R502822,0.2563,0,374.58,Electronics,Changed my mind
+R502146,0.2988,0,751.4,Electronics,Changed my mind
+R502724,0.039,0,290.21,Sports & Outdoors,Defective / not working
+R504121,0.171,0,162.83,Beauty & Fragrance,Changed my mind
+R503024,0.0358,0,1181.21,Furniture,Defective / not working
+R501973,0.0714,0,87.95,Home & Kitchen,Changed my mind
+R504266,0.0364,0,174.95,Fashion,Size or fit issue
+R503703,0.038,0,53.14,Grocery,Not as described
+R502250,0.1134,1,101.98,Baby & Toys,Changed my mind
+R501490,0.0746,0,111.82,Fashion,Size or fit issue
+R500339,0.1489,0,234.78,Electronics,Defective / not working
+R503789,0.0629,0,150.43,Beauty & Fragrance,Defective / not working
+R500674,0.0339,0,103.2,Fashion,Size or fit issue
+R500298,0.0578,0,93.13,Grocery,Changed my mind
+R503617,0.034,0,152.73,Fashion,Size or fit issue
+R503847,0.0322,0,145.58,Fashion,Size or fit issue
+R501207,0.0341,0,81.47,Fashion,Size or fit issue
+R501664,0.1384,0,205.24,Baby & Toys,Changed my mind
+R501536,0.0745,0,114.71,Baby & Toys,Changed my mind
+R503461,0.2333,0,323.3,Baby & Toys,Damaged in delivery
+R503759,0.0514,0,559.9,Electronics,Defective / not working
+R504368,0.1212,0,209.35,Grocery,Changed my mind
+R500155,0.0794,0,170.77,Home & Kitchen,Damaged in delivery
+R500719,0.0369,0,830.96,Furniture,Defective / not working
+R502764,0.038,0,99.69,Sports & Outdoors,Defective / not working
+R503399,0.034,0,103.15,Sports & Outdoors,Not as described
+R500577,0.0465,0,142.49,Fashion,Size or fit issue
+R501791,0.0634,0,671.26,Electronics,Not as described
+R503056,0.0377,0,72.94,Fashion,Size or fit issue
+R500686,0.0432,0,195.39,Fashion,Size or fit issue
+R501099,0.0339,0,135.16,Fashion,Size or fit issue
+R502391,0.0299,0,111.03,Grocery,Defective / not working
+R502113,0.0405,0,137.63,Beauty & Fragrance,Defective / not working
+R501831,0.0363,0,116.11,Grocery,Not as described
+R501317,0.0461,0,1395.05,Furniture,Not as described
+R502982,0.1216,0,127.38,Fashion,Size or fit issue
+R503334,0.0411,0,101.79,Fashion,Size or fit issue
+R502977,0.0743,0,485.49,Electronics,Not as described
+R504490,0.0408,0,181.41,Sports & Outdoors,Wrong item delivered
+R502334,0.0802,0,266.65,Electronics,Defective / not working
+R502148,0.0481,0,1758.33,Furniture,Wrong item delivered
+R503680,0.1545,0,507.11,Baby & Toys,Changed my mind
+R500011,0.0443,0,123.48,Fashion,Size or fit issue
+R500774,0.3463,0,588.27,Electronics,Changed my mind
+R501672,0.0372,0,123.07,Fashion,Size or fit issue
+R500652,0.1541,0,119.25,Beauty & Fragrance,Not as described
+R502199,0.2069,1,196.59,Beauty & Fragrance,Changed my mind
+R500753,0.0497,0,143.31,Beauty & Fragrance,Wrong item delivered
+R502592,0.048,0,179.37,Beauty & Fragrance,Wrong item delivered
+R500743,0.0387,0,460.78,Sports & Outdoors,Wrong item delivered
+R503525,0.0324,0,386.12,Fashion,Size or fit issue
+R504511,0.167,0,359.88,Fashion,Changed my mind
+R500276,0.0434,1,88.53,Home & Kitchen,Damaged in delivery
+R502679,0.319,1,217.63,Electronics,Damaged in delivery
+R501840,0.0329,0,57.51,Home & Kitchen,Defective / not working
+R501488,0.0413,0,225.23,Fashion,Wrong item delivered
+R500309,0.0782,1,82.0,Home & Kitchen,Changed my mind
+R503172,0.0417,0,135.35,Sports & Outdoors,Defective / not working
+R503347,0.1158,0,121.85,Home & Kitchen,Changed my mind
+R500956,0.0367,0,59.75,Home & Kitchen,Defective / not working
+R503982,0.0652,0,123.58,Fashion,Size or fit issue
+R500552,0.0395,0,216.28,Fashion,Size or fit issue
+R503765,0.0305,0,51.12,Sports & Outdoors,Size or fit issue
+R501661,0.0444,0,79.28,Fashion,Size or fit issue
+R503167,0.0457,0,91.03,Grocery,Damaged in delivery
+R503636,0.0997,1,110.72,Home & Kitchen,Damaged in delivery
+R502653,0.4314,0,338.86,Electronics,Changed my mind
+R504562,0.0464,0,107.69,Fashion,Size or fit issue
+R500944,0.1904,0,1214.51,Furniture,Changed my mind
+R501114,0.0483,0,321.1,Baby & Toys,Damaged in delivery
+R503187,0.0301,0,59.48,Sports & Outdoors,Defective / not working
+R503573,0.0814,0,173.2,Home & Kitchen,Not as described
+R503601,0.0411,0,95.24,Fashion,Not as described
+R501320,0.1832,0,182.06,Home & Kitchen,Changed my mind
+R503968,0.2534,0,176.05,Home & Kitchen,Not as described
+R502228,0.0391,0,140.85,Baby & Toys,Not as described
+R501365,0.0355,0,172.25,Baby & Toys,Defective / not working
+R504500,0.0504,0,47.47,Beauty & Fragrance,Damaged in delivery
+R504136,0.0407,0,206.23,Home & Kitchen,Not as described
+R503641,0.0412,0,214.62,Fashion,Size or fit issue
+R502687,0.0739,0,329.45,Electronics,Not as described
+R503863,0.0349,0,189.17,Sports & Outdoors,Defective / not working
+R500237,0.0491,0,195.13,Sports & Outdoors,Not as described
+R504335,0.0373,0,145.63,Home & Kitchen,Size or fit issue
+R500359,0.0472,0,215.38,Home & Kitchen,Damaged in delivery
+R503426,0.0448,0,1584.54,Furniture,Not as described
+R503292,0.3173,0,998.69,Electronics,Changed my mind
+R503368,0.0434,0,356.27,Fashion,Size or fit issue
+R501319,0.0345,0,110.79,Fashion,Size or fit issue
+R501963,0.0318,1,97.81,Fashion,Not as described
+R501628,0.146,1,197.19,Beauty & Fragrance,Changed my mind
+R500350,0.0457,1,233.98,Fashion,Size or fit issue
+R500097,0.0319,0,140.57,Fashion,Defective / not working
+R502260,0.0343,0,112.17,Fashion,Size or fit issue
+R503125,0.0699,0,156.76,Baby & Toys,Size or fit issue
+R500588,0.035,0,98.39,Fashion,Size or fit issue
+R500060,0.1372,0,579.73,Furniture,Defective / not working
+R502154,0.0411,0,121.61,Grocery,Damaged in delivery
+R503857,0.1562,0,252.05,Fashion,Changed my mind
+R501822,0.0589,0,394.27,Fashion,Not as described
+R504185,0.0632,0,81.76,Fashion,Size or fit issue
+R503030,0.0571,0,79.7,Fashion,Changed my mind
+R503376,0.0405,0,179.6,Fashion,Size or fit issue
+R502774,0.0348,0,181.42,Sports & Outdoors,Not as described
+R500503,0.0322,0,92.34,Fashion,Size or fit issue
+R502171,0.0366,0,102.22,Fashion,Not as described
+R503986,0.3066,1,578.63,Electronics,Changed my mind
+R501030,0.0352,0,349.6,Furniture,Defective / not working
+R502842,0.0716,0,207.94,Sports & Outdoors,Not as described
+R502590,0.0355,0,140.54,Fashion,Size or fit issue
+R504370,0.4322,0,162.48,Home & Kitchen,Defective / not working
+R503739,0.0325,0,263.31,Fashion,Size or fit issue
+R503674,0.0547,0,125.45,Fashion,Size or fit issue
+R501349,0.1579,0,341.0,Sports & Outdoors,Changed my mind
+R500094,0.0293,0,134.73,Fashion,Size or fit issue
+R501236,0.1825,0,324.8,Fashion,Size or fit issue
+R500786,0.1551,0,167.6,Beauty & Fragrance,Changed my mind
+R503189,0.0501,0,79.26,Beauty & Fragrance,Damaged in delivery
+R504031,0.0447,0,201.02,Home & Kitchen,Wrong item delivered
+R503666,0.0642,0,104.49,Fashion,Not as described
+R500561,0.0314,0,91.01,Fashion,Size or fit issue
+R504402,0.034,0,84.62,Home & Kitchen,Defective / not working
+R503676,0.0796,1,230.29,Electronics,Defective / not working
+R500054,0.0457,1,264.67,Fashion,Size or fit issue
+R500711,0.2403,0,173.69,Fashion,Changed my mind
+R501386,0.043,0,1103.26,Furniture,Not as described
+R502978,0.0658,0,360.58,Electronics,Not as described
+R502325,0.0791,0,314.69,Electronics,Defective / not working
+R500378,0.0285,0,113.63,Fashion,Size or fit issue
+R501112,0.0383,0,117.63,Home & Kitchen,Not as described
+R500038,0.0291,0,133.79,Fashion,Size or fit issue
+R502537,0.035,0,99.98,Fashion,Size or fit issue
+R503645,0.0612,1,350.12,Beauty & Fragrance,Not as described
+R500073,0.0335,0,153.13,Fashion,Size or fit issue
+R504489,0.2648,0,112.62,Home & Kitchen,Changed my mind
+R502101,0.0616,0,538.95,Electronics,Not as described
+R501618,0.0398,1,127.3,Beauty & Fragrance,Defective / not working
+R500095,0.1041,0,325.44,Electronics,Not as described
+R501555,0.052,0,307.19,Fashion,Size or fit issue
+R500597,0.0709,0,190.03,Fashion,Size or fit issue
+R502719,0.0367,0,182.01,Fashion,Size or fit issue
+R503394,0.0416,0,21.24,Beauty & Fragrance,Not as described
+R502460,0.0651,0,114.44,Home & Kitchen,Changed my mind
+R500921,0.0441,0,223.53,Fashion,Wrong item delivered
+R503944,0.2124,0,163.57,Beauty & Fragrance,Changed my mind
+R503370,0.0359,0,581.54,Furniture,Defective / not working
+R503289,0.0315,0,86.01,Fashion,Size or fit issue
+R502203,0.034,0,316.35,Fashion,Size or fit issue
+R500619,0.0444,0,64.26,Fashion,Size or fit issue
+R500575,0.0547,0,234.79,Beauty & Fragrance,Damaged in delivery
+R504425,0.0535,0,180.49,Beauty & Fragrance,Not as described
+R501627,0.0354,0,189.22,Fashion,Not as described
+R500764,0.0396,0,289.69,Grocery,Defective / not working
+R503945,0.0347,0,90.97,Home & Kitchen,Not as described
+R500171,0.0403,0,157.78,Fashion,Wrong item delivered
+R501262,0.3341,1,172.77,Electronics,Defective / not working
+R501491,0.0396,0,41.54,Beauty & Fragrance,Defective / not working
+R504204,0.0293,0,123.79,Fashion,Size or fit issue
+R503184,0.0339,0,100.27,Fashion,Size or fit issue
+R501442,0.0396,0,196.35,Fashion,Defective / not working
+R501619,0.0998,0,114.17,Home & Kitchen,Changed my mind
+R503890,0.1402,0,104.34,Home & Kitchen,Changed my mind
+R502642,0.2099,0,292.18,Fashion,Size or fit issue
+R501461,0.0352,0,149.85,Fashion,Size or fit issue
+R502473,0.0527,0,110.07,Beauty & Fragrance,Not as described
+R502494,0.0974,0,107.8,Baby & Toys,Damaged in delivery
+R501208,0.0316,0,98.87,Fashion,Defective / not working
+R503864,0.0411,0,160.02,Grocery,Not as described
+R504611,0.2355,0,544.59,Electronics,Changed my mind
+R500423,0.0378,0,103.34,Baby & Toys,Not as described
+R502071,0.0358,0,95.28,Baby & Toys,Defective / not working
+R500667,0.0329,0,218.29,Fashion,Defective / not working
+R501983,0.3558,0,106.22,Home & Kitchen,Changed my mind
+R504525,0.0654,0,93.48,Grocery,Changed my mind
+R500601,0.0402,0,74.04,Fashion,Size or fit issue
+R503655,0.1705,0,64.56,Fashion,Size or fit issue
+R500183,0.0695,0,107.36,Grocery,Defective / not working
+R500516,0.0406,0,61.79,Baby & Toys,Wrong item delivered
+R502329,0.1732,0,141.54,Home & Kitchen,Changed my mind
+R502933,0.1458,0,77.2,Beauty & Fragrance,Wrong item delivered
+R500139,0.0328,0,71.96,Fashion,Size or fit issue
+R500649,0.0393,0,202.0,Fashion,Defective / not working
+R500616,0.036,0,103.75,Fashion,Size or fit issue
+R502395,0.0433,0,796.02,Electronics,Defective / not working
+R501252,0.0763,0,463.17,Electronics,Defective / not working
+R502856,0.038,0,395.66,Home & Kitchen,Defective / not working
+R500814,0.1008,0,120.7,Home & Kitchen,Changed my mind
+R501621,0.2435,0,522.86,Electronics,Changed my mind
+R501463,0.0429,0,261.84,Fashion,Size or fit issue
+R504514,0.0428,0,203.82,Fashion,Size or fit issue
+R503979,0.0355,0,147.43,Fashion,Size or fit issue
+R503622,0.0599,0,294.59,Electronics,Not as described
+R501987,0.3108,0,158.76,Fashion,Changed my mind
+R504035,0.0374,0,61.15,Fashion,Size or fit issue
+R501152,0.0422,0,152.61,Fashion,Not as described
+R503232,0.0297,0,76.46,Fashion,Size or fit issue
+R503439,0.0702,0,384.49,Fashion,Size or fit issue
+R503158,0.1621,0,2621.35,Furniture,Changed my mind
+R504049,0.0435,0,216.63,Fashion,Size or fit issue
+R503894,0.1549,0,234.91,Baby & Toys,Defective / not working
+R500478,0.0321,0,124.4,Fashion,Size or fit issue
+R504294,0.0748,0,1383.14,Electronics,Not as described
+R503197,0.0524,0,113.29,Beauty & Fragrance,Wrong item delivered
+R501926,0.0846,0,71.03,Grocery,Changed my mind
+R504556,0.0425,0,57.27,Fashion,Not as described
+R502309,0.0637,0,492.06,Electronics,Defective / not working
+R503103,0.1283,0,462.12,Electronics,Defective / not working
+R503270,0.0404,0,210.95,Home & Kitchen,Defective / not working
+R500414,0.0399,0,83.53,Baby & Toys,Defective / not working
+R502734,0.0853,0,46.24,Home & Kitchen,Defective / not working
+R500858,0.1233,0,258.31,Fashion,Defective / not working
+R504459,0.1744,0,59.43,Fashion,Size or fit issue
+R502576,0.2353,1,1019.54,Electronics,Size or fit issue
+R500678,0.0719,0,124.2,Fashion,Size or fit issue
+R500954,0.0371,0,155.77,Fashion,Size or fit issue
+R502961,0.0397,0,69.92,Grocery,Not as described
+R501758,0.0537,0,512.63,Electronics,Size or fit issue
+R500716,0.0692,0,133.03,Fashion,Defective / not working
+R502789,0.0366,0,214.69,Home & Kitchen,Size or fit issue
+R501098,0.0436,0,1407.61,Furniture,Wrong item delivered
+R500191,0.0631,0,287.4,Fashion,Size or fit issue
+R500340,0.0394,1,134.99,Fashion,Size or fit issue
+R502388,0.034,0,113.78,Fashion,Wrong item delivered
+R501562,0.0419,0,226.16,Sports & Outdoors,Defective / not working
+R502005,0.0321,0,148.33,Fashion,Defective / not working
+R503535,0.0647,0,362.51,Electronics,Not as described
+R501269,0.0471,0,125.49,Beauty & Fragrance,Damaged in delivery
+R500639,0.0811,1,164.73,Fashion,Damaged in delivery
+R501119,0.1064,0,122.75,Beauty & Fragrance,Size or fit issue
+R504577,0.0855,0,35.03,Grocery,Damaged in delivery
+R500966,0.0482,0,110.71,Fashion,Size or fit issue
+R504277,0.0421,0,348.88,Electronics,Wrong item delivered
+R500818,0.1483,1,172.85,Fashion,Defective / not working
+R501409,0.032,0,201.49,Fashion,Size or fit issue
+R501623,0.3833,1,113.19,Fashion,Defective / not working
+R501091,0.0314,0,140.65,Fashion,Not as described
+R501322,0.0787,0,122.98,Fashion,Size or fit issue
+R503092,0.0421,0,166.74,Fashion,Defective / not working
+R502574,0.0526,0,58.02,Fashion,Size or fit issue
+R500459,0.0302,0,59.67,Fashion,Size or fit issue
+R503118,0.0679,0,741.24,Electronics,Not as described
+R500507,0.1379,0,57.32,Fashion,Size or fit issue
+R500847,0.0563,0,215.15,Home & Kitchen,Not as described
+R501812,0.0999,0,258.36,Fashion,Defective / not working
+R502595,0.0845,0,570.6,Electronics,Defective / not working
+R502056,0.0665,0,194.54,Fashion,Size or fit issue
+R501135,0.098,0,146.98,Beauty & Fragrance,Damaged in delivery
+R503474,0.1055,0,85.26,Baby & Toys,Damaged in delivery
+R500204,0.0785,0,111.75,Home & Kitchen,Changed my mind
+R502425,0.0361,0,102.29,Fashion,Size or fit issue
+R504563,0.0655,0,487.27,Electronics,Wrong item delivered
+R502869,0.0738,0,691.01,Electronics,Not as described
+R501904,0.1209,0,440.26,Electronics,Not as described
+R501507,0.0281,0,111.39,Fashion,Size or fit issue
+R504144,0.2968,0,256.97,Electronics,Changed my mind
+R500099,0.0465,0,151.55,Grocery,Damaged in delivery
+R501775,0.0566,0,110.41,Beauty & Fragrance,Not as described
+R501003,0.0981,0,245.99,Baby & Toys,Wrong item delivered
+R502438,0.0401,0,90.7,Sports & Outdoors,Wrong item delivered
+R503637,0.0595,0,139.31,Fashion,Not as described
+R501622,0.0547,0,177.58,Sports & Outdoors,Damaged in delivery
+R503385,0.203,0,151.02,Home & Kitchen,Changed my mind
+R503425,0.1287,1,140.39,Baby & Toys,Changed my mind
+R503537,0.0321,0,128.32,Fashion,Size or fit issue
+R502306,0.0681,0,535.07,Electronics,Defective / not working
+R503947,0.0349,0,198.99,Fashion,Size or fit issue
+R501323,0.2194,0,1304.05,Electronics,Changed my mind
+R503228,0.197,1,42.26,Fashion,Changed my mind
+R501581,0.0347,0,133.42,Fashion,Not as described
+R502319,0.0334,0,85.78,Fashion,Size or fit issue
+R503866,0.276,0,609.1,Electronics,Changed my mind
+R500134,0.1927,0,2498.92,Furniture,Changed my mind
+R503608,0.277,0,149.04,Home & Kitchen,Changed my mind
+R502597,0.0485,0,164.06,Home & Kitchen,Not as described
+R502930,0.1387,0,286.6,Sports & Outdoors,Defective / not working
+R503900,0.0499,0,469.42,Electronics,Wrong item delivered
+R502643,0.0668,0,144.31,Fashion,Not as described
+R504321,0.0467,0,203.87,Baby & Toys,Defective / not working
+R501254,0.0448,0,72.64,Fashion,Not as described
+R502602,0.0353,0,75.87,Fashion,Size or fit issue
+R501595,0.2421,1,248.03,Electronics,Changed my mind
+R500862,0.0435,0,139.36,Fashion,Size or fit issue
+R503696,0.0454,0,245.26,Fashion,Size or fit issue
+R502010,0.1105,0,361.26,Home & Kitchen,Changed my mind
+R500411,0.0339,0,51.0,Fashion,Size or fit issue
+R502017,0.1622,0,1145.41,Furniture,Changed my mind
+R503884,0.0488,0,138.58,Electronics,Wrong item delivered
+R503539,0.1136,0,1402.51,Electronics,Defective / not working
+R503447,0.2402,1,265.93,Fashion,Size or fit issue
+R503768,0.0485,0,87.66,Beauty & Fragrance,Defective / not working
+R501480,0.0466,0,397.53,Electronics,Not as described
+R502248,0.0714,0,109.33,Beauty & Fragrance,Not as described
+R502378,0.0654,0,159.05,Electronics,Not as described
+R502413,0.1898,0,331.76,Sports & Outdoors,Changed my mind
+R501102,0.1698,1,141.8,Electronics,Changed my mind
+R504270,0.2848,1,159.07,Sports & Outdoors,Changed my mind
+R503129,0.0505,0,140.93,Home & Kitchen,Defective / not working
+R500050,0.0354,0,161.41,Grocery,Defective / not working
+R501352,0.0898,0,129.9,Sports & Outdoors,Changed my mind
+R503651,0.0554,0,514.59,Electronics,Defective / not working
+R503145,0.045,0,72.06,Beauty & Fragrance,Defective / not working
+R504473,0.0657,0,475.66,Electronics,Defective / not working
+R503818,0.0509,0,68.39,Beauty & Fragrance,Not as described
+R500940,0.0806,0,149.71,Grocery,Changed my mind
+R503155,0.1285,0,275.79,Home & Kitchen,Not as described
+R501936,0.0486,0,124.36,Fashion,Size or fit issue
+R504055,0.0416,0,77.72,Home & Kitchen,Defective / not working
+R501433,0.0419,0,65.49,Home & Kitchen,Not as described
+R504612,0.0395,0,1038.42,Furniture,Not as described
+R503075,0.0381,0,132.09,Fashion,Defective / not working
+R502407,0.0563,0,398.75,Fashion,Size or fit issue
+R502237,0.1656,0,636.09,Electronics,Not as described
+R500084,0.1773,0,900.2,Furniture,Changed my mind
+R501852,0.0344,0,75.0,Fashion,Size or fit issue
+R500462,0.0816,0,217.7,Electronics,Not as described
+R500968,0.0809,0,371.86,Electronics,Not as described
+R502417,0.0356,0,102.59,Home & Kitchen,Not as described
+R503209,0.1097,0,200.32,Fashion,Size or fit issue
+R502783,0.102,0,194.82,Grocery,Defective / not working
+R503895,0.0702,0,393.88,Sports & Outdoors,Wrong item delivered
+R500395,0.0497,0,95.81,Fashion,Size or fit issue
+R500800,0.0409,0,57.71,Beauty & Fragrance,Defective / not working
+R501827,0.2151,0,252.12,Sports & Outdoors,Changed my mind
+R502479,0.0395,0,247.88,Fashion,Defective / not working
+R503509,0.0387,0,73.72,Fashion,Size or fit issue
+R503579,0.3538,0,1136.67,Electronics,Changed my mind
+R502211,0.0429,0,800.86,Furniture,Not as described
+R500765,0.0319,0,72.96,Fashion,Size or fit issue
+R500419,0.0864,0,52.68,Baby & Toys,Damaged in delivery
+R500320,0.0554,0,101.42,Fashion,Size or fit issue
+R503250,0.0434,0,245.92,Fashion,Size or fit issue
+R501419,0.0378,0,129.41,Home & Kitchen,Defective / not working
+R500676,0.0376,0,53.47,Fashion,Defective / not working
+R504152,0.0537,1,68.49,Fashion,Size or fit issue
+R501272,0.0653,0,964.1,Furniture,Defective / not working
+R500708,0.0634,0,735.0,Electronics,Wrong item delivered
+R500520,0.0388,0,154.83,Sports & Outdoors,Not as described
+R500321,0.0355,0,323.03,Sports & Outdoors,Not as described
+R503549,0.0541,0,909.69,Electronics,Not as described
+R502527,0.0275,0,119.43,Fashion,Size or fit issue
+R500279,0.0343,0,161.51,Fashion,Size or fit issue
+R504591,0.0418,0,201.59,Fashion,Not as described
+R501658,0.045,0,39.63,Baby & Toys,Not as described
+R500302,0.0573,0,503.17,Electronics,Damaged in delivery
+R500286,0.0414,0,181.04,Home & Kitchen,Damaged in delivery
+R503487,0.0606,0,139.5,Fashion,Size or fit issue
+R502263,0.0881,0,335.21,Electronics,Not as described
+R502525,0.0425,0,135.28,Sports & Outdoors,Not as described
+R502919,0.0498,0,938.58,Furniture,Not as described
+R503084,0.0547,0,502.95,Electronics,Defective / not working
+R500712,0.0668,1,142.59,Sports & Outdoors,Damaged in delivery
+R503722,0.1706,0,133.83,Beauty & Fragrance,Changed my mind
+R501418,0.1093,0,712.08,Furniture,Wrong item delivered
+R500472,0.0631,0,230.67,Home & Kitchen,Size or fit issue
+R501778,0.0525,0,148.18,Beauty & Fragrance,Not as described
+R500338,0.0481,0,308.08,Electronics,Defective / not working
+R503743,0.0426,0,75.3,Fashion,Size or fit issue
+R503066,0.0348,0,126.51,Baby & Toys,Defective / not working
+R504189,0.0395,0,111.58,Baby & Toys,Damaged in delivery
+R503225,0.0309,0,137.31,Fashion,Size or fit issue
+R501072,0.097,0,249.84,Home & Kitchen,Changed my mind
+R500130,0.0746,0,65.97,Beauty & Fragrance,Damaged in delivery
+R500392,0.151,0,100.91,Fashion,Size or fit issue
+R503561,0.0815,1,147.1,Home & Kitchen,Size or fit issue
+R503786,0.0688,0,161.87,Home & Kitchen,Not as described
+R502741,0.214,0,61.11,Home & Kitchen,Defective / not working
+R503301,0.0358,0,130.43,Home & Kitchen,Not as described
+R502966,0.0363,0,127.2,Fashion,Size or fit issue
+R504301,0.2572,1,554.24,Electronics,Defective / not working
+R503261,0.0319,0,180.12,Baby & Toys,Size or fit issue
+R500931,0.0325,0,116.75,Sports & Outdoors,Defective / not working
+R501993,0.0318,0,132.31,Fashion,Size or fit issue

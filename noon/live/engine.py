@@ -67,6 +67,34 @@ def _sig(x: float) -> float:
     return 1 / (1 + math.exp(-x))
 
 
+LIVE_MODELS = Path(__file__).resolve().parents[1] / "data" / "results" / "live_models.json"
+_LIVE = None
+
+
+def live_models() -> dict | None:
+    """Trained return-risk model + cut-offs exported by the analysis pipeline (None → fall back to simple rules)."""
+    global _LIVE
+    if _LIVE is None:
+        try:
+            import json
+            _LIVE = json.loads(LIVE_MODELS.read_text(encoding="utf-8"))
+        except Exception:  # pragma: no cover
+            _LIVE = {}
+    return _LIVE or None
+
+
+def score_return(feats: dict) -> float:
+    """Apply the exported logistic model to what noon can SEE about a return (never the hidden customer type)."""
+    m = live_models()
+    if not m:
+        return min(.95, .03 + .04 * feats.get("prior_returns_12m", 0) + (.15 if feats.get("account_age_months", 24) < 6 else 0))
+    mod = m["p2_fail"]
+    z = mod["intercept"]
+    for f, mu, sd, b in zip(mod["features"], mod["mean"], mod["sd"], mod["coef"]):
+        z += b * (float(feats.get(f, 0.0)) - mu) / sd
+    return _sig(z)
+
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY, value TEXT);
 CREATE TABLE IF NOT EXISTS sellers(seller_id TEXT PRIMARY KEY, tier TEXT, fulfilment TEXT, handover_h REAL);
@@ -303,10 +331,11 @@ class Platform:
             if proc.random() < (.17 if warned else .42):
                 self._open_ticket(cid, oid, "Delivery delay", now, proc)
             if self.solution:
-                eng = self.db.execute("SELECT engagement, member FROM customers WHERE customer_id=?", (cid,)).fetchone()
-                if abs(eng[0] - .1) < .75 and not eng[1]:  # persuadable → credit
+                # observable rule only (the platform cannot see 'persuadable'): first bad experience → credit + apology
+                bad = self.db.execute("SELECT bad_experiences FROM customers WHERE customer_id=?", (cid,)).fetchone()[0]
+                if bad <= 1:
                     self.db.execute("UPDATE orders SET credit=15 WHERE order_id=?", (oid,))
-                    self.alert("info", "Recovery credit", oid, "Late order, persuadable customer → AED 15 credit + apology.")
+                    self.alert("info", "Recovery credit", oid, "Late order, first bad experience → AED 15 credit + apology.")
         # failed attempts create tickets in 'today' (and fewer in solution, because fake 'unavailable' is blocked)
         for oid, cid in self.db.execute("SELECT order_id, customer_id FROM orders WHERE failed=1 AND ticket=0 AND eta_t < ?", (now,)).fetchall():
             self.db.execute("UPDATE orders SET ticket=1 WHERE order_id=?", (oid,))
@@ -327,13 +356,27 @@ class Platform:
         rows = self.db.execute("SELECT o.order_id, o.customer_id, o.value, o.category, c.returner, o.late FROM orders o JOIN customers c "
                                "USING(customer_id) WHERE o.return_at IS NOT NULL AND o.return_at <= ? "
                                "AND o.order_id NOT IN (SELECT order_id FROM returns)", (now,)).fetchall()
+        cuts = (live_models() or {}).get("p2_cutoffs", {"green": .05, "red": .25})
         for oid, cid, value, cat, returner, late in rows:
             abuse = returner == "Possible abuser"
-            qc_fail = proc.random() < (.55 if abuse else (.11 if returner == "Serial returner" else .04))
-            p_fail = min(.95, max(.01, (.62 if abuse else .18 if returner == "Serial returner" else .05) * float(proc.lognormal(0, .35))))
+            # what the platform records about the return (behaviour overlaps between customer types)
+            prior = int(proc.poisson({"Typical": .9, "Size-swapper": 2.6, "Serial returner": 4.5, "Possible abuser": 3.5}[returner]))
+            new_acct = abuse and proc.random() < .7
+            age = int(proc.integers(1, 7)) if new_acct else int(proc.integers(6, 72))
+            quick = int(proc.integers(1, 6)) if (abuse and proc.random() < .7) else int(proc.integers(1, 16))
+            photos = None if proc.random() < .15 else int(proc.random() < (.25 if abuse else .6))
+            reason = ("Size or fit issue" if cat == "Fashion" and proc.random() < .6 else
+                      str(proc.choice(["Changed my mind", "Not as described", "Defective / not working", "Damaged in delivery"])))
+            feats = {"prior_returns_12m": prior, "account_age_months": age, "days_since_delivery": quick, "item_value_aed": value,
+                     "photos_uploaded": photos or 0, "photos_missing": int(photos is None), f"category = {cat}": 1,
+                     f"return_reason = {reason}": 1, "ordered_two_sizes": int(returner == "Size-swapper" and cat == "Fashion" and proc.random() < .55)}
+            base = .008 if (returner == "Typical" and age >= 12) else .03
+            qc_fail = proc.random() < min(.95, base + (.13 if reason == "Changed my mind" else 0) + (.55 if abuse else 0)
+                                          + (.08 if returner == "Serial returner" else 0))
+            p_fail = score_return(feats)
             rid = self._id("R")
             if self.solution:
-                tier = "Green" if p_fail < .15 else ("Amber" if p_fail < .5 else "Red")
+                tier = "Green" if p_fail < cuts["green"] else ("Amber" if p_fail < cuts["red"] else "Red")
                 due = now + {"Green": 1, "Amber": 3, "Red": 12}[tier] * 1440
                 if tier == "Red":
                     self.alert("warning", "Red-tier return", rid, f"AED {value:,.0f} {cat} — full inspection before refund.")

@@ -19,7 +19,7 @@ st.set_page_config(page_title="noon · CX Analytics", page_icon=":material/local
 from noonbi import cards  # noqa: E402
 from noonbi import data as D  # noqa: E402
 from noonbi.views import (p01_overview, p02_market, p03_data, p04_customers, p05_delivery, p06_refunds,  # noqa: E402
-                          p07_service, p08_business, p09_sources, p10_simulator, p11_live)
+                          p07_service, p08_business, p09_sources, p10_simulator, p11_live, p12_quality)
 
 cards.inject_css()
 st.logo(str(Path(__file__).resolve().parent / "assets" / "logo.svg"), size="large")
@@ -48,6 +48,7 @@ pages = {
     ],
     "Decision": [
         _page(p08_business, "10 · Business Case", ":material/flag:", "business-case"),
+        _page(p12_quality, "11 · Model Quality & Fairness", ":material/verified:", "model-quality"),
         _page(p09_sources, "Sources & Methods", ":material/menu_book:", "sources"),
     ],
 }

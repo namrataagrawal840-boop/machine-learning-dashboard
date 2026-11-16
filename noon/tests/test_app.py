@@ -19,7 +19,7 @@ def _all_pages(state: dict | None = None) -> dict[str, list[str]]:
         errs = [str(e.value) for e in at.exception]
         if errs:
             problems[meta["page_name"]] = errs
-    assert len(seen) == 11, seen
+    assert len(seen) == 12, seen
     return problems
 
 

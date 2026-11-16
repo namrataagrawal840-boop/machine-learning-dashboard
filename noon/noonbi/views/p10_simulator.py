@@ -155,6 +155,19 @@ def _run(key: str, d: pd.DataFrame, kpi_fn, event_fn, a: dict, track: tuple[str,
         cards.notice("info", "Ready.", f"{len(d):,} records are loaded. Press <b>Run the simulation</b> to replay them.")
 
 
+def _bands(d: pd.DataFrame) -> None:
+    """Show the 80% range of each simulated gain, from 100 bootstrap refits of the response models."""
+    b = d.attrs.get("bands", {})
+    if not b:
+        return
+    parts = [f"<b>{cards.esc(k)}</b>: {lo:+,.0f} to {hi:+,.0f}" for k, (lo, hi) in b.items()]
+    st.markdown('<div class="lc-card" style="padding:.55rem .9rem;margin:.4rem 0"><div class="lc-kpi-label">UNCERTAINTY · change '
+                'with the solution, 80% range</div><div style="font-size:.85rem">' + " · ".join(parts) +
+                '</div><div class="lc-muted" style="font-size:.75rem;margin-top:.2rem">Customer responses come from models fitted on the '
+                'recorded data (page 11, tab 6), refitted 100 times on resampled data. Process effects (sliders) are assumptions.</div></div>',
+                unsafe_allow_html=True)
+
+
 def _result_table(k: dict, key: str) -> None:
     rows = [{"measure": lbl, "today": _fmt(lbl, t), "with_solution": _fmt(lbl, s)} for lbl, (t, s) in k.items()]
     charts.table(pd.DataFrame(rows), key, f"{key}.csv")
@@ -248,6 +261,7 @@ def _p1_results(d: pd.DataFrame, a: dict) -> None:
             charts.show(fig, "sim1_res_em", g, height=320)
         with c2:
             _result_table(k, "sim1_table")
+            _bands(d)
         cards.explanation(
             "The same orders, customers and random draws under both processes; only the process changes.",
             f"Promise kept rises from {C.pct(k['Promise kept'][0], 0)} to {C.pct(k['Promise kept'][1], 0)}, expected complaint tickets fall "
@@ -283,7 +297,7 @@ def _p2() -> None:
         ("Refund method", "refund_method", "Payments", "Refund speed"),
         ("Refund days today", "refund_days", "Payments + warehouse", "Baseline"),
         ("QC result", "qc_passed", "Warehouse inspection", "Model target"),
-        ("Predicted fail risk", "p_fail", "Random-forest model", "Green / Amber / Red tier"),
+        ("Predicted fail risk", "p_fail", "Tuned, calibrated QC model", "Green / Amber / Red tier"),
     ], d0.iloc[0])
     with cards.card("Step 3 · Descriptive analytics"):
         cards.kpi_grid([
@@ -297,25 +311,28 @@ def _p2() -> None:
             fig, g = charts.count_bar(d0["return_reason"], horizontal=True, colour=theme.LAVENDER, sort=True)
             charts.show(fig, "sim2_d1", g, height=260)
         with c2:
-            b = d0.assign(band=pd.cut(d0["p_fail"], [0, .15, .5, 1], labels=["< 0.15", "0.15–0.50", "> 0.50"])).groupby("band", observed=True).agg(
+            gc, rc = sim.P2_DEFAULTS["green_threshold"], sim.P2_DEFAULTS["red_threshold"]
+            b = d0.assign(band=pd.cut(d0["p_fail"], [0, gc, rc, 1], labels=[f"Green < {gc:.2f}", "Amber", f"Red ≥ {rc:.2f}"])).groupby("band", observed=True).agg(
                 fail=("qc_passed", lambda x: 1 - x.mean()), n=("return_id", "size")).reset_index()
             charts.show(charts.bar(b["band"].astype(str), b["fail"] * 100, b["n"], b["n"], colour=theme.RED, axis_title="% that really failed QC"),
                         "sim2_d2", b, height=260)
-            st.caption("Returns the model scores as low risk almost never fail inspection, which is what makes instant refunds safe.")
+            st.caption("Returns the model scores as low risk rarely fail inspection, which is what makes instant refunds safe; "
+                       "the Red group fails several times more often than average.")
     with cards.card("Step 4 · Run the simulation: Trust-Tiered Instant Refunds", "Every return is scored when the customer requests it"):
         st.markdown('<div class="lc-body"><ol>'
-                    '<li><b>Request:</b> the random-forest model scores the chance the item fails inspection.</li>'
+                    '<li><b>Request:</b> the tuned, calibrated model scores the chance the item fails inspection.</li>'
                     '<li><b>🟢 Green:</b> refund to the noon wallet as soon as the courier collects the item.</li>'
                     '<li><b>🟠 Amber:</b> refund when the warehouse scans the item (within 24 h of arrival).</li>'
                     '<li><b>🔴 Red:</b> full inspection before any refund; rejections come with the photo and the reason.</li>'
                     '<li><b>Tracker:</b> every customer sees the guaranteed refund date.</li></ol></div>', unsafe_allow_html=True)
         a = _assumptions(sim.P2_DEFAULTS, [
-            ("green_threshold", "Green if fail risk below", "num", 0.01, 0.5, 0.01, None),
-            ("red_threshold", "Red if fail risk above", "num", 0.2, 0.95, 0.05, None),
+            ("green_threshold", "Green if fail risk below", "num", 0.01, 0.3, 0.005, "Default keeps money at risk ≤0.5% of refunds"),
+            ("red_threshold", "Red if fail risk above", "num", 0.1, 0.9, 0.01, "Default = top 5% of risk scores"),
             ("green_days", "Days to refund for Green", "num", 0.0, 5.0, 0.5, "Courier collection"),
             ("amber_days", "Days to refund for Amber", "num", 0.5, 10.0, 0.5, "Warehouse scan"),
             ("recovery_rate", "Share of bad Green refunds recovered", "num", 0.0, 1.0, 0.05, "From the customer or the seller"),
-            ("explain_rejections", "Explain rejections with photos", "bool", None, None, None, "Cuts complaint rate from 78% to 50%"),
+            ("explain_rejections", "Explain rejections with photos", "bool", None, None, None, None),
+            ("explain_cut", "Rejection complaints a clear reason prevents", "num", 0.0, 1.0, 0.05, "Assumption, not in the data"),
         ], "sim2")
         d = sim.run_p2(d0, a)
         _run("sim2", d, sim.p2_kpis, sim.p2_event, a, ("t_ticket_p", "s_ticket_p", "Refund-chase tickets (cumulative, expected)"),
@@ -332,6 +349,7 @@ def _p2() -> None:
                 charts.show(fig, "sim2_res", g, height=320)
             with c2:
                 _result_table(k, "sim2_table")
+                _bands(d)
             cards.explanation("The same returns and customers under both processes.",
                               f"Median refund time falls from {k['Median refund time (days)'][0]:.0f} to {k['Median refund time (days)'][1]:.1f} days; "
                               f"refund-chase tickets drop by about {k['Refund chase tickets (expected)'][0] - k['Refund chase tickets (expected)'][1]:,.0f}; "
@@ -417,9 +435,11 @@ def _p3() -> None:
                 charts.show(fig, "sim3_res", g, height=360)
             with c2:
                 _result_table(k, "sim3_table")
+                _bands(d)
             cards.explanation("The same tickets and customers under both processes.",
                               f"Repeat contacts drop from {C.pct(k['Needed a repeat contact'][0], 0)} to {C.pct(k['Needed a repeat contact'][1], 0)}, "
                               f"CSAT rises from {k['Average CSAT (1–5)'][0]:.2f} to {k['Average CSAT (1–5)'][1]:.2f}, and {saved:,} fewer customers leave.",
                               f"That is about {C.aed(saved * d['clv'].mean())} of next-year profit kept plus {C.aed(contacts * a['cost_per_contact'])} "
                               f"of agent time saved ({contacts:,} fewer contacts).",
-                              "Effects of ownership and fixes are assumptions taken from the proposal; the real test is the 3-arm A/B on the business-case page.")
+                              "Effects of ownership and fixes are assumptions taken from the proposal; how customers respond to fewer contacts and "
+                              "faster fixes is estimated from the data (observational). The real test is the 3-arm A/B on the business-case page.")

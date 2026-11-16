@@ -201,7 +201,7 @@ def _static(w) -> None:
             {"Alert": "<b>Pin requested</b>", "Raised when": "Partial address in a risky zone", "Action": "WhatsApp location pin", "Solution": "1"},
             {"Alert": "<b>GPS lock</b>", "Raised when": "'Unavailable' marked away from the address", "Action": "Blocked, re-attempt", "Solution": "1"},
             {"Alert": "<b>Early warning</b>", "Raised when": "Order will miss its date", "Action": "Customer told before chasing", "Solution": "1"},
-            {"Alert": "<b>Recovery credit</b>", "Raised when": "Late + persuadable customer", "Action": "AED 15 credit", "Solution": "1"},
+            {"Alert": "<b>Recovery credit</b>", "Raised when": "Late order, customer's first bad experience", "Action": "AED 15 credit", "Solution": "1"},
             {"Alert": "<b>Red-tier return / Refund risk</b>", "Raised when": "High fail risk / Green refund later failed", "Action": "Full check / recovery", "Solution": "2"},
             {"Alert": "<b>Case owner / Resolution desk / SLA breach</b>", "Raised when": "New ticket / 2nd contact / past deadline", "Action": "Owner, fix authority, escalation", "Solution": "3"},
             {"Alert": "<b>Stock, Zone spike, Slow seller</b>", "Raised when": "10 left or sold out / zone ≥35% late / seller ≥50% late", "Action": "Restock / capacity / badge", "Solution": "Ops (both)"},

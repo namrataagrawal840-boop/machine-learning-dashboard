@@ -23,8 +23,20 @@ def _safe_name(s: str) -> str:
     return re.sub(r"[^0-9a-zA-Z]+", "_", s).strip("_").lower() or "chart"
 
 
+def info_icon(key: str) -> None:
+    """Small ⓘ button above a chart that opens a detailed explanation (from noonbi/chart_info.py)."""
+    from noonbi import chart_info
+    inf = chart_info.get(key)
+    if not inf:
+        return
+    with st.container(key=f"info_{_safe_name(key)}"):
+        with st.popover("ⓘ About this chart", help="What this chart shows, how to read it, how it is made and why it matters"):
+            st.markdown(chart_info.markdown(inf))
+
+
 def show(fig: go.Figure, key: str, data: pd.DataFrame | None = None, height: int | None = None,
          data_label: str = "View, sort & download the data behind this chart") -> None:
+    info_icon(key)
     fig.update_layout(height=height or fig.layout.height or theme.CHART_HEIGHT)
     st.plotly_chart(fig, key=f"fig_{key}", config=theme.plotly_config(_safe_name(key)), width="stretch")
     if data is not None and not data.empty:

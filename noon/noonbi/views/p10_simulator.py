@@ -120,6 +120,7 @@ def _run(key: str, d: pd.DataFrame, kpi_fn, event_fn, a: dict, track: tuple[str,
         frames = 40
         delay = {"Slow": 0.25, "Normal": 0.09, "Fast": 0.02, "Instant": 0}[speed]
         bar = st.progress(0.0, text="Starting…")
+        charts.info_icon(f"{key}_live")
         kpi_ph, chart_ph, feed_ph = st.empty(), st.empty(), st.empty()
         bounds = np.linspace(0, len(d), frames + 1).astype(int)
         cum_t, cum_s, xs = [], [], []

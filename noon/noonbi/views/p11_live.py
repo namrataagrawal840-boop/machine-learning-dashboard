@@ -142,6 +142,7 @@ def _panel(w) -> None:
                             line=dict(color=col, width=2.5))
         fig.update_layout(title=dict(text="Late-delivery rate (%)", font=dict(size=13)), height=270, margin=dict(l=10, r=10, t=36, b=10),
                           legend=dict(orientation="h", y=-0.2))
+        charts.info_icon("live_late")
         st.plotly_chart(fig, width="stretch", key="live_late", config={"displayModeBar": False})
     with c2:
         fig = go.Figure()
@@ -150,6 +151,7 @@ def _panel(w) -> None:
                             line=dict(color=col, width=2.5))
         fig.update_layout(title=dict(text="Open complaint tickets", font=dict(size=13)), height=270, margin=dict(l=10, r=10, t=36, b=10),
                           legend=dict(orientation="h", y=-0.2))
+        charts.info_icon("live_tickets")
         st.plotly_chart(fig, width="stretch", key="live_tickets", config={"displayModeBar": False})
 
     c1, c2 = st.columns([1, 1.35])
@@ -160,6 +162,7 @@ def _panel(w) -> None:
                                text=[f"AED {v / 1000:,.0f}k · {n} orders" for v, n in zip(b["value"], b["orders"])], textposition="auto"))
         fig.update_layout(title=dict(text="Category buckets · sales value, last 24 h", font=dict(size=13)), height=300,
                           margin=dict(l=10, r=10, t=36, b=10), xaxis_title="AED")
+        charts.info_icon("live_buckets")
         st.plotly_chart(fig, width="stretch", key="live_buckets", config={"displayModeBar": False})
     with c2:
         o = s.q("SELECT order_id, t, zone, n_items, value, category, risk, promise_t, status, late, warned, priority, credit "

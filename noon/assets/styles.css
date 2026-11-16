@@ -93,3 +93,10 @@ div[class*="st-key-card-"] div[class*="st-key-card-"] { box-shadow: none; }
 .stTabs [data-baseweb="tab"] { padding: .45rem .85rem; border-radius: 8px 8px 0 0; }
 [data-testid="stExpander"] details { border-radius: 10px; border-color: var(--c-border); }
 [data-testid="stExpander"] summary p { font-size: .85rem; color: var(--c-muted); }
+
+/* ⓘ info button above each chart */
+[class*="st-key-info_"] { display: flex; flex-direction: row; justify-content: flex-end; margin-bottom: -0.55rem; }
+[class*="st-key-info_"] button { font-size: 0.74rem; padding: 0.1rem 0.6rem; min-height: 0; border-radius: 999px;
+  color: #3D5F87; background: #EAF2FC; border: 1px solid #D5DDE6; }
+[class*="st-key-info_"] button:hover { background: #DCE8F7; }
+[data-testid="stPopoverBody"] { max-width: 520px; font-size: 0.86rem; line-height: 1.45; }

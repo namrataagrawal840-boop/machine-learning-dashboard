@@ -1,0 +1,2501 @@
+customer_id,segment,recency_days,orders_12m,spend_12m_aed,return_rate,clv_next12m_aed
+C100864,Loyal low-returners,23,7,1300.59,0.0,452.39
+C104554,Lapsing customers,315,1,170.89,0.0,127.73
+C101282,Frequent returners (size swaps),27,3,1290.36,0.6666666666666666,106.74
+C100938,Lapsing customers,91,1,83.08,0.0,16.71
+C101286,Lapsing customers,298,1,90.04,0.0,13.53
+C108910,Occasional shoppers,89,1,355.17,0.0,0.0
+C104614,Disputed / high-risk returners,4,6,1432.8,0.6666666666666666,339.22
+C106667,Occasional shoppers,6,3,884.17,0.0,464.41
+C103251,Loyal low-returners,36,6,1138.84,0.0,98.3
+C105307,Occasional shoppers,127,2,1065.65,0.0,130.51
+C100746,Frequent returners (size swaps),50,2,322.74,0.5,0.0
+C101908,Occasional shoppers,70,1,165.68,0.0,176.31
+C100287,Lapsing customers,273,1,167.85,0.0,29.77
+C103546,Occasional shoppers,58,3,578.83,0.3333333333333333,224.71
+C100261,Occasional shoppers,57,3,979.18,0.3333333333333333,33.82
+C104991,Disputed / high-risk returners,118,3,574.92,0.3333333333333333,11.25
+C104483,Occasional shoppers,191,2,2260.39,0.0,0.0
+C101310,Lapsing customers,150,1,88.39,0.0,30.68
+C101459,Occasional shoppers,119,3,460.78,0.0,40.76
+C106315,Loyal low-returners,31,6,1365.67,0.3333333333333333,293.81
+C101709,Occasional shoppers,44,3,1386.63,0.0,189.67
+C101700,Loyal low-returners,17,5,687.02,0.2,39.53
+C100768,Occasional shoppers,167,3,736.64,0.0,117.98
+C105780,Lapsing customers,256,2,396.93,0.0,0.0
+C106858,Occasional shoppers,243,4,857.61,0.0,256.88
+C100512,Occasional shoppers,53,3,885.43,0.0,361.74
+C108933,Occasional shoppers,117,4,521.52,0.25,25.59
+C100350,Occasional shoppers,13,3,775.8,0.0,268.16
+C101312,Occasional shoppers,153,3,546.53,0.0,33.24
+C100387,Lapsing customers,215,2,135.74,0.0,29.97
+C100643,Occasional shoppers,91,2,324.62,0.0,90.51
+C108123,Occasional shoppers,57,3,544.2,0.3333333333333333,12.61
+C104240,Disputed / high-risk returners,123,2,503.18,0.5,42.26
+C107368,Frequent returners (size swaps),265,3,781.12,0.6666666666666666,114.63
+C104691,Frequent returners (size swaps),238,1,151.4,1.0,159.6
+C104861,Loyal low-returners,24,6,641.49,0.0,123.37
+C100519,Frequent returners (size swaps),8,4,560.61,0.5,52.67
+C104835,Lapsing customers,256,2,351.15,0.0,51.45
+C103537,Loyal low-returners,18,14,3341.5,0.14285714285714285,570.02
+C104220,Occasional shoppers,153,4,743.18,0.25,42.82
+C104048,Occasional shoppers,209,4,907.72,0.25,119.36
+C103177,Frequent returners (size swaps),224,2,585.06,1.0,0.0
+C101107,Occasional shoppers,131,3,583.57,0.0,0.0
+C108603,Loyal low-returners,49,5,817.0,0.2,99.12
+C104987,Occasional shoppers,39,2,237.67,0.0,94.65
+C101058,Occasional shoppers,59,4,913.78,0.0,82.69
+C105944,Frequent returners (size swaps),213,2,709.31,0.5,0.0
+C103383,Loyal low-returners,20,6,2452.84,0.16666666666666666,1153.24
+C107052,Occasional shoppers,35,2,338.5,0.0,19.78
+C102427,Loyal low-returners,58,5,1828.28,0.0,407.76
+C100351,Occasional shoppers,7,4,677.36,0.0,301.62
+C103807,Occasional shoppers,151,4,583.95,0.25,47.79
+C105667,Loyal low-returners,8,10,4068.82,0.1,817.59
+C106745,Loyal low-returners,34,8,2843.31,0.125,421.51
+C101623,Lapsing customers,225,2,297.95,0.0,48.75
+C103550,Lapsing customers,163,2,337.53,0.0,25.55
+C106832,Lapsing customers,238,3,228.12,0.0,49.85
+C107977,Loyal low-returners,6,12,3683.94,0.16666666666666666,360.95
+C107477,Loyal low-returners,43,6,2309.24,0.0,785.04
+C100809,Frequent returners (size swaps),12,1,276.65,1.0,0.0
+C108337,Lapsing customers,119,1,179.48,0.0,0.0
+C103307,Loyal low-returners,17,5,1106.38,0.0,129.46
+C102529,Loyal low-returners,75,5,994.54,0.4,54.58
+C101411,Loyal low-returners,64,8,2208.25,0.0,225.08
+C104447,Lapsing customers,216,1,353.35,0.0,317.49
+C104089,Lapsing customers,352,1,128.05,0.0,49.08
+C104245,Occasional shoppers,43,1,144.54,0.0,147.99
+C102381,Occasional shoppers,40,4,512.37,0.0,15.96
+C108891,Loyal low-returners,244,4,1302.19,0.25,173.43
+C104799,Occasional shoppers,97,3,764.24,0.3333333333333333,176.72
+C105589,Loyal low-returners,202,6,2772.69,0.0,0.0
+C106779,Lapsing customers,342,1,429.93,0.0,1408.07
+C107084,Lapsing customers,284,2,275.89,0.0,129.88
+C107104,Loyal low-returners,13,7,1386.18,0.2857142857142857,1463.97
+C108666,Disputed / high-risk returners,106,4,1597.83,0.5,322.2
+C103961,Occasional shoppers,34,3,495.23,0.0,156.4
+C101935,Occasional shoppers,33,2,1236.37,0.0,827.22
+C101603,Disputed / high-risk returners,55,4,1936.64,0.25,270.42
+C101840,Occasional shoppers,63,2,450.13,0.0,41.02
+C100254,Loyal low-returners,1,6,683.77,0.0,243.06
+C108779,Loyal low-returners,78,4,1393.0,0.0,193.19
+C108594,Lapsing customers,340,1,252.88,0.0,128.32
+C107167,Lapsing customers,333,2,202.35,0.0,111.46
+C106524,Occasional shoppers,2,2,471.84,0.0,139.03
+C103261,Loyal low-returners,137,6,710.96,0.0,118.62
+C108719,Occasional shoppers,194,1,1657.21,0.0,104.92
+C102180,Lapsing customers,281,1,247.38,0.0,0.0
+C105965,Loyal low-returners,1,8,2074.27,0.125,202.06
+C105325,Loyal low-returners,31,6,2759.44,0.16666666666666666,495.33
+C103953,Frequent returners (size swaps),170,2,483.36,0.5,67.49
+C102407,Loyal low-returners,13,5,1456.71,0.0,342.15
+C107619,Lapsing customers,202,1,251.11,0.0,56.1
+C105337,Loyal low-returners,33,10,1849.54,0.0,464.41
+C108700,Occasional shoppers,162,2,714.19,0.0,142.94
+C107489,Frequent returners (size swaps),66,3,235.52,0.6666666666666666,20.85
+C107671,Loyal low-returners,82,3,1155.58,0.3333333333333333,0.0
+C103835,Loyal low-returners,65,5,1057.45,0.2,99.58
+C107773,Occasional shoppers,193,4,1129.96,0.0,654.4
+C105563,Loyal low-returners,117,4,3353.99,0.0,517.13
+C103642,Lapsing customers,347,1,88.24,0.0,0.0
+C103938,Occasional shoppers,46,3,673.47,0.3333333333333333,204.01
+C101643,Occasional shoppers,144,3,571.64,0.3333333333333333,87.35
+C105089,Loyal low-returners,17,4,1564.25,0.0,54.47
+C105024,Frequent returners (size swaps),187,1,36.46,1.0,5.37
+C108341,Lapsing customers,184,2,234.07,0.0,96.09
+C105764,Loyal low-returners,50,4,1385.52,0.0,311.81
+C102959,Loyal low-returners,47,4,867.34,0.25,145.83
+C106622,Loyal low-returners,47,8,1383.42,0.25,115.1
+C102114,Loyal low-returners,45,4,874.46,0.25,179.57
+C106904,Loyal low-returners,74,5,1365.02,0.0,789.28
+C104241,Loyal low-returners,19,5,689.26,0.4,34.62
+C100544,Loyal low-returners,74,4,1119.27,0.0,217.36
+C108014,Occasional shoppers,2,3,559.71,0.3333333333333333,274.03
+C103675,Loyal low-returners,16,10,1760.04,0.2,155.44
+C106432,Occasional shoppers,79,3,997.61,0.0,65.2
+C103878,Occasional shoppers,116,3,271.09,0.0,53.58
+C102329,Occasional shoppers,51,3,565.04,0.3333333333333333,107.88
+C106444,Lapsing customers,343,1,116.74,0.0,10.81
+C102545,Occasional shoppers,10,1,117.62,0.0,54.88
+C102877,Loyal low-returners,3,6,1486.99,0.16666666666666666,55.55
+C105080,Occasional shoppers,98,3,502.27,0.0,63.51
+C108530,Loyal low-returners,201,5,1180.81,0.0,69.87
+C106280,Frequent returners (size swaps),241,2,198.97,0.5,137.79
+C107468,Frequent returners (size swaps),233,1,76.42,1.0,70.42
+C103087,Occasional shoppers,24,1,70.32,0.0,36.06
+C103766,Occasional shoppers,231,4,1126.08,0.0,139.03
+C100687,Loyal low-returners,1,17,2806.37,0.29411764705882354,109.05
+C101567,Lapsing customers,346,1,84.44,0.0,24.58
+C106798,Lapsing customers,114,1,125.96,0.0,46.35
+C100101,Lapsing customers,185,1,95.03,0.0,229.83
+C102622,Lapsing customers,343,2,539.17,0.0,78.51
+C105442,Occasional shoppers,38,3,378.23,0.3333333333333333,25.98
+C100109,Occasional shoppers,96,4,512.03,0.0,29.8
+C104697,Loyal low-returners,21,6,2427.41,0.16666666666666666,608.05
+C106509,Loyal low-returners,11,4,1454.0,0.25,0.0
+C107113,Occasional shoppers,77,3,755.81,0.0,185.56
+C105831,Lapsing customers,199,1,150.44,0.0,48.89
+C108191,Frequent returners (size swaps),93,4,729.27,0.5,14.19
+C104658,Lapsing customers,249,2,374.84,0.0,0.0
+C108368,Frequent returners (size swaps),168,3,312.19,0.3333333333333333,52.51
+C107641,Loyal low-returners,12,4,1596.15,0.0,376.54
+C107538,Frequent returners (size swaps),12,3,1097.33,0.6666666666666666,250.05
+C105650,Lapsing customers,136,1,49.41,0.0,7.57
+C103300,Loyal low-returners,53,3,1663.3,0.0,97.68
+C107962,Occasional shoppers,122,3,563.82,0.0,121.7
+C107328,Occasional shoppers,23,3,1108.97,0.0,46.97
+C103673,Occasional shoppers,26,2,317.19,0.0,98.48
+C102590,Lapsing customers,230,2,629.1,0.0,0.0
+C103260,Loyal low-returners,87,6,1333.51,0.3333333333333333,503.93
+C106211,Occasional shoppers,39,2,284.8,0.0,169.78
+C105452,Occasional shoppers,55,2,98.24,0.0,14.87
+C100553,Occasional shoppers,58,3,1391.16,0.0,142.02
+C107391,Loyal low-returners,28,4,988.2,0.0,99.59
+C106814,Occasional shoppers,10,2,131.31,0.0,10.02
+C105479,Occasional shoppers,178,2,787.86,0.0,133.8
+C102482,Occasional shoppers,101,3,432.34,0.0,0.0
+C106872,Loyal low-returners,137,3,2469.36,0.0,276.39
+C104827,Occasional shoppers,129,4,1186.86,0.0,240.3
+C107057,Lapsing customers,315,1,100.61,0.0,23.71
+C101364,Loyal low-returners,68,5,674.66,0.2,81.77
+C107162,Occasional shoppers,58,3,919.37,0.0,137.65
+C102207,Loyal low-returners,19,7,2010.0,0.14285714285714285,241.87
+C101249,Loyal low-returners,48,4,679.56,0.25,0.0
+C105292,Occasional shoppers,91,3,1674.44,0.0,432.16
+C108481,Occasional shoppers,65,3,558.76,0.0,222.71
+C102559,Occasional shoppers,74,3,855.03,0.3333333333333333,266.66
+C104079,Occasional shoppers,107,3,702.23,0.0,41.83
+C101157,Loyal low-returners,28,6,3736.88,0.3333333333333333,488.32
+C103041,Loyal low-returners,3,12,2451.82,0.4166666666666667,364.15
+C108652,Loyal low-returners,63,5,1125.24,0.2,222.27
+C103203,Frequent returners (size swaps),176,2,279.29,0.5,249.78
+C104789,Loyal low-returners,4,4,1808.38,0.0,73.47
+C107425,Loyal low-returners,3,11,3402.59,0.09090909090909091,1062.2
+C104907,Loyal low-returners,109,8,1350.58,0.125,313.0
+C102074,Disputed / high-risk returners,19,8,3477.32,0.375,786.2
+C105467,Occasional shoppers,181,3,1298.2,0.0,151.91
+C102954,Lapsing customers,228,3,267.57,0.0,11.65
+C108063,Occasional shoppers,178,4,821.9,0.0,57.21
+C102165,Disputed / high-risk returners,271,3,793.19,0.3333333333333333,72.26
+C105921,Loyal low-returners,58,5,1805.93,0.0,0.0
+C108667,Occasional shoppers,1,3,659.59,0.0,11.53
+C102404,Disputed / high-risk returners,75,9,1427.27,0.2222222222222222,616.5
+C103480,Occasional shoppers,146,4,706.94,0.0,602.7
+C101903,Occasional shoppers,140,4,1043.84,0.0,124.82
+C103845,Frequent returners (size swaps),223,3,459.89,0.3333333333333333,70.98
+C101843,Loyal low-returners,2,7,1920.14,0.14285714285714285,525.11
+C107384,Lapsing customers,255,3,808.0,0.0,56.58
+C107496,Occasional shoppers,181,3,844.2,0.0,289.47
+C108638,Loyal low-returners,19,7,1211.59,0.0,220.96
+C104185,Occasional shoppers,109,3,610.77,0.3333333333333333,0.0
+C101120,Disputed / high-risk returners,72,4,722.73,0.5,171.71
+C103633,Lapsing customers,360,1,366.04,0.0,120.01
+C106908,Loyal low-returners,27,5,2921.7,0.0,364.23
+C108400,Loyal low-returners,205,4,1151.34,0.25,184.1
+C100754,Occasional shoppers,120,2,286.67,0.0,44.41
+C104571,Occasional shoppers,9,1,79.8,0.0,22.04
+C101016,Occasional shoppers,46,2,465.9,0.0,141.33
+C104417,Occasional shoppers,22,1,50.96,0.0,28.26
+C102736,Frequent returners (size swaps),222,1,439.13,1.0,299.12
+C108480,Lapsing customers,307,1,202.38,0.0,558.16
+C106998,Occasional shoppers,27,4,511.74,0.0,179.41
+C108483,Occasional shoppers,10,3,466.81,0.0,52.46
+C107320,Loyal low-returners,27,4,1806.02,0.0,560.23
+C107618,Occasional shoppers,181,3,477.5,0.0,224.22
+C102897,Frequent returners (size swaps),78,2,237.54,0.5,89.27
+C108315,Occasional shoppers,14,2,891.49,0.0,221.3
+C107908,Occasional shoppers,1,3,133.2,0.0,26.17
+C105197,Lapsing customers,164,1,107.48,0.0,0.0
+C100815,Loyal low-returners,45,6,1092.43,0.0,190.36
+C107532,Loyal low-returners,125,5,1278.74,0.4,315.47
+C100784,Frequent returners (size swaps),228,2,808.5,0.5,349.19
+C107401,Occasional shoppers,181,2,537.23,0.0,159.61
+C101694,Occasional shoppers,115,2,256.28,0.0,0.0
+C100992,Loyal low-returners,2,7,2123.69,0.42857142857142855,912.96
+C107345,Occasional shoppers,2,4,718.75,0.0,57.32
+C107876,Lapsing customers,250,3,756.92,0.0,121.88
+C107038,Loyal low-returners,17,6,2971.32,0.16666666666666666,989.61
+C104088,Occasional shoppers,49,2,433.53,0.0,127.42
+C102582,Loyal low-returners,58,6,3168.2,0.16666666666666666,441.52
+C102371,Loyal low-returners,12,5,1467.36,0.0,904.53
+C107561,Loyal low-returners,9,8,1781.59,0.125,401.63
+C100069,Lapsing customers,359,1,31.12,0.0,9.72
+C108336,Frequent returners (size swaps),132,2,708.61,0.5,1101.92
+C104149,Loyal low-returners,26,5,1497.53,0.0,0.0
+C106888,Loyal low-returners,86,8,3132.7,0.0,400.45
+C108046,Loyal low-returners,20,3,1724.19,0.0,261.8
+C103247,Occasional shoppers,32,3,587.91,0.0,220.74
+C100782,Lapsing customers,138,1,174.1,0.0,43.23
+C108009,Loyal low-returners,3,8,2133.87,0.25,171.84
+C108510,Frequent returners (size swaps),226,5,939.02,0.4,219.55
+C103594,Disputed / high-risk returners,56,10,2340.68,0.5,71.6
+C105425,Occasional shoppers,67,2,247.77,0.0,172.12
+C101989,Occasional shoppers,82,3,467.99,0.0,111.89
+C101127,Disputed / high-risk returners,32,6,903.95,0.16666666666666666,17.55
+C108167,Loyal low-returners,4,6,2411.17,0.0,213.99
+C105108,Loyal low-returners,20,11,4735.33,0.18181818181818182,2225.77
+C107335,Occasional shoppers,141,3,508.18,0.0,46.43
+C101210,Frequent returners (size swaps),66,3,914.58,0.6666666666666666,148.14
+C108567,Lapsing customers,326,1,51.34,0.0,50.25
+C106405,Lapsing customers,170,1,45.74,0.0,0.0
+C100242,Loyal low-returners,53,5,652.41,0.0,31.85
+C100347,Occasional shoppers,158,4,436.72,0.0,0.0
+C103497,Lapsing customers,174,2,150.06,0.0,62.85
+C103388,Occasional shoppers,10,1,2215.17,0.0,0.0
+C101967,Lapsing customers,301,3,330.76,0.3333333333333333,94.12
+C101452,Loyal low-returners,64,4,1194.52,0.0,141.29
+C106277,Frequent returners (size swaps),80,1,143.63,1.0,39.88
+C105890,Occasional shoppers,112,1,498.77,0.0,0.0
+C100569,Occasional shoppers,3,3,298.45,0.0,162.38
+C108154,Occasional shoppers,20,3,450.92,0.0,144.19
+C101714,Frequent returners (size swaps),60,1,109.39,1.0,7.3
+C100500,Lapsing customers,152,1,385.27,0.0,162.57
+C108989,Occasional shoppers,63,2,264.08,0.0,0.0
+C100024,Lapsing customers,112,1,239.89,0.0,0.0
+C108141,Loyal low-returners,8,5,639.93,0.2,142.7
+C102279,Occasional shoppers,59,4,546.46,0.25,223.02
+C102080,Lapsing customers,169,1,137.78,0.0,6.18
+C103366,Loyal low-returners,3,7,2745.04,0.42857142857142855,264.51
+C101457,Loyal low-returners,26,6,1358.82,0.0,522.48
+C105315,Disputed / high-risk returners,164,7,1481.46,0.2857142857142857,147.18
+C103706,Occasional shoppers,50,1,128.98,0.0,25.6
+C102620,Loyal low-returners,24,6,3288.3,0.0,226.26
+C105679,Occasional shoppers,35,1,150.39,0.0,0.0
+C104545,Occasional shoppers,74,4,378.02,0.25,49.53
+C105549,Loyal low-returners,110,5,1087.31,0.2,159.64
+C104698,Lapsing customers,250,2,582.45,0.0,0.0
+C106124,Occasional shoppers,6,3,301.5,0.0,16.29
+C102307,Loyal low-returners,12,4,1103.49,0.25,55.44
+C101909,Occasional shoppers,180,3,1742.65,0.0,1327.45
+C106542,Loyal low-returners,25,14,1945.94,0.07142857142857142,0.0
+C106641,Occasional shoppers,56,2,818.98,0.0,275.54
+C101190,Frequent returners (size swaps),332,1,61.79,1.0,30.35
+C104371,Occasional shoppers,77,3,1358.08,0.0,464.53
+C103348,Loyal low-returners,157,5,965.64,0.2,296.44
+C101720,Occasional shoppers,156,3,822.88,0.0,107.66
+C101011,Loyal low-returners,4,4,768.76,0.25,16.48
+C100530,Frequent returners (size swaps),304,1,58.16,1.0,29.92
+C106084,Occasional shoppers,57,4,853.07,0.0,830.94
+C106289,Loyal low-returners,75,6,2092.73,0.16666666666666666,853.92
+C106532,Lapsing customers,173,1,357.86,0.0,117.73
+C101548,Lapsing customers,167,1,87.62,0.0,90.97
+C104265,Frequent returners (size swaps),230,1,174.08,1.0,74.44
+C107002,Occasional shoppers,23,1,617.82,0.0,353.16
+C106036,Occasional shoppers,51,2,290.1,0.0,54.61
+C105335,Occasional shoppers,85,3,326.74,0.0,39.67
+C103164,Frequent returners (size swaps),2,2,255.9,0.5,40.14
+C103692,Frequent returners (size swaps),143,2,301.75,0.5,104.4
+C106453,Loyal low-returners,38,6,1851.94,0.16666666666666666,395.82
+C104567,Lapsing customers,336,2,482.71,0.0,0.0
+C107677,Lapsing customers,183,2,296.86,0.0,73.58
+C103084,Occasional shoppers,44,3,768.37,0.0,322.29
+C107132,Loyal low-returners,29,5,1890.16,0.2,502.08
+C106218,Loyal low-returners,16,10,1869.17,0.1,268.02
+C100144,Lapsing customers,287,1,48.14,0.0,3.46
+C108661,Lapsing customers,206,2,212.54,0.0,47.68
+C108217,Lapsing customers,213,1,281.4,0.0,173.02
+C104979,Occasional shoppers,73,4,356.98,0.0,144.91
+C103466,Frequent returners (size swaps),202,2,369.7,0.5,159.65
+C101926,Occasional shoppers,172,3,543.17,0.0,93.03
+C101553,Occasional shoppers,79,2,143.07,0.0,17.44
+C108193,Frequent returners (size swaps),35,3,539.89,0.6666666666666666,105.79
+C107907,Occasional shoppers,134,4,526.33,0.25,121.66
+C108407,Occasional shoppers,75,3,411.28,0.0,15.55
+C103600,Loyal low-returners,77,9,1255.6,0.0,143.15
+C104603,Occasional shoppers,73,2,364.42,0.0,17.17
+C107642,Occasional shoppers,47,3,1477.27,0.0,144.48
+C107086,Loyal low-returners,4,8,2903.34,0.125,531.61
+C104706,Occasional shoppers,61,3,1573.72,0.0,873.33
+C104010,Frequent returners (size swaps),165,3,419.92,0.3333333333333333,0.0
+C104397,Occasional shoppers,63,3,953.53,0.0,589.31
+C104984,Occasional shoppers,163,2,595.43,0.0,189.66
+C107981,Loyal low-returners,80,6,1923.45,0.0,210.09
+C106351,Lapsing customers,176,1,96.76,0.0,0.0
+C108559,Loyal low-returners,69,5,1451.9,0.0,306.17
+C105942,Lapsing customers,255,1,475.91,0.0,39.29
+C105150,Loyal low-returners,26,6,1784.21,0.16666666666666666,52.46
+C101684,Occasional shoppers,69,3,453.23,0.0,61.74
+C106655,Frequent returners (size swaps),123,1,115.67,1.0,45.39
+C102913,Occasional shoppers,91,1,351.56,0.0,12.97
+C108938,Loyal low-returners,3,8,2142.36,0.125,1022.39
+C100039,Loyal low-returners,32,5,1584.86,0.0,234.11
+C104717,Loyal low-returners,4,6,1311.36,0.0,90.61
+C105485,Lapsing customers,192,2,451.39,0.0,83.02
+C101449,Loyal low-returners,3,9,1485.59,0.1111111111111111,365.49
+C102854,Loyal low-returners,89,5,1328.44,0.2,398.48
+C104726,Occasional shoppers,14,3,674.66,0.0,123.81
+C101775,Loyal low-returners,47,5,651.42,0.2,72.46
+C105115,Loyal low-returners,144,4,1343.0,0.0,0.0
+C107465,Loyal low-returners,18,7,2610.63,0.14285714285714285,555.39
+C101230,Lapsing customers,217,2,365.29,0.0,317.78
+C108023,Frequent returners (size swaps),23,2,380.6,0.5,32.61
+C106982,Occasional shoppers,58,3,915.99,0.0,512.29
+C100103,Occasional shoppers,122,3,847.07,0.0,0.0
+C108065,Loyal low-returners,13,6,660.57,0.0,59.88
+C107010,Frequent returners (size swaps),79,1,149.04,1.0,0.0
+C107676,Occasional shoppers,16,3,383.15,0.3333333333333333,49.38
+C108329,Occasional shoppers,2,3,406.77,0.3333333333333333,62.35
+C106529,Lapsing customers,172,1,84.82,0.0,14.76
+C107975,Frequent returners (size swaps),116,4,771.96,0.5,0.0
+C101831,Occasional shoppers,167,2,693.72,0.0,113.09
+C101051,Loyal low-returners,54,8,1915.47,0.25,517.04
+C101807,Occasional shoppers,87,2,812.1,0.0,0.0
+C104790,Frequent returners (size swaps),83,4,980.94,0.5,114.27
+C107852,Lapsing customers,136,1,101.99,0.0,36.53
+C105718,Lapsing customers,317,1,180.85,0.0,103.97
+C103544,Occasional shoppers,80,2,455.64,0.0,105.89
+C106091,Occasional shoppers,128,2,512.92,0.0,242.6
+C101644,Occasional shoppers,169,2,403.93,0.0,115.13
+C100274,Loyal low-returners,24,8,2075.0,0.375,214.96
+C103155,Occasional shoppers,11,2,961.44,0.0,186.74
+C100367,Disputed / high-risk returners,221,2,221.44,1.0,80.28
+C100908,Occasional shoppers,4,3,441.01,0.0,198.2
+C103266,Lapsing customers,235,1,313.44,0.0,269.13
+C106011,Loyal low-returners,12,6,1563.56,0.16666666666666666,360.31
+C108598,Loyal low-returners,24,7,1335.93,0.0,85.72
+C103481,Loyal low-returners,41,6,701.37,0.0,88.06
+C101165,Loyal low-returners,111,6,900.09,0.0,504.88
+C102087,Lapsing customers,122,1,49.96,0.0,18.92
+C105797,Occasional shoppers,35,2,231.27,0.0,116.38
+C102301,Loyal low-returners,20,10,3458.19,0.2,1598.1
+C108066,Disputed / high-risk returners,29,6,2028.81,0.6666666666666666,0.0
+C107520,Loyal low-returners,100,5,1343.46,0.0,36.46
+C105331,Occasional shoppers,118,2,1017.71,0.0,479.61
+C106552,Lapsing customers,241,2,404.09,0.0,180.88
+C101822,Occasional shoppers,18,4,730.8,0.0,206.59
+C104457,Lapsing customers,227,1,175.02,0.0,435.72
+C102273,Occasional shoppers,84,3,520.54,0.3333333333333333,111.57
+C107783,Loyal low-returners,63,5,2278.12,0.0,762.41
+C105124,Occasional shoppers,82,3,861.18,0.0,13.66
+C101841,Occasional shoppers,222,4,543.05,0.0,269.61
+C102709,Lapsing customers,180,1,59.94,0.0,126.3
+C106484,Frequent returners (size swaps),83,3,962.06,0.6666666666666666,224.69
+C104690,Loyal low-returners,39,8,1148.34,0.125,258.01
+C100170,Loyal low-returners,47,6,2129.44,0.16666666666666666,657.69
+C102353,Loyal low-returners,83,6,2430.18,0.16666666666666666,0.0
+C103879,Loyal low-returners,1,10,4487.83,0.1,402.29
+C106549,Occasional shoppers,75,5,421.73,0.0,61.84
+C102943,Loyal low-returners,62,8,2223.9,0.125,657.73
+C108685,Lapsing customers,250,2,310.14,0.0,0.0
+C100585,Lapsing customers,80,1,83.8,0.0,6.33
+C104837,Frequent returners (size swaps),143,2,915.63,0.5,350.17
+C107350,Frequent returners (size swaps),206,3,242.88,0.3333333333333333,114.04
+C107378,Occasional shoppers,214,2,1703.04,0.0,1254.06
+C104272,Loyal low-returners,40,4,2274.08,0.25,761.55
+C105268,Loyal low-returners,55,9,2253.04,0.1111111111111111,267.56
+C102697,Loyal low-returners,64,5,792.92,0.2,159.4
+C103093,Occasional shoppers,31,3,893.18,0.3333333333333333,483.9
+C108592,Loyal low-returners,71,8,3445.06,0.25,1141.13
+C100822,Occasional shoppers,31,5,531.51,0.0,79.08
+C102548,Occasional shoppers,155,3,408.43,0.0,263.14
+C108488,Loyal low-returners,56,5,411.62,0.4,44.63
+C107576,Occasional shoppers,83,3,513.62,0.3333333333333333,0.0
+C103028,Occasional shoppers,107,2,830.83,0.0,974.96
+C107023,Occasional shoppers,31,3,672.32,0.0,102.27
+C102335,Occasional shoppers,103,3,416.84,0.0,35.54
+C105094,Loyal low-returners,5,8,1103.24,0.125,155.5
+C103513,Loyal low-returners,1,5,1258.62,0.2,259.53
+C107329,Frequent returners (size swaps),229,3,398.38,0.3333333333333333,55.1
+C104649,Loyal low-returners,160,6,506.95,0.16666666666666666,55.32
+C108803,Lapsing customers,316,1,541.64,0.0,186.05
+C103205,Lapsing customers,342,2,484.13,0.0,200.1
+C106555,Lapsing customers,198,2,486.82,0.0,138.97
+C105133,Loyal low-returners,45,4,774.34,0.25,221.15
+C102388,Lapsing customers,337,1,96.84,0.0,0.0
+C105657,Frequent returners (size swaps),111,2,230.81,0.5,90.73
+C106228,Loyal low-returners,66,6,2967.91,0.16666666666666666,857.08
+C100473,Frequent returners (size swaps),224,2,260.98,0.5,103.03
+C102858,Loyal low-returners,14,9,1684.84,0.1111111111111111,279.36
+C102898,Occasional shoppers,119,3,460.67,0.0,22.71
+C100391,Frequent returners (size swaps),5,3,761.78,0.6666666666666666,0.0
+C101729,Loyal low-returners,3,4,1649.59,0.25,919.13
+C108313,Occasional shoppers,45,3,362.02,0.0,53.24
+C102909,Occasional shoppers,14,1,217.39,0.0,17.48
+C102662,Loyal low-returners,36,5,1038.0,0.2,93.04
+C108143,Occasional shoppers,1,3,871.17,0.0,140.25
+C102131,Loyal low-returners,26,5,628.81,0.2,88.22
+C107440,Lapsing customers,310,1,789.86,0.0,134.25
+C106886,Frequent returners (size swaps),95,1,414.3,1.0,183.42
+C106643,Loyal low-returners,67,5,967.96,0.2,131.8
+C105830,Lapsing customers,297,2,1216.91,0.0,59.05
+C100504,Occasional shoppers,2,3,706.42,0.3333333333333333,57.8
+C100940,Loyal low-returners,4,5,791.33,0.2,58.68
+C103810,Frequent returners (size swaps),88,3,444.92,0.6666666666666666,153.28
+C100534,Loyal low-returners,108,5,837.66,0.0,0.0
+C102227,Loyal low-returners,24,6,3101.4,0.16666666666666666,304.65
+C108691,Frequent returners (size swaps),233,1,96.16,1.0,30.7
+C104428,Disputed / high-risk returners,87,7,1080.92,0.2857142857142857,440.14
+C103917,Occasional shoppers,82,2,441.51,0.0,104.54
+C105145,Loyal low-returners,1,10,3186.8,0.5,387.25
+C104761,Loyal low-returners,4,4,1547.69,0.0,161.7
+C107041,Loyal low-returners,93,4,1722.57,0.0,468.68
+C101442,Loyal low-returners,79,7,3154.75,0.2857142857142857,870.46
+C105074,Lapsing customers,295,3,550.65,0.0,249.5
+C102774,Loyal low-returners,34,4,1029.23,0.0,452.51
+C101654,Disputed / high-risk returners,55,5,739.73,0.2,88.03
+C103338,Loyal low-returners,43,10,1782.82,0.1,542.12
+C100816,Occasional shoppers,59,4,839.95,0.0,414.42
+C102054,Loyal low-returners,10,10,5735.54,0.1,2114.96
+C107611,Lapsing customers,355,1,1051.58,0.0,0.0
+C102245,Lapsing customers,217,2,906.08,0.0,30.81
+C106018,Lapsing customers,358,1,23.55,0.0,61.6
+C104560,Lapsing customers,113,1,189.88,0.0,65.87
+C106133,Occasional shoppers,65,3,596.26,0.3333333333333333,155.71
+C104189,Lapsing customers,83,1,122.52,0.0,26.12
+C104169,Loyal low-returners,28,8,4130.54,0.0,993.86
+C104704,Occasional shoppers,114,4,643.86,0.0,155.44
+C102518,Occasional shoppers,76,2,352.58,0.0,126.26
+C103122,Occasional shoppers,175,3,840.56,0.0,250.39
+C108760,Loyal low-returners,3,8,1532.19,0.25,65.56
+C108585,Loyal low-returners,2,13,3647.23,0.0,832.24
+C101750,Occasional shoppers,192,4,588.4,0.0,74.84
+C107795,Lapsing customers,235,3,283.45,0.0,67.28
+C108754,Loyal low-returners,62,10,2277.28,0.2,645.37
+C103622,Disputed / high-risk returners,50,15,3675.08,0.2,489.24
+C103549,Loyal low-returners,2,9,1891.28,0.1111111111111111,854.12
+C101183,Occasional shoppers,21,3,278.17,0.0,28.6
+C107571,Loyal low-returners,73,3,1762.21,0.3333333333333333,382.69
+C105313,Lapsing customers,257,1,804.78,0.0,185.67
+C102843,Occasional shoppers,1,2,231.42,0.0,25.74
+C103230,Occasional shoppers,15,1,261.14,0.0,54.52
+C106210,Occasional shoppers,62,4,444.62,0.25,0.0
+C106046,Loyal low-returners,7,5,1302.69,0.0,238.12
+C101042,Lapsing customers,155,1,175.45,0.0,54.04
+C107869,Occasional shoppers,31,3,463.85,0.3333333333333333,164.29
+C105484,Loyal low-returners,64,4,1179.19,0.0,355.49
+C104985,Disputed / high-risk returners,360,1,264.67,1.0,19.93
+C106860,Frequent returners (size swaps),132,2,194.11,0.5,0.0
+C106012,Loyal low-returners,25,5,2337.25,0.2,464.65
+C105514,Lapsing customers,139,1,211.42,0.0,36.72
+C105270,Occasional shoppers,85,2,353.86,0.0,24.43
+C105501,Occasional shoppers,59,1,89.58,0.0,9.67
+C103855,Occasional shoppers,9,2,1094.04,0.0,397.4
+C101106,Occasional shoppers,117,4,701.85,0.25,152.05
+C107463,Lapsing customers,242,3,564.19,0.0,86.9
+C101880,Loyal low-returners,14,9,1846.85,0.1111111111111111,0.0
+C101715,Frequent returners (size swaps),2,1,188.95,1.0,0.0
+C104836,Lapsing customers,301,2,299.35,0.0,97.29
+C107754,Lapsing customers,342,1,95.83,0.0,10.87
+C107405,Occasional shoppers,136,3,447.97,0.3333333333333333,183.95
+C101093,Lapsing customers,254,1,340.26,0.0,109.96
+C103657,Occasional shoppers,122,3,468.15,0.3333333333333333,63.38
+C108924,Lapsing customers,197,2,180.17,0.0,95.85
+C101159,Occasional shoppers,92,4,483.62,0.25,186.37
+C107533,Loyal low-returners,2,10,4137.12,0.1,1272.5
+C102351,Lapsing customers,308,2,1299.85,0.0,88.06
+C100595,Lapsing customers,225,2,488.23,0.0,97.12
+C108498,Frequent returners (size swaps),219,2,1192.21,0.5,907.64
+C105560,Frequent returners (size swaps),142,2,525.13,0.5,111.3
+C108365,Occasional shoppers,1,1,371.11,0.0,289.28
+C105297,Occasional shoppers,67,2,269.79,0.0,10.07
+C105581,Occasional shoppers,68,3,643.01,0.0,91.14
+C107206,Loyal low-returners,3,5,1110.57,0.2,598.51
+C102707,Frequent returners (size swaps),233,2,1609.29,0.5,757.39
+C107928,Occasional shoppers,158,3,748.8,0.3333333333333333,31.91
+C106417,Loyal low-returners,99,4,849.45,0.25,259.57
+C104271,Frequent returners (size swaps),192,3,700.25,0.3333333333333333,131.77
+C100433,Occasional shoppers,27,1,243.53,0.0,198.39
+C105324,Loyal low-returners,43,4,1663.17,0.25,54.12
+C107598,Occasional shoppers,241,4,592.17,0.25,79.31
+C100251,Loyal low-returners,3,6,1630.88,0.0,279.05
+C107624,Loyal low-returners,57,4,1262.68,0.0,287.3
+C105544,Loyal low-returners,40,5,1053.6,0.2,368.77
+C105373,Occasional shoppers,264,4,1587.01,0.0,445.62
+C106429,Lapsing customers,287,3,814.76,0.3333333333333333,47.81
+C103272,Loyal low-returners,52,8,1831.29,0.125,253.8
+C107251,Occasional shoppers,85,3,584.96,0.3333333333333333,30.04
+C106320,Occasional shoppers,135,3,739.57,0.0,234.33
+C107540,Lapsing customers,103,1,65.04,0.0,7.12
+C100035,Loyal low-returners,149,5,1346.87,0.0,220.69
+C105258,Occasional shoppers,212,3,2453.38,0.0,2106.66
+C104605,Lapsing customers,255,1,117.09,0.0,0.0
+C105054,Loyal low-returners,111,6,2613.68,0.3333333333333333,1317.86
+C106535,Loyal low-returners,5,19,4745.38,0.0,2727.06
+C104305,Lapsing customers,202,1,141.81,0.0,19.89
+C106412,Occasional shoppers,27,2,385.8,0.0,127.69
+C102670,Lapsing customers,198,1,68.28,0.0,3.02
+C104871,Disputed / high-risk returners,24,4,2068.94,1.0,274.86
+C106795,Loyal low-returners,58,6,1602.84,0.0,87.1
+C106005,Loyal low-returners,50,7,2826.48,0.0,605.07
+C100065,Loyal low-returners,3,5,2687.58,0.0,136.63
+C106971,Frequent returners (size swaps),62,2,336.8,0.5,134.2
+C104478,Frequent returners (size swaps),132,2,273.96,0.5,0.0
+C103905,Loyal low-returners,21,16,3882.25,0.1875,472.01
+C106796,Occasional shoppers,82,2,284.39,0.0,125.2
+C104932,Lapsing customers,228,2,134.04,0.0,35.31
+C100365,Loyal low-returners,16,9,2193.44,0.2222222222222222,233.83
+C106809,Loyal low-returners,87,6,1453.37,0.16666666666666666,81.56
+C102704,Loyal low-returners,7,5,633.56,0.2,72.44
+C101475,Loyal low-returners,24,11,2279.44,0.18181818181818182,179.53
+C105356,Loyal low-returners,39,4,1336.38,0.0,211.04
+C102137,Lapsing customers,174,2,225.28,0.0,231.91
+C104922,Frequent returners (size swaps),246,3,905.96,0.3333333333333333,264.02
+C108861,Occasional shoppers,62,3,987.92,0.3333333333333333,116.83
+C107821,Loyal low-returners,84,3,1208.38,0.3333333333333333,52.91
+C104357,Loyal low-returners,17,11,2684.23,0.2727272727272727,503.71
+C106182,Occasional shoppers,69,2,309.81,0.0,10.01
+C101919,Loyal low-returners,79,8,1593.6,0.25,81.57
+C104004,Loyal low-returners,113,5,3208.71,0.4,0.0
+C105555,Occasional shoppers,29,2,757.63,0.0,216.83
+C101180,Occasional shoppers,54,2,1027.94,0.0,591.22
+C106458,Occasional shoppers,142,2,236.12,0.0,70.71
+C108029,Loyal low-returners,62,4,953.99,0.25,224.45
+C108493,Loyal low-returners,26,6,1072.61,0.16666666666666666,290.63
+C105412,Occasional shoppers,138,4,560.11,0.0,230.63
+C103397,Occasional shoppers,219,3,1033.49,0.0,117.83
+C101318,Occasional shoppers,127,3,582.29,0.0,147.88
+C100590,Occasional shoppers,42,1,2890.76,0.0,1543.48
+C107312,Loyal low-returners,146,5,2220.82,0.0,159.08
+C100609,Occasional shoppers,203,4,637.46,0.0,116.44
+C100085,Occasional shoppers,87,3,526.27,0.0,44.86
+C103090,Occasional shoppers,63,2,436.2,0.0,105.26
+C105815,Disputed / high-risk returners,174,1,1409.32,1.0,340.17
+C107720,Loyal low-returners,18,7,1975.98,0.0,93.73
+C107180,Lapsing customers,290,1,74.35,0.0,0.0
+C105314,Occasional shoppers,72,1,155.36,0.0,51.9
+C102563,Lapsing customers,192,1,69.97,0.0,0.0
+C105877,Lapsing customers,337,1,269.31,0.0,85.83
+C101125,Occasional shoppers,55,3,681.5,0.0,193.39
+C107992,Occasional shoppers,73,5,458.26,0.2,162.18
+C104950,Lapsing customers,296,2,215.08,0.0,62.79
+C108314,Occasional shoppers,5,4,802.59,0.0,48.28
+C106102,Lapsing customers,233,2,154.67,0.0,0.0
+C102418,Lapsing customers,246,1,65.94,0.0,42.47
+C106891,Loyal low-returners,30,6,1364.64,0.16666666666666666,389.79
+C100162,Frequent returners (size swaps),181,2,424.02,0.5,0.0
+C100837,Lapsing customers,297,1,189.73,0.0,219.76
+C106522,Occasional shoppers,88,3,682.61,0.0,236.47
+C101024,Occasional shoppers,34,2,117.94,0.0,47.49
+C108998,Frequent returners (size swaps),167,1,168.74,1.0,94.75
+C100185,Occasional shoppers,2,1,239.03,0.0,0.0
+C107490,Occasional shoppers,18,3,696.77,0.0,127.27
+C101556,Occasional shoppers,3,4,333.03,0.25,272.04
+C107193,Disputed / high-risk returners,73,5,1691.97,0.2,499.24
+C107459,Frequent returners (size swaps),63,1,220.4,1.0,0.0
+C107190,Lapsing customers,289,1,235.7,0.0,543.24
+C107366,Lapsing customers,216,2,430.97,0.0,12.01
+C102048,Loyal low-returners,151,6,2611.93,0.0,169.66
+C103668,Loyal low-returners,72,4,2327.38,0.25,420.57
+C105245,Occasional shoppers,50,2,162.81,0.0,4.36
+C102240,Occasional shoppers,62,2,434.4,0.0,393.19
+C103714,Loyal low-returners,33,5,2341.69,0.0,564.99
+C102332,Lapsing customers,255,1,176.78,0.0,214.99
+C105519,Lapsing customers,140,1,48.26,0.0,0.0
+C102342,Occasional shoppers,21,2,434.15,0.0,753.23
+C107181,Occasional shoppers,58,2,648.47,0.0,23.2
+C100560,Loyal low-returners,57,5,604.11,0.2,712.18
+C103823,Loyal low-returners,3,3,1292.68,0.3333333333333333,135.17
+C107525,Occasional shoppers,59,2,604.19,0.0,167.86
+C103773,Loyal low-returners,5,7,1605.97,0.0,408.87
+C104084,Lapsing customers,136,1,100.88,0.0,0.0
+C105582,Occasional shoppers,153,2,455.54,0.0,69.36
+C105341,Lapsing customers,336,1,127.5,0.0,27.23
+C105264,Occasional shoppers,250,4,1040.97,0.25,311.57
+C107609,Occasional shoppers,65,2,611.86,0.0,152.27
+C108153,Loyal low-returners,85,6,1393.83,0.0,273.91
+C106238,Lapsing customers,172,1,154.46,0.0,25.51
+C107380,Frequent returners (size swaps),68,6,722.92,0.6666666666666666,93.77
+C104362,Occasional shoppers,239,3,1071.19,0.0,0.0
+C101541,Occasional shoppers,79,2,138.94,0.0,0.0
+C100711,Occasional shoppers,54,3,177.48,0.0,14.96
+C107599,Occasional shoppers,2,2,171.91,0.0,0.0
+C102554,Loyal low-returners,28,18,3685.9,0.05555555555555555,1239.2
+C106120,Lapsing customers,142,1,331.04,0.0,92.47
+C100889,Occasional shoppers,91,1,1350.36,0.0,3957.7
+C108824,Loyal low-returners,10,7,1883.17,0.0,749.45
+C103140,Loyal low-returners,56,9,2227.23,0.1111111111111111,527.47
+C106865,Loyal low-returners,139,5,1321.49,0.0,346.2
+C106285,Loyal low-returners,61,6,2012.19,0.0,386.2
+C103337,Loyal low-returners,22,6,1797.12,0.16666666666666666,0.0
+C100599,Occasional shoppers,101,3,702.78,0.0,113.4
+C104358,Occasional shoppers,85,4,455.66,0.25,83.03
+C103954,Occasional shoppers,82,2,462.1,0.0,141.4
+C100778,Occasional shoppers,10,2,561.72,0.0,13.28
+C105557,Occasional shoppers,54,4,635.93,0.25,118.27
+C106981,Loyal low-returners,30,5,1407.89,0.4,300.89
+C108450,Loyal low-returners,24,3,1627.23,0.0,0.0
+C104670,Disputed / high-risk returners,158,2,333.35,0.5,0.0
+C108312,Occasional shoppers,96,3,704.15,0.3333333333333333,0.0
+C108547,Loyal low-returners,57,6,1100.85,0.5,224.84
+C102809,Loyal low-returners,155,4,3086.51,0.0,142.3
+C107575,Loyal low-returners,114,8,1042.97,0.125,211.1
+C107069,Frequent returners (size swaps),311,1,62.41,1.0,108.5
+C104585,Occasional shoppers,28,3,1332.15,0.0,106.73
+C108555,Loyal low-returners,212,6,1077.36,0.3333333333333333,290.88
+C108288,Occasional shoppers,168,2,829.26,0.0,242.73
+C105618,Lapsing customers,319,1,542.34,0.0,256.79
+C101921,Frequent returners (size swaps),106,2,161.34,0.5,24.94
+C105509,Frequent returners (size swaps),217,3,456.08,0.6666666666666666,12.67
+C106456,Frequent returners (size swaps),121,2,137.7,0.5,20.65
+C106508,Loyal low-returners,1,4,2104.4,0.25,0.0
+C102893,Frequent returners (size swaps),146,1,346.05,1.0,55.23
+C100661,Loyal low-returners,11,6,1123.11,0.0,127.73
+C105916,Occasional shoppers,61,4,886.25,0.0,549.58
+C100449,Lapsing customers,251,1,243.52,0.0,18.88
+C103428,Occasional shoppers,46,3,423.83,0.0,124.83
+C104050,Loyal low-returners,29,8,3638.85,0.125,157.59
+C103414,Frequent returners (size swaps),63,4,3127.93,0.75,254.02
+C102403,Loyal low-returners,6,5,924.83,0.0,0.0
+C101075,Occasional shoppers,62,3,1406.04,0.0,173.27
+C107672,Loyal low-returners,2,19,4864.38,0.10526315789473684,928.58
+C105957,Loyal low-returners,26,7,3625.01,0.0,289.64
+C103647,Occasional shoppers,214,4,728.59,0.25,0.0
+C102533,Lapsing customers,346,1,164.72,0.0,0.0
+C106948,Loyal low-returners,51,5,1671.85,0.4,329.3
+C102344,Lapsing customers,335,1,118.01,0.0,44.75
+C103483,Occasional shoppers,79,4,899.3,0.0,736.45
+C101907,Occasional shoppers,7,1,259.9,0.0,115.86
+C103688,Occasional shoppers,80,4,401.72,0.0,324.64
+C105381,Occasional shoppers,51,3,246.12,0.0,95.05
+C104982,Occasional shoppers,15,5,515.21,0.0,90.32
+C106177,Occasional shoppers,258,4,1489.39,0.0,451.13
+C103232,Frequent returners (size swaps),336,1,144.38,1.0,34.96
+C100632,Frequent returners (size swaps),274,3,1305.55,0.3333333333333333,58.82
+C107140,Loyal low-returners,63,6,1924.28,0.0,647.82
+C101114,Loyal low-returners,19,7,2596.43,0.0,259.71
+C101090,Occasional shoppers,95,1,188.15,0.0,11.87
+C101974,Lapsing customers,181,1,329.33,0.0,111.68
+C103130,Occasional shoppers,11,2,505.17,0.0,0.0
+C102768,Lapsing customers,351,1,386.32,0.0,47.85
+C108902,Frequent returners (size swaps),266,1,36.59,1.0,7.68
+C102747,Loyal low-returners,10,15,4325.13,0.06666666666666667,312.94
+C100193,Loyal low-returners,6,4,1398.88,0.0,681.46
+C101794,Occasional shoppers,124,3,1824.53,0.0,0.0
+C107752,Loyal low-returners,44,11,4561.51,0.18181818181818182,826.74
+C108593,Loyal low-returners,12,3,1771.95,0.0,753.38
+C107109,Occasional shoppers,102,3,485.41,0.3333333333333333,86.4
+C108446,Occasional shoppers,25,1,94.48,0.0,45.13
+C101506,Occasional shoppers,107,3,393.4,0.3333333333333333,85.85
+C104009,Loyal low-returners,222,6,4377.96,0.0,1141.42
+C100361,Loyal low-returners,26,10,4788.73,0.0,266.58
+C104825,Frequent returners (size swaps),167,2,334.69,0.5,34.78
+C103616,Lapsing customers,198,2,355.08,0.0,118.28
+C103922,Occasional shoppers,98,3,1426.83,0.0,473.07
+C107471,Lapsing customers,302,1,101.3,0.0,58.07
+C107762,Loyal low-returners,23,5,1406.64,0.4,688.25
+C105248,Loyal low-returners,199,4,1839.24,0.0,1541.58
+C105991,Occasional shoppers,162,4,321.61,0.0,42.26
+C107076,Loyal low-returners,89,5,670.75,0.2,226.81
+C102113,Occasional shoppers,11,4,532.62,0.25,25.72
+C108309,Occasional shoppers,106,1,267.84,0.0,0.0
+C105997,Loyal low-returners,90,6,925.99,0.0,422.9
+C106089,Loyal low-returners,67,11,2426.79,0.09090909090909091,224.0
+C102937,Occasional shoppers,131,2,220.18,0.0,0.0
+C105862,Loyal low-returners,10,6,1486.73,0.0,128.82
+C101101,Occasional shoppers,78,4,1049.32,0.0,362.07
+C102311,Occasional shoppers,126,2,180.82,0.0,26.03
+C108067,Loyal low-returners,130,5,742.09,0.2,305.17
+C102771,Frequent returners (size swaps),119,2,195.8,0.5,33.49
+C102636,Occasional shoppers,130,3,372.25,0.0,130.71
+C105811,Lapsing customers,209,2,577.1,0.0,221.52
+C107632,Disputed / high-risk returners,13,5,1014.62,0.2,216.9
+C101179,Frequent returners (size swaps),200,1,105.51,1.0,111.17
+C100198,Occasional shoppers,87,3,842.6,0.0,88.8
+C104833,Occasional shoppers,76,4,588.08,0.0,41.85
+C105234,Lapsing customers,342,1,320.18,0.0,66.12
+C108363,Occasional shoppers,159,1,1277.84,0.0,502.36
+C108409,Occasional shoppers,18,2,289.89,0.0,28.18
+C103764,Loyal low-returners,48,7,1360.44,0.5714285714285714,159.22
+C100803,Occasional shoppers,56,3,943.8,0.0,162.96
+C104846,Loyal low-returners,26,6,1177.22,0.16666666666666666,117.45
+C102958,Loyal low-returners,34,4,1031.77,0.25,144.25
+C101421,Disputed / high-risk returners,40,4,731.98,0.5,124.99
+C101383,Loyal low-returners,50,5,1374.76,0.2,148.85
+C104365,Occasional shoppers,154,4,763.53,0.25,317.02
+C103887,Lapsing customers,249,2,308.96,0.0,183.24
+C106090,Loyal low-returners,56,5,1081.79,0.0,613.0
+C100044,Occasional shoppers,27,2,577.61,0.0,322.61
+C102224,Loyal low-returners,94,5,713.47,0.2,61.29
+C108783,Occasional shoppers,72,3,365.97,0.0,79.74
+C107855,Loyal low-returners,167,5,927.13,0.4,124.63
+C102364,Loyal low-returners,62,8,1578.74,0.0,676.39
+C100237,Loyal low-returners,42,6,981.19,0.0,198.81
+C100203,Frequent returners (size swaps),3,2,947.17,0.5,303.36
+C106770,Occasional shoppers,39,3,330.71,0.0,138.71
+C108747,Frequent returners (size swaps),133,2,877.83,0.5,309.46
+C101098,Loyal low-returners,7,5,751.05,0.2,97.81
+C102510,Loyal low-returners,7,5,654.43,0.2,105.38
+C102832,Loyal low-returners,173,4,2024.09,0.25,97.67
+C101362,Loyal low-returners,98,6,2132.15,0.3333333333333333,242.18
+C100755,Occasional shoppers,204,3,537.34,0.0,79.47
+C101651,Disputed / high-risk returners,128,4,502.05,0.25,139.47
+C103197,Occasional shoppers,146,4,692.5,0.25,0.0
+C100093,Loyal low-returners,119,3,2786.93,0.3333333333333333,171.48
+C106446,Loyal low-returners,9,6,1205.57,0.0,46.14
+C101294,Loyal low-returners,26,4,793.04,0.5,193.93
+C108843,Occasional shoppers,14,2,492.52,0.0,0.0
+C107994,Loyal low-returners,36,7,2875.96,0.2857142857142857,848.96
+C103399,Lapsing customers,269,1,119.68,0.0,77.67
+C101160,Loyal low-returners,99,5,1828.63,0.0,0.0
+C106704,Lapsing customers,62,1,73.38,0.0,10.72
+C106165,Occasional shoppers,39,2,822.51,0.0,115.44
+C100280,Occasional shoppers,150,3,420.97,0.0,0.0
+C104297,Lapsing customers,259,2,790.42,0.0,487.19
+C103716,Lapsing customers,321,1,187.68,0.0,117.5
+C100878,Occasional shoppers,67,3,674.59,0.3333333333333333,348.93
+C103418,Lapsing customers,132,1,184.22,0.0,103.07
+C102815,Lapsing customers,240,1,143.82,0.0,139.71
+C100872,Frequent returners (size swaps),99,2,404.08,0.5,291.93
+C101723,Loyal low-returners,74,10,4732.41,0.0,622.3
+C101542,Loyal low-returners,1,8,1689.75,0.125,652.4
+C101146,Occasional shoppers,19,4,621.63,0.0,253.51
+C105140,Occasional shoppers,112,4,762.53,0.0,0.0
+C100810,Loyal low-returners,2,6,1003.48,0.3333333333333333,431.41
+C107197,Loyal low-returners,20,6,1041.99,0.0,228.48
+C100598,Lapsing customers,230,1,158.05,0.0,68.04
+C104206,Loyal low-returners,5,5,1276.42,0.4,51.7
+C103190,Disputed / high-risk returners,140,3,1003.69,0.3333333333333333,70.8
+C101144,Occasional shoppers,48,2,202.05,0.0,28.54
+C102597,Loyal low-returners,119,4,2690.67,0.0,126.27
+C104520,Lapsing customers,218,1,75.79,0.0,3.75
+C104742,Occasional shoppers,120,3,1419.31,0.0,41.43
+C101575,Lapsing customers,207,2,416.28,0.0,802.84
+C104045,Lapsing customers,194,2,361.07,0.0,78.12
+C108531,Loyal low-returners,60,4,2274.4,0.0,127.1
+C103182,Frequent returners (size swaps),50,1,241.94,1.0,65.69
+C100421,Lapsing customers,169,1,65.92,0.0,11.84
+C100060,Loyal low-returners,9,7,1856.16,0.14285714285714285,0.0
+C100074,Frequent returners (size swaps),203,2,138.15,0.5,7.31
+C105713,Occasional shoppers,112,5,585.66,0.0,0.0
+C103786,Lapsing customers,292,1,109.88,0.0,219.09
+C108343,Frequent returners (size swaps),135,2,530.5,0.5,154.57
+C104868,Occasional shoppers,77,3,1492.16,0.0,557.79
+C101816,Loyal low-returners,64,9,1665.65,0.2222222222222222,210.44
+C107273,Loyal low-returners,14,4,1252.81,0.0,570.3
+C103805,Loyal low-returners,1,3,3564.88,0.6666666666666666,764.13
+C107408,Loyal low-returners,50,9,3336.13,0.2222222222222222,964.24
+C101695,Occasional shoppers,69,1,109.43,0.0,46.69
+C107588,Lapsing customers,313,2,166.47,0.0,64.43
+C102750,Occasional shoppers,64,2,193.19,0.0,53.83
+C100492,Frequent returners (size swaps),118,4,1055.59,0.75,66.03
+C102600,Loyal low-returners,35,5,1096.16,0.0,206.25
+C108451,Occasional shoppers,170,3,1558.52,0.0,620.7
+C104539,Occasional shoppers,78,5,513.89,0.0,0.0
+C104826,Loyal low-returners,39,4,1060.21,0.0,146.4
+C104186,Lapsing customers,240,1,158.67,0.0,39.18
+C105541,Lapsing customers,245,2,258.54,0.0,59.97
+C104516,Lapsing customers,232,2,289.27,0.0,93.6
+C104198,Frequent returners (size swaps),165,2,185.48,0.5,25.65
+C108260,Loyal low-returners,126,4,1639.77,0.25,116.85
+C104488,Loyal low-returners,3,5,756.2,0.0,0.0
+C103830,Loyal low-returners,78,4,1620.6,0.25,111.67
+C101710,Lapsing customers,361,1,158.13,0.0,33.73
+C100020,Loyal low-returners,81,4,979.06,0.25,0.0
+C104415,Occasional shoppers,178,3,1321.76,0.0,160.76
+C103518,Disputed / high-risk returners,62,8,5110.35,0.5,1496.63
+C108983,Lapsing customers,145,1,85.87,0.0,37.2
+C103431,Occasional shoppers,118,3,359.25,0.0,127.4
+C105623,Occasional shoppers,92,2,158.3,0.0,8.18
+C102729,Occasional shoppers,86,2,641.89,0.0,198.48
+C104472,Frequent returners (size swaps),132,1,129.02,1.0,26.2
+C100825,Occasional shoppers,6,3,460.27,0.0,0.0
+C107485,Occasional shoppers,16,1,441.92,0.0,153.9
+C108026,Frequent returners (size swaps),51,2,289.81,0.5,59.0
+C102880,Loyal low-returners,110,7,1900.45,0.0,185.02
+C100523,Occasional shoppers,171,3,1349.63,0.0,328.24
+C108113,Lapsing customers,159,1,456.55,0.0,394.0
+C108619,Occasional shoppers,68,2,2965.77,0.0,621.19
+C104339,Occasional shoppers,4,3,495.51,0.3333333333333333,169.91
+C100515,Loyal low-returners,42,9,2945.69,0.1111111111111111,1082.49
+C102090,Loyal low-returners,17,7,1512.66,0.0,310.4
+C106783,Occasional shoppers,6,2,500.53,0.0,26.99
+C100338,Disputed / high-risk returners,26,7,1206.39,0.42857142857142855,151.19
+C108897,Loyal low-returners,12,6,970.06,0.16666666666666666,60.1
+C107111,Lapsing customers,235,2,672.18,0.0,257.44
+C101340,Loyal low-returners,83,6,765.38,0.0,110.61
+C107647,Occasional shoppers,3,3,240.81,0.0,28.45
+C107976,Loyal low-returners,146,5,1285.47,0.0,90.56
+C104094,Lapsing customers,237,1,113.72,0.0,31.17
+C106088,Loyal low-returners,65,6,2428.1,0.0,1500.68
+C104609,Occasional shoppers,102,3,1212.31,0.0,0.0
+C103324,Frequent returners (size swaps),24,2,205.03,0.5,71.31
+C106473,Loyal low-returners,35,12,3754.77,0.0,1876.33
+C104392,Loyal low-returners,26,14,3977.0,0.0,1562.92
+C102506,Frequent returners (size swaps),168,2,319.91,1.0,20.54
+C100962,Loyal low-returners,10,7,1720.34,0.2857142857142857,186.81
+C106547,Lapsing customers,216,2,214.51,0.0,50.13
+C100086,Occasional shoppers,56,1,73.96,0.0,33.47
+C105431,Loyal low-returners,53,6,2530.34,0.16666666666666666,82.64
+C100705,Loyal low-returners,173,5,975.42,0.0,246.79
+C102003,Lapsing customers,89,1,96.21,0.0,53.89
+C103475,Lapsing customers,318,1,89.13,0.0,65.75
+C108045,Lapsing customers,201,2,260.89,0.0,41.5
+C104221,Occasional shoppers,131,2,284.29,0.0,0.0
+C108011,Occasional shoppers,64,3,496.22,0.3333333333333333,58.73
+C103790,Loyal low-returners,79,5,1584.58,0.4,115.38
+C105771,Loyal low-returners,6,4,975.51,0.0,987.38
+C104728,Occasional shoppers,146,4,383.11,0.0,71.31
+C106985,Frequent returners (size swaps),34,2,992.53,0.5,91.12
+C102722,Occasional shoppers,4,2,984.34,0.0,0.0
+C105137,Occasional shoppers,34,3,594.03,0.3333333333333333,138.69
+C101134,Occasional shoppers,129,2,178.63,0.0,129.66
+C104885,Lapsing customers,55,1,67.95,0.0,111.99
+C107212,Lapsing customers,195,1,104.27,0.0,97.02
+C102397,Loyal low-returners,70,4,5874.49,0.25,595.94
+C104800,Loyal low-returners,163,5,1445.03,0.4,509.58
+C104782,Loyal low-returners,81,5,1773.52,0.4,104.96
+C101278,Loyal low-returners,1,9,2631.95,0.1111111111111111,331.4
+C100130,Loyal low-returners,16,4,941.07,0.0,396.57
+C102673,Loyal low-returners,25,4,1182.64,0.0,266.54
+C103462,Occasional shoppers,51,3,832.63,0.0,274.82
+C108465,Loyal low-returners,47,5,2064.0,0.2,521.61
+C101958,Occasional shoppers,157,4,877.99,0.0,0.0
+C103347,Occasional shoppers,48,2,624.73,0.0,476.45
+C101444,Lapsing customers,304,3,578.93,0.0,23.2
+C107529,Lapsing customers,257,1,641.64,0.0,156.35
+C107973,Loyal low-returners,5,7,3136.68,0.2857142857142857,387.69
+C105539,Loyal low-returners,2,6,2290.85,0.3333333333333333,1928.69
+C102173,Occasional shoppers,104,2,567.11,0.0,31.13
+C102947,Loyal low-returners,18,6,1299.91,0.16666666666666666,231.39
+C108908,Occasional shoppers,154,2,364.09,0.0,130.78
+C105127,Loyal low-returners,60,3,1614.48,0.3333333333333333,1233.86
+C103157,Lapsing customers,306,1,150.67,0.0,13.47
+C107616,Loyal low-returners,5,13,2320.18,0.07692307692307693,329.61
+C104126,Occasional shoppers,67,3,307.93,0.0,120.15
+C104637,Loyal low-returners,40,6,999.44,0.16666666666666666,265.42
+C107220,Frequent returners (size swaps),1,2,309.83,0.5,64.57
+C103305,Loyal low-returners,11,6,1890.83,0.16666666666666666,149.92
+C103291,Lapsing customers,169,1,555.3,0.0,108.23
+C100948,Occasional shoppers,16,4,639.67,0.0,127.57
+C108456,Frequent returners (size swaps),161,2,404.7,0.5,127.94
+C103043,Occasional shoppers,161,4,918.48,0.0,56.01
+C102929,Loyal low-returners,128,4,1357.76,0.25,201.31
+C104431,Lapsing customers,212,2,266.8,0.0,141.63
+C101234,Occasional shoppers,65,2,2904.87,0.0,730.67
+C104363,Lapsing customers,365,1,109.29,0.0,53.72
+C102345,Occasional shoppers,58,2,439.14,0.0,142.44
+C107036,Occasional shoppers,76,4,714.93,0.0,273.07
+C107418,Loyal low-returners,24,5,1108.72,0.0,254.42
+C104542,Lapsing customers,346,1,541.65,0.0,0.0
+C105930,Lapsing customers,342,1,134.15,0.0,142.99
+C103795,Loyal low-returners,71,8,1438.84,0.125,416.54
+C102962,Frequent returners (size swaps),253,2,138.24,0.5,12.28
+C105701,Loyal low-returners,26,4,3006.34,0.0,76.84
+C107410,Occasional shoppers,200,3,1108.34,0.0,0.0
+C104563,Lapsing customers,197,2,389.43,0.0,23.59
+C100679,Loyal low-returners,25,8,3607.24,0.25,0.0
+C102997,Lapsing customers,199,1,242.93,0.0,0.0
+C104204,Loyal low-returners,31,8,1311.48,0.0,500.18
+C104412,Frequent returners (size swaps),42,4,661.2,0.5,55.42
+C100848,Disputed / high-risk returners,14,15,3457.96,0.13333333333333333,103.12
+C104891,Occasional shoppers,51,3,437.83,0.3333333333333333,88.12
+C106075,Loyal low-returners,74,4,2313.16,0.0,802.29
+C101543,Occasional shoppers,27,2,293.32,0.0,80.49
+C105262,Loyal low-returners,11,4,1610.71,0.0,194.44
+C100054,Occasional shoppers,1,2,192.82,0.0,17.03
+C106170,Loyal low-returners,132,6,1495.06,0.16666666666666666,253.01
+C100806,Lapsing customers,209,2,558.71,0.0,225.99
+C100268,Occasional shoppers,122,2,293.29,0.0,82.79
+C106495,Occasional shoppers,51,4,307.1,0.0,39.25
+C100196,Lapsing customers,280,2,503.8,0.0,354.94
+C107753,Lapsing customers,229,3,688.09,0.0,367.31
+C100018,Loyal low-returners,26,4,1590.94,0.0,298.98
+C102485,Disputed / high-risk returners,13,9,1315.84,0.6666666666666666,135.12
+C105570,Loyal low-returners,61,13,2945.69,0.07692307692307693,54.18
+C103839,Frequent returners (size swaps),22,3,392.54,1.0,153.34
+C105638,Loyal low-returners,89,7,1138.54,0.2857142857142857,545.47
+C105937,Occasional shoppers,107,3,344.19,0.0,0.0
+C106774,Loyal low-returners,84,7,1911.58,0.2857142857142857,190.76
+C107375,Occasional shoppers,4,3,614.21,0.0,73.17
+C101385,Loyal low-returners,120,4,1391.61,0.25,549.13
+C103359,Loyal low-returners,84,4,1787.82,0.25,747.51
+C102511,Loyal low-returners,11,5,1197.73,0.0,135.18
+C104831,Occasional shoppers,53,3,244.6,0.0,79.87
+C106715,Occasional shoppers,185,2,677.04,0.0,105.95
+C100562,Lapsing customers,178,2,206.92,0.0,75.81
+C100354,Occasional shoppers,101,1,1026.55,0.0,646.02
+C108766,Frequent returners (size swaps),49,3,856.24,0.6666666666666666,470.97
+C104980,Occasional shoppers,185,2,575.67,0.0,118.89
+C106379,Occasional shoppers,113,2,246.39,0.0,42.81
+C101519,Loyal low-returners,24,19,4626.58,0.05263157894736842,2521.3
+C107912,Occasional shoppers,14,1,79.52,0.0,6.72
+C102437,Occasional shoppers,8,2,1443.08,0.0,1219.61
+C102292,Loyal low-returners,22,4,3634.49,0.0,1167.07
+C106169,Occasional shoppers,148,3,619.06,0.0,26.91
+C101270,Loyal low-returners,20,4,1092.49,0.0,0.0
+C108853,Lapsing customers,175,1,195.98,0.0,223.34
+C102708,Loyal low-returners,6,9,2437.69,0.0,615.58
+C108654,Loyal low-returners,25,12,2472.66,0.0,43.26
+C107185,Loyal low-returners,8,8,2017.55,0.25,344.53
+C107367,Occasional shoppers,188,3,1435.73,0.3333333333333333,0.0
+C103664,Occasional shoppers,182,3,1658.25,0.0,133.35
+C101505,Lapsing customers,342,1,172.16,0.0,96.87
+C102870,Occasional shoppers,59,3,357.96,0.0,220.4
+C102560,Lapsing customers,212,3,417.88,0.0,9.33
+C106419,Loyal low-returners,2,13,5070.32,0.38461538461538464,362.63
+C105040,Occasional shoppers,23,4,837.9,0.0,19.81
+C108494,Loyal low-returners,32,7,1834.25,0.0,160.08
+C107276,Lapsing customers,108,1,119.24,0.0,114.86
+C101149,Occasional shoppers,50,2,521.53,0.0,76.19
+C106336,Loyal low-returners,23,6,2771.64,0.0,691.11
+C102038,Loyal low-returners,72,5,912.65,0.0,0.0
+C108917,Occasional shoppers,56,4,664.16,0.25,16.99
+C103312,Loyal low-returners,5,11,3440.71,0.0,1503.41
+C101161,Loyal low-returners,21,6,848.64,0.0,106.94
+C106956,Occasional shoppers,53,1,445.22,0.0,63.9
+C108324,Lapsing customers,245,3,603.23,0.0,0.0
+C105039,Loyal low-returners,40,4,1862.27,0.0,193.0
+C104439,Lapsing customers,155,1,205.97,0.0,141.11
+C106069,Occasional shoppers,32,1,90.36,0.0,17.22
+C102872,Lapsing customers,225,2,628.7,0.0,68.09
+C105654,Lapsing customers,308,1,63.61,0.0,26.38
+C105789,Occasional shoppers,4,1,139.45,0.0,175.7
+C108941,Occasional shoppers,159,2,832.56,0.0,439.16
+C101290,Loyal low-returners,25,6,4200.13,0.0,261.63
+C107200,Occasional shoppers,118,3,959.02,0.0,281.98
+C106070,Lapsing customers,168,1,465.46,0.0,38.74
+C108846,Occasional shoppers,100,4,836.05,0.0,181.54
+C101427,Lapsing customers,184,1,739.05,0.0,249.99
+C106539,Occasional shoppers,75,3,1186.85,0.0,317.62
+C100482,Loyal low-returners,26,6,1432.43,0.16666666666666666,185.15
+C101476,Occasional shoppers,6,4,801.55,0.0,276.1
+C105310,Occasional shoppers,38,3,662.35,0.3333333333333333,90.11
+C103973,Loyal low-returners,63,5,2834.59,0.0,609.17
+C107639,Loyal low-returners,54,5,543.7,0.2,135.69
+C108895,Lapsing customers,104,1,130.68,0.0,0.0
+C105429,Lapsing customers,100,1,46.68,0.0,46.07
+C102390,Loyal low-returners,32,5,1446.68,0.2,207.92
+C105743,Frequent returners (size swaps),64,2,246.18,0.5,88.14
+C102619,Loyal low-returners,65,5,913.5,0.0,408.79
+C108880,Loyal low-returners,2,4,1185.61,0.0,201.25
+C103112,Occasional shoppers,99,2,496.64,0.0,165.74
+C107103,Loyal low-returners,92,4,771.84,0.25,141.89
+C104702,Loyal low-returners,27,7,1049.86,0.14285714285714285,214.68
+C105911,Frequent returners (size swaps),232,3,1262.51,0.6666666666666666,539.18
+C107813,Loyal low-returners,40,4,940.49,0.0,332.02
+C101850,Lapsing customers,343,2,457.16,0.0,55.49
+C101536,Occasional shoppers,159,3,449.7,0.0,200.61
+C105193,Loyal low-returners,130,5,732.44,0.4,121.22
+C104995,Frequent returners (size swaps),216,3,879.28,0.6666666666666666,140.91
+C100533,Lapsing customers,343,1,384.27,0.0,77.03
+C108273,Loyal low-returners,132,4,2209.86,0.0,413.75
+C100218,Loyal low-returners,58,9,4771.78,0.5555555555555556,171.88
+C106361,Occasional shoppers,10,1,56.42,0.0,11.17
+C107501,Lapsing customers,202,2,276.35,0.0,74.58
+C107424,Lapsing customers,317,1,104.05,0.0,18.44
+C104723,Lapsing customers,242,1,159.55,0.0,0.0
+C108352,Lapsing customers,191,1,758.39,0.0,431.18
+C102052,Loyal low-returners,22,5,2270.69,0.0,307.73
+C104303,Occasional shoppers,68,1,301.14,0.0,49.92
+C103329,Lapsing customers,295,2,567.27,0.0,278.71
+C105378,Loyal low-returners,62,5,1350.28,0.0,560.2
+C102950,Occasional shoppers,158,1,1415.59,0.0,131.07
+C106683,Lapsing customers,344,1,312.02,0.0,157.58
+C105798,Loyal low-returners,48,5,643.41,0.2,73.02
+C102919,Loyal low-returners,13,4,3730.15,0.0,0.0
+C101876,Loyal low-returners,32,3,1936.84,0.3333333333333333,1527.85
+C105702,Loyal low-returners,11,9,1367.92,0.2222222222222222,105.18
+C102231,Loyal low-returners,17,9,1052.31,0.2222222222222222,191.18
+C107210,Disputed / high-risk returners,142,2,286.28,0.5,24.31
+C107743,Frequent returners (size swaps),123,2,503.34,0.5,113.82
+C103229,Lapsing customers,305,1,542.04,0.0,392.19
+C105590,Occasional shoppers,46,4,540.04,0.0,211.56
+C108807,Loyal low-returners,89,3,5973.56,0.0,4736.96
+C100783,Occasional shoppers,8,3,453.84,0.0,126.8
+C100392,Frequent returners (size swaps),35,1,290.68,1.0,29.09
+C100735,Loyal low-returners,3,5,686.06,0.0,228.66
+C107155,Disputed / high-risk returners,21,8,1418.67,0.375,288.87
+C100052,Loyal low-returners,2,8,1934.75,0.0,458.22
+C102842,Lapsing customers,337,4,1184.0,0.0,683.76
+C100706,Lapsing customers,236,1,186.37,0.0,0.0
+C102514,Loyal low-returners,9,7,1073.57,0.14285714285714285,115.43
+C104864,Loyal low-returners,47,6,1489.4,0.3333333333333333,708.99
+C100192,Loyal low-returners,233,3,3014.14,0.0,230.27
+C102322,Lapsing customers,166,1,86.5,0.0,26.2
+C105726,Loyal low-returners,65,3,1187.51,0.3333333333333333,418.31
+C102717,Occasional shoppers,122,1,412.65,0.0,134.93
+C105180,Lapsing customers,323,1,219.77,0.0,21.56
+C100861,Occasional shoppers,38,2,1195.34,0.0,200.74
+C102583,Loyal low-returners,7,11,2049.4,0.45454545454545453,0.0
+C103918,Lapsing customers,118,1,51.04,0.0,64.28
+C107373,Frequent returners (size swaps),230,2,454.33,0.5,236.7
+C106968,Loyal low-returners,15,5,1618.86,0.2,473.48
+C104570,Occasional shoppers,105,4,611.44,0.0,13.99
+C105271,Loyal low-returners,74,5,1012.44,0.4,218.15
+C108248,Lapsing customers,145,2,142.93,0.0,8.42
+C107761,Occasional shoppers,39,4,524.74,0.0,149.21
+C100099,Loyal low-returners,88,4,2467.41,0.25,0.0
+C101898,Occasional shoppers,43,4,751.49,0.0,17.78
+C108161,Disputed / high-risk returners,236,2,432.79,0.5,113.16
+C108701,Lapsing customers,241,1,96.84,0.0,59.26
+C106576,Loyal low-returners,80,6,1312.19,0.0,188.09
+C106374,Loyal low-returners,22,4,1009.15,0.0,228.44
+C104375,Occasional shoppers,137,2,265.7,0.0,44.03
+C103806,Disputed / high-risk returners,95,2,972.24,0.5,472.87
+C100582,Loyal low-returners,9,10,2744.35,0.2,176.65
+C101451,Loyal low-returners,54,10,2815.42,0.2,122.78
+C101092,Loyal low-returners,8,7,1138.19,0.0,409.88
+C103318,Occasional shoppers,35,3,561.61,0.0,425.82
+C107369,Frequent returners (size swaps),342,1,166.93,1.0,0.0
+C107238,Loyal low-returners,43,6,2215.11,0.16666666666666666,250.82
+C100115,Loyal low-returners,12,5,1519.98,0.0,789.02
+C107509,Frequent returners (size swaps),246,3,1803.64,0.6666666666666666,609.41
+C101115,Lapsing customers,341,1,421.39,0.0,244.54
+C100143,Loyal low-returners,268,4,2179.82,0.25,226.0
+C103085,Occasional shoppers,181,2,1730.65,0.0,134.08
+C104038,Lapsing customers,314,1,1239.83,0.0,780.66
+C108056,Disputed / high-risk returners,38,8,2809.53,0.375,302.16
+C106864,Occasional shoppers,3,3,809.61,0.0,55.05
+C106939,Occasional shoppers,195,3,1368.56,0.0,770.33
+C102755,Loyal low-returners,5,8,1140.61,0.125,211.76
+C101649,Lapsing customers,84,1,91.21,0.0,16.4
+C106838,Occasional shoppers,2,4,683.69,0.0,423.92
+C108231,Loyal low-returners,164,4,1652.34,0.0,95.95
+C103524,Loyal low-returners,27,5,1412.09,0.0,1333.69
+C107764,Loyal low-returners,17,8,1495.09,0.125,270.02
+C100766,Loyal low-returners,33,5,645.48,0.0,524.03
+C102833,Occasional shoppers,6,2,272.71,0.0,67.09
+C101977,Occasional shoppers,100,4,399.16,0.25,159.22
+C100183,Lapsing customers,291,3,278.38,0.0,77.84
+C100407,Loyal low-returners,31,7,2237.62,0.0,73.62
+C103930,Frequent returners (size swaps),338,1,584.62,1.0,182.2
+C106599,Lapsing customers,212,1,175.0,0.0,39.68
+C100915,Lapsing customers,299,4,604.15,0.25,122.42
+C104844,Lapsing customers,215,1,106.98,0.0,0.0
+C104446,Loyal low-returners,42,4,1167.02,0.0,458.33
+C105518,Loyal low-returners,99,11,3303.5,0.18181818181818182,548.37
+C101419,Loyal low-returners,3,11,2118.23,0.2727272727272727,314.87
+C107182,Loyal low-returners,145,4,2226.81,0.5,110.01
+C108512,Occasional shoppers,5,3,558.17,0.0,130.83
+C105889,Occasional shoppers,151,3,469.69,0.0,145.99
+C102211,Occasional shoppers,173,3,492.54,0.0,182.41
+C103669,Loyal low-returners,61,6,1252.54,0.16666666666666666,82.56
+C105200,Occasional shoppers,88,3,606.02,0.0,155.18
+C108709,Occasional shoppers,47,3,844.37,0.0,745.97
+C103034,Occasional shoppers,62,2,727.16,0.0,271.84
+C103957,Lapsing customers,254,2,166.27,0.0,56.4
+C108238,Lapsing customers,248,1,92.75,0.0,28.62
+C106434,Occasional shoppers,123,2,144.87,0.0,77.32
+C101193,Loyal low-returners,80,8,1564.33,0.0,360.79
+C108016,Lapsing customers,305,2,844.77,0.0,175.17
+C107102,Loyal low-returners,17,5,2073.79,0.2,508.27
+C104370,Loyal low-returners,22,5,812.2,0.0,291.64
+C105979,Loyal low-returners,34,5,749.83,0.2,268.89
+C101776,Loyal low-returners,23,8,2727.53,0.125,97.73
+C107893,Occasional shoppers,25,3,770.4,0.3333333333333333,219.64
+C105112,Occasional shoppers,6,4,746.32,0.0,148.98
+C107718,Loyal low-returners,67,7,1441.17,0.2857142857142857,665.03
+C103055,Occasional shoppers,73,2,122.47,0.0,101.46
+C108951,Loyal low-returners,28,8,1483.03,0.0,111.66
+C105832,Disputed / high-risk returners,141,2,400.12,1.0,21.84
+C106728,Loyal low-returners,1,5,942.03,0.0,501.0
+C108605,Loyal low-returners,119,9,2320.69,0.0,993.53
+C101306,Occasional shoppers,16,2,432.53,0.0,0.0
+C104988,Loyal low-returners,49,3,2087.6,0.0,0.0
+C108166,Lapsing customers,206,2,292.51,0.0,29.13
+C102181,Occasional shoppers,122,4,516.84,0.25,49.7
+C107717,Loyal low-returners,27,4,2871.1,0.25,1652.87
+C100079,Occasional shoppers,93,3,524.96,0.3333333333333333,54.36
+C104459,Loyal low-returners,4,6,950.42,0.0,763.12
+C101516,Occasional shoppers,40,2,867.06,0.0,102.88
+C107729,Lapsing customers,190,1,105.56,0.0,105.62
+C106275,Occasional shoppers,2,1,119.66,0.0,27.72
+C101920,Loyal low-returners,17,8,3474.2,0.125,1169.61
+C105329,Occasional shoppers,121,3,1483.02,0.0,115.61
+C101251,Occasional shoppers,8,3,649.86,0.3333333333333333,56.41
+C102416,Lapsing customers,175,2,332.9,0.0,68.57
+C101550,Loyal low-returners,70,5,770.62,0.0,134.2
+C105641,Loyal low-returners,24,4,1243.19,0.25,0.0
+C102068,Occasional shoppers,109,3,522.64,0.3333333333333333,234.24
+C105038,Loyal low-returners,134,6,1537.3,0.0,267.25
+C105755,Occasional shoppers,41,1,186.78,0.0,246.5
+C101766,Occasional shoppers,139,2,1246.32,0.0,358.2
+C100033,Loyal low-returners,31,9,1881.73,0.0,294.53
+C103363,Loyal low-returners,24,5,2339.46,0.0,761.8
+C108599,Occasional shoppers,46,4,813.55,0.0,0.0
+C105561,Loyal low-returners,11,10,2952.16,0.2,804.19
+C100184,Occasional shoppers,101,3,362.87,0.0,25.21
+C103760,Occasional shoppers,15,4,551.1,0.25,40.91
+C104001,Loyal low-returners,30,7,1665.87,0.14285714285714285,47.15
+C105185,Frequent returners (size swaps),65,1,141.56,1.0,84.88
+C106219,Loyal low-returners,29,5,584.81,0.2,0.0
+C100883,Frequent returners (size swaps),183,2,763.81,0.5,0.0
+C104684,Lapsing customers,311,1,486.27,0.0,141.64
+C107437,Loyal low-returners,67,6,1519.01,0.5,157.17
+C103934,Occasional shoppers,56,2,719.47,0.0,96.47
+C102410,Loyal low-returners,44,5,1534.8,0.0,135.72
+C108694,Occasional shoppers,14,3,372.74,0.0,62.45
+C103772,Occasional shoppers,193,3,499.79,0.0,57.8
+C107491,Loyal low-returners,1,6,1565.56,0.3333333333333333,529.31
+C107693,Frequent returners (size swaps),174,2,227.52,0.5,103.14
+C102060,Frequent returners (size swaps),105,2,1146.34,1.0,90.21
+C108178,Loyal low-returners,15,5,897.21,0.2,106.61
+C108934,Occasional shoppers,9,1,81.95,0.0,74.12
+C100028,Lapsing customers,216,2,292.13,0.0,127.16
+C102057,Loyal low-returners,94,8,1205.33,0.125,527.38
+C107082,Loyal low-returners,32,3,986.59,0.3333333333333333,445.04
+C102775,Lapsing customers,315,2,272.86,0.0,73.47
+C108119,Occasional shoppers,1,2,331.34,0.0,164.12
+C105822,Loyal low-returners,78,4,1127.5,0.0,84.41
+C107521,Occasional shoppers,14,4,726.86,0.0,175.01
+C101706,Loyal low-returners,49,6,743.56,0.0,169.07
+C108849,Disputed / high-risk returners,59,2,168.26,0.5,10.3
+C108050,Loyal low-returners,30,7,1124.68,0.5714285714285714,422.29
+C100549,Occasional shoppers,111,2,990.29,0.0,331.46
+C107122,Loyal low-returners,89,7,1270.62,0.0,335.11
+C100484,Lapsing customers,362,1,193.3,0.0,111.37
+C105455,Occasional shoppers,204,2,1221.95,0.0,151.07
+C101658,Loyal low-returners,11,5,2642.51,0.0,390.26
+C107735,Disputed / high-risk returners,46,8,1120.3,0.5,24.87
+C102237,Occasional shoppers,34,3,316.51,0.0,253.79
+C103109,Occasional shoppers,65,3,417.78,0.3333333333333333,61.94
+C104251,Occasional shoppers,153,2,307.18,0.0,20.25
+C102922,Occasional shoppers,52,4,607.29,0.25,208.23
+C104102,Occasional shoppers,112,3,597.67,0.0,207.79
+C107352,Lapsing customers,237,1,89.62,0.0,33.39
+C106408,Occasional shoppers,90,3,397.31,0.0,213.15
+C103611,Lapsing customers,149,1,94.75,0.0,0.0
+C107344,Loyal low-returners,28,5,4805.89,0.0,2812.92
+C105235,Loyal low-returners,41,6,2105.36,0.0,796.43
+C104253,Loyal low-returners,52,3,1659.56,0.0,55.07
+C102754,Loyal low-returners,102,4,1353.0,0.0,853.65
+C106708,Occasional shoppers,23,3,1166.8,0.0,188.6
+C106188,Loyal low-returners,36,5,1086.75,0.0,504.97
+C102975,Loyal low-returners,1,13,8841.6,0.0,946.23
+C105546,Frequent returners (size swaps),339,1,113.63,1.0,117.97
+C103429,Occasional shoppers,42,3,634.03,0.0,71.88
+C100586,Lapsing customers,289,3,231.01,0.0,3.07
+C101911,Occasional shoppers,162,2,380.67,0.0,0.0
+C100642,Disputed / high-risk returners,14,11,1569.17,0.18181818181818182,186.37
+C106634,Loyal low-returners,3,5,1008.77,0.0,519.21
+C105117,Loyal low-returners,137,7,1598.22,0.0,184.28
+C101404,Lapsing customers,123,2,80.56,0.0,0.0
+C102110,Loyal low-returners,1,18,5196.2,0.16666666666666666,1741.85
+C107227,Frequent returners (size swaps),129,1,215.85,1.0,0.0
+C104877,Loyal low-returners,29,7,1515.29,0.14285714285714285,408.59
+C100538,Occasional shoppers,13,1,53.81,0.0,105.5
+C105817,Occasional shoppers,105,3,648.62,0.0,0.0
+C106115,Frequent returners (size swaps),190,1,225.75,1.0,90.99
+C101591,Loyal low-returners,2,13,2014.15,0.07692307692307693,1115.7
+C101947,Occasional shoppers,2,3,1166.97,0.0,35.49
+C105531,Loyal low-returners,45,6,941.4,0.3333333333333333,90.21
+C102349,Occasional shoppers,176,2,464.09,0.0,61.51
+C100933,Occasional shoppers,76,2,300.07,0.0,190.04
+C102138,Occasional shoppers,36,2,959.8,0.0,89.37
+C102782,Occasional shoppers,67,3,491.78,0.3333333333333333,29.29
+C101835,Loyal low-returners,38,6,986.26,0.0,516.69
+C108724,Loyal low-returners,127,7,1722.43,0.42857142857142855,258.88
+C102327,Loyal low-returners,24,4,1499.13,0.25,0.0
+C103755,Loyal low-returners,12,5,1091.42,0.2,48.93
+C105233,Loyal low-returners,88,6,5040.32,0.16666666666666666,947.91
+C100437,Lapsing customers,325,1,128.27,0.0,23.69
+C108740,Lapsing customers,255,1,1418.59,0.0,578.27
+C104154,Occasional shoppers,20,1,52.34,0.0,120.44
+C100442,Occasional shoppers,3,2,309.86,0.0,0.0
+C103771,Loyal low-returners,16,6,2032.69,0.0,846.95
+C102851,Loyal low-returners,45,8,1815.48,0.125,309.02
+C107339,Loyal low-returners,1,4,1225.1,0.25,38.67
+C104764,Loyal low-returners,13,7,1602.22,0.42857142857142855,227.89
+C104059,Lapsing customers,328,1,189.11,0.0,26.6
+C106316,Lapsing customers,342,1,679.67,0.0,568.36
+C106512,Occasional shoppers,52,4,584.86,0.0,118.38
+C107198,Occasional shoppers,151,3,341.82,0.0,4.28
+C105240,Occasional shoppers,26,1,91.1,0.0,5.01
+C100628,Loyal low-returners,94,4,1372.5,0.0,149.41
+C101468,Lapsing customers,358,1,56.46,0.0,35.2
+C103413,Loyal low-returners,59,4,2965.49,0.0,289.57
+C102739,Loyal low-returners,90,3,1201.6,0.3333333333333333,162.15
+C102328,Loyal low-returners,6,7,2717.23,0.0,358.15
+C100587,Occasional shoppers,20,3,333.82,0.0,118.24
+C102577,Occasional shoppers,38,1,127.09,0.0,216.37
+C104429,Loyal low-returners,55,9,1857.88,0.0,271.79
+C101773,Frequent returners (size swaps),239,3,1885.36,0.3333333333333333,231.75
+C103280,Occasional shoppers,95,3,774.4,0.3333333333333333,39.49
+C104994,Occasional shoppers,108,2,846.35,0.0,71.03
+C105053,Occasional shoppers,31,2,229.62,0.0,57.68
+C106415,Lapsing customers,161,1,522.15,0.0,440.67
+C100520,Occasional shoppers,77,2,457.68,0.0,566.09
+C106224,Loyal low-returners,1,7,728.71,0.0,52.49
+C103854,Occasional shoppers,87,3,444.11,0.3333333333333333,0.0
+C100964,Occasional shoppers,9,2,790.89,0.0,231.72
+C104061,Occasional shoppers,92,2,123.48,0.0,2.25
+C107570,Occasional shoppers,26,2,569.47,0.0,118.84
+C101866,Lapsing customers,143,1,201.17,0.0,0.0
+C107268,Occasional shoppers,4,3,548.72,0.0,53.84
+C100516,Loyal low-returners,47,4,1282.52,0.0,194.12
+C106597,Loyal low-returners,82,5,1723.54,0.2,544.64
+C103742,Occasional shoppers,3,1,845.56,0.0,385.23
+C100270,Occasional shoppers,170,3,753.65,0.0,213.91
+C102122,Occasional shoppers,105,2,167.76,0.0,25.0
+C106766,Occasional shoppers,65,2,645.15,0.0,182.8
+C100947,Occasional shoppers,102,3,389.23,0.0,11.01
+C100835,Loyal low-returners,203,6,3523.5,0.6666666666666666,316.55
+C105028,Occasional shoppers,27,2,680.9,0.0,0.0
+C108936,Loyal low-returners,5,6,1094.1,0.3333333333333333,0.0
+C101748,Occasional shoppers,104,3,458.15,0.3333333333333333,257.67
+C106414,Lapsing customers,234,1,216.15,0.0,37.47
+C108286,Occasional shoppers,3,1,196.57,0.0,81.25
+C102923,Frequent returners (size swaps),141,3,167.66,0.6666666666666666,58.51
+C100469,Lapsing customers,179,1,61.85,0.0,0.0
+C102118,Occasional shoppers,55,4,848.87,0.0,70.95
+C105380,Occasional shoppers,7,3,394.04,0.0,25.26
+C106608,Loyal low-returners,4,4,881.36,0.5,550.39
+C100248,Loyal low-returners,5,5,1025.61,0.2,78.52
+C101916,Occasional shoppers,128,3,711.49,0.0,98.04
+C107497,Loyal low-returners,10,12,3255.57,0.16666666666666666,1381.76
+C100765,Occasional shoppers,128,3,237.31,0.0,86.76
+C101142,Loyal low-returners,8,4,929.11,0.0,213.57
+C107692,Frequent returners (size swaps),58,3,800.53,0.6666666666666666,21.5
+C102125,Loyal low-returners,15,7,1882.23,0.2857142857142857,364.25
+C101878,Occasional shoppers,43,3,649.17,0.3333333333333333,127.09
+C105474,Loyal low-returners,29,4,938.22,0.5,337.44
+C107840,Loyal low-returners,27,4,1234.35,0.5,243.72
+C107389,Loyal low-returners,170,6,1699.89,0.0,702.35
+C106797,Lapsing customers,190,1,126.97,0.0,24.12
+C107738,Occasional shoppers,82,2,914.28,0.0,331.09
+C101235,Occasional shoppers,75,3,903.37,0.3333333333333333,166.03
+C107310,Occasional shoppers,127,3,697.53,0.0,112.71
+C103976,Loyal low-returners,101,5,1122.93,0.0,164.19
+C103441,Occasional shoppers,122,3,594.59,0.0,74.86
+C100062,Loyal low-returners,37,5,666.39,0.0,189.95
+C104795,Frequent returners (size swaps),336,1,125.95,1.0,12.39
+C107245,Occasional shoppers,48,2,304.11,0.0,40.28
+C101400,Frequent returners (size swaps),227,2,226.52,0.5,121.43
+C101557,Loyal low-returners,35,8,2656.27,0.125,630.71
+C102963,Loyal low-returners,55,5,715.08,0.0,127.05
+C100104,Lapsing customers,194,1,473.63,0.0,435.7
+C104249,Occasional shoppers,47,3,683.09,0.0,0.0
+C101045,Occasional shoppers,15,4,525.89,0.25,282.24
+C101924,Loyal low-returners,40,4,1348.7,0.25,166.22
+C102834,Lapsing customers,81,1,88.11,0.0,131.33
+C100960,Frequent returners (size swaps),17,1,134.15,1.0,0.0
+C103641,Frequent returners (size swaps),311,2,288.67,0.5,163.51
+C100169,Occasional shoppers,15,3,947.85,0.0,24.31
+C108842,Loyal low-returners,69,5,1883.68,0.2,239.86
+C107804,Loyal low-returners,3,4,914.68,0.0,79.57
+C100672,Occasional shoppers,46,2,741.36,0.0,63.66
+C108633,Occasional shoppers,9,2,468.02,0.0,40.78
+C103361,Lapsing customers,231,2,473.59,0.0,145.07
+C101301,Loyal low-returners,16,9,3504.15,0.0,348.41
+C104765,Frequent returners (size swaps),126,3,407.05,0.6666666666666666,65.51
+C100494,Loyal low-returners,81,4,1416.93,0.25,80.01
+C106856,Lapsing customers,328,1,183.02,0.0,55.56
+C101566,Occasional shoppers,188,3,430.13,0.0,83.52
+C106122,Loyal low-returners,6,5,2452.78,0.2,672.5
+C100651,Occasional shoppers,28,3,482.94,0.0,39.24
+C108018,Loyal low-returners,33,11,2118.14,0.18181818181818182,620.59
+C108574,Frequent returners (size swaps),166,4,1461.37,0.5,52.78
+C108075,Frequent returners (size swaps),58,2,2551.91,0.5,576.51
+C102458,Loyal low-returners,41,7,1654.61,0.0,512.14
+C101993,Occasional shoppers,37,2,436.47,0.0,125.82
+C103365,Loyal low-returners,4,6,2053.83,0.16666666666666666,87.67
+C100928,Loyal low-returners,51,6,949.47,0.16666666666666666,519.26
+C105754,Occasional shoppers,117,2,803.72,0.0,91.37
+C100686,Loyal low-returners,2,24,3133.26,0.20833333333333334,495.78
+C103136,Lapsing customers,255,2,214.61,0.0,67.43
+C103708,Occasional shoppers,84,3,427.54,0.0,83.98
+C101905,Disputed / high-risk returners,143,2,266.08,0.5,20.7
+C104749,Loyal low-returners,59,6,736.23,0.16666666666666666,76.81
+C104298,Loyal low-returners,36,3,1769.5,0.0,124.85
+C100830,Loyal low-returners,28,9,2784.15,0.2222222222222222,2066.61
+C103463,Loyal low-returners,17,4,1216.93,0.0,1445.74
+C101774,Lapsing customers,333,1,130.77,0.0,49.78
+C102657,Lapsing customers,172,1,106.54,0.0,27.22
+C105919,Occasional shoppers,92,3,356.96,0.3333333333333333,143.93
+C105537,Loyal low-returners,58,9,1596.27,0.2222222222222222,220.54
+C106668,Occasional shoppers,30,2,186.79,0.0,15.21
+C107338,Loyal low-returners,3,5,981.73,0.0,160.55
+C101783,Occasional shoppers,55,3,624.77,0.0,0.0
+C103440,Occasional shoppers,40,4,651.92,0.0,127.57
+C106397,Loyal low-returners,37,8,2388.01,0.375,89.59
+C107189,Occasional shoppers,103,4,541.21,0.25,141.21
+C102197,Disputed / high-risk returners,48,4,614.11,0.5,47.73
+C100838,Occasional shoppers,18,1,368.3,0.0,203.34
+C108993,Loyal low-returners,20,10,2252.39,0.1,0.0
+C104941,Occasional shoppers,19,2,490.85,0.0,0.0
+C108453,Occasional shoppers,79,3,394.21,0.3333333333333333,54.84
+C101895,Loyal low-returners,47,4,2224.92,0.25,182.48
+C101927,Occasional shoppers,36,3,919.65,0.0,1117.15
+C101381,Lapsing customers,203,2,172.77,0.0,77.84
+C106249,Loyal low-returners,168,5,2018.58,0.2,562.05
+C105005,Loyal low-returners,11,5,1229.57,0.2,215.56
+C101124,Occasional shoppers,19,2,805.04,0.0,235.88
+C108381,Lapsing customers,180,2,435.69,0.0,72.64
+C100826,Loyal low-returners,9,6,1346.24,0.0,69.95
+C107577,Frequent returners (size swaps),272,2,801.43,0.5,65.41
+C106401,Loyal low-returners,109,4,1432.31,0.0,364.67
+C100389,Occasional shoppers,122,2,384.58,0.0,72.02
+C102845,Disputed / high-risk returners,71,3,1126.71,0.3333333333333333,81.7
+C101538,Occasional shoppers,108,3,335.61,0.0,21.26
+C106644,Occasional shoppers,72,3,661.31,0.0,37.3
+C103709,Loyal low-returners,48,7,2267.32,0.14285714285714285,186.93
+C106756,Occasional shoppers,85,2,665.99,0.0,147.42
+C106058,Frequent returners (size swaps),23,2,327.9,0.5,284.22
+C106729,Loyal low-returners,65,5,1381.87,0.0,155.5
+C100616,Occasional shoppers,175,3,741.64,0.0,0.0
+C102027,Loyal low-returners,2,4,689.84,0.25,85.16
+C104806,Lapsing customers,360,1,262.56,0.0,0.0
+C104636,Lapsing customers,117,1,92.11,0.0,66.03
+C102604,Loyal low-returners,90,6,1894.51,0.16666666666666666,664.13
+C104266,Lapsing customers,121,1,146.54,0.0,23.58
+C101763,Occasional shoppers,189,2,835.54,0.0,167.35
+C101150,Loyal low-returners,101,6,2838.35,0.0,1112.67
+C102552,Occasional shoppers,72,3,442.35,0.0,121.07
+C101619,Loyal low-returners,18,7,1405.8,0.14285714285714285,628.51
+C100457,Loyal low-returners,73,4,1941.08,0.0,33.03
+C107722,Occasional shoppers,59,1,143.72,0.0,10.03
+C105458,Loyal low-returners,84,5,1170.73,0.4,139.95
+C104454,Loyal low-returners,30,4,1022.54,0.0,24.33
+C106585,Occasional shoppers,73,3,619.61,0.0,13.47
+C107265,Occasional shoppers,36,3,329.12,0.0,92.82
+C105864,Loyal low-returners,24,4,1845.44,0.5,61.89
+C106118,Loyal low-returners,24,8,4274.27,0.125,1208.43
+C108950,Lapsing customers,336,1,348.11,0.0,36.78
+C102073,Lapsing customers,209,1,240.39,0.0,0.0
+C101997,Occasional shoppers,78,1,151.82,0.0,112.86
+C107223,Disputed / high-risk returners,33,2,325.02,1.0,121.34
+C106376,Occasional shoppers,118,4,468.14,0.0,114.91
+C103426,Occasional shoppers,152,2,388.19,0.0,148.71
+C104612,Occasional shoppers,92,2,204.27,0.0,82.15
+C100922,Loyal low-returners,122,7,1314.35,0.2857142857142857,91.53
+C101253,Lapsing customers,218,2,154.22,0.0,72.31
+C104703,Occasional shoppers,57,2,1276.11,0.0,537.64
+C102023,Loyal low-returners,3,9,3027.54,0.1111111111111111,145.51
+C107308,Lapsing customers,322,1,109.57,0.0,104.67
+C101373,Occasional shoppers,147,3,407.48,0.0,331.21
+C105402,Occasional shoppers,206,4,1398.45,0.0,275.11
+C106421,Disputed / high-risk returners,205,2,219.83,0.5,36.72
+C105382,Lapsing customers,297,1,650.16,0.0,336.23
+C104226,Frequent returners (size swaps),19,2,242.23,0.5,92.81
+C106010,Loyal low-returners,18,6,1285.77,0.0,164.95
+C103063,Lapsing customers,293,2,317.58,0.0,14.46
+C100418,Occasional shoppers,136,4,609.77,0.25,168.47
+C105120,Loyal low-returners,44,3,1936.6,0.0,567.17
+C106059,Frequent returners (size swaps),180,2,365.58,0.5,319.67
+C101464,Occasional shoppers,70,3,357.92,0.3333333333333333,13.27
+C101342,Disputed / high-risk returners,9,3,847.5,0.3333333333333333,44.86
+C102635,Occasional shoppers,83,2,143.97,0.0,14.36
+C104591,Occasional shoppers,79,3,569.09,0.3333333333333333,86.13
+C107759,Loyal low-returners,2,7,1885.68,0.2857142857142857,280.92
+C108507,Frequent returners (size swaps),208,2,2192.02,0.5,108.12
+C105107,Lapsing customers,134,1,97.41,0.0,49.19
+C106721,Loyal low-returners,73,4,1405.4,0.0,154.91
+C101589,Occasional shoppers,141,3,776.63,0.0,0.0
+C106710,Loyal low-returners,44,5,1053.26,0.0,116.93
+C102558,Disputed / high-risk returners,252,2,303.3,1.0,22.25
+C106900,Loyal low-returners,23,5,1125.46,0.0,187.72
+C104916,Occasional shoppers,16,2,849.32,0.0,127.28
+C107732,Occasional shoppers,8,1,291.09,0.0,40.18
+C103419,Lapsing customers,189,2,256.25,0.0,163.6
+C103142,Occasional shoppers,95,3,472.28,0.3333333333333333,141.46
+C108356,Occasional shoppers,61,2,177.53,0.0,7.03
+C105251,Occasional shoppers,189,4,528.23,0.25,55.19
+C101620,Lapsing customers,114,1,107.52,0.0,217.57
+C103956,Frequent returners (size swaps),200,3,601.09,0.6666666666666666,121.44
+C104232,Frequent returners (size swaps),348,1,55.08,1.0,42.91
+C103607,Loyal low-returners,18,5,1749.86,0.2,880.76
+C104986,Lapsing customers,249,1,500.97,0.0,0.0
+C101563,Frequent returners (size swaps),17,4,519.76,0.5,12.46
+C107564,Lapsing customers,333,1,256.22,0.0,0.0
+C104318,Loyal low-returners,8,5,1424.26,0.0,268.85
+C101285,Occasional shoppers,183,3,350.08,0.0,57.59
+C105517,Loyal low-returners,120,5,1570.95,0.0,36.43
+C106482,Occasional shoppers,2,3,727.79,0.0,16.36
+C105818,Occasional shoppers,3,4,575.88,0.0,88.26
+C101711,Loyal low-returners,6,5,751.74,0.2,406.24
+C106377,Lapsing customers,240,2,284.36,0.0,225.98
+C107874,Occasional shoppers,104,4,551.33,0.25,313.77
+C106629,Frequent returners (size swaps),304,1,118.28,1.0,23.05
+C100602,Loyal low-returners,1,5,1384.11,0.2,194.52
+C105840,Occasional shoppers,120,2,902.11,0.0,0.0
+C103736,Frequent returners (size swaps),38,2,854.52,0.5,150.6
+C103650,Lapsing customers,247,2,444.11,0.0,10.39
+C106302,Loyal low-returners,149,4,999.84,0.25,345.86
+C100188,Lapsing customers,225,1,81.1,0.0,18.91
+C104553,Occasional shoppers,3,4,539.77,0.0,242.0
+C104138,Loyal low-returners,63,13,3621.07,0.15384615384615385,3429.46
+C106044,Occasional shoppers,147,3,427.37,0.0,95.79
+C105627,Loyal low-returners,31,4,693.87,0.25,19.2
+C102296,Lapsing customers,257,1,110.58,0.0,38.86
+C104810,Loyal low-returners,30,5,2406.11,0.0,429.85
+C106685,Occasional shoppers,25,2,247.81,0.0,146.07
+C108986,Occasional shoppers,44,3,584.46,0.0,124.93
+C103883,Loyal low-returners,71,5,1693.09,0.2,423.16
+C106787,Loyal low-returners,40,4,839.87,0.5,12.16
+C103098,Occasional shoppers,85,3,458.91,0.3333333333333333,94.61
+C104793,Loyal low-returners,14,7,1082.56,0.2857142857142857,193.51
+C107449,Lapsing customers,184,2,473.9,0.0,0.0
+C108384,Loyal low-returners,20,6,2082.14,0.0,236.21
+C101139,Frequent returners (size swaps),87,2,169.0,0.5,44.66
+C100356,Occasional shoppers,45,2,508.74,0.0,47.08
+C107515,Disputed / high-risk returners,23,7,1286.63,0.5714285714285714,32.29
+C105595,Lapsing customers,250,3,583.24,0.0,141.75
+C103165,Frequent returners (size swaps),151,2,608.32,0.5,117.53
+C107090,Occasional shoppers,41,2,957.23,0.0,323.95
+C108319,Occasional shoppers,44,1,871.34,0.0,1414.35
+C102500,Lapsing customers,192,2,195.59,0.0,12.45
+C100977,Occasional shoppers,37,1,346.42,0.0,285.33
+C105980,Loyal low-returners,63,6,1079.62,0.16666666666666666,78.81
+C104175,Loyal low-returners,65,5,3916.29,0.0,177.14
+C100357,Loyal low-returners,35,5,730.46,0.0,20.55
+C101333,Frequent returners (size swaps),54,2,869.63,1.0,0.0
+C102300,Loyal low-returners,17,10,2556.85,0.0,1000.11
+C107054,Lapsing customers,341,1,173.6,0.0,0.0
+C105102,Lapsing customers,149,1,327.45,0.0,248.58
+C108718,Loyal low-returners,38,4,880.92,0.25,92.94
+C106263,Frequent returners (size swaps),131,2,568.26,0.5,221.61
+C107631,Occasional shoppers,58,3,563.51,0.3333333333333333,0.0
+C101236,Loyal low-returners,37,4,943.53,0.0,399.22
+C107354,Loyal low-returners,41,6,946.09,0.16666666666666666,63.45
+C107283,Loyal low-returners,74,4,1120.43,0.5,230.51
+C103180,Lapsing customers,264,1,262.93,0.0,132.61
+C100734,Loyal low-returners,124,5,1825.43,0.2,150.06
+C105006,Frequent returners (size swaps),360,1,225.49,1.0,20.71
+C105105,Loyal low-returners,18,7,1610.36,0.0,287.05
+C100228,Occasional shoppers,58,5,437.95,0.0,82.72
+C105583,Lapsing customers,252,1,325.23,0.0,171.65
+C100820,Loyal low-returners,9,5,1381.1,0.2,123.07
+C101628,Loyal low-returners,57,5,1586.2,0.2,121.31
+C100876,Occasional shoppers,12,2,320.4,0.0,0.0
+C100094,Loyal low-returners,13,10,2777.66,0.2,808.76
+C100807,Frequent returners (size swaps),43,1,1001.56,1.0,283.05
+C105723,Occasional shoppers,10,3,511.05,0.3333333333333333,114.28
+C102594,Frequent returners (size swaps),314,1,108.68,1.0,38.28
+C107914,Occasional shoppers,98,4,1110.3,0.0,162.52
+C101284,Occasional shoppers,118,1,1030.15,0.0,1420.79
+C104869,Occasional shoppers,62,3,946.87,0.0,330.06
+C108850,Loyal low-returners,3,8,1726.98,0.375,156.53
+C101260,Occasional shoppers,3,4,541.18,0.0,233.42
+C100217,Lapsing customers,273,3,668.99,0.0,11.18
+C104493,Loyal low-returners,76,5,978.76,0.0,190.59
+C106929,Disputed / high-risk returners,38,2,210.31,1.0,10.9
+C101204,Loyal low-returners,9,7,751.58,0.2857142857142857,69.54
+C100603,Occasional shoppers,23,2,798.64,0.0,642.5
+C102974,Disputed / high-risk returners,49,2,728.67,0.5,93.95
+C107688,Lapsing customers,77,1,94.81,0.0,30.86
+C105184,Occasional shoppers,5,1,97.17,0.0,267.63
+C102839,Lapsing customers,307,1,107.5,0.0,111.88
+C101450,Frequent returners (size swaps),123,4,729.76,0.5,212.2
+C107374,Lapsing customers,340,1,68.68,0.0,38.78
+C107001,Occasional shoppers,54,2,458.29,0.0,179.75
+C102028,Occasional shoppers,101,2,489.78,0.0,65.0
+C106720,Loyal low-returners,20,5,714.29,0.0,251.99
+C106209,Loyal low-returners,48,4,1283.51,0.25,216.9
+C105875,Lapsing customers,275,1,98.17,0.0,32.5
+C103913,Frequent returners (size swaps),165,4,1024.06,0.5,258.16
+C107163,Lapsing customers,301,1,180.12,0.0,72.4
+C106135,Loyal low-returners,70,6,1605.39,0.16666666666666666,170.26
+C108838,Occasional shoppers,59,3,516.22,0.0,189.4
+C108206,Loyal low-returners,32,5,836.45,0.0,64.39
+C107539,Occasional shoppers,96,4,315.93,0.0,27.25
+C105046,Frequent returners (size swaps),3,4,511.93,0.5,60.29
+C105774,Lapsing customers,237,2,286.88,0.0,0.0
+C101021,Occasional shoppers,84,3,178.27,0.0,101.4
+C105186,Occasional shoppers,88,3,684.88,0.0,95.11
+C108030,Lapsing customers,106,1,63.73,0.0,0.0
+C101950,Loyal low-returners,36,5,991.31,0.2,93.4
+C107899,Frequent returners (size swaps),250,2,650.95,1.0,111.56
+C103853,Lapsing customers,195,1,145.0,0.0,0.0
+C105662,Lapsing customers,362,1,1623.85,0.0,565.21
+C105354,Loyal low-returners,2,8,4258.86,0.125,1512.52
+C106659,Lapsing customers,306,1,978.08,0.0,1091.36
+C108526,Occasional shoppers,199,2,731.78,0.0,107.63
+C104292,Disputed / high-risk returners,112,1,1229.58,1.0,379.56
+C105267,Loyal low-returners,75,11,3795.75,0.0,1302.56
+C107741,Lapsing customers,238,1,532.61,0.0,192.78
+C104040,Occasional shoppers,88,4,320.64,0.0,42.5
+C107623,Occasional shoppers,7,3,1371.75,0.0,174.54
+C100682,Lapsing customers,298,2,272.38,0.0,125.33
+C104510,Occasional shoppers,132,3,1082.78,0.3333333333333333,97.89
+C108464,Loyal low-returners,57,9,3191.76,0.1111111111111111,368.51
+C105924,Lapsing customers,178,1,693.91,0.0,72.31
+C102690,Loyal low-returners,123,5,573.83,0.4,118.22
+C100525,Occasional shoppers,20,4,533.24,0.25,99.72
+C101482,Loyal low-returners,16,10,3115.7,0.1,1093.47
+C102243,Loyal low-returners,14,8,1665.69,0.0,116.9
+C102229,Frequent returners (size swaps),262,1,95.51,1.0,10.97
+C106440,Occasional shoppers,83,1,148.48,0.0,94.38
+C104156,Lapsing customers,364,1,104.47,0.0,74.77
+C102111,Occasional shoppers,49,3,870.87,0.0,178.09
+C108952,Occasional shoppers,47,2,268.48,0.0,17.09
+C101133,Disputed / high-risk returners,24,10,3291.56,0.2,597.25
+C108884,Occasional shoppers,78,1,359.73,0.0,0.0
+C100312,Loyal low-returners,8,6,1034.64,0.16666666666666666,226.89
+C100605,Loyal low-returners,77,4,863.63,0.25,137.0
+C107547,Loyal low-returners,92,5,1701.8,0.2,91.91
+C107517,Lapsing customers,251,1,176.27,0.0,36.58
+C108519,Occasional shoppers,105,2,182.45,0.0,56.69
+C108972,Loyal low-returners,28,8,2754.48,0.0,0.0
+C103833,Loyal low-returners,10,5,2422.51,0.4,0.0
+C101681,Occasional shoppers,65,2,655.67,0.0,63.78
+C101562,Loyal low-returners,2,6,3069.18,0.16666666666666666,1479.3
+C105757,Loyal low-returners,31,4,792.45,0.25,58.57
+C102831,Occasional shoppers,81,3,563.55,0.0,257.53
+C104770,Loyal low-returners,5,5,699.4,0.0,23.5
+C104074,Occasional shoppers,248,5,751.93,0.2,179.11
+C102267,Lapsing customers,216,2,201.71,0.0,18.97
+C108397,Loyal low-returners,60,4,991.81,0.25,0.0
+C104367,Occasional shoppers,27,3,464.07,0.3333333333333333,228.31
+C103306,Occasional shoppers,56,2,487.75,0.0,41.14
+C107782,Loyal low-returners,31,6,1142.35,0.16666666666666666,114.59
+C107000,Disputed / high-risk returners,177,1,293.4,1.0,124.61
+C107286,Occasional shoppers,84,2,919.58,0.0,351.03
+C106254,Loyal low-returners,157,4,3011.47,0.5,723.91
+C106055,Occasional shoppers,8,4,435.88,0.0,146.5
+C108935,Lapsing customers,237,1,205.43,0.0,121.26
+C103916,Loyal low-returners,121,6,816.39,0.3333333333333333,71.7
+C101796,Loyal low-returners,108,6,456.62,0.16666666666666666,35.68
+C107211,Loyal low-returners,17,9,2063.78,0.1111111111111111,161.26
+C108079,Frequent returners (size swaps),41,2,238.15,0.5,91.07
+C106178,Loyal low-returners,92,5,1690.13,0.0,93.98
+C103129,Loyal low-returners,64,4,1811.02,0.25,109.06
+C100773,Lapsing customers,130,1,130.53,0.0,25.92
+C105209,Occasional shoppers,136,4,568.81,0.0,14.75
+C105434,Occasional shoppers,5,1,36.98,0.0,10.38
+C105729,Frequent returners (size swaps),201,3,575.51,0.3333333333333333,41.02
+C104780,Loyal low-returners,21,4,857.22,0.25,0.0
+C108089,Occasional shoppers,58,1,943.37,0.0,1061.7
+C106163,Occasional shoppers,141,3,507.15,0.0,31.08
+C105345,Loyal low-returners,45,4,1034.93,0.0,73.97
+C105524,Loyal low-returners,24,4,857.25,0.25,125.73
+C105146,Occasional shoppers,3,3,1278.31,0.0,918.76
+C105076,Loyal low-returners,2,6,897.01,0.3333333333333333,0.0
+C100913,Loyal low-returners,67,4,1229.8,0.5,273.89
+C104753,Frequent returners (size swaps),65,2,293.85,0.5,132.16
+C106372,Loyal low-returners,105,9,1901.21,0.4444444444444444,559.13
+C100604,Frequent returners (size swaps),80,4,935.51,0.5,82.6
+C101117,Loyal low-returners,69,6,1450.55,0.16666666666666666,131.28
+C100271,Occasional shoppers,78,5,590.36,0.0,192.2
+C106474,Occasional shoppers,167,2,705.02,0.0,370.54
+C107277,Occasional shoppers,105,2,1802.27,0.0,195.48
+C100324,Lapsing customers,235,3,508.73,0.0,166.83
+C103134,Lapsing customers,133,1,97.19,0.0,13.38
+C100061,Disputed / high-risk returners,9,8,5303.39,0.375,628.82
+C103858,Occasional shoppers,173,4,572.5,0.0,114.06
+C101897,Loyal low-returners,41,5,1567.21,0.2,358.21
+C106385,Loyal low-returners,31,5,930.41,0.6,329.12
+C108973,Loyal low-returners,96,4,3143.55,0.0,450.04
+C108538,Lapsing customers,131,1,179.34,0.0,12.14
+C100108,Occasional shoppers,56,2,545.41,0.0,387.63
+C105202,Lapsing customers,223,1,62.0,0.0,8.98
+C105450,Frequent returners (size swaps),33,2,602.76,0.5,0.0
+C104401,Lapsing customers,290,2,624.07,0.0,178.23
+C103263,Lapsing customers,282,1,273.26,0.0,108.34
+C102061,Loyal low-returners,115,4,1226.1,0.25,104.27
+C100584,Lapsing customers,128,1,133.77,0.0,141.71
+C105790,Frequent returners (size swaps),4,2,544.91,0.5,91.69
+C102454,Loyal low-returners,47,7,1249.43,0.0,315.68
+C103861,Lapsing customers,98,1,59.48,0.0,37.09
+C101502,Occasional shoppers,33,3,476.11,0.0,184.77
+C107640,Loyal low-returners,66,5,778.97,0.0,285.11
+C100383,Loyal low-returners,62,4,1228.65,0.0,147.33
+C105699,Loyal low-returners,8,5,1966.79,0.0,421.04
+C106394,Lapsing customers,197,1,70.08,0.0,4.0
+C105126,Occasional shoppers,166,2,917.48,0.0,323.99
+C102020,Loyal low-returners,40,4,811.95,0.5,339.42
+C100753,Occasional shoppers,151,3,538.01,0.3333333333333333,119.85
+C100481,Lapsing customers,318,1,93.73,0.0,36.23
+C103847,Occasional shoppers,4,3,531.06,0.0,0.0
+C102841,Frequent returners (size swaps),339,2,275.14,1.0,7.79
+C104692,Occasional shoppers,126,1,771.19,0.0,55.9
+C101630,Occasional shoppers,10,3,325.48,0.0,45.65
+C103311,Loyal low-returners,8,9,2593.74,0.0,108.0
+C101842,Occasional shoppers,33,3,360.87,0.0,60.81
+C105273,Lapsing customers,144,1,68.43,0.0,29.06
+C105934,Occasional shoppers,51,3,740.49,0.0,898.75
+C105192,Loyal low-returners,2,7,2082.66,0.14285714285714285,144.95
+C107484,Loyal low-returners,24,5,1160.03,0.2,146.36
+C105683,Loyal low-returners,108,4,968.68,0.25,384.87
+C103208,Lapsing customers,273,2,321.01,0.0,85.05
+C101292,Loyal low-returners,109,6,1526.34,0.16666666666666666,385.03
+C101507,Loyal low-returners,111,8,1236.4,0.125,293.21
+C106308,Occasional shoppers,123,2,148.54,0.0,0.0
+C101815,Loyal low-returners,147,6,1134.34,0.16666666666666666,85.47
+C102800,Occasional shoppers,103,2,241.2,0.0,32.46
+C103713,Loyal low-returners,79,4,1195.08,0.0,1087.45
+C100688,Occasional shoppers,69,2,560.59,0.0,45.0
+C103841,Loyal low-returners,1,11,1866.14,0.09090909090909091,171.97
+C107556,Lapsing customers,336,1,115.17,0.0,86.01
+C103756,Frequent returners (size swaps),157,2,831.17,0.5,62.38
+C105607,Loyal low-returners,11,7,1763.02,0.0,375.47
+C107416,Loyal low-returners,73,4,1288.07,0.25,704.32
+C100090,Loyal low-returners,52,4,1206.51,0.25,163.72
+C106568,Occasional shoppers,32,3,395.08,0.0,90.21
+C108737,Occasional shoppers,1,4,393.89,0.0,308.87
+C103195,Disputed / high-risk returners,172,4,2534.39,0.5,299.36
+C104484,Lapsing customers,202,2,126.89,0.0,0.0
+C104821,Occasional shoppers,40,2,195.34,0.0,18.45
+C105506,Occasional shoppers,43,3,844.96,0.0,60.91
+C108375,Loyal low-returners,3,7,2397.05,0.0,0.0
+C100461,Loyal low-returners,27,4,744.33,0.25,148.86
+C104894,Lapsing customers,259,1,409.56,0.0,94.26
+C102098,Frequent returners (size swaps),39,2,328.28,0.5,63.75
+C103718,Frequent returners (size swaps),205,3,348.17,0.3333333333333333,35.02
+C103670,Frequent returners (size swaps),338,2,233.15,0.5,0.0
+C105572,Loyal low-returners,15,4,2382.22,0.0,190.6
+C103156,Occasional shoppers,27,3,307.59,0.0,50.51
+C100320,Loyal low-returners,34,9,1813.53,0.2222222222222222,275.81
+C108334,Lapsing customers,120,1,136.8,0.0,67.97
+C108429,Lapsing customers,352,1,46.75,0.0,26.62
+C107955,Occasional shoppers,99,1,292.88,0.0,0.0
+C107383,Disputed / high-risk returners,16,4,640.37,0.25,88.32
+C107925,Occasional shoppers,37,1,609.87,0.0,136.43
+C108476,Loyal low-returners,81,4,1457.83,0.25,183.84
+C107205,Frequent returners (size swaps),74,2,591.03,1.0,108.16
+C101256,Loyal low-returners,3,11,4269.79,0.09090909090909091,239.77
+C108730,Occasional shoppers,61,3,457.35,0.0,40.25
+C102502,Loyal low-returners,3,7,1729.96,0.0,501.75
+C102006,Occasional shoppers,73,4,976.36,0.0,245.82
+C108723,Loyal low-returners,5,5,788.05,0.0,342.31
+C107204,Lapsing customers,260,1,114.57,0.0,15.83
+C106786,Loyal low-returners,20,4,1062.46,0.0,15.19
+C103061,Frequent returners (size swaps),266,1,119.83,1.0,6.27
+C100485,Disputed / high-risk returners,65,4,1813.35,0.25,744.47
+C107478,Occasional shoppers,162,2,675.66,0.0,69.94
+C101422,Lapsing customers,252,1,132.15,0.0,10.52
+C106400,Loyal low-returners,135,4,1380.01,0.0,432.52
+C105010,Loyal low-returners,24,8,1056.05,0.0,70.45
+C104083,Loyal low-returners,214,5,1033.69,0.2,219.04
+C107558,Loyal low-returners,13,9,1964.97,0.1111111111111111,725.54
+C106890,Occasional shoppers,11,4,798.24,0.0,120.04
+C106287,Occasional shoppers,48,4,918.26,0.0,99.24
+C106901,Lapsing customers,308,1,110.77,0.0,51.37
+C106987,Loyal low-returners,118,6,1604.76,0.16666666666666666,77.82
+C108416,Lapsing customers,317,1,116.03,0.0,0.0
+C103033,Occasional shoppers,102,4,658.05,0.25,0.0
+C100413,Loyal low-returners,38,5,697.14,0.0,104.68
+C105371,Occasional shoppers,46,3,533.37,0.3333333333333333,70.0
+C108601,Occasional shoppers,62,3,606.04,0.0,176.33
+C107347,Lapsing customers,94,1,75.28,0.0,25.62
+C103224,Loyal low-returners,19,6,1363.47,0.0,195.54
+C107933,Loyal low-returners,51,5,771.71,0.4,139.69
+C105015,Occasional shoppers,69,1,363.41,0.0,104.47
+C108266,Lapsing customers,148,2,197.44,0.0,107.78
+C102781,Loyal low-returners,65,8,1676.99,0.125,0.0
+C105300,Lapsing customers,265,1,398.18,0.0,625.31
+C108866,Occasional shoppers,118,4,438.08,0.25,63.04
+C107995,Loyal low-returners,68,4,1938.79,0.0,384.51
+C104234,Loyal low-returners,31,3,1008.46,0.3333333333333333,74.78
+C102451,Frequent returners (size swaps),45,1,176.08,1.0,213.27
+C101940,Lapsing customers,84,1,109.88,0.0,124.8
+C101528,Loyal low-returners,24,8,862.46,0.125,72.04
+C100890,Occasional shoppers,59,2,1195.26,0.0,156.86
+C102078,Loyal low-returners,72,6,739.03,0.16666666666666666,0.0
+C105858,Loyal low-returners,64,5,1007.45,0.0,127.88
+C102200,Frequent returners (size swaps),3,1,101.04,1.0,89.15
+C106850,Occasional shoppers,41,3,417.46,0.3333333333333333,58.18
+C108828,Frequent returners (size swaps),147,1,284.55,1.0,22.77
+C108289,Occasional shoppers,53,4,541.69,0.0,177.45
+C107080,Lapsing customers,214,2,363.94,0.0,239.52
+C104543,Loyal low-returners,82,6,2156.63,0.0,99.92
+C104463,Occasional shoppers,3,2,360.88,0.0,293.25
+C107486,Loyal low-returners,1,7,1908.8,0.14285714285714285,733.88
+C105571,Occasional shoppers,66,3,593.71,0.0,279.91
+C105159,Occasional shoppers,117,2,307.17,0.0,172.18
+C103254,Lapsing customers,135,1,60.11,0.0,8.74
+C106258,Lapsing customers,225,3,517.29,0.0,276.03
+C101005,Loyal low-returners,16,4,1219.03,0.0,73.63
+C100355,Lapsing customers,212,2,280.34,0.0,171.82
+C103339,Occasional shoppers,191,4,711.78,0.0,379.09
+C102726,Loyal low-returners,28,5,991.46,0.2,27.17
+C106937,Frequent returners (size swaps),66,2,1007.49,0.5,78.77
+C105445,Loyal low-returners,1,6,1439.35,0.0,0.0
+C103038,Frequent returners (size swaps),91,2,231.19,0.5,19.16
+C104805,Loyal low-returners,168,7,1354.61,0.0,157.67
+C102409,Occasional shoppers,3,4,663.18,0.0,160.78
+C108364,Occasional shoppers,66,3,659.81,0.3333333333333333,90.07
+C100252,Frequent returners (size swaps),21,4,511.79,0.5,123.25
+C103655,Occasional shoppers,162,2,1339.05,0.0,0.0
+C100120,Loyal low-returners,27,8,1499.47,0.0,275.67
+C104409,Frequent returners (size swaps),330,1,322.28,1.0,15.35
+C104998,Loyal low-returners,86,6,2568.07,0.3333333333333333,594.31
+C101184,Lapsing customers,97,1,36.2,0.0,19.27
+C106430,Loyal low-returners,3,7,1311.29,0.14285714285714285,0.0
+C101222,Occasional shoppers,54,3,696.74,0.0,97.66
+C104117,Loyal low-returners,15,5,1401.78,0.0,11.33
+C107707,Loyal low-returners,66,5,848.25,0.2,857.5
+C101605,Loyal low-returners,15,7,1706.1,0.14285714285714285,153.31
+C103336,Frequent returners (size swaps),93,4,947.73,0.5,108.19
+C106621,Frequent returners (size swaps),31,2,591.88,0.5,214.18
+C101733,Frequent returners (size swaps),243,2,204.02,0.5,38.37
+C104099,Loyal low-returners,59,5,1609.52,0.0,263.9
+C102686,Occasional shoppers,104,1,285.79,0.0,154.88
+C107589,Occasional shoppers,137,2,501.83,0.0,0.0
+C104054,Loyal low-returners,203,5,3137.38,0.2,2268.59
+C101587,Lapsing customers,208,2,644.61,0.0,62.78
+C103245,Disputed / high-risk returners,10,8,1637.33,0.25,183.05
+C108396,Lapsing customers,217,1,250.16,0.0,115.09
+C105620,Occasional shoppers,128,1,475.2,0.0,77.9
+C102844,Frequent returners (size swaps),53,3,545.83,0.6666666666666666,114.6
+C104372,Loyal low-returners,14,5,1402.27,0.0,99.45
+C107682,Lapsing customers,324,1,516.37,0.0,422.65
+C104403,Disputed / high-risk returners,251,2,525.48,0.5,21.19
+C102920,Occasional shoppers,114,2,364.29,0.0,88.74
+C103106,Frequent returners (size swaps),209,2,335.11,0.5,74.11
+C108015,Loyal low-returners,73,5,1242.45,0.0,0.0
+C101629,Occasional shoppers,161,3,333.88,0.0,0.0
+C105694,Occasional shoppers,18,2,208.81,0.0,74.39
+C104639,Lapsing customers,215,1,86.25,0.0,19.85
+C102444,Lapsing customers,217,2,294.9,0.0,39.7
+C106910,Frequent returners (size swaps),8,4,1236.41,0.75,134.67
+C103249,Frequent returners (size swaps),255,3,1945.04,0.3333333333333333,240.18
+C103340,Loyal low-returners,3,6,810.91,0.0,48.41
+C107957,Occasional shoppers,40,3,901.94,0.0,57.33
+C101657,Loyal low-returners,3,7,1974.16,0.14285714285714285,578.26
+C100289,Lapsing customers,172,1,336.69,0.0,456.83
+C100000,Loyal low-returners,25,4,1174.95,0.0,1328.11
+C101588,Lapsing customers,321,1,179.93,0.0,11.93
+C104132,Loyal low-returners,44,5,616.54,0.2,44.81
+C106716,Lapsing customers,265,1,541.22,0.0,97.32
+C103310,Frequent returners (size swaps),60,2,182.79,0.5,8.23
+C103147,Occasional shoppers,26,3,829.34,0.3333333333333333,310.31
+C108660,Occasional shoppers,116,3,738.41,0.3333333333333333,134.75
+C100918,Loyal low-returners,8,5,2025.04,0.0,526.99
+C100015,Lapsing customers,113,1,141.07,0.0,82.85
+C104491,Occasional shoppers,30,3,860.53,0.0,543.36
+C102603,Occasional shoppers,31,3,1042.61,0.0,0.0
+C102802,Occasional shoppers,93,3,591.43,0.0,123.7
+C108192,Occasional shoppers,73,3,355.85,0.0,85.89
+C100008,Lapsing customers,301,1,420.68,0.0,229.71
+C102143,Lapsing customers,118,1,116.8,0.0,34.11
+C104118,Loyal low-returners,37,6,1148.21,0.16666666666666666,958.84
+C102561,Frequent returners (size swaps),44,4,2083.95,0.75,165.41
+C101140,Occasional shoppers,16,2,283.86,0.0,66.95
+C105360,Loyal low-returners,4,3,1021.38,0.3333333333333333,1055.47
+C106767,Occasional shoppers,152,3,981.47,0.3333333333333333,85.98
+C104141,Occasional shoppers,122,3,850.57,0.3333333333333333,458.36
+C106411,Occasional shoppers,174,4,983.28,0.0,52.83
+C108229,Loyal low-returners,76,5,1176.95,0.2,220.43
+C107902,Lapsing customers,175,1,520.85,0.0,239.61
+C100373,Loyal low-returners,70,4,1438.19,0.0,429.87
+C100133,Occasional shoppers,31,2,598.5,0.0,182.67
+C103389,Occasional shoppers,90,2,196.28,0.0,0.0
+C103554,Loyal low-returners,2,6,1679.76,0.0,736.71
+C101197,Disputed / high-risk returners,117,3,617.08,0.3333333333333333,42.45
+C103681,Occasional shoppers,138,4,634.15,0.0,35.5
+C101504,Disputed / high-risk returners,52,2,201.35,0.5,60.2
+C108767,Lapsing customers,256,1,103.33,0.0,103.75
+C101446,Occasional shoppers,52,2,127.67,0.0,49.42
+C100684,Occasional shoppers,101,3,751.7,0.0,167.49
+C101555,Occasional shoppers,73,3,411.22,0.3333333333333333,89.47
+C101691,Lapsing customers,248,1,73.28,0.0,55.8
+C108903,Loyal low-returners,72,7,627.06,0.2857142857142857,6.88
+C102847,Occasional shoppers,107,2,974.91,0.0,472.65
+C106693,Loyal low-returners,34,3,1082.1,0.3333333333333333,140.06
+C108437,Loyal low-returners,59,4,949.95,0.25,0.0
+C108640,Loyal low-returners,26,8,3370.93,0.125,1684.32
+C103100,Loyal low-returners,70,7,780.17,0.0,300.44
+C101546,Lapsing customers,242,1,68.98,0.0,49.38
+C106825,Occasional shoppers,1,1,125.01,0.0,31.53
+C103219,Occasional shoppers,139,2,562.98,0.0,135.61
+C100973,Occasional shoppers,114,2,739.81,0.0,117.1
+C107441,Loyal low-returners,2,4,988.05,0.25,125.41
+C107986,Loyal low-returners,83,4,1335.06,0.0,78.89
+C103637,Lapsing customers,291,1,161.32,0.0,111.83
+C102360,Loyal low-returners,19,5,1916.0,0.4,322.39
+C108860,Loyal low-returners,3,5,829.68,0.0,90.58
+C107026,Lapsing customers,252,1,217.78,0.0,121.94
+C100215,Loyal low-returners,24,6,1368.87,0.0,0.0
+C105111,Occasional shoppers,140,2,995.6,0.0,43.62
+C108990,Lapsing customers,154,1,73.81,0.0,0.0
+C100458,Lapsing customers,245,3,825.68,0.0,434.97
+C108976,Frequent returners (size swaps),203,2,1692.84,0.5,119.03
+C107900,Loyal low-returners,77,5,2381.81,0.0,581.88
+C108109,Loyal low-returners,54,4,1171.82,0.0,151.79
+C108713,Loyal low-returners,13,8,3348.02,0.25,1332.03
+C100477,Lapsing customers,176,1,260.43,0.0,126.68
+C103223,Loyal low-returners,129,9,1536.29,0.2222222222222222,135.94
+C108939,Lapsing customers,274,1,315.61,0.0,66.28
+C108937,Loyal low-returners,46,6,2060.23,0.0,714.56
+C105406,Loyal low-returners,1,6,2417.95,0.3333333333333333,429.48
+C106266,Loyal low-returners,37,4,1230.43,0.25,403.67
+C104282,Lapsing customers,263,1,221.73,0.0,222.83
+C102456,Occasional shoppers,102,3,1310.65,0.0,183.45
+C103993,Frequent returners (size swaps),35,2,609.75,0.5,171.85
+C107890,Loyal low-returners,9,7,1347.58,0.0,143.94
+C101215,Loyal low-returners,43,5,1547.26,0.6,281.2
+C107604,Lapsing customers,303,1,150.45,0.0,10.38
+C108795,Occasional shoppers,33,3,329.24,0.0,0.0
+C104970,Lapsing customers,310,1,87.29,0.0,0.0
+C102773,Lapsing customers,332,1,219.75,0.0,89.14
+C105954,Lapsing customers,285,4,660.64,0.0,114.76
+C106022,Occasional shoppers,15,3,694.25,0.0,267.04
+C101308,Loyal low-returners,1,6,1861.0,0.16666666666666666,132.28
+C103802,Occasional shoppers,56,4,540.4,0.25,20.12
+C102883,Loyal low-returners,38,4,1670.56,0.25,715.61
+C100664,Loyal low-returners,8,8,2432.05,0.125,1000.62
+C102983,Occasional shoppers,3,1,105.18,0.0,130.45
+C100963,Frequent returners (size swaps),69,2,351.37,0.5,0.0
+C101337,Occasional shoppers,70,2,451.68,0.0,89.81
+C108235,Loyal low-returners,43,6,605.58,0.16666666666666666,61.38
+C105658,Occasional shoppers,15,5,564.47,0.0,220.34
+C105348,Occasional shoppers,98,2,269.35,0.0,106.07
+C102591,Loyal low-returners,2,8,1765.17,0.0,206.27
+C105753,Occasional shoppers,44,3,426.44,0.3333333333333333,123.38
+C108107,Occasional shoppers,6,2,745.16,0.0,214.49
+C106004,Occasional shoppers,68,1,535.67,0.0,568.43
+C102918,Frequent returners (size swaps),46,2,424.17,0.5,20.21
+C104218,Occasional shoppers,62,3,1395.31,0.0,45.45
+C106706,Occasional shoppers,120,4,523.15,0.0,215.81
+C102495,Loyal low-returners,11,19,4232.92,0.10526315789473684,939.23
+C102151,Occasional shoppers,137,2,869.4,0.0,1133.06
+C101883,Frequent returners (size swaps),329,1,558.07,1.0,31.3
+C101265,Loyal low-returners,62,5,1107.05,0.0,109.24
+C106173,Occasional shoppers,68,3,1294.4,0.0,219.9
+C104476,Disputed / high-risk returners,11,7,3001.91,0.5714285714285714,115.43
+C107342,Loyal low-returners,26,5,677.83,0.0,139.33
+C104919,Loyal low-returners,12,4,862.56,0.0,122.65
+C103630,Loyal low-returners,3,5,1127.03,0.0,81.27
+C107514,Disputed / high-risk returners,11,5,2026.53,0.4,37.86
+C104351,Loyal low-returners,34,7,1200.92,0.14285714285714285,0.0
+C106964,Occasional shoppers,96,3,375.93,0.3333333333333333,168.51
+C107091,Loyal low-returners,61,4,915.58,0.5,142.6
+C103036,Lapsing customers,245,1,97.92,0.0,34.91
+C103900,Loyal low-returners,29,14,2865.76,0.21428571428571427,1410.36
+C107323,Occasional shoppers,112,4,472.2,0.25,140.39
+C101966,Lapsing customers,162,1,122.03,0.0,10.3
+C107998,Lapsing customers,275,2,272.72,0.0,164.04
+C106733,Frequent returners (size swaps),241,1,61.86,1.0,50.74
+C103159,Lapsing customers,198,2,348.15,0.0,72.21
+C100988,Occasional shoppers,63,3,481.23,0.0,238.9
+C101583,Occasional shoppers,7,4,681.78,0.0,175.39
+C108438,Lapsing customers,229,2,280.01,0.0,332.18
+C108929,Loyal low-returners,98,8,2665.76,0.125,175.93
+C104377,Occasional shoppers,106,3,678.1,0.3333333333333333,117.97
+C106751,Loyal low-returners,1,6,1432.11,0.16666666666666666,187.67
+C107435,Frequent returners (size swaps),8,4,583.58,1.0,182.33
+C104659,Lapsing customers,299,1,89.96,0.0,19.15
+C101968,Occasional shoppers,68,3,369.78,0.3333333333333333,53.96
+C101719,Frequent returners (size swaps),181,2,313.94,0.5,34.95
+C107917,Occasional shoppers,1,4,593.47,0.0,95.57
+C104785,Frequent returners (size swaps),225,1,82.15,1.0,0.0
+C108469,Occasional shoppers,107,4,695.76,0.25,261.91
+C106773,Loyal low-returners,13,7,2606.19,0.14285714285714285,798.08
+C107617,Lapsing customers,69,1,84.85,0.0,146.64
+C105462,Disputed / high-risk returners,8,6,1987.86,0.3333333333333333,191.74
+C107263,Loyal low-returners,48,10,3176.55,0.1,209.92
+C103002,Occasional shoppers,51,3,690.32,0.0,201.02
+C103007,Occasional shoppers,124,3,224.4,0.0,131.77
+C104224,Loyal low-returners,94,10,2052.99,0.2,615.45
+C105225,Frequent returners (size swaps),278,1,142.18,1.0,45.32
+C105002,Loyal low-returners,44,4,714.34,0.25,208.48
+C102071,Occasional shoppers,27,3,829.51,0.0,143.74
+C108362,Occasional shoppers,167,3,652.96,0.0,439.09
+C107110,Loyal low-returners,10,10,2811.35,0.1,727.01
+C105082,Loyal low-returners,12,9,2908.24,0.0,354.46
+C104840,Lapsing customers,277,2,188.05,0.0,26.95
+C102546,Occasional shoppers,17,2,690.97,0.0,492.68
+C105188,Occasional shoppers,2,2,293.6,0.0,9.36
+C100277,Loyal low-returners,24,4,997.27,0.5,77.55
+C104471,Lapsing customers,322,1,138.84,0.0,9.05
+C101220,Occasional shoppers,224,3,881.08,0.0,185.62
+C105700,Occasional shoppers,1,3,675.92,0.3333333333333333,165.6
+C102543,Loyal low-returners,17,5,1974.49,0.0,565.5
+C100241,Loyal low-returners,72,4,1830.57,0.25,0.0
+C100291,Occasional shoppers,45,4,447.13,0.25,629.0
+C100116,Disputed / high-risk returners,3,18,4721.49,0.16666666666666666,451.27
+C106702,Frequent returners (size swaps),275,2,319.0,0.5,128.36
+C101345,Disputed / high-risk returners,58,3,1032.45,0.3333333333333333,0.0
+C102153,Loyal low-returners,32,7,1827.57,0.0,168.7
+C108120,Lapsing customers,190,2,230.25,0.0,31.06
+C103604,Frequent returners (size swaps),276,1,203.65,1.0,150.12
+C107203,Lapsing customers,61,1,60.32,0.0,19.65
+C101655,Occasional shoppers,117,2,238.12,0.0,35.95
+C107686,Lapsing customers,309,1,140.57,0.0,0.0
+C102655,Lapsing customers,148,1,102.1,0.0,243.25
+C100332,Occasional shoppers,96,4,528.46,0.25,56.5
+C108923,Occasional shoppers,73,2,189.39,0.0,49.33
+C104621,Loyal low-returners,20,6,857.27,0.16666666666666666,63.47
+C108840,Loyal low-returners,12,9,1127.02,0.2222222222222222,116.18
+C102803,Lapsing customers,190,1,730.11,0.0,1606.84
+C106390,Occasional shoppers,42,1,180.9,0.0,57.67
+C101326,Loyal low-returners,10,4,2496.02,0.5,212.29
+C101970,Lapsing customers,82,1,119.46,0.0,0.0
+C104934,Disputed / high-risk returners,1,15,4017.79,0.06666666666666667,86.16
+C102331,Lapsing customers,129,1,250.19,0.0,54.72
+C100578,Lapsing customers,227,1,247.17,0.0,74.5
+C101573,Loyal low-returners,48,7,1252.66,0.0,52.76
+C104100,Lapsing customers,76,1,60.7,0.0,4.36
+C106366,Frequent returners (size swaps),127,3,2164.34,0.6666666666666666,565.74
+C106162,Loyal low-returners,39,4,1273.44,0.25,238.94
+C100416,Frequent returners (size swaps),165,2,1600.37,0.5,80.53
+C102059,Occasional shoppers,52,3,723.86,0.0,131.18
+C106443,Loyal low-returners,60,6,2154.38,0.0,203.07
+C104104,Disputed / high-risk returners,7,4,473.58,0.25,66.42
+C107415,Occasional shoppers,16,4,428.11,0.25,0.0
+C106996,Loyal low-returners,4,8,1401.83,0.25,325.33
+C100829,Loyal low-returners,71,7,742.04,0.0,210.61
+C100318,Occasional shoppers,201,4,502.92,0.0,95.09
+C103369,Occasional shoppers,3,3,638.3,0.0,294.83
+C102850,Occasional shoppers,167,3,465.82,0.0,80.07
+C101693,Lapsing customers,206,1,186.62,0.0,197.36
+C100317,Frequent returners (size swaps),156,2,382.4,0.5,122.89
+C100206,Loyal low-returners,17,4,1130.16,0.0,0.0
+C102648,Frequent returners (size swaps),111,1,155.16,1.0,58.2
+C101314,Loyal low-returners,1,8,1593.74,0.125,275.94
+C107460,Loyal low-returners,165,6,3250.38,0.3333333333333333,1653.24
+C106457,Frequent returners (size swaps),77,2,520.08,0.5,197.19
+C101685,Lapsing customers,336,2,1242.8,0.0,190.36
+C108882,Loyal low-returners,7,5,1101.73,0.0,282.93
+C105168,Occasional shoppers,144,2,282.28,0.0,56.6
+C100551,Occasional shoppers,7,3,434.13,0.3333333333333333,122.16
+C106757,Loyal low-returners,104,5,1502.35,0.2,176.42
+C103557,Loyal low-returners,13,6,1907.9,0.0,349.49
+C107078,Loyal low-returners,21,6,2183.05,0.16666666666666666,230.34
+C101688,Loyal low-returners,40,7,1289.66,0.0,445.23
+C106497,Loyal low-returners,41,4,1334.59,0.0,103.63
+C103852,Loyal low-returners,68,8,1210.92,0.125,225.45
+C105289,Occasional shoppers,2,4,685.51,0.0,22.09
+C108821,Lapsing customers,299,1,231.57,0.0,104.96
+C108326,Occasional shoppers,23,2,956.64,0.0,234.97
+C100742,Loyal low-returners,17,8,1672.66,0.375,694.51
+C105882,Loyal low-returners,63,3,1657.23,0.3333333333333333,161.89
+C106215,Loyal low-returners,89,5,1192.36,0.0,330.81
+C107831,Occasional shoppers,69,1,1267.33,0.0,810.7
+C103543,Occasional shoppers,168,5,839.35,0.0,120.97
+C106425,Occasional shoppers,157,3,980.65,0.0,0.0
+C106997,Occasional shoppers,50,3,674.29,0.0,111.01
+C101602,Loyal low-returners,27,5,494.97,0.2,121.33
+C103183,Disputed / high-risk returners,11,14,2547.29,0.7142857142857143,0.0
+C107035,Occasional shoppers,60,3,395.26,0.0,60.09
+C101305,Lapsing customers,319,1,109.86,0.0,39.96
+C105612,Lapsing customers,346,1,130.06,0.0,118.8
+C103317,Occasional shoppers,155,2,382.16,0.0,52.43
+C107139,Loyal low-returners,107,7,937.26,0.0,81.18
+C104974,Disputed / high-risk returners,254,2,180.21,1.0,76.3
+C108104,Occasional shoppers,158,2,500.68,0.0,63.81
+C101656,Loyal low-returners,11,14,3164.26,0.21428571428571427,887.28
+C100236,Frequent returners (size swaps),137,4,911.32,0.5,347.86
+C105175,Lapsing customers,365,1,227.45,0.0,119.61
+C106085,Loyal low-returners,30,5,1744.53,0.6,303.47
+C100465,Lapsing customers,243,2,349.01,0.0,0.0
+C100555,Lapsing customers,200,1,159.84,0.0,47.67
+C106272,Loyal low-returners,24,10,1767.08,0.0,221.32
+C102944,Loyal low-returners,6,8,1886.21,0.0,651.1
+C105164,Loyal low-returners,91,4,2111.54,0.0,426.3
+C102439,Loyal low-returners,6,4,1462.81,0.0,185.92
+C101737,Loyal low-returners,10,5,707.05,0.4,599.35
+C100557,Occasional shoppers,159,3,266.92,0.0,4.45
+C104426,Lapsing customers,113,1,110.72,0.0,0.0
+C104817,Loyal low-returners,26,4,1046.44,0.0,120.89
+C104436,Lapsing customers,319,1,68.07,0.0,18.06
+C108822,Occasional shoppers,124,4,1084.92,0.0,1131.48
+C103770,Loyal low-returners,30,9,1891.07,0.0,625.82
+C107997,Lapsing customers,180,1,215.6,0.0,37.39
+C106153,Loyal low-returners,115,9,4272.28,0.1111111111111111,1119.3
+C106214,Loyal low-returners,76,5,1164.2,0.0,430.15
+C108568,Loyal low-returners,41,5,808.08,0.2,0.0
+C105896,Lapsing customers,228,1,89.22,0.0,17.23
+C105492,Occasional shoppers,236,6,586.63,0.16666666666666666,33.11
+C105049,Loyal low-returners,11,7,2106.28,0.0,184.23
+C105760,Disputed / high-risk returners,100,4,1554.84,0.5,0.0
+C105311,Frequent returners (size swaps),195,2,83.37,0.5,0.0
+C100385,Frequent returners (size swaps),155,4,481.21,0.5,70.2
+C107938,Frequent returners (size swaps),125,2,444.15,0.5,121.84
+C108814,Loyal low-returners,171,5,1265.31,0.2,215.74
+C100366,Lapsing customers,336,1,202.67,0.0,57.55
+C105418,Frequent returners (size swaps),153,2,186.63,0.5,0.0
+C102513,Occasional shoppers,124,2,480.8,0.0,160.94
+C107414,Occasional shoppers,72,3,541.44,0.0,29.53
+C105242,Occasional shoppers,112,2,841.5,0.0,43.34
+C103355,Lapsing customers,186,1,509.39,0.0,37.26
+C107854,Occasional shoppers,135,2,578.27,0.0,197.0
+C106920,Loyal low-returners,182,4,2342.53,0.0,660.54
+C108424,Loyal low-returners,97,4,1756.97,0.0,424.18
+C105167,Lapsing customers,167,2,320.81,0.0,150.41
+C102899,Occasional shoppers,140,3,1719.76,0.0,322.37
+C100819,Occasional shoppers,35,1,82.54,0.0,0.0
+C101717,Lapsing customers,189,1,416.83,0.0,167.3
+C106989,Lapsing customers,232,1,460.69,0.0,37.63
+C103477,Occasional shoppers,102,2,265.56,0.0,155.27
+C106761,Disputed / high-risk returners,39,3,672.09,0.3333333333333333,255.38
+C105698,Lapsing customers,327,3,234.82,0.3333333333333333,0.0
+C102794,Occasional shoppers,75,3,514.1,0.3333333333333333,53.38
+C107125,Loyal low-returners,51,4,4367.89,0.0,496.19
+C104745,Loyal low-returners,72,12,2448.86,0.25,2323.08
+C102656,Loyal low-returners,43,5,995.63,0.0,420.26
+C106128,Lapsing customers,215,2,371.26,0.0,72.04
+C107818,Loyal low-returners,36,5,996.07,0.0,207.21
+C103651,Lapsing customers,329,1,80.57,0.0,35.73
+C108587,Lapsing customers,365,1,350.54,0.0,286.91
+C103313,Loyal low-returners,1,4,1219.44,0.0,128.95
+C100282,Occasional shoppers,3,4,756.03,0.0,178.28
+C105670,Disputed / high-risk returners,105,2,372.13,0.5,0.0
+C103801,Loyal low-returners,26,5,3927.53,0.0,1148.19
+C107685,Disputed / high-risk returners,329,2,773.53,0.5,143.65
+C104792,Loyal low-returners,48,6,1102.11,0.0,182.7
+C107744,Occasional shoppers,174,3,453.73,0.0,41.4
+C100420,Loyal low-returners,172,4,1758.31,0.25,466.06
+C104494,Occasional shoppers,108,2,2073.92,0.0,2759.69
+C104346,Lapsing customers,122,1,150.37,0.0,202.01
+C102106,Lapsing customers,132,1,47.64,0.0,13.06
+C105491,Loyal low-returners,2,7,1173.32,0.14285714285714285,1243.89
+C100659,Occasional shoppers,30,2,100.43,0.0,42.23
+C102032,Lapsing customers,341,1,35.59,0.0,3.14
+C100048,Loyal low-returners,62,4,1499.64,0.0,102.01
+C101581,Occasional shoppers,112,2,285.2,0.0,63.17
+C101818,Loyal low-returners,91,5,1466.07,0.2,143.91
+C101741,Occasional shoppers,34,2,1119.85,0.0,542.92
+C105446,Frequent returners (size swaps),67,2,583.7,0.5,26.85
+C105745,Occasional shoppers,44,4,861.47,0.0,131.35
+C107258,Frequent returners (size swaps),230,3,342.8,0.6666666666666666,0.0
+C102086,Occasional shoppers,56,1,156.58,0.0,41.55
+C105977,Lapsing customers,341,1,39.59,0.0,14.82
+C106364,Loyal low-returners,133,5,1857.87,0.2,1000.5
+C103326,Occasional shoppers,21,1,513.5,0.0,443.23
+C106251,Loyal low-returners,19,7,1752.32,0.2857142857142857,85.7
+C108418,Lapsing customers,298,1,55.84,0.0,15.38
+C104953,Occasional shoppers,54,2,807.18,0.0,152.72
+C104997,Occasional shoppers,33,4,685.42,0.0,54.51
+C108602,Loyal low-returners,14,9,2822.6,0.3333333333333333,178.42
+C102544,Disputed / high-risk returners,48,3,651.11,0.3333333333333333,243.1
+C102166,Occasional shoppers,111,5,479.78,0.0,98.54
+C102504,Loyal low-returners,4,8,1069.01,0.125,994.59
+C100055,Loyal low-returners,151,5,1932.29,0.2,112.72
+C104534,Occasional shoppers,58,4,662.61,0.0,158.66
+C103031,Occasional shoppers,8,1,117.16,0.0,23.96
+C108656,Occasional shoppers,174,3,439.51,0.0,0.0
+C104568,Loyal low-returners,11,5,1048.85,0.4,145.71
+C101756,Occasional shoppers,75,5,517.11,0.0,84.01
+C105508,Occasional shoppers,68,2,237.08,0.0,37.77
+C103474,Loyal low-returners,65,5,1028.35,0.4,175.79
+C103850,Occasional shoppers,25,2,343.76,0.0,116.05
+C102460,Loyal low-returners,80,5,1205.0,0.4,377.79
+C103456,Occasional shoppers,75,2,488.04,0.0,584.95
+C104811,Occasional shoppers,142,3,307.69,0.0,175.15
+C100470,Frequent returners (size swaps),68,4,727.29,0.5,223.3
+C100451,Loyal low-returners,79,8,1749.94,0.25,133.28
+C107502,Occasional shoppers,72,4,332.57,0.0,30.41
+C108339,Lapsing customers,347,1,568.35,0.0,96.93
+C104625,Lapsing customers,336,1,96.96,0.0,0.0
+C105734,Lapsing customers,118,1,83.77,0.0,52.41
+C104656,Loyal low-returners,118,4,1622.72,0.0,375.32
+C100230,Occasional shoppers,21,2,191.08,0.0,50.52
+C105629,Loyal low-returners,38,6,1105.61,0.5,160.82
+C105773,Loyal low-returners,2,3,1064.93,0.3333333333333333,81.39
+C108630,Occasional shoppers,159,2,1951.0,0.0,861.81
+C105642,Occasional shoppers,17,3,210.44,0.3333333333333333,14.67
+C101152,Loyal low-returners,44,4,3125.46,0.0,461.74
+C108199,Loyal low-returners,106,4,982.66,0.25,693.2
+C107461,Frequent returners (size swaps),342,1,84.72,1.0,9.51
+C105528,Frequent returners (size swaps),40,2,189.53,0.5,20.91
+C102174,Occasional shoppers,18,3,690.94,0.3333333333333333,234.01
+C101641,Occasional shoppers,65,2,607.77,0.0,79.61
+C101216,Occasional shoppers,84,1,426.76,0.0,527.37
+C103856,Occasional shoppers,142,2,221.51,0.0,55.32
+C100717,Occasional shoppers,253,4,758.03,0.25,57.49
+C106581,Lapsing customers,226,1,139.86,0.0,42.74
+C108264,Disputed / high-risk returners,109,3,545.73,0.3333333333333333,70.56
+C101981,Lapsing customers,209,3,405.85,0.0,36.17
+C101879,Loyal low-returners,53,8,1820.24,0.125,799.05
+C108186,Occasional shoppers,84,4,1013.16,0.0,253.31
+C105162,Occasional shoppers,116,4,894.25,0.0,123.63
+C101640,Occasional shoppers,25,4,735.77,0.0,241.15
+C106507,Frequent returners (size swaps),3,2,279.34,0.5,16.65
+C105030,Occasional shoppers,93,3,541.74,0.0,439.08
+C107149,Lapsing customers,224,1,172.36,0.0,75.73
+C104546,Frequent returners (size swaps),71,2,192.7,0.5,77.99
+C104498,Frequent returners (size swaps),98,4,1841.7,0.75,425.18
+C100777,Loyal low-returners,50,4,1183.96,0.25,91.31
+C102062,Loyal low-returners,3,5,981.78,0.0,323.14
+C107160,Frequent returners (size swaps),305,2,1415.07,0.5,75.08
+C105606,Occasional shoppers,48,3,526.93,0.3333333333333333,309.62
+C108222,Loyal low-returners,24,8,1858.17,0.0,656.83
+C105472,Occasional shoppers,39,1,59.14,0.0,9.01
+C106663,Loyal low-returners,33,8,2136.95,0.0,494.8
+C100620,Frequent returners (size swaps),92,2,672.66,1.0,0.0
+C106889,Loyal low-returners,35,5,1965.66,0.0,515.41
+C105349,Loyal low-returners,30,5,853.26,0.4,84.16
+C102486,Lapsing customers,203,2,521.22,0.0,192.26
+C100704,Loyal low-returners,12,6,2274.3,0.0,848.81
+C107281,Loyal low-returners,50,7,1850.23,0.0,445.6
+C108864,Occasional shoppers,64,4,931.88,0.0,118.07
+C105551,Lapsing customers,305,1,365.09,0.0,223.14
+C102164,Lapsing customers,102,1,100.9,0.0,59.69
+C105945,Loyal low-returners,63,7,1207.57,0.2857142857142857,129.73
+C107333,Occasional shoppers,49,2,682.97,0.0,134.6
+C100358,Loyal low-returners,90,8,2274.02,0.125,27.07
+C108844,Occasional shoppers,50,1,180.07,0.0,0.0
+C108201,Loyal low-returners,14,5,1658.03,0.0,314.24
+C104874,Frequent returners (size swaps),79,2,182.53,0.5,16.6
+C105940,Occasional shoppers,38,3,422.88,0.3333333333333333,155.85
+C104531,Lapsing customers,273,1,97.16,0.0,33.91
+C104918,Loyal low-returners,103,4,1299.68,0.0,431.81
+C108434,Lapsing customers,217,2,450.52,0.0,117.92
+C102916,Occasional shoppers,14,3,577.75,0.0,294.53
+C102743,Occasional shoppers,20,3,993.89,0.0,296.86
+C100946,Loyal low-returners,179,6,1218.19,0.16666666666666666,270.92
+C106242,Occasional shoppers,92,3,460.0,0.0,164.07
+C107694,Loyal low-returners,8,3,957.29,0.3333333333333333,151.93
+C104243,Loyal low-returners,201,4,2185.82,0.0,510.0
+C103296,Loyal low-returners,16,15,5312.79,0.13333333333333333,2271.8
+C100411,Frequent returners (size swaps),83,1,137.37,1.0,73.96
+C104696,Loyal low-returners,5,6,1154.29,0.16666666666666666,176.42
+C104388,Occasional shoppers,207,4,737.9,0.0,163.29
+C108965,Lapsing customers,288,1,185.24,0.0,249.47
+C104541,Loyal low-returners,45,4,1580.58,0.0,429.73
+C107062,Occasional shoppers,96,1,324.91,0.0,0.0
+C106174,Occasional shoppers,182,4,1231.8,0.0,132.45
+C108620,Occasional shoppers,172,4,1122.43,0.0,0.0
+C101491,Loyal low-returners,84,4,987.72,0.25,110.34
+C100995,Occasional shoppers,137,2,777.02,0.0,288.23
+C102732,Lapsing customers,165,2,218.0,0.0,106.8
+C104832,Occasional shoppers,40,3,1170.51,0.0,777.95
+C102723,Loyal low-returners,11,7,1217.0,0.14285714285714285,164.29
+C107282,Lapsing customers,230,2,124.89,0.0,53.23
+C101050,Occasional shoppers,93,4,1020.93,0.0,135.3
+C101559,Loyal low-returners,10,8,2243.31,0.375,56.81
+C100134,Loyal low-returners,17,8,2366.83,0.625,480.98
+C100526,Disputed / high-risk returners,2,17,4106.71,0.23529411764705882,1343.09
+C100732,Loyal low-returners,77,6,2097.17,0.0,313.13
+C108615,Frequent returners (size swaps),249,2,487.58,0.5,365.06
+C107802,Lapsing customers,265,1,186.13,0.0,118.0
+C105852,Loyal low-returners,55,11,2869.87,0.09090909090909091,574.95
+C108040,Loyal low-returners,26,6,1125.62,0.3333333333333333,71.69
+C100486,Frequent returners (size swaps),279,2,583.19,0.5,0.0
+C101512,Loyal low-returners,82,6,854.4,0.0,137.91
+C101580,Loyal low-returners,104,4,1600.64,0.0,1142.1
+C104925,Disputed / high-risk returners,240,1,80.49,1.0,63.44
+C105153,Loyal low-returners,9,3,1460.79,0.0,1305.71
+C101617,Occasional shoppers,67,3,661.71,0.3333333333333333,459.07
+C107563,Disputed / high-risk returners,178,3,311.92,0.3333333333333333,30.64
+C101283,Frequent returners (size swaps),214,1,251.63,1.0,188.38
+C106293,Occasional shoppers,44,3,425.28,0.3333333333333333,60.68
+C102698,Loyal low-returners,53,5,1560.7,0.2,0.0
+C107247,Lapsing customers,241,2,525.36,0.0,480.74
+C104525,Loyal low-returners,2,4,1074.99,0.25,656.85
+C103532,Occasional shoppers,4,2,188.74,0.0,6.56
+C100305,Occasional shoppers,127,3,746.89,0.3333333333333333,273.36
+C102938,Frequent returners (size swaps),197,2,258.9,0.5,123.35
+C105198,Loyal low-returners,88,4,1260.01,0.0,114.27
+C101208,Loyal low-returners,53,6,759.24,0.16666666666666666,47.89
+C104078,Loyal low-returners,50,8,1731.89,0.125,177.96
+C101870,Loyal low-returners,53,5,699.6,0.2,53.94
+C103547,Lapsing customers,293,1,101.14,0.0,74.82
+C106121,Occasional shoppers,73,2,267.98,0.0,77.78
+C102791,Lapsing customers,247,3,866.63,0.0,136.06
+C107046,Frequent returners (size swaps),51,1,83.24,1.0,47.36
+C105647,Lapsing customers,312,1,276.22,0.0,62.18
+C100633,Loyal low-returners,30,7,2847.03,0.2857142857142857,775.01
+C100063,Disputed / high-risk returners,3,13,3337.71,0.15384615384615385,819.29
+C100862,Loyal low-returners,36,6,2530.96,0.16666666666666666,817.64
+C102869,Loyal low-returners,114,10,3581.86,0.1,1017.98
+C102457,Occasional shoppers,59,2,263.72,0.0,65.81
+C107747,Occasional shoppers,159,3,591.07,0.3333333333333333,231.53
+C104842,Occasional shoppers,43,4,839.35,0.0,136.28
+C108475,Lapsing customers,361,1,82.97,0.0,0.0
+C105333,Occasional shoppers,62,2,583.01,0.0,146.64
+C107500,Loyal low-returners,5,8,1677.28,0.0,378.91
+C107512,Occasional shoppers,62,3,543.33,0.0,0.0
+C104901,Occasional shoppers,216,2,1165.1,0.0,633.63
+C108253,Frequent returners (size swaps),260,3,524.04,0.3333333333333333,0.0
+C107243,Frequent returners (size swaps),66,4,478.02,0.5,91.17
+C105012,Occasional shoppers,2,3,705.97,0.3333333333333333,141.28
+C107612,Loyal low-returners,2,3,1393.13,0.3333333333333333,724.14
+C100202,Occasional shoppers,93,4,685.86,0.0,45.66
+C103471,Occasional shoppers,56,2,709.24,0.0,34.91
+C102865,Loyal low-returners,27,8,2055.95,0.25,411.17
+C100464,Occasional shoppers,41,3,789.84,0.0,48.47
+C100608,Occasional shoppers,33,4,237.63,0.0,55.58
+C101533,Lapsing customers,339,1,92.94,0.0,101.88
+C108043,Loyal low-returners,66,7,4120.83,0.14285714285714285,1031.36
+C102742,Loyal low-returners,39,7,1343.02,0.0,136.84
+C103127,Loyal low-returners,17,9,2711.74,0.2222222222222222,228.02
+C101942,Occasional shoppers,160,2,778.22,0.0,99.51
+C102692,Occasional shoppers,42,5,583.83,0.0,99.57
+C100325,Loyal low-returners,36,5,701.8,0.0,86.07
+C100490,Occasional shoppers,135,3,552.78,0.3333333333333333,22.7
+C105199,Frequent returners (size swaps),73,2,724.4,1.0,567.35
+C101226,Occasional shoppers,72,3,296.23,0.0,95.73
+C103047,Lapsing customers,255,1,145.79,0.0,84.6
+C108085,Occasional shoppers,87,3,276.59,0.3333333333333333,0.0
+C102117,Occasional shoppers,39,2,297.49,0.0,99.12
+C100725,Occasional shoppers,69,1,147.04,0.0,84.4
+C102528,Occasional shoppers,47,4,476.06,0.0,150.99
+C107655,Loyal low-returners,67,4,1390.25,0.25,20.79
+C108751,Lapsing customers,288,3,609.98,0.3333333333333333,501.51
+C104771,Loyal low-returners,32,8,2242.67,0.0,623.22
+C106952,Lapsing customers,107,1,96.34,0.0,35.51
+C105538,Occasional shoppers,120,3,1891.52,0.0,214.21
+C107194,Lapsing customers,114,1,185.23,0.0,308.38
+C102464,Occasional shoppers,77,1,215.51,0.0,142.27
+C100613,Occasional shoppers,171,5,383.36,0.2,0.0
+C107553,Loyal low-returners,20,14,2345.78,0.21428571428571427,398.23
+C101503,Occasional shoppers,2,4,474.91,0.0,0.0
+C100991,Occasional shoppers,114,1,829.54,0.0,379.43
+C107797,Loyal low-returners,84,7,1189.94,0.5714285714285714,119.45
+C101570,Frequent returners (size swaps),212,3,659.96,0.3333333333333333,228.62
+C107151,Occasional shoppers,110,1,277.42,0.0,33.19
+C104959,Lapsing customers,251,1,228.45,0.0,0.0
+C107649,Occasional shoppers,93,2,1106.19,0.0,712.94
+C108608,Occasional shoppers,155,4,512.37,0.0,247.14
+C104496,Lapsing customers,62,1,32.35,0.0,3.24
+C101010,Occasional shoppers,1,2,305.67,0.0,162.29
+C103661,Loyal low-returners,106,5,1050.46,0.0,292.72
+C100016,Loyal low-returners,21,5,1421.94,0.0,202.59
+C108140,Frequent returners (size swaps),346,1,436.15,1.0,195.08
+C106717,Loyal low-returners,13,4,2200.47,0.0,123.7
+C108542,Occasional shoppers,122,2,199.7,0.0,25.07
+C101268,Occasional shoppers,137,2,374.24,0.0,120.35
+C105441,Loyal low-returners,76,8,4697.56,0.375,1257.25
+C107644,Lapsing customers,342,1,547.35,0.0,604.95
+C103269,Occasional shoppers,125,2,301.27,0.0,40.52
+C102654,Loyal low-returners,11,5,2620.28,0.0,1398.73
+C108588,Loyal low-returners,40,5,2445.95,0.2,505.02
+C102477,Disputed / high-risk returners,10,13,3255.47,0.46153846153846156,554.07
+C101493,Frequent returners (size swaps),103,2,1034.07,0.5,436.57
+C101328,Occasional shoppers,27,2,1073.24,0.0,257.06
+C102067,Loyal low-returners,195,5,2704.41,0.0,230.28
+C105981,Lapsing customers,134,1,290.9,0.0,85.65
+C105487,Frequent returners (size swaps),64,2,245.09,0.5,7.85
+C106972,Occasional shoppers,114,1,508.21,0.0,272.83
+C103508,Occasional shoppers,46,2,1224.12,0.0,91.72
+C101280,Lapsing customers,216,2,655.07,0.0,0.0
+C100635,Loyal low-returners,41,7,1880.89,0.0,201.97
+C102408,Loyal low-returners,12,4,1807.07,0.0,681.74
+C107244,Occasional shoppers,52,4,495.6,0.0,58.13
+C102522,Loyal low-returners,104,6,1180.0,0.16666666666666666,245.31
+C102021,Occasional shoppers,33,2,1669.48,0.0,1037.67
+C103210,Occasional shoppers,132,2,1336.79,0.0,151.87
+C102049,Loyal low-returners,44,4,1039.44,0.0,152.47
+C103185,Frequent returners (size swaps),252,1,92.68,1.0,19.76
+C102780,Occasional shoppers,2,2,364.7,0.0,93.17
+C104720,Lapsing customers,186,2,324.24,0.0,35.68
+C102889,Loyal low-returners,59,4,1216.49,0.5,381.51
+C107996,Occasional shoppers,72,1,187.75,0.0,348.92
+C100427,Loyal low-returners,30,6,1128.28,0.0,350.51
+C105738,Loyal low-returners,112,6,883.01,0.0,205.97
+C101132,Lapsing customers,67,1,82.42,0.0,15.67
+C105792,Loyal low-returners,72,4,1614.22,0.0,156.11
+C108774,Occasional shoppers,11,1,270.18,0.0,26.88
+C102716,Occasional shoppers,102,3,848.67,0.0,271.62
+C104468,Occasional shoppers,104,1,420.1,0.0,18.18
+C101015,Occasional shoppers,74,2,620.38,0.0,374.12
+C107636,Lapsing customers,246,1,131.46,0.0,18.81
+C100763,Loyal low-returners,73,8,2342.99,0.125,0.0
+C102084,Occasional shoppers,17,2,392.33,0.0,90.11
+C104304,Occasional shoppers,106,2,365.32,0.0,0.0
+C107006,Disputed / high-risk returners,125,4,800.55,0.75,0.0
+C107136,Lapsing customers,208,3,214.5,0.0,26.67
+C104162,Loyal low-returners,66,4,1229.17,0.0,430.35
+C108885,Loyal low-returners,78,8,2377.98,0.125,1144.89
+C100047,Loyal low-returners,122,5,1238.27,0.2,349.25
+C104445,Frequent returners (size swaps),118,3,1288.54,0.6666666666666666,225.97
+C104881,Loyal low-returners,4,4,1006.84,0.25,251.63
+C107929,Loyal low-returners,1,6,1086.94,0.0,137.87
+C104618,Loyal low-returners,170,8,2769.6,0.0,481.69
+C105580,Lapsing customers,277,3,1165.12,0.0,37.52
+C108984,Loyal low-returners,25,8,1234.1,0.125,135.01
+C101856,Disputed / high-risk returners,182,4,943.95,0.25,82.35
+C106703,Frequent returners (size swaps),11,1,590.08,1.0,0.0
+C103407,Occasional shoppers,72,3,292.99,0.0,21.76
+C107590,Occasional shoppers,85,1,196.73,0.0,115.17
+C100067,Occasional shoppers,15,3,709.46,0.0,421.27
+C107177,Occasional shoppers,112,3,764.77,0.0,0.0
+C108151,Occasional shoppers,160,3,900.0,0.0,1222.92
+C103919,Frequent returners (size swaps),132,2,345.86,0.5,34.47
+C100247,Lapsing customers,87,1,64.91,0.0,49.5
+C105443,Disputed / high-risk returners,29,10,3666.06,0.2,460.83
+C105630,Loyal low-returners,34,7,2212.92,0.0,238.29
+C105019,Occasional shoppers,68,2,179.42,0.0,96.82
+C103214,Frequent returners (size swaps),247,3,439.43,0.3333333333333333,118.32
+C101057,Occasional shoppers,75,1,450.32,0.0,0.0
+C101991,Occasional shoppers,173,4,739.25,0.0,112.07
+C106493,Lapsing customers,271,1,209.34,0.0,0.0
+C102965,Loyal low-returners,53,8,1248.25,0.125,454.29
+C104778,Lapsing customers,211,3,246.88,0.0,36.46
+C107413,Loyal low-returners,2,4,1031.4,0.25,92.65
+C108778,Loyal low-returners,3,7,2490.58,0.14285714285714285,47.51
+C103277,Lapsing customers,131,1,294.74,0.0,495.55
+C102050,Lapsing customers,214,1,174.69,0.0,21.97
+C104549,Occasional shoppers,12,1,261.33,0.0,167.26
+C106969,Frequent returners (size swaps),37,2,442.52,0.5,244.94
+C108987,Lapsing customers,228,3,625.68,0.0,39.95
+C103236,Occasional shoppers,77,3,751.0,0.0,104.72
+C100275,Occasional shoppers,17,4,534.01,0.0,42.19
+C103722,Loyal low-returners,62,6,1628.4,0.0,130.19
+C108357,Occasional shoppers,62,3,422.72,0.0,0.0
+C101973,Frequent returners (size swaps),282,1,101.0,1.0,22.82
+C103727,Frequent returners (size swaps),39,2,233.27,0.5,85.1
+C102269,Loyal low-returners,6,5,1006.08,0.2,285.3
+C104733,Occasional shoppers,108,3,1411.84,0.0,174.18
+C105069,Loyal low-returners,6,5,1347.64,0.2,235.67
+C105363,Lapsing customers,157,2,263.17,0.0,95.02
+C102095,Loyal low-returners,9,5,1193.39,0.0,220.13
+C102336,Loyal low-returners,25,3,1235.32,0.3333333333333333,96.16
+C106624,Lapsing customers,332,1,38.14,0.0,0.0
+C106356,Lapsing customers,301,1,59.73,0.0,5.03
+C103330,Lapsing customers,135,1,162.04,0.0,0.0
+C103331,Occasional shoppers,18,1,163.55,0.0,52.61
+C106475,Loyal low-returners,102,5,862.72,0.2,51.45
+C100081,Lapsing customers,357,1,192.18,0.0,203.08
+C105953,Loyal low-returners,4,5,1457.27,0.2,123.34
+C100474,Loyal low-returners,35,4,1694.38,0.25,241.2
+C104610,Lapsing customers,343,1,77.09,0.0,0.0
+C104945,Occasional shoppers,5,2,559.09,0.0,0.0
+C103734,Frequent returners (size swaps),225,3,763.39,0.3333333333333333,63.1
+C108564,Lapsing customers,142,1,90.98,0.0,158.49
+C103119,Frequent returners (size swaps),2,5,1993.56,0.8,310.17
+C106739,Disputed / high-risk returners,125,4,516.29,0.25,38.6
+C105994,Loyal low-returners,6,12,2210.42,0.25,316.12
+C108662,Frequent returners (size swaps),90,2,773.7,0.5,628.94
+C104423,Disputed / high-risk returners,66,4,2073.15,0.25,88.97
+C105636,Lapsing customers,312,1,871.07,0.0,121.19
+C100263,Loyal low-returners,113,5,2319.29,0.2,1152.04
+C100858,Occasional shoppers,37,1,150.05,0.0,6.83
+C101484,Loyal low-returners,71,4,1187.31,0.25,161.29
+C106217,Occasional shoppers,143,4,1023.75,0.0,227.4
+C101067,Frequent returners (size swaps),250,3,420.1,0.3333333333333333,152.43
+C100887,Loyal low-returners,81,3,1828.43,0.3333333333333333,176.26
+C102392,Lapsing customers,295,2,686.48,0.0,198.92
+C104003,Loyal low-returners,17,9,1408.48,0.1111111111111111,118.35
+C101755,Occasional shoppers,32,3,605.08,0.0,16.14
+C107591,Occasional shoppers,2,3,315.73,0.3333333333333333,23.37
+C103579,Frequent returners (size swaps),197,3,913.96,0.3333333333333333,288.41
+C101778,Loyal low-returners,2,6,1552.74,0.16666666666666666,194.92
+C103458,Lapsing customers,302,3,640.05,0.0,139.64
+C101622,Occasional shoppers,77,1,349.39,0.0,0.0
+C106690,Occasional shoppers,78,3,1479.59,0.0,310.07
+C101987,Occasional shoppers,103,1,237.23,0.0,0.0
+C102308,Loyal low-returners,56,6,1422.83,0.3333333333333333,221.19
+C105999,Occasional shoppers,124,4,1213.73,0.0,175.12
+C101487,Occasional shoppers,27,3,706.81,0.3333333333333333,287.84
+C107727,Occasional shoppers,57,4,367.51,0.25,6.61
+C103503,Loyal low-returners,104,3,3039.9,0.3333333333333333,496.41
+C103703,Loyal low-returners,12,13,3512.18,0.15384615384615385,1752.92
+C105092,Lapsing customers,238,3,959.42,0.0,327.31
+C103649,Loyal low-returners,134,4,982.61,0.25,170.12
+C108404,Occasional shoppers,4,4,761.56,0.0,90.46
+C108798,Lapsing customers,263,1,472.29,0.0,128.19
+C103455,Loyal low-returners,57,5,1482.15,0.4,240.17
+C103732,Occasional shoppers,21,2,356.19,0.0,87.12
+C107824,Frequent returners (size swaps),274,2,559.12,0.5,223.86
+C102571,Occasional shoppers,1,1,107.18,0.0,97.33
+C100031,Frequent returners (size swaps),211,2,213.03,1.0,53.67
+C105260,Loyal low-returners,13,11,3409.04,0.45454545454545453,346.49
+C105079,Frequent returners (size swaps),10,2,511.12,0.5,139.95
+C101199,Loyal low-returners,4,7,3553.19,0.14285714285714285,378.36
+C100136,Lapsing customers,304,2,2130.69,0.0,904.08
+C105688,Occasional shoppers,5,3,348.15,0.0,153.28
+C106554,Loyal low-returners,40,5,1429.29,0.0,274.9
+C103450,Frequent returners (size swaps),57,2,221.46,0.5,120.47
+C105494,Lapsing customers,248,1,876.59,0.0,100.4
+C102540,Loyal low-returners,187,5,2443.02,0.4,484.08
+C107299,Loyal low-returners,49,5,1164.11,0.0,167.74
+C101705,Loyal low-returners,34,7,2138.74,0.0,193.07
+C107584,Occasional shoppers,106,2,552.14,0.0,125.75
+C100658,Frequent returners (size swaps),287,1,142.44,1.0,185.29
+C108091,Loyal low-returners,12,6,2758.57,0.16666666666666666,286.53
+C101552,Occasional shoppers,66,3,524.84,0.0,111.2
+C106391,Occasional shoppers,169,2,685.4,0.0,53.47
+C107048,Loyal low-returners,4,8,3411.38,0.125,540.55
+C105222,Disputed / high-risk returners,45,7,1209.65,0.5714285714285714,127.67
+C104593,Occasional shoppers,4,3,239.98,0.0,193.13
+C102425,Occasional shoppers,46,3,419.75,0.3333333333333333,92.4
+C108443,Frequent returners (size swaps),140,3,604.34,0.6666666666666666,351.83
+C104654,Frequent returners (size swaps),109,3,1085.99,0.6666666666666666,356.22
+C103103,Occasional shoppers,75,3,906.94,0.0,185.9
+C100886,Loyal low-returners,24,7,1369.67,0.14285714285714285,126.26
+C106436,Lapsing customers,320,1,192.29,0.0,145.93
+C101043,Lapsing customers,280,1,191.72,0.0,0.0
+C107833,Loyal low-returners,79,4,1459.2,0.5,237.76
+C106197,Loyal low-returners,87,3,1117.86,0.3333333333333333,0.0
+C100888,Lapsing customers,295,1,370.42,0.0,107.17
+C100914,Lapsing customers,292,2,391.5,0.0,146.88
+C106196,Loyal low-returners,17,5,1803.1,0.0,730.05
+C104514,Occasional shoppers,16,4,482.28,0.25,287.37
+C101355,Loyal low-returners,12,9,3359.64,0.1111111111111111,1899.33
+C101344,Lapsing customers,276,1,254.69,0.0,146.46
+C108170,Lapsing customers,348,1,1557.97,0.0,1189.32
+C108010,Lapsing customers,217,2,653.55,0.0,155.12
+C103432,Loyal low-returners,121,6,1045.68,0.0,28.43
+C104158,Occasional shoppers,59,5,583.18,0.0,235.46
+C103162,Occasional shoppers,226,2,2583.92,0.0,191.51
+C105497,Frequent returners (size swaps),136,4,776.12,0.75,14.03
+C103323,Lapsing customers,121,1,102.52,0.0,31.88
+C104341,Loyal low-returners,38,9,6805.83,0.2222222222222222,1757.51
+C101823,Loyal low-returners,90,5,1036.06,0.0,74.09
+C107645,Occasional shoppers,26,2,646.69,0.0,111.88
+C107627,Frequent returners (size swaps),68,4,906.86,0.5,121.06
+C100499,Loyal low-returners,69,5,1620.91,0.4,0.0
+C105259,Frequent returners (size swaps),53,2,463.08,0.5,310.35
+C106123,Frequent returners (size swaps),152,2,566.9,0.5,0.0
+C100466,Loyal low-returners,6,10,1541.08,0.2,264.92
+C101338,Frequent returners (size swaps),268,1,140.83,1.0,75.26
+C106572,Loyal low-returners,139,9,1553.11,0.0,340.19
+C105926,Frequent returners (size swaps),218,3,535.4,0.3333333333333333,129.97
+C108385,Lapsing customers,351,1,141.96,0.0,47.07
+C107950,Occasional shoppers,72,2,338.28,0.0,95.48
+C100110,Occasional shoppers,79,2,670.67,0.0,49.36
+C102668,Disputed / high-risk returners,41,4,1303.84,0.75,478.44
+C105512,Disputed / high-risk returners,173,5,829.88,0.8,33.52
+C103610,Lapsing customers,125,1,65.96,0.0,51.78
+C101735,Loyal low-returners,62,9,3048.4,0.3333333333333333,727.03
+C104674,Loyal low-returners,88,4,1075.43,0.25,0.0
+C102435,Lapsing customers,284,3,360.1,0.0,84.58
+C100186,Occasional shoppers,131,4,1115.56,0.0,17.95
+C106639,Loyal low-returners,251,5,2058.73,0.2,568.93
+C100147,Loyal low-returners,9,11,3859.1,0.09090909090909091,942.76
+C105031,Lapsing customers,251,1,198.59,0.0,144.32
+C107481,Lapsing customers,290,1,29.35,0.0,25.18
+C101439,Occasional shoppers,139,4,1129.19,0.0,251.41
+C108093,Loyal low-returners,10,8,2010.26,0.125,245.97
+C102524,Loyal low-returners,57,6,1558.93,0.0,270.41
+C104937,Loyal low-returners,63,4,1195.67,0.0,714.81
+C105867,Lapsing customers,247,1,344.35,0.0,0.0
+C106286,Frequent returners (size swaps),356,1,87.26,1.0,0.0
+C105433,Occasional shoppers,104,2,776.14,0.0,90.19
+C102132,Loyal low-returners,126,7,5461.19,0.0,919.91
+C104256,Frequent returners (size swaps),180,2,413.84,0.5,286.68
+C104796,Loyal low-returners,86,4,972.41,0.25,0.0
+C103113,Loyal low-returners,54,7,1494.33,0.0,615.69
+C100885,Loyal low-returners,25,8,1928.89,0.125,419.38
+C102255,Lapsing customers,246,1,79.28,0.0,29.37
+C108649,Lapsing customers,249,1,73.33,0.0,51.74
+C100509,Occasional shoppers,230,5,939.66,0.0,15.13
+C102155,Loyal low-returners,87,3,2952.57,0.0,1817.58
+C102696,Occasional shoppers,149,5,761.61,0.0,121.77
+C107146,Loyal low-returners,9,13,2382.75,0.15384615384615385,341.55
+C100877,Occasional shoppers,78,3,309.18,0.0,40.22
+C102651,Occasional shoppers,104,1,444.62,0.0,187.46
+C103999,Loyal low-returners,53,5,3635.24,0.2,241.03
+C101178,Occasional shoppers,1,3,933.34,0.0,570.53
+C103689,Loyal low-returners,37,5,614.6,0.2,97.63
+C100156,Loyal low-returners,58,7,2151.23,0.14285714285714285,0.0
+C107296,Loyal low-returners,102,12,2049.73,0.0,350.25
+C101469,Loyal low-returners,11,5,1608.85,0.0,309.98
+C106208,Loyal low-returners,13,4,1993.09,0.25,238.5
+C103589,Occasional shoppers,38,1,76.29,0.0,165.64
+C102304,Occasional shoppers,1,2,291.53,0.0,48.07
+C107983,Lapsing customers,224,1,47.88,0.0,48.78
+C108831,Occasional shoppers,115,2,340.1,0.0,69.68
+C108896,Loyal low-returners,80,5,1963.42,0.0,301.01
+C105034,Lapsing customers,313,2,439.96,0.0,0.0
+C108054,Occasional shoppers,27,1,577.89,0.0,470.6
+C103218,Loyal low-returners,64,7,2715.83,0.2857142857142857,250.67
+C101099,Loyal low-returners,64,9,3738.48,0.0,663.65
+C106150,Occasional shoppers,136,4,826.67,0.25,307.46
+C103464,Loyal low-returners,31,6,1232.81,0.0,246.51
+C100610,Occasional shoppers,103,3,615.39,0.0,103.55
+C102994,Lapsing customers,323,1,262.89,0.0,215.9
+C107557,Disputed / high-risk returners,32,3,1159.86,1.0,265.1
+C101625,Frequent returners (size swaps),316,2,581.46,0.5,96.69
+C106409,Loyal low-returners,4,7,2046.15,0.0,294.87
+C101394,Occasional shoppers,3,2,207.79,0.0,41.35
+C101547,Occasional shoppers,143,2,439.84,0.0,185.25
+C107930,Loyal low-returners,23,3,3327.49,0.0,0.0
+C108218,Disputed / high-risk returners,16,5,856.73,0.4,42.25
+C101610,Occasional shoppers,23,2,172.62,0.0,7.48
+C107019,Loyal low-returners,30,8,1042.69,0.0,89.22
+C102957,Lapsing customers,202,2,391.08,0.0,64.13
+C106680,Lapsing customers,192,1,297.17,0.0,109.15
+C105196,Disputed / high-risk returners,83,11,2466.78,0.36363636363636365,547.38
+C105907,Occasional shoppers,165,2,590.29,0.0,163.74
+C107792,Lapsing customers,164,1,48.21,0.0,18.04
+C101073,Lapsing customers,217,2,366.34,0.0,82.74
+C107613,Occasional shoppers,148,3,485.4,0.3333333333333333,74.68
+C103299,Loyal low-returners,3,3,2706.47,0.0,642.01
+C107935,Disputed / high-risk returners,93,11,2775.22,0.5454545454545454,17.68
+C101390,Frequent returners (size swaps),215,3,555.38,0.3333333333333333,46.18
+C102713,Loyal low-returners,114,5,1765.1,0.2,1484.44
+C108854,Lapsing customers,51,1,57.9,0.0,26.52
+C100293,Loyal low-returners,78,10,2573.05,0.2,406.65
+C100724,Occasional shoppers,75,3,826.45,0.3333333333333333,261.18
+C102976,Occasional shoppers,122,2,335.29,0.0,79.67
+C103250,Occasional shoppers,20,4,613.66,0.0,41.24
+C103228,Lapsing customers,275,2,96.87,0.0,59.71
+C105507,Occasional shoppers,13,4,370.74,0.0,250.37
+C108387,Occasional shoppers,30,1,81.52,0.0,35.35
+C100647,Occasional shoppers,75,3,426.18,0.0,38.51
+C104307,Occasional shoppers,105,2,2375.47,0.0,363.96

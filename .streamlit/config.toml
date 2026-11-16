@@ -1,0 +1,31 @@
+# Streamlit theme. Colours mirror dashboard/config/theme.py — change both together.
+[theme]
+base = "light"
+primaryColor = "#668DBA"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#263548"
+linkColor = "#4F78A8"
+font = "sans-serif"
+baseFontSize = 14
+baseRadius = "0.75rem"
+borderColor = "#E6EBF1"
+dataframeBorderColor = "#E6EBF1"
+dataframeHeaderBackgroundColor = "#F8FAFC"
+showWidgetBorder = true
+showSidebarBorder = true
+chartCategoricalColors = ["#668DBA", "#78A48D", "#9C88C9", "#E3A27A", "#D9B85C", "#7FB3C8", "#C98B9F", "#8E9AAB"]
+
+[theme.sidebar]
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+
+[server]
+headless = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

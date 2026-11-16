@@ -1,0 +1,95 @@
+/* Dashboard styling. Colours mirror dashboard/config/theme.py. */
+:root {
+  --c-white: #FFFFFF; --c-sidebar: #F8FAFC; --c-border: #E6EBF1; --c-text: #263548; --c-muted: #6B788A;
+  --c-blue: #EAF2FC; --c-sage: #EAF4EF; --c-lav: #F1EDFA; --c-peach: #FFF2E8; --c-yellow: #FFF8E8;
+  --c-accent: #668DBA; --c-green: #78A48D;
+  --radius: 14px; --shadow: 0 1px 2px rgba(38,53,72,.04), 0 4px 14px rgba(38,53,72,.05);
+}
+
+html, body, [data-testid="stAppViewContainer"] { background: var(--c-white); }
+[data-testid="stMainBlockContainer"] { padding-top: 3.4rem; padding-bottom: 3rem; max-width: 1400px; }
+[data-testid="stHeader"] { background: rgba(255,255,255,0.85); }
+
+/* ---- Streamlit bordered containers become cards ---- */
+div[class*="st-key-card-"] {
+  background: var(--c-white);
+  border: 1px solid var(--c-border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow);
+  padding: 1.05rem 1.15rem 0.9rem 1.15rem !important;
+}
+div[class*="st-key-card-"] div[class*="st-key-card-"] { box-shadow: none; }
+
+/* ---- HTML cards ---- */
+.lc-card { background: var(--c-white); border: 1px solid var(--c-border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 1rem 1.15rem; margin-bottom: .75rem; color: var(--c-text); }
+.lc-card.tint-blue { background: var(--c-blue); border-color: #D7E5F6; }
+.lc-card.tint-sage { background: var(--c-sage); border-color: #D3E7DC; }
+.lc-card.tint-lav { background: var(--c-lav); border-color: #E2DAF4; }
+.lc-card.tint-peach { background: var(--c-peach); border-color: #F7DDC9; }
+.lc-card.tint-yellow { background: var(--c-yellow); border-color: #F3E5BF; }
+
+.lc-page { padding: 1.25rem 1.4rem; background: linear-gradient(180deg, #FFFFFF 0%, #FBFCFE 100%); }
+.lc-eyebrow { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--c-muted); font-weight: 600; }
+.lc-title { font-size: 1.65rem; font-weight: 700; color: var(--c-text); margin: .15rem 0 .25rem 0; line-height: 1.25; }
+.lc-sub { color: var(--c-muted); font-size: .95rem; margin: 0; }
+.lc-meta { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .7rem; align-items: center; }
+
+.lc-h { font-size: 1.02rem; font-weight: 650; color: var(--c-text); margin: 0 0 .15rem 0; }
+.lc-q { font-size: .88rem; color: var(--c-muted); margin: 0 0 .35rem 0; }
+.lc-q b { color: var(--c-text); font-weight: 600; }
+.lc-body { font-size: .9rem; color: var(--c-text); line-height: 1.5; }
+.lc-body p { margin: 0 0 .4rem 0; }
+.lc-muted { color: var(--c-muted); font-size: .82rem; }
+
+.lc-badge { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .05em; padding: .18rem .5rem;
+  border-radius: 999px; border: 1px solid rgba(0,0,0,.04); white-space: nowrap; }
+.lc-chip { display: inline-block; font-size: .74rem; padding: .16rem .55rem; border-radius: 999px; background: #F1F4F8;
+  color: var(--c-muted); border: 1px solid var(--c-border); white-space: nowrap; }
+
+/* KPI */
+.lc-kpi { background: var(--c-white); border: 1px solid var(--c-border); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: .85rem 1rem .8rem 1rem; height: 100%; min-height: 128px; display: flex; flex-direction: column; gap: .2rem;
+  border-top: 3px solid var(--kpi-accent, var(--c-accent)); }
+.lc-kpi-label { font-size: .78rem; color: var(--c-muted); font-weight: 600; line-height: 1.3; }
+.lc-kpi-value { font-size: 1.6rem; font-weight: 700; color: var(--c-text); line-height: 1.15; }
+.lc-kpi-value.na { font-size: 1.05rem; color: var(--c-muted); font-weight: 600; }
+.lc-kpi-sub { font-size: .75rem; color: var(--c-muted); line-height: 1.35; margin-top: auto; }
+
+/* Explanation grid */
+.lc-explain { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem; margin-top: .35rem; }
+.lc-explain > div { border-radius: 10px; padding: .6rem .75rem; font-size: .84rem; line-height: 1.45; color: var(--c-text); }
+.lc-explain .lc-xl { font-size: .66rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--c-muted);
+  display: block; margin-bottom: .2rem; }
+.lc-explain .x-measure { background: #F7F9FC; border: 1px solid var(--c-border); }
+.lc-explain .x-observe { background: var(--c-blue); grid-column: 1 / -1; }
+.lc-explain .x-implic { background: var(--c-sage); }
+.lc-explain .x-limit { background: var(--c-peach); }
+@media (max-width: 900px) { .lc-explain { grid-template-columns: 1fr; } }
+
+/* Notices */
+.lc-notice { border-radius: 12px; padding: .8rem 1rem; font-size: .87rem; line-height: 1.5; border: 1px solid; margin-bottom: .6rem; }
+.lc-notice b { font-weight: 650; }
+.lc-notice.info { background: var(--c-blue); border-color: #D7E5F6; color: #2F4C70; }
+.lc-notice.warn { background: var(--c-yellow); border-color: #F3E5BF; color: #6D5414; }
+.lc-notice.pending { background: var(--c-lav); border-color: #E2DAF4; color: #4F3F80; }
+.lc-notice.error { background: #FDF0EF; border-color: #F3D2CF; color: #8A3B35; }
+.lc-notice.ok { background: var(--c-sage); border-color: #D3E7DC; color: #335C47; }
+.lc-notice code { background: rgba(255,255,255,.7); padding: .05rem .3rem; border-radius: 4px; font-size: .8rem; }
+
+/* Tables rendered as HTML */
+.lc-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+.lc-table th { text-align: left; color: var(--c-muted); font-weight: 600; border-bottom: 1px solid var(--c-border); padding: .4rem .5rem; }
+.lc-table td { border-bottom: 1px solid #F0F3F7; padding: .4rem .5rem; vertical-align: top; }
+
+/* Sidebar */
+[data-testid="stSidebar"] { background: var(--c-sidebar); }
+[data-testid="stSidebar"] .lc-side-brand { font-weight: 700; font-size: 1.02rem; color: var(--c-text); line-height: 1.25; }
+[data-testid="stSidebar"] .lc-side-sub { font-size: .76rem; color: var(--c-muted); }
+[data-testid="stSidebarNavLink"] { border-radius: 8px; }
+
+/* Tabs & expanders */
+.stTabs [data-baseweb="tab-list"] { gap: .25rem; border-bottom: 1px solid var(--c-border); }
+.stTabs [data-baseweb="tab"] { padding: .45rem .85rem; border-radius: 8px 8px 0 0; }
+[data-testid="stExpander"] details { border-radius: 10px; border-color: var(--c-border); }
+[data-testid="stExpander"] summary p { font-size: .85rem; color: var(--c-muted); }

@@ -1,0 +1,4 @@
+dataset,raw_rows,clean_rows,raw_missing_cells,columns
+orders,30180,30000,91,38
+returns,4680,4620,1096,25
+tickets,8692,8622,3635,23

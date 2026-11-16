@@ -1,0 +1,13 @@
+ticket_id,text,topic,predicted_topic,angry,p_angry
+T906145,Khalas. good morning. you said express. delivery delayed again.,Delivery delay,Delivery delay,0,0.38
+T903157,Ordered on friday still nothing. good morning. thank you.,Delivery delay,Delivery delay,0,0.35
+T901201,Very disappointed. box was broken. useless support. still not delivered.,Delivery delay,Delivery delay,1,0.9
+T901161,Tracking not moving. copy paste replies!!,Delivery delay,Delivery delay,1,0.8
+T903280,Please help. was promised tomorrow. hi team?,Delivery delay,Delivery delay,0,0.22
+T908096,Fake product. attempted delivery but no one knocked. never agai. cancel my account.,Failed delivery,Failed delivery,0,0.69
+T908501,Was promised tomorrow. very disappointed...,Delivery delay,Delivery delay,1,0.7
+T907069,Regards. shipment status same since monday.,Delivery delay,Delivery delay,1,0.3
+T907937,The date keeps changing. tihs is unacceptable. my order is late. terrible experience. missng parts...,Delivery delay,Delivery delay,0,0.76
+T905983,Hi team. please help. was promsied tomorrow...,Delivery delay,Delivery delay,0,0.31
+T905763,The date keeps changing. escalate this now. where is my parcel?,Delivery delay,Delivery delay,1,0.45
+T902404,Amount debited twice. pls help. cash on delivery issue,Payment / billing,Payment / billing,0,0.34

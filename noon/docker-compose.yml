@@ -1,0 +1,30 @@
+# Live noon platform on Docker Desktop:
+#   docker compose up --build        → open http://localhost:8501 and go to "9 · Live Platform"
+# The simulator container writes orders, deliveries, returns, tickets and alerts into the shared database
+# (SQLite files on the 'live-data' volume) every 1.5 s; the dashboard container reads it and sends controls back.
+services:
+  simulator:
+    build: .
+    command: ["python", "-m", "live.worker"]
+    environment:
+      NOON_LIVE_DIR: /data
+      NOON_LIVE_INTERVAL: "1.5"
+    volumes:
+      - live-data:/data
+    restart: unless-stopped
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      NOON_LIVE_DIR: /data
+      NOON_LIVE_WORKER: "1"
+    volumes:
+      - live-data:/data
+    depends_on:
+      - simulator
+    restart: unless-stopped
+
+volumes:
+  live-data:

@@ -1,0 +1,401 @@
+antecedents,consequents,support,confidence,lift,leverage,count
+Needs: Loss & damage protection terms; Needs: Real-time status,Needs: 24/7 support,0.0552,0.3785,1.3253,0.0135,109
+Wants: Group booking,First: Partner drop-off,0.0663,0.4199,1.2719,0.0142,131
+Needs: Individual compartments; Needs: Loss & damage protection terms,Venue: Smart lockers,0.0628,0.412,1.2595,0.0129,124
+Needs: 24/7 support; Needs: Real-time status,Needs: Loss & damage protection terms,0.0552,0.5561,1.2439,0.0108,109
+Needs: Loss & damage protection terms; Venue: Smart lockers,Needs: Individual compartments,0.0628,0.4092,1.2416,0.0122,124
+First: Locker; Venue: Dedicated storage facilities,Current: Carried it,0.0547,0.6102,1.2373,0.0105,108
+Needs: Verified partners with address; Venue: Smart lockers,Needs: Individual compartments,0.0547,0.4075,1.2364,0.0105,108
+Needs: 24/7 support; Needs: Loss & damage protection terms,Needs: Real-time status,0.0552,0.4037,1.2248,0.0101,109
+Needs: Verified partners with address; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0709,0.5036,1.2189,0.0127,140
+Needs: Reviews & ratings; Needs: Transparent pricing / refunds,Needs: Photos at drop-off / collection,0.0522,0.4256,1.2183,0.0093,103
+Venue: Airport / railway facilities; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0841,0.503,1.2175,0.015,166
+Needs: Individual compartments; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0522,0.3977,1.2158,0.0093,103
+Needs: Tamper-evident seals; Wants: Insurance / loss protection,Current: Carried it,0.0522,0.5988,1.2143,0.0092,103
+Current: Carried it; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0891,0.5014,1.2136,0.0157,176
+Needs: 24/7 support; Needs: Tamper-evident seals,Needs: CCTV,0.0542,0.5691,1.2126,0.0095,107
+Needs: Photos at drop-off / collection; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0603,0.5,1.2102,0.0105,119
+First: Locker; Needs: Loss & damage protection terms,Current: Carried it,0.0582,0.5959,1.2082,0.01,115
+Needs: ID check at collection; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0522,0.4274,1.2076,0.009,103
+Needs: Photos at drop-off / collection; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0587,0.4979,1.205,0.01,116
+Needs: Individual compartments; Venue: Verified hotels,Venue: Smart lockers,0.0618,0.3935,1.2032,0.0104,122
+First: Locker,Venue: Verified restaurants / cafés,0.077,0.3527,1.2009,0.0129,152
+Needs: Reviews & ratings; Needs: Tamper-evident seals,Needs: CCTV,0.0562,0.5635,1.2005,0.0094,111
+Needs: ID check at collection; Venue: Verified hotels,Needs: Reviews & ratings,0.0532,0.375,1.2004,0.0089,105
+First: Partner drop-off; Needs: Tamper-evident seals,Needs: CCTV,0.0608,0.5634,1.2003,0.0101,120
+Venue: Dedicated storage facilities; Venue: Verified hotels,Venue: Airport / railway facilities,0.0841,0.4246,1.1996,0.014,166
+Needs: CCTV; Needs: Real-time status,Needs: Verified partners with address,0.0759,0.4983,1.1973,0.0125,150
+Needs: CCTV; Venue: Smart lockers,Needs: Loss & damage protection terms,0.079,0.5342,1.1949,0.0129,156
+First: Locker; Needs: Verified partners with address,Current: Carried it,0.0587,0.5888,1.194,0.0095,116
+Needs: ID check at collection; Needs: Reviews & ratings,Venue: Verified hotels,0.0532,0.5497,1.1879,0.0084,105
+Needs: Reviews & ratings; Venue: Verified hotels,Needs: ID check at collection,0.0532,0.3559,1.1874,0.0084,105
+First: Partner drop-off; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0527,0.3881,1.1864,0.0083,104
+Needs: Photos at drop-off / collection; Needs: Reviews & ratings,Needs: Transparent pricing / refunds,0.0522,0.4703,1.1863,0.0082,103
+First: Partner drop-off; Needs: CCTV,Needs: Tamper-evident seals,0.0608,0.4,1.1844,0.0095,120
+Needs: Photos at drop-off / collection; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0587,0.3867,1.1821,0.009,116
+Needs: Tamper-evident seals; Needs: Verified partners with address,Needs: CCTV,0.077,0.5547,1.1819,0.0118,152
+Needs: Verified partners with address; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0709,0.4179,1.1808,0.0109,140
+Needs: Individual compartments; Venue: Smart lockers,Needs: Loss & damage protection terms,0.0628,0.5277,1.1802,0.0096,124
+Current: Hotel / accommodation held it; Venue: Dedicated storage facilities,Needs: Reviews & ratings,0.0511,0.3686,1.1799,0.0078,101
+First: Partner drop-off; Venue: Verified hotels,Venue: Smart lockers,0.0608,0.3859,1.1797,0.0093,120
+Needs: Verified partners with address; Wants: Insurance / loss protection,Needs: CCTV,0.0633,0.5531,1.1784,0.0096,125
+Needs: CCTV; Needs: Individual compartments,Needs: Verified partners with address,0.0739,0.4899,1.1772,0.0111,146
+Current: Carried it; Venue: Smart lockers,Needs: Individual compartments,0.0628,0.3875,1.1756,0.0094,124
+Needs: Individual compartments; Needs: Transparent pricing / refunds,Needs: Photos at drop-off / collection,0.0547,0.4106,1.1754,0.0082,108
+First: Partner drop-off; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0557,0.4104,1.1748,0.0083,110
+Wants: Route-based recommendations,Needs: Reviews & ratings,0.0663,0.3669,1.1746,0.0099,131
+Needs: Photos at drop-off / collection; Needs: Real-time status,Needs: Verified partners with address,0.0542,0.4886,1.1739,0.008,107
+Needs: Loss & damage protection terms; Wants: Insurance / loss protection,Needs: Individual compartments,0.0501,0.3867,1.1732,0.0074,99
+Current: Carried it; Needs: 24/7 support,Venue: Dedicated storage facilities,0.0643,0.4847,1.1732,0.0095,127
+Wants: Priority support,Needs: Real-time status,0.0592,0.3861,1.1715,0.0087,117
+Needs: 24/7 support; Venue: Verified hotels,Needs: Verified partners with address,0.0658,0.4869,1.1698,0.0096,130
+Needs: CCTV; Needs: Transparent pricing / refunds,Needs: Verified partners with address,0.0906,0.4864,1.1687,0.0131,179
+Needs: Reviews & ratings; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0527,0.4078,1.1674,0.0076,104
+Current: Carried it; Wants: Flexible extensions,Venue: Dedicated storage facilities,0.0618,0.4822,1.1671,0.0088,122
+Venue: Dedicated storage facilities; Wants: Flexible extensions,Current: Carried it,0.0618,0.5755,1.1669,0.0088,122
+Needs: 24/7 support; Needs: Verified partners with address,Venue: Verified hotels,0.0658,0.5394,1.1656,0.0094,130
+Needs: Loss & damage protection terms; Venue: Verified hotels,Venue: Smart lockers,0.0754,0.3811,1.165,0.0107,149
+Needs: Reviews & ratings; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0501,0.3808,1.1641,0.0071,99
+Venue: Airport / railway facilities; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0572,0.4809,1.1638,0.0081,113
+Needs: Transparent pricing / refunds; Wants: Real-time tracking,Venue: Verified hotels,0.0542,0.5377,1.1619,0.0075,107
+Needs: CCTV; Venue: Verified hotels,Needs: Verified partners with address,0.1028,0.4833,1.1613,0.0143,203
+Needs: Verified partners with address; Venue: Verified restaurants / cafés,Needs: CCTV,0.0648,0.5447,1.1605,0.009,128
+Venue: Smart lockers; Venue: Verified hotels,Needs: Individual compartments,0.0618,0.3824,1.1603,0.0085,122
+Needs: QR / luggage ID; Venue: Dedicated storage facilities,Current: Carried it,0.0709,0.5714,1.1587,0.0097,140
+Needs: ID check at collection; Needs: Tamper-evident seals,Current: Carried it,0.0547,0.5714,1.1587,0.0075,108
+Needs: Loss & damage protection terms; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0734,0.4785,1.1583,0.01,145
+Current: Carried it; Needs: QR / luggage ID,Needs: Individual compartments,0.0577,0.3813,1.1567,0.0078,114
+Wants: Multi-bag / family packages,Needs: Verified partners with address,0.0577,0.481,1.1557,0.0078,114
+Needs: Reviews & ratings; Venue: Dedicated storage facilities,Venue: Verified hotels,0.0704,0.5346,1.1552,0.0095,139
+Needs: QR / luggage ID; Venue: Verified hotels,Venue: Smart lockers,0.0516,0.3778,1.155,0.0069,102
+Needs: Individual compartments; Needs: Verified partners with address,Venue: Smart lockers,0.0547,0.3776,1.1545,0.0073,108
+Needs: Loss & damage protection terms; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0734,0.3776,1.1544,0.0098,145
+Needs: Individual compartments; Needs: Photos at drop-off / collection,Needs: Transparent pricing / refunds,0.0547,0.4576,1.1543,0.0073,108
+Venue: Dedicated storage facilities; Wants: Insurance / loss protection,Current: Carried it,0.0689,0.569,1.1538,0.0092,136
+Current: Carried it; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0891,0.4084,1.1538,0.0119,176
+Wants: Route-based recommendations,Current: Carried it,0.1028,0.5686,1.153,0.0136,203
+Venue: Dedicated storage facilities; Venue: Smart lockers,Needs: Photos at drop-off / collection,0.0587,0.4028,1.1529,0.0078,116
+First: Partner drop-off; Venue: Verified hotels,Needs: Reviews & ratings,0.0567,0.3601,1.1528,0.0075,112
+First: Partner drop-off; Needs: Reviews & ratings,Venue: Verified hotels,0.0567,0.5333,1.1524,0.0075,112
+Needs: Transparent pricing / refunds; Needs: Verified partners with address,Needs: CCTV,0.0906,0.5408,1.1522,0.012,179
+Needs: Reviews & ratings; Venue: Verified hotels,First: Partner drop-off,0.0567,0.3797,1.15,0.0074,112
+Current: Carried it; Wants: Insurance / loss protection,Needs: Individual compartments,0.0552,0.3785,1.1482,0.0071,109
+Needs: Individual compartments; Wants: Insurance / loss protection,Needs: Loss & damage protection terms,0.0501,0.513,1.1473,0.0064,99
+Needs: Transparent pricing / refunds; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0597,0.4739,1.147,0.0077,118
+Current: Carried it; First: Locker,Needs: Verified partners with address,0.0587,0.4774,1.147,0.0075,116
+Current: Carried it; Wants: Insurance / loss protection,First: Partner drop-off,0.0552,0.3785,1.1464,0.007,109
+First: Locker; Needs: CCTV,Needs: Verified partners with address,0.0522,0.4769,1.1457,0.0066,103
+Wants: Route-based recommendations,First: Partner drop-off,0.0684,0.3782,1.1455,0.0087,135
+Venue: Dedicated storage facilities; Venue: Verified restaurants / cafés,Current: Carried it,0.0684,0.5649,1.1454,0.0087,135
+Needs: Individual compartments; Wants: Insurance / loss protection,Current: Carried it,0.0552,0.5648,1.1452,0.007,109
+Current: Carried it; Needs: Photos at drop-off / collection,Venue: Dedicated storage facilities,0.08,0.4731,1.145,0.0101,158
+Needs: 24/7 support; Needs: CCTV,Needs: Tamper-evident seals,0.0542,0.3863,1.1438,0.0068,107
+Current: Carried it; Needs: Photos at drop-off / collection,Needs: Tamper-evident seals,0.0653,0.3862,1.1436,0.0082,129
+First: Locker,Current: Carried it,0.123,0.5638,1.1432,0.0154,243
+Current: Carried it; Wants: Insurance / loss protection,Venue: Dedicated storage facilities,0.0689,0.4722,1.1429,0.0086,136
+Needs: QR / luggage ID; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0501,0.4041,1.1417,0.0062,99
+Needs: Loss & damage protection terms; Needs: Verified partners with address,Needs: CCTV,0.1028,0.5356,1.1412,0.0127,203
+Needs: Reviews & ratings; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0501,0.4714,1.141,0.0062,99
+Needs: Photos at drop-off / collection; Needs: Reviews & ratings,Needs: Verified partners with address,0.0527,0.4749,1.141,0.0065,104
+Needs: Tamper-evident seals; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0557,0.3986,1.1408,0.0069,110
+Needs: Transparent pricing / refunds; Venue: Smart lockers,Needs: Photos at drop-off / collection,0.0516,0.3984,1.1405,0.0064,102
+Needs: Reviews & ratings; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0704,0.4712,1.1404,0.0087,139
+Venue: Airport / railway facilities; Venue: Verified hotels,Venue: Smart lockers,0.0623,0.3727,1.1395,0.0076,123
+Venue: Smart lockers; Venue: Verified hotels,First: Partner drop-off,0.0608,0.3762,1.1395,0.0074,120
+Needs: Tamper-evident seals; Venue: Dedicated storage facilities,Current: Carried it,0.0785,0.5616,1.1388,0.0096,155
+Venue: Dedicated storage facilities; Venue: Verified hotels,Needs: Reviews & ratings,0.0704,0.3555,1.1379,0.0085,139
+Current: Carried it; Needs: 24/7 support,Needs: Verified partners with address,0.0628,0.4733,1.1371,0.0076,124
+Needs: Photos at drop-off / collection; Needs: Transparent pricing / refunds,Needs: Reviews & ratings,0.0522,0.3552,1.1369,0.0063,103
+Needs: Transparent pricing / refunds; Venue: Airport / railway facilities,Venue: Verified hotels,0.0663,0.5261,1.1368,0.008,131
+First: Locker; Needs: CCTV,Current: Carried it,0.0613,0.5602,1.1359,0.0073,121
+Needs: CCTV; Venue: Smart lockers,Needs: Tamper-evident seals,0.0567,0.3836,1.1357,0.0068,112
+Current: Carried it; Needs: Reviews & ratings,Venue: Smart lockers,0.0562,0.3712,1.135,0.0067,111
+First: Pickup→store,Venue: Verified hotels,0.0633,0.5252,1.1349,0.0075,125
+Needs: CCTV; Needs: Transparent pricing / refunds,Needs: Tamper-evident seals,0.0714,0.3832,1.1345,0.0085,141
+First: Partner drop-off; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0511,0.3961,1.1337,0.006,101
+Current: Carried it; Needs: QR / luggage ID,Venue: Dedicated storage facilities,0.0709,0.4682,1.1333,0.0083,140
+Needs: Loss & damage protection terms; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0739,0.4679,1.1326,0.0087,146
+Needs: CCTV; Venue: Smart lockers,Needs: Individual compartments,0.0552,0.3733,1.1325,0.0065,109
+Current: Carried it; Needs: Loss & damage protection terms,Venue: Dedicated storage facilities,0.1063,0.4677,1.132,0.0124,210
+Current: Carried it; Needs: Individual compartments,Venue: Smart lockers,0.0628,0.3701,1.1316,0.0073,124
+Needs: Individual compartments; Venue: Dedicated storage facilities,Needs: Loss & damage protection terms,0.0663,0.5058,1.1313,0.0077,131
+Current: Carried it; Venue: Verified restaurants / cafés,Needs: Individual compartments,0.0557,0.3729,1.1312,0.0065,110
+Venue: Airport / railway facilities; Venue: Smart lockers,Venue: Verified hotels,0.0623,0.5234,1.131,0.0072,123
+Needs: Tamper-evident seals; Venue: Smart lockers,Needs: CCTV,0.0567,0.5308,1.1309,0.0066,112
+Current: Hotel / accommodation held it; Needs: Transparent pricing / refunds,Venue: Verified hotels,0.0684,0.5233,1.1307,0.0079,135
+Wants: Route-based recommendations,Venue: Smart lockers,0.0668,0.3697,1.1304,0.0077,132
+Needs: Photos at drop-off / collection; Needs: Transparent pricing / refunds,Needs: Individual compartments,0.0547,0.3724,1.1298,0.0063,108
+Needs: ID check at collection; Venue: Dedicated storage facilities,Venue: Verified hotels,0.0638,0.5228,1.1297,0.0073,126
+Needs: Real-time status; Needs: Verified partners with address,Needs: CCTV,0.0759,0.53,1.1293,0.0087,150
+Needs: Individual compartments; Needs: Tamper-evident seals,Current: Carried it,0.0623,0.5566,1.1286,0.0071,123
+Current: Carried it; Needs: Loss & damage protection terms,Needs: Individual compartments,0.0846,0.3719,1.1284,0.0096,167
+Current: Hotel / accommodation held it; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0547,0.3942,1.1282,0.0062,108
+First: Pickup→store,Needs: Loss & damage protection terms,0.0608,0.5042,1.1277,0.0069,120
+Needs: 24/7 support; Venue: Dedicated storage facilities,Needs: Loss & damage protection terms,0.0623,0.5041,1.1275,0.007,123
+Needs: Individual compartments; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0516,0.3938,1.1272,0.0058,102
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Current: Carried it,0.0906,0.5559,1.1272,0.0102,179
+Needs: QR / luggage ID; Needs: Tamper-evident seals,Current: Carried it,0.0557,0.5556,1.1265,0.0063,110
+Venue: Dedicated storage facilities; Venue: Smart lockers,Needs: Loss & damage protection terms,0.0734,0.5035,1.1261,0.0082,145
+Needs: Individual compartments; Venue: Airport / railway facilities,Venue: Verified hotels,0.0567,0.5209,1.1256,0.0063,112
+Venue: Verified retail stores,Venue: Verified hotels,0.0947,0.5209,1.1256,0.0106,187
+First: Partner drop-off,Venue: Smart lockers,0.1215,0.3681,1.1254,0.0135,240
+Venue: Smart lockers,First: Partner drop-off,0.1215,0.3715,1.1254,0.0135,240
+Needs: Verified partners with address; Venue: Smart lockers,Venue: Verified hotels,0.0699,0.5208,1.1253,0.0078,138
+Needs: Loss & damage protection terms; Needs: Tamper-evident seals,Needs: CCTV,0.081,0.5281,1.125,0.009,160
+Needs: Individual compartments; Needs: Loss & damage protection terms,Current: Carried it,0.0846,0.5548,1.125,0.0094,167
+Venue: Verified hotels; Venue: Verified restaurants / cafés,Needs: Individual compartments,0.0501,0.3708,1.1249,0.0056,99
+Needs: Loss & damage protection terms; Needs: QR / luggage ID,Needs: CCTV,0.0673,0.5278,1.1244,0.0075,133
+Needs: CCTV; Venue: Dedicated storage facilities,Current: Carried it,0.1058,0.5544,1.1241,0.0117,209
+Venue: Verified retail stores,Needs: Individual compartments,0.0673,0.3705,1.1239,0.0074,133
+First: Partner drop-off; Needs: Photos at drop-off / collection,Venue: Dedicated storage facilities,0.0557,0.4641,1.1234,0.0061,110
+First: Partner drop-off; Needs: Loss & damage protection terms,Venue: Smart lockers,0.0511,0.3673,1.1229,0.0056,101
+Needs: Transparent pricing / refunds; Needs: Verified partners with address,Venue: Verified hotels,0.0871,0.5196,1.1228,0.0095,172
+Needs: Transparent pricing / refunds; Venue: Smart lockers,Venue: Verified hotels,0.0673,0.5195,1.1226,0.0074,133
+Needs: Verified partners with address; Venue: Smart lockers,Needs: Loss & damage protection terms,0.0673,0.5019,1.1226,0.0074,133
+Current: Carried it; Needs: Transparent pricing / refunds,Venue: Dedicated storage facilities,0.0906,0.4637,1.1224,0.0099,179
+Needs: Individual compartments; Needs: QR / luggage ID,Current: Carried it,0.0577,0.5534,1.1221,0.0063,114
+Needs: Tamper-evident seals; Needs: Transparent pricing / refunds,Needs: Photos at drop-off / collection,0.0542,0.3919,1.1219,0.0059,107
+Needs: Individual compartments; Venue: Smart lockers,Venue: Verified hotels,0.0618,0.5191,1.1218,0.0067,122
+Needs: CCTV; Needs: Reviews & ratings,Needs: Tamper-evident seals,0.0562,0.3788,1.1218,0.0061,111
+Needs: CCTV; Needs: Photos at drop-off / collection,Needs: Tamper-evident seals,0.0633,0.3788,1.1216,0.0069,125
+Needs: CCTV; Needs: Real-time status,Needs: Tamper-evident seals,0.0577,0.3787,1.1214,0.0063,114
+Needs: CCTV; Needs: Loss & damage protection terms,Needs: Verified partners with address,0.1028,0.4667,1.1212,0.0111,203
+Needs: Loss & damage protection terms; Needs: Photos at drop-off / collection,Needs: Tamper-evident seals,0.0592,0.3786,1.1212,0.0064,117
+Venue: Airport / railway facilities; Venue: Dedicated storage facilities,Venue: Verified hotels,0.0841,0.5188,1.1209,0.0091,166
+Needs: ID check at collection; Needs: Verified partners with address,Needs: CCTV,0.0663,0.5261,1.1209,0.0072,131
+Needs: Photos at drop-off / collection; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0603,0.3967,1.1208,0.0065,119
+Needs: Verified partners with address; Venue: Any registered business meeting standards,Needs: CCTV,0.0511,0.526,1.1207,0.0055,101
+Needs: Loss & damage protection terms; Wants: Flexible extensions,Current: Carried it,0.0613,0.5525,1.1203,0.0066,121
+First: Partner drop-off; Venue: Dedicated storage facilities,Current: Carried it,0.0749,0.5522,1.1198,0.008,148
+Needs: Transparent pricing / refunds; Wants: Insurance / loss protection,Needs: CCTV,0.0577,0.5253,1.1193,0.0062,114
+Needs: CCTV; Wants: Flexible extensions,Needs: Verified partners with address,0.0552,0.4658,1.1192,0.0059,109
+Needs: 24/7 support; Venue: Airport / railway facilities,Venue: Verified hotels,0.0522,0.5176,1.1184,0.0055,103
+Needs: Tamper-evident seals; Needs: Verified partners with address,Needs: Individual compartments,0.0511,0.3686,1.1183,0.0054,101
+Needs: CCTV; Venue: Any registered business meeting standards,Needs: Verified partners with address,0.0511,0.4654,1.1183,0.0054,101
+Needs: CCTV; Needs: Individual compartments,Venue: Smart lockers,0.0552,0.3658,1.1183,0.0058,109
+Needs: ID check at collection; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0522,0.4619,1.1179,0.0055,103
+First: Locker; Venue: Verified hotels,Current: Carried it,0.0547,0.551,1.1173,0.0057,108
+Current: Carried it; Needs: Reviews & ratings,Venue: Dedicated storage facilities,0.0699,0.4615,1.1171,0.0073,138
+Needs: Photos at drop-off / collection; Venue: Airport / railway facilities,Venue: Verified hotels,0.0623,0.5168,1.1167,0.0065,123
+Current: Carried it; Wants: Flexible extensions,Needs: Transparent pricing / refunds,0.0567,0.4427,1.1166,0.0059,112
+Needs: Verified partners with address; Wants: Flexible extensions,Needs: CCTV,0.0552,0.524,1.1165,0.0058,109
+Wants: Route-based recommendations,Needs: Transparent pricing / refunds,0.08,0.4426,1.1163,0.0083,158
+Current: Carried it; Venue: Verified hotels,Venue: Dedicated storage facilities,0.1053,0.4612,1.1163,0.011,208
+Needs: Loss & damage protection terms; Wants: Flexible extensions,Venue: Dedicated storage facilities,0.0511,0.4612,1.1162,0.0053,101
+Venue: Verified hotels; Venue: Verified restaurants / cafés,Current: Hotel / accommodation held it,0.0547,0.4045,1.1157,0.0057,108
+Wants: Scheduled delivery to airport/station,Current: Carried it,0.0805,0.5502,1.1156,0.0083,159
+Needs: Individual compartments; Venue: Verified restaurants / cafés,Current: Carried it,0.0557,0.55,1.1152,0.0058,110
+Venue: Airport / railway facilities; Venue: Dedicated storage facilities,Current: Carried it,0.0891,0.55,1.1152,0.0092,176
+Current: Carried it; Needs: Individual compartments,Needs: Loss & damage protection terms,0.0846,0.4985,1.115,0.0087,167
+Current: Carried it; Venue: Any registered business meeting standards,Needs: CCTV,0.0516,0.5231,1.1144,0.0053,102
+Needs: 24/7 support; Needs: CCTV,Needs: Loss & damage protection terms,0.0699,0.4982,1.1143,0.0072,138
+Needs: ID check at collection; Venue: Verified hotels,Needs: Photos at drop-off / collection,0.0552,0.3893,1.1143,0.0057,109
+First: Locker; Needs: Verified partners with address,Needs: CCTV,0.0522,0.5228,1.1139,0.0053,103
+Current: Hotel / accommodation held it; Needs: Individual compartments,Venue: Verified hotels,0.0592,0.5154,1.1137,0.006,117
+Current: Hotel / accommodation held it; Needs: CCTV,Needs: Verified partners with address,0.0734,0.4633,1.1131,0.0075,145
+Needs: QR / luggage ID; Needs: Verified partners with address,Needs: CCTV,0.0653,0.5223,1.1127,0.0066,129
+Current: Carried it; First: Partner drop-off,Venue: Dedicated storage facilities,0.0749,0.4596,1.1125,0.0076,148
+Needs: Verified partners with address; Venue: Verified hotels,Needs: Transparent pricing / refunds,0.0871,0.441,1.1124,0.0088,172
+Needs: QR / luggage ID; Venue: Verified hotels,Needs: Individual compartments,0.0501,0.3667,1.1124,0.0051,99
+Needs: Verified partners with address; Venue: Verified hotels,Needs: Individual compartments,0.0724,0.3667,1.1124,0.0073,143
+Current: Carried it; Needs: CCTV,Needs: Tamper-evident seals,0.0886,0.3755,1.112,0.0089,175
+Current: Carried it; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0744,0.4594,1.1118,0.0075,147
+Current: Carried it; Venue: Verified hotels,Venue: Smart lockers,0.083,0.3636,1.1117,0.0083,164
+Needs: Tamper-evident seals; Venue: Airport / railway facilities,Current: Carried it,0.0633,0.5482,1.1117,0.0064,125
+Current: Carried it; Needs: Reviews & ratings,Needs: CCTV,0.079,0.5217,1.1116,0.0079,156
+Current: Hotel / accommodation held it; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0572,0.3883,1.1115,0.0057,113
+Wants: Group booking,Current: Carried it,0.0866,0.5481,1.1113,0.0087,171
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0592,0.3634,1.1109,0.0059,117
+Needs: CCTV; Venue: Smart lockers,Needs: Verified partners with address,0.0684,0.4623,1.1108,0.0068,135
+Needs: Photos at drop-off / collection; Venue: Dedicated storage facilities,First: Partner drop-off,0.0557,0.3667,1.1107,0.0056,110
+Current: Hotel / accommodation held it; First: Partner drop-off,Venue: Verified hotels,0.0577,0.5135,1.1096,0.0057,114
+Needs: Verified partners with address; Venue: Verified hotels,Needs: CCTV,0.1028,0.5205,1.109,0.0101,203
+Needs: Reviews & ratings; Venue: Verified hotels,Venue: Smart lockers,0.0542,0.3627,1.1089,0.0053,107
+Needs: Loss & damage protection terms; Venue: Dedicated storage facilities,Current: Carried it,0.1063,0.5469,1.1089,0.0104,210
+Venue: Dedicated storage facilities; Venue: Smart lockers,Venue: Airport / railway facilities,0.0572,0.3924,1.1086,0.0056,113
+Needs: Individual compartments; Venue: Verified hotels,Needs: Verified partners with address,0.0724,0.4613,1.1083,0.0071,143
+Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.162,0.4578,1.108,0.0158,320
+Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.162,0.3922,1.108,0.0158,320
+Needs: Transparent pricing / refunds; Wants: Flexible extensions,Current: Carried it,0.0567,0.5463,1.1078,0.0055,112
+Current: Carried it; Needs: Photos at drop-off / collection,Needs: Verified partners with address,0.078,0.4611,1.1078,0.0076,154
+Needs: Tamper-evident seals; Venue: Verified hotels,Needs: Photos at drop-off / collection,0.0572,0.387,1.1077,0.0056,113
+Current: Carried it; Venue: Verified restaurants / cafés,Venue: Dedicated storage facilities,0.0684,0.4576,1.1076,0.0066,135
+Current: Carried it; Venue: Smart lockers,Venue: Verified hotels,0.083,0.5125,1.1074,0.0081,164
+First: Partner drop-off; Needs: CCTV,Needs: Photos at drop-off / collection,0.0587,0.3867,1.1068,0.0057,116
+Wants: Repeat-customer discounts,First: Partner drop-off,0.0618,0.3653,1.1065,0.0059,122
+Needs: Transparent pricing / refunds; Venue: Verified restaurants / cafés,Needs: CCTV,0.0613,0.5193,1.1064,0.0059,121
+Needs: Transparent pricing / refunds; Venue: Smart lockers,Venue: Dedicated storage facilities,0.0592,0.457,1.1062,0.0057,117
+Venue: Verified hotels; Wants: Real-time tracking,Needs: Transparent pricing / refunds,0.0542,0.4385,1.1061,0.0052,107
+Needs: 24/7 support; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0618,0.4569,1.1059,0.0059,122
+Needs: Loss & damage protection terms; Needs: Tamper-evident seals,Needs: Photos at drop-off / collection,0.0592,0.3861,1.1053,0.0056,117
+Current: Carried it; Needs: 24/7 support,Venue: Verified hotels,0.0678,0.5115,1.1052,0.0065,134
+Current: Carried it; Needs: Real-time status,Venue: Airport / railway facilities,0.0618,0.391,1.1048,0.0059,122
+Current: Hotel / accommodation held it; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0501,0.3613,1.1046,0.0047,99
+Needs: 24/7 support; Needs: Verified partners with address,Needs: Loss & damage protection terms,0.0603,0.4938,1.1044,0.0057,119
+Current: Carried it; Venue: Smart lockers,Needs: Loss & damage protection terms,0.08,0.4938,1.1044,0.0076,158
+Needs: QR / luggage ID; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0501,0.4562,1.1042,0.0047,99
+Needs: Individual compartments; Venue: Smart lockers,Needs: Verified partners with address,0.0547,0.4596,1.1042,0.0052,108
+Needs: Photos at drop-off / collection; Venue: Smart lockers,Needs: Transparent pricing / refunds,0.0516,0.4378,1.1042,0.0049,102
+Needs: Loss & damage protection terms; Needs: Photos at drop-off / collection,Needs: Verified partners with address,0.0719,0.4595,1.1041,0.0068,142
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Needs: Verified partners with address,0.0744,0.4594,1.1037,0.007,147
+Venue: Smart lockers,Needs: Individual compartments,0.119,0.3638,1.1036,0.0112,235
+Needs: Individual compartments,Venue: Smart lockers,0.119,0.361,1.1036,0.0112,235
+Current: Carried it; Venue: Verified hotels,Needs: Individual compartments,0.083,0.3636,1.1032,0.0078,164
+Needs: Loss & damage protection terms; Needs: Photos at drop-off / collection,Needs: CCTV,0.081,0.5178,1.1032,0.0076,160
+Needs: Reviews & ratings; Needs: Verified partners with address,Needs: CCTV,0.0668,0.5176,1.1029,0.0062,132
+Needs: 24/7 support; Needs: Loss & damage protection terms,Venue: Dedicated storage facilities,0.0623,0.4556,1.1026,0.0058,123
+Venue: Dedicated storage facilities; Venue: Verified hotels,Venue: Smart lockers,0.0714,0.3606,1.1025,0.0066,141
+Needs: Verified partners with address; Venue: Airport / railway facilities,Needs: Loss & damage protection terms,0.0694,0.4928,1.1023,0.0064,137
+Needs: Verified partners with address; Venue: Airport / railway facilities,Needs: Real-time status,0.0511,0.3633,1.1022,0.0047,101
+Needs: QR / luggage ID; Venue: Smart lockers,Venue: Verified hotels,0.0516,0.51,1.102,0.0048,102
+Needs: Reviews & ratings; Venue: Smart lockers,Venue: Verified hotels,0.0542,0.5095,1.101,0.005,107
+Wants: Insurance / loss protection,First: Partner drop-off,0.1023,0.3633,1.1005,0.0093,202
+Needs: CCTV; Wants: Flexible extensions,Current: Carried it,0.0643,0.5427,1.1005,0.0059,127
+Needs: Tamper-evident seals; Needs: Transparent pricing / refunds,Needs: CCTV,0.0714,0.5165,1.1004,0.0065,141
+First: Partner drop-off; Needs: Loss & damage protection terms,Venue: Dedicated storage facilities,0.0633,0.4545,1.1002,0.0058,125
+Needs: CCTV; Wants: Insurance / loss protection,Needs: Verified partners with address,0.0633,0.4579,1.1001,0.0058,125
+Needs: Transparent pricing / refunds; Needs: Verified partners with address,Needs: Individual compartments,0.0608,0.3625,1.0999,0.0055,120
+Wants: Photo proof of handover,Needs: Real-time status,0.0633,0.3623,1.0992,0.0057,125
+Needs: CCTV,Needs: Verified partners with address,0.2147,0.4574,1.099,0.0193,424
+Needs: Verified partners with address,Needs: CCTV,0.2147,0.5158,1.099,0.0193,424
+Current: Carried it; Needs: Verified partners with address,Needs: CCTV,0.1078,0.5157,1.0988,0.0097,213
+Venue: Verified retail stores,Current: Hotel / accommodation held it,0.0724,0.3983,1.0987,0.0065,143
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Venue: Smart lockers,0.0582,0.3594,1.0987,0.0052,115
+Current: Carried it; Needs: Photos at drop-off / collection,Venue: Smart lockers,0.0608,0.3593,1.0984,0.0054,120
+Needs: 24/7 support; Needs: Transparent pricing / refunds,Needs: Loss & damage protection terms,0.0557,0.4911,1.0984,0.005,110
+Current: Carried it; Needs: CCTV,Needs: Verified partners with address,0.1078,0.4571,1.0982,0.0096,213
+First: Locker,Needs: Verified partners with address,0.0997,0.4571,1.0982,0.0089,197
+Needs: Individual compartments; Needs: Tamper-evident seals,Needs: Verified partners with address,0.0511,0.457,1.0981,0.0046,101
+Current: Carried it; Needs: ID check at collection,First: Partner drop-off,0.0547,0.3624,1.0978,0.0049,108
+Venue: Verified retail stores,Needs: Verified partners with address,0.083,0.4568,1.0976,0.0074,164
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Needs: Loss & damage protection terms,0.08,0.4907,1.0975,0.0071,158
+Needs: Loss & damage protection terms; Venue: Smart lockers,Needs: CCTV,0.079,0.5149,1.0969,0.007,156
+Needs: Tamper-evident seals; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0532,0.3832,1.0969,0.0047,105
+Needs: CCTV; Needs: ID check at collection,Needs: Verified partners with address,0.0663,0.4564,1.0967,0.0058,131
+Needs: CCTV; Needs: Loss & damage protection terms,Venue: Smart lockers,0.079,0.3586,1.0964,0.0069,156
+Needs: Individual compartments; Needs: Transparent pricing / refunds,Needs: Verified partners with address,0.0608,0.4563,1.0963,0.0053,120
+Needs: 24/7 support; Needs: Verified partners with address,Needs: CCTV,0.0628,0.5145,1.0962,0.0055,124
+Needs: Individual compartments; Venue: Dedicated storage facilities,Current: Carried it,0.0709,0.5405,1.0961,0.0062,140
+Needs: Loss & damage protection terms; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0896,0.4527,1.0957,0.0078,177
+Needs: Verified partners with address; Venue: Dedicated storage facilities,Current: Carried it,0.0916,0.5403,1.0956,0.008,181
+Needs: CCTV; Wants: Real-time tracking,Needs: Verified partners with address,0.0547,0.4557,1.0949,0.0047,108
+First: Partner drop-off; Wants: Insurance / loss protection,Current: Carried it,0.0552,0.5396,1.0942,0.0047,109
+Current: Carried it; Venue: Verified restaurants / cafés,Needs: Tamper-evident seals,0.0552,0.3695,1.0941,0.0047,109
+Needs: Real-time status; Needs: Tamper-evident seals,Needs: CCTV,0.0577,0.5135,1.0941,0.005,114
+Venue: Dedicated storage facilities; Venue: Smart lockers,First: Partner drop-off,0.0527,0.3611,1.0939,0.0045,104
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Venue: Verified hotels,0.0825,0.5062,1.0938,0.0071,163
+Needs: Verified partners with address; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0648,0.3821,1.0937,0.0056,128
+Needs: Tamper-evident seals; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0522,0.4518,1.0934,0.0045,103
+Needs: Loss & damage protection terms; Wants: Insurance / loss protection,Current: Carried it,0.0699,0.5391,1.0931,0.0059,138
+Needs: QR / luggage ID; Venue: Verified hotels,Needs: Transparent pricing / refunds,0.0592,0.4333,1.093,0.005,117
+Needs: CCTV; Venue: Airport / railway facilities,Venue: Dedicated storage facilities,0.0729,0.4514,1.0926,0.0062,144
+Needs: Photos at drop-off / collection; Needs: Transparent pricing / refunds,Needs: Tamper-evident seals,0.0542,0.369,1.0925,0.0046,107
+Needs: CCTV,Needs: Tamper-evident seals,0.1732,0.3689,1.0924,0.0146,342
+Needs: Tamper-evident seals,Needs: CCTV,0.1732,0.5127,1.0924,0.0146,342
+First: Partner drop-off; Needs: CCTV,Needs: Real-time status,0.0547,0.36,1.0922,0.0046,108
+Current: Carried it; First: Partner drop-off,Venue: Smart lockers,0.0582,0.3571,1.0919,0.0049,115
+Current: Carried it; Needs: Transparent pricing / refunds,Venue: Verified hotels,0.0987,0.5052,1.0916,0.0083,195
+Wants: Group booking,Needs: Tamper-evident seals,0.0582,0.3686,1.0914,0.0049,115
+Needs: Loss & damage protection terms; Venue: Verified restaurants / cafés,Needs: CCTV,0.0638,0.5122,1.0912,0.0053,126
+Wants: Flexible extensions,Venue: Airport / railway facilities,0.0962,0.3862,1.0911,0.008,190
+Needs: Verified partners with address; Venue: Smart lockers,Needs: Photos at drop-off / collection,0.0511,0.3811,1.0909,0.0043,101
+Needs: CCTV; Needs: QR / luggage ID,Needs: Real-time status,0.0532,0.3596,1.0909,0.0044,105
+Needs: Loss & damage protection terms; Needs: Tamper-evident seals,Current: Carried it,0.0825,0.538,1.0908,0.0069,163
+Needs: Verified partners with address; Wants: Real-time tracking,Venue: Verified hotels,0.0542,0.5047,1.0906,0.0045,107
+Current: Carried it; Venue: Verified hotels,Needs: Transparent pricing / refunds,0.0987,0.4324,1.0906,0.0082,195
+Current: Hotel / accommodation held it; Venue: Verified restaurants / cafés,Venue: Verified hotels,0.0547,0.5047,1.0905,0.0045,108
+First: Pickup→store,Needs: Verified partners with address,0.0547,0.4538,1.0903,0.0045,108
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Needs: Individual compartments,0.0582,0.3594,1.0903,0.0048,115
+Needs: 24/7 support; Venue: Verified hotels,Venue: Airport / railway facilities,0.0522,0.3858,1.09,0.0043,103
+Current: Carried it; Venue: Dedicated storage facilities,Needs: Loss & damage protection terms,0.1063,0.4872,1.0898,0.0088,210
+Venue: Smart lockers; Venue: Verified hotels,Venue: Airport / railway facilities,0.0623,0.3856,1.0894,0.0051,123
+Needs: ID check at collection; Needs: QR / luggage ID,Current: Carried it,0.0511,0.5372,1.0894,0.0042,101
+Current: Carried it; Needs: QR / luggage ID,Needs: Tamper-evident seals,0.0557,0.3679,1.0893,0.0046,110
+Needs: ID check at collection; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0638,0.45,1.0892,0.0052,126
+Needs: CCTV; Needs: Loss & damage protection terms,Needs: Tamper-evident seals,0.081,0.3678,1.0891,0.0066,160
+Wants: Scheduled delivery to airport/station,Needs: Verified partners with address,0.0663,0.4533,1.0891,0.0054,131
+Needs: 24/7 support; Needs: Loss & damage protection terms,Needs: CCTV,0.0699,0.5111,1.0889,0.0057,138
+Current: Carried it; Venue: Smart lockers,First: Partner drop-off,0.0582,0.3594,1.0886,0.0047,115
+Current: Carried it; Needs: Photos at drop-off / collection,First: Partner drop-off,0.0608,0.3593,1.0883,0.0049,120
+Needs: Photos at drop-off / collection; Needs: Tamper-evident seals,Needs: Transparent pricing / refunds,0.0542,0.4315,1.0883,0.0044,107
+Needs: Loss & damage protection terms; Venue: Verified restaurants / cafés,Current: Carried it,0.0668,0.5366,1.088,0.0054,132
+Current: Hotel / accommodation held it; Needs: CCTV,Needs: Tamper-evident seals,0.0582,0.3674,1.0879,0.0047,115
+Needs: Loss & damage protection terms; Venue: Airport / railway facilities,Venue: Smart lockers,0.0562,0.3558,1.0877,0.0045,111
+Needs: Individual compartments; Needs: Verified partners with address,Needs: CCTV,0.0739,0.5105,1.0876,0.006,146
+Needs: Loss & damage protection terms; Venue: Any registered business meeting standards,Needs: CCTV,0.0501,0.5103,1.0872,0.004,99
+Current: Carried it; Needs: Individual compartments,Needs: Tamper-evident seals,0.0623,0.3672,1.0872,0.005,123
+Current: Carried it; Needs: Verified partners with address,Needs: Individual compartments,0.0749,0.3584,1.0872,0.006,148
+Needs: Tamper-evident seals; Venue: Verified hotels,Needs: CCTV,0.0754,0.5103,1.0872,0.006,149
+Needs: CCTV; Needs: Real-time status,First: Partner drop-off,0.0547,0.3588,1.0869,0.0044,108
+Needs: Verified partners with address; Venue: Dedicated storage facilities,Needs: Real-time status,0.0608,0.3582,1.0867,0.0048,120
+Wants: Multi-bag / family packages,Current: Carried it,0.0643,0.5359,1.0866,0.0051,127
+Needs: Loss & damage protection terms; Venue: Verified hotels,Needs: Individual compartments,0.0709,0.3581,1.0863,0.0056,140
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Venue: Airport / railway facilities,0.0623,0.3844,1.086,0.0049,123
+Current: Carried it; Venue: Smart lockers,Venue: Airport / railway facilities,0.0623,0.3844,1.086,0.0049,123
+Needs: CCTV; Venue: Dedicated storage facilities,Needs: Loss & damage protection terms,0.0927,0.4854,1.0857,0.0073,183
+Needs: Photos at drop-off / collection; Venue: Dedicated storage facilities,Needs: Tamper-evident seals,0.0557,0.3667,1.0857,0.0044,110
+Needs: QR / luggage ID; Venue: Verified hotels,Needs: Verified partners with address,0.0618,0.4519,1.0857,0.0049,122
+Current: Carried it; Needs: CCTV,Venue: Dedicated storage facilities,0.1058,0.4485,1.0855,0.0083,209
+Needs: ID check at collection; Needs: Photos at drop-off / collection,Venue: Verified hotels,0.0552,0.5023,1.0854,0.0043,109
+Needs: ID check at collection; Venue: Dedicated storage facilities,Current: Carried it,0.0653,0.5353,1.0854,0.0051,129
+Needs: Verified partners with address; Wants: Real-time tracking,Needs: CCTV,0.0547,0.5094,1.0854,0.0043,108
+Needs: Verified partners with address; Venue: Smart lockers,Needs: CCTV,0.0684,0.5094,1.0854,0.0054,135
+First: Partner drop-off; Venue: Airport / railway facilities,Venue: Verified hotels,0.0567,0.5022,1.0853,0.0045,112
+Venue: Dedicated storage facilities; Venue: Smart lockers,Needs: Individual compartments,0.0522,0.3576,1.085,0.0041,103
+Needs: Individual compartments; Needs: Transparent pricing / refunds,Venue: Verified hotels,0.0668,0.5019,1.0845,0.0052,132
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Needs: Photos at drop-off / collection,0.0618,0.3789,1.0845,0.0048,122
+Needs: CCTV; Needs: Photos at drop-off / collection,Needs: Loss & damage protection terms,0.081,0.4848,1.0845,0.0063,160
+Current: Carried it; Needs: Photos at drop-off / collection,Needs: CCTV,0.0861,0.509,1.0844,0.0067,170
+Needs: Loss & damage protection terms; Wants: Real-time tracking,Venue: Dedicated storage facilities,0.0501,0.448,1.0842,0.0039,99
+Needs: CCTV; Venue: Dedicated storage facilities,Needs: Tamper-evident seals,0.0699,0.366,1.0839,0.0054,138
+Needs: QR / luggage ID,Needs: Real-time status,0.1063,0.3571,1.0835,0.0082,210
+Current: Carried it; Venue: Verified restaurants / cafés,Needs: CCTV,0.0759,0.5085,1.0833,0.0058,150
+Needs: Real-time status; Venue: Verified hotels,Needs: Verified partners with address,0.0648,0.4507,1.0829,0.005,128
+Needs: Loss & damage protection terms; Needs: Real-time status,Venue: Smart lockers,0.0516,0.3542,1.0828,0.0039,102
+Needs: CCTV; Needs: Reviews & ratings,Needs: Verified partners with address,0.0668,0.4505,1.0824,0.0051,132
+Needs: CCTV; Venue: Verified restaurants / cafés,Needs: Tamper-evident seals,0.0537,0.3655,1.0823,0.0041,106
+Needs: Real-time status; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0542,0.3781,1.0822,0.0041,107
+Needs: Verified partners with address; Venue: Verified hotels,Venue: Smart lockers,0.0699,0.3538,1.0818,0.0053,138
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Venue: Dedicated storage facilities,0.0724,0.4469,1.0816,0.0055,143
+Needs: Transparent pricing / refunds; Needs: Verified partners with address,Needs: Photos at drop-off / collection,0.0633,0.3776,1.0809,0.0047,125
+First: Partner drop-off; Venue: Smart lockers,Venue: Verified hotels,0.0608,0.5,1.0804,0.0045,120
+Needs: QR / luggage ID; Needs: Transparent pricing / refunds,Venue: Verified hotels,0.0592,0.5,1.0804,0.0044,117
+Needs: 24/7 support; Venue: Dedicated storage facilities,Venue: Verified hotels,0.0618,0.5,1.0804,0.0046,122
+Needs: Individual compartments; Needs: Verified partners with address,Venue: Verified hotels,0.0724,0.5,1.0804,0.0054,143
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Needs: Transparent pricing / refunds,0.0694,0.4281,1.0799,0.0051,137
+Wants: Repeat-customer discounts,Needs: Photos at drop-off / collection,0.0638,0.3772,1.0798,0.0047,126
+Needs: Tamper-evident seals; Venue: Verified hotels,Needs: Transparent pricing / refunds,0.0633,0.4281,1.0798,0.0047,125
+Wants: Priority support,First: Partner drop-off,0.0547,0.3564,1.0797,0.004,108
+Needs: CCTV; Needs: Reviews & ratings,Current: Carried it,0.079,0.5324,1.0796,0.0058,156
+Venue: Airport / railway facilities; Venue: Dedicated storage facilities,Venue: Smart lockers,0.0572,0.3531,1.0796,0.0042,113
+Needs: CCTV; Venue: Dedicated storage facilities,Venue: Airport / railway facilities,0.0729,0.382,1.0792,0.0054,144
+Current: Carried it; Wants: Insurance / loss protection,Venue: Airport / railway facilities,0.0557,0.3819,1.0792,0.0041,110
+Venue: Dedicated storage facilities,Venue: Smart lockers,0.1458,0.3529,1.079,0.0107,288
+Venue: Smart lockers,Venue: Dedicated storage facilities,0.1458,0.4458,1.079,0.0107,288
+Needs: Transparent pricing / refunds; Venue: Verified hotels,Needs: Verified partners with address,0.0871,0.4491,1.079,0.0064,172
+Needs: Verified partners with address; Venue: Verified hotels,Needs: Photos at drop-off / collection,0.0744,0.3769,1.0789,0.0054,147
+Venue: Dedicated storage facilities; Venue: Verified hotels,Current: Carried it,0.1053,0.532,1.0787,0.0077,208
+Needs: Loss & damage protection terms; Needs: Photos at drop-off / collection,Venue: Smart lockers,0.0552,0.3528,1.0785,0.004,109
+Current: Carried it; Needs: 24/7 support,Venue: Airport / railway facilities,0.0506,0.3817,1.0784,0.0037,100
+Wants: Scheduled collection,Venue: Airport / railway facilities,0.0547,0.3816,1.0783,0.004,108
+Current: Carried it; Needs: Tamper-evident seals,Venue: Dedicated storage facilities,0.0785,0.4454,1.078,0.0057,155
+First: Pickup→store,Venue: Dedicated storage facilities,0.0537,0.4454,1.078,0.0039,106
+First: Partner drop-off; Needs: Verified partners with address,Needs: CCTV,0.0653,0.5059,1.0778,0.0047,129
+Venue: Any registered business meeting standards,Needs: CCTV,0.1099,0.5058,1.0777,0.0079,217
+Needs: Photos at drop-off / collection; Venue: Verified hotels,Current: Hotel / accommodation held it,0.0633,0.3906,1.0775,0.0046,125
+Current: Hotel / accommodation held it; Needs: Photos at drop-off / collection,Needs: Verified partners with address,0.0572,0.4484,1.0774,0.0041,113
+Wants: Insurance / loss protection,Venue: Airport / railway facilities,0.1073,0.3813,1.0773,0.0077,212
+Needs: CCTV; Venue: Dedicated storage facilities,Needs: Verified partners with address,0.0856,0.4483,1.0771,0.0061,169
+Needs: Loss & damage protection terms; Needs: Reviews & ratings,Needs: CCTV,0.0714,0.5054,1.0767,0.0051,141
+Needs: CCTV; Needs: Reviews & ratings,Needs: Loss & damage protection terms,0.0714,0.4812,1.0764,0.0051,141
+Needs: Tamper-evident seals; Venue: Smart lockers,Current: Carried it,0.0567,0.5308,1.0763,0.004,112
+Needs: Reviews & ratings; Venue: Dedicated storage facilities,Current: Carried it,0.0699,0.5308,1.0763,0.005,138
+Needs: ID check at collection,Needs: Real-time status,0.1063,0.3547,1.0762,0.0075,210
+Needs: QR / luggage ID; Needs: Tamper-evident seals,Needs: CCTV,0.0506,0.5051,1.076,0.0036,100
+Needs: Transparent pricing / refunds; Venue: Dedicated storage facilities,Needs: Tamper-evident seals,0.0592,0.3634,1.0759,0.0042,117
+Current: Carried it; Needs: Loss & damage protection terms,Venue: Smart lockers,0.08,0.3519,1.0758,0.0056,158
+Needs: Real-time status; Venue: Dedicated storage facilities,Needs: Verified partners with address,0.0608,0.4478,1.0758,0.0043,120
+Current: Carried it; Needs: ID check at collection,Needs: Photos at drop-off / collection,0.0567,0.3758,1.0758,0.004,112
+Current: Hotel / accommodation held it; Needs: Reviews & ratings,Venue: Verified hotels,0.0582,0.4978,1.0757,0.0041,115
+Current: Carried it; Wants: Real-time tracking,Venue: Dedicated storage facilities,0.0547,0.4444,1.0757,0.0038,108
+Current: Carried it; First: Locker,Venue: Dedicated storage facilities,0.0547,0.4444,1.0757,0.0038,108

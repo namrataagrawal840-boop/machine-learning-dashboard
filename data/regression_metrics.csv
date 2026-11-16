@@ -1,0 +1,13 @@
+model,target,split,mae,rmse,r2,n,alpha
+Linear Regression,storage_wtp_inr,train,131.3367,309.9628,0.1021,1453,
+Linear Regression,storage_wtp_inr,test,127.1018,183.2012,0.0874,485,
+Ridge Regression,storage_wtp_inr,train,126.8703,312.2714,0.0887,1453,1000.0
+Ridge Regression,storage_wtp_inr,test,121.8752,177.1501,0.1467,485,1000.0
+Lasso Regression,storage_wtp_inr,train,128.2578,316.5679,0.0635,1453,11.2648
+Lasso Regression,storage_wtp_inr,test,123.4718,178.1897,0.1366,485,11.2648
+Linear Regression,pickup_delivery_wtp_inr,train,185.4346,310.2014,0.1318,1455,
+Linear Regression,pickup_delivery_wtp_inr,test,198.6089,304.9122,-0.0037,486,
+Ridge Regression,pickup_delivery_wtp_inr,train,183.5977,313.5958,0.1127,1455,1000.0
+Ridge Regression,pickup_delivery_wtp_inr,test,191.4327,297.6815,0.0433,486,1000.0
+Lasso Regression,pickup_delivery_wtp_inr,train,185.06,315.547,0.1016,1455,8.5317
+Lasso Regression,pickup_delivery_wtp_inr,test,188.984,295.5095,0.0573,486,8.5317

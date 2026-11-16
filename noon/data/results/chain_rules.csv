@@ -1,0 +1,9 @@
+problem,if,then,n_items,support,confidence,lift
+Event chain,Failed delivery + Refund rejected,Complaint,2,0.016216216216216217,0.9635036496350367,1.8410609643261027
+Event chain,Refund rejected + Slow refund (8+ days),Complaint,2,0.013882063882063882,0.9495798319327731,1.814455359608632
+Event chain,Failed delivery + Slow refund (8+ days),Complaint,2,0.10061425061425061,0.9049723756906076,1.7292195159909731
+Event chain,Refund rejected,Complaint,1,0.035995085995085996,0.904320987654321,1.7279748449545005
+Event chain,No update when late + Slow refund (8+ days),Complaint,2,0.16105651105651106,0.8745830553702468,1.6711516597919738
+Event chain,Late delivery + Slow refund (8+ days),Complaint,2,0.16941031941031942,0.86784140969163,1.6582697358896403
+Event chain,Failed delivery + No update when late,Complaint,2,0.24705159705159704,0.8421273031825796,1.6091352694615486
+Event chain,Failed delivery,Complaint,1,0.269041769041769,0.822072072072072,1.5708137715179966

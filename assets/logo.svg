@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="40" viewBox="0 0 260 40">
+  <rect x="4" y="11" width="26" height="22" rx="5" fill="#668DBA"/>
+  <rect x="11" y="5" width="12" height="8" rx="3" fill="none" stroke="#668DBA" stroke-width="2.5"/>
+  <rect x="10" y="17" width="3" height="11" rx="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="21" y="17" width="3" height="11" rx="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="10" cy="35" r="2.5" fill="#78A48D"/><circle cx="24" cy="35" r="2.5" fill="#78A48D"/>
+  <text x="40" y="20" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#263548">Luggage Marketplace BI</text>
+  <text x="40" y="35" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B788A">India storage &amp; transfer · research</text>
+</svg>

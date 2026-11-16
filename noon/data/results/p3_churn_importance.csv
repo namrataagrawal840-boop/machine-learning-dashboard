@@ -1,0 +1,16 @@
+problem,feature,importance
+Churn after complaint,reopened,0.11845946
+Churn after complaint,membership = Non-member,0.0846403
+Churn after complaint,contacts,0.07529802
+Churn after complaint,resolution_hours,0.055324256
+Churn after complaint,membership = Member,0.051153082
+Churn after complaint,csat_score,0.04115899
+Churn after complaint,template_reply,0.03877882
+Churn after complaint,tenure_months,0.03874046
+Churn after complaint,order_value_aed,0.03843967
+Churn after complaint,angry,0.037832662
+Churn after complaint,topic = Wrong / damaged item,0.037480175
+Churn after complaint,topic = Failed delivery,0.03742818
+Churn after complaint,csat_missing,0.037377797
+Churn after complaint,topic = Warranty / seller,0.037197907
+Churn after complaint,channel = Email,0.03697873

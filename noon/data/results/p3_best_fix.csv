@@ -1,0 +1,8 @@
+topic,suggested_fix,tickets,recontact_7d,csat
+Delivery delay,Goodwill credit,1,0.0,
+Failed delivery,Escalate to finance,2,0.0,2.0
+Payment / billing,Goodwill credit,2,0.0,4.0
+Refund delay,Refund,1,0.0,
+Refund rejected,Re-attempt,6,0.0,3.75
+Warranty / seller,Re-inspect,2,0.0,2.5
+Wrong / damaged item,Escalate to seller,1,0.0,

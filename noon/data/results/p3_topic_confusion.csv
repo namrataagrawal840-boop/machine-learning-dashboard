@@ -1,0 +1,8 @@
+actual,Delivery delay,Failed delivery,Payment / billing,Refund delay,Refund rejected,Warranty / seller,Wrong / damaged item
+Delivery delay,992,19,10,16,0,8,12
+Failed delivery,52,300,2,13,1,2,5
+Payment / billing,24,6,82,13,2,0,3
+Refund delay,46,6,4,237,6,3,3
+Refund rejected,30,6,3,5,39,2,3
+Warranty / seller,18,9,4,6,2,33,4
+Wrong / damaged item,25,10,4,8,2,0,66

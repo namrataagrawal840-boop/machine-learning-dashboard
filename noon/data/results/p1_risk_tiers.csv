@@ -1,0 +1,4 @@
+risk_tier,orders,actual_late_rate,avg_p_late,share_of_orders,share_of_all_late,action
+Low risk,4624,0.14273356401384082,0.112193055,0.6086613136764513,0.32689450222882616,Keep normal promise
+Medium risk,1899,0.32754081095313325,0.37228987,0.24996709227326577,0.30807330361565133,Adjusted date at checkout + tracking updates
+High risk,1074,0.686219739292365,0.75605685,0.14137159405028302,0.3650321941555225,Priority courier + early apology with a new date

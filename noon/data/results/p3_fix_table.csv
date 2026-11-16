@@ -1,0 +1,82 @@
+topic,fix_applied,tickets,recontact_7d,csat
+Delivery delay,Escalate to finance,4,0.25,4.0
+Delivery delay,Escalate to seller,1,1.0,
+Delivery delay,Expedite,1408,0.16832386363636365,3.630896226415094
+Delivery delay,Explain policy,3,0.3333333333333333,5.0
+Delivery delay,Goodwill credit,1,0.0,
+Delivery delay,Re-attempt,6,0.0,3.4
+Delivery delay,Re-inspect,2,1.0,
+Delivery delay,Re-promise date,1380,0.4101449275362319,3.610576923076923
+Delivery delay,Refund,2,0.0,3.0
+Delivery delay,Replace item,6,0.0,2.75
+Delivery delay,Reverse charge,1,0.0,3.0
+Delivery delay,Voucher,1432,0.3777932960893855,3.665036674816626
+Failed delivery,Escalate to finance,2,0.0,2.0
+Failed delivery,Escalate to seller,1,0.0,
+Failed delivery,Expedite,482,0.3941908713692946,3.673611111111111
+Failed delivery,Explain policy,8,0.25,3.75
+Failed delivery,Goodwill credit,1,0.0,
+Failed delivery,Re-attempt,485,0.16494845360824742,3.6442953020134228
+Failed delivery,Re-inspect,1,0.0,4.0
+Failed delivery,Re-promise date,11,0.5454545454545454,3.1666666666666665
+Failed delivery,Refund,3,0.3333333333333333,4.0
+Failed delivery,Replace item,1,0.0,
+Failed delivery,Voucher,508,0.37401574803149606,3.5986159169550174
+Failed delivery,Wallet refund now,2,0.0,
+Payment / billing,Escalate to finance,6,0.5,3.2
+Payment / billing,Expedite,22,0.13636363636363635,3.588235294117647
+Payment / billing,Explain policy,138,0.34057971014492755,3.6103896103896105
+Payment / billing,Goodwill credit,2,0.0,4.0
+Payment / billing,Re-attempt,7,0.14285714285714285,4.0
+Payment / billing,Re-inspect,2,1.0,2.0
+Payment / billing,Re-promise date,17,0.47058823529411764,3.5384615384615383
+Payment / billing,Refund,4,0.5,3.0
+Payment / billing,Replace item,2,0.0,4.0
+Payment / billing,Reverse charge,158,0.12025316455696203,3.630952380952381
+Payment / billing,Voucher,165,0.40606060606060607,3.3789473684210525
+Payment / billing,Wallet refund now,1,0.0,
+Refund delay,Escalate to finance,390,0.41794871794871796,3.232456140350877
+Refund delay,Expedite,17,0.11764705882352941,3.272727272727273
+Refund delay,Explain policy,408,0.38235294117647056,3.293617021276596
+Refund delay,Re-attempt,6,0.3333333333333333,3.6
+Refund delay,Re-promise date,9,0.2222222222222222,3.75
+Refund delay,Refund,1,0.0,
+Refund delay,Replace item,2,0.0,
+Refund delay,Voucher,17,0.29411764705882354,3.1666666666666665
+Refund delay,Wallet refund now,377,0.13262599469496023,3.299492385786802
+Refund rejected,Escalate to finance,3,0.3333333333333333,3.0
+Refund rejected,Escalate to seller,2,0.5,2.0
+Refund rejected,Expedite,21,0.09523809523809523,3.6666666666666665
+Refund rejected,Explain policy,96,0.4583333333333333,2.4285714285714284
+Refund rejected,Goodwill credit,88,0.32954545454545453,2.35
+Refund rejected,Re-attempt,6,0.0,3.75
+Refund rejected,Re-inspect,84,0.20238095238095238,2.3333333333333335
+Refund rejected,Re-promise date,15,0.5333333333333333,3.4444444444444446
+Refund rejected,Refund,3,0.0,2.5
+Refund rejected,Replace item,1,0.0,
+Refund rejected,Reverse charge,2,0.0,4.0
+Refund rejected,Voucher,30,0.36666666666666664,3.388888888888889
+Refund rejected,Wallet refund now,4,0.0,3.0
+Warranty / seller,Escalate to finance,5,0.8,
+Warranty / seller,Escalate to seller,69,0.5507246376811594,1.9565217391304348
+Warranty / seller,Expedite,17,0.29411764705882354,3.727272727272727
+Warranty / seller,Explain policy,5,0.4,3.0
+Warranty / seller,Goodwill credit,1,1.0,
+Warranty / seller,Re-attempt,9,0.3333333333333333,3.6
+Warranty / seller,Re-inspect,2,0.0,2.5
+Warranty / seller,Re-promise date,8,0.625,5.0
+Warranty / seller,Refund,82,0.47560975609756095,2.129032258064516
+Warranty / seller,Replace item,76,0.19736842105263158,1.8
+Warranty / seller,Voucher,28,0.25,3.6666666666666665
+Warranty / seller,Wallet refund now,3,0.0,4.5
+Wrong / damaged item,Escalate to finance,3,0.6666666666666666,3.0
+Wrong / damaged item,Escalate to seller,1,0.0,
+Wrong / damaged item,Expedite,15,0.13333333333333333,3.75
+Wrong / damaged item,Explain policy,7,0.14285714285714285,4.0
+Wrong / damaged item,Re-attempt,4,0.25,4.25
+Wrong / damaged item,Re-inspect,3,0.0,3.0
+Wrong / damaged item,Re-promise date,10,0.6,3.5714285714285716
+Wrong / damaged item,Refund,131,0.3893129770992366,3.481012658227848
+Wrong / damaged item,Replace item,122,0.20491803278688525,3.246376811594203
+Wrong / damaged item,Voucher,157,0.4585987261146497,3.340909090909091
+Wrong / damaged item,Wallet refund now,7,0.0,3.4

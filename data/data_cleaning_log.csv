@@ -1,0 +1,20 @@
+step,column,action,rows_affected,reason
+1,all,Removed exact duplicate submissions,30,Repeated submissions would double-count respondents.
+2,travel_status,Removed screened-out respondents (Q1 = Neither),12,Outside the target population; the survey should have ended at Q1.
+3,travel_mode,"Standardised case, spacing and punctuation to the questionnaire wording",40,Same answer written differently.
+4,accommodation_type,"Standardised case, spacing and punctuation to the questionnaire wording",40,Same answer written differently.
+5,travel_purpose,"Standardised case, spacing and punctuation to the questionnaire wording",40,Same answer written differently.
+6,city,"Standardised case, spacing and punctuation to the questionnaire wording",40,Same answer written differently.
+7,storage_wtp_inr,"Converted text amounts (e.g. '₹200', '200 rs') to numbers",65,Numeric analysis needs a consistent number in rupees.
+8,storage_wtp_inr,Set negative amounts to missing,8,A negative WTP is impossible; not imputed.
+9,pickup_delivery_wtp_inr,"Converted text amounts (e.g. '₹200', '200 rs') to numbers",0,Numeric analysis needs a consistent number in rupees.
+10,pickup_delivery_wtp_inr,Set negative amounts to missing,0,A negative WTP is impossible; not imputed.
+11,booking_intent_score,Set scores outside 0–10 to missing,10,Outside the Q23 scale.
+12,Q23–Q30,Removed responses abandoned before Section D,25,No outcome answers at all; they cannot contribute to demand or pricing analysis.
+13,Q11–Q19,Kept planning-only respondents; past-trip answers left as 'Not applicable' / blank,185,Distinguishes 'not applicable' from missing; flagged by past_trip_experience.
+14,storage_wtp_inr,Flagged (not removed) values above Q3 + 3×IQR (₹860),25,Legitimate extreme answers are kept; the flag lets analyses test sensitivity.
+15,storage_wtp_inr,Kept zero WTP as a valid answer,206,"₹0 means 'would not pay', not missing."
+16,pickup_delivery_wtp_inr,"Flagged (not removed) values above Q3 + 3×IQR (₹1,160)",32,Legitimate extreme answers are kept; the flag lets analyses test sensitivity.
+17,pickup_delivery_wtp_inr,Kept zero WTP as a valid answer,452,"₹0 means 'would not pay', not missing."
+18,high_intent,"Derived High_Intent = 1 if Q23 is 8–10, else 0",1965,"Classification target (stated intent, not conversion)."
+19,data_source,Labelled every record as synthetic,1975,Provenance must travel with the data.

@@ -68,6 +68,11 @@ python -m pytest -q tests      # pages render; no leakage; realistic scores; fra
 share.streamlit.io → **Create app** → repository `namrataagrawal840-boop/machine-learning-dashboard`, branch `main`,
 main file path **`noon/streamlit_app.py`**. Streamlit uses `noon/requirements.txt` because it sits next to the app file.
 
+## Simple view and full detail
+The dashboard opens in a **simple view**: four headline numbers per page, one *Key takeaway* line under each chart, and
+the details folded into "More detail" sections. Switch on **Show full detail** in the sidebar to see every explanation
+box, the data table behind each chart and the source badges. The ⓘ icon on every chart works in both views.
+
 ## Headline results on the realistic data
 | Check | Result |
 |---|---|

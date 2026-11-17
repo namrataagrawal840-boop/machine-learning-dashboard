@@ -73,6 +73,8 @@ def sidebar_filters() -> Filters:
         return Filters()
     months = sorted(o["order_date"].dt.to_period("M").astype(str).unique())
     with st.sidebar:
+        st.toggle("Show full detail", key="detail_view",
+                  help="Off: one key takeaway per chart, details folded away. On: every explanation box, data table and source badge.")
         st.markdown('<div class="lc-side-brand">Filters</div><div class="lc-side-sub">Apply to the descriptive charts on '
                     'every page. Model results were computed on the full data.</div>', unsafe_allow_html=True)
         em = st.multiselect("Emirate", sorted(o["emirate"].unique()), key="f_emirate", placeholder="All emirates")

@@ -31,6 +31,10 @@ def test_every_page_renders_with_filters():
     assert _all_pages({"f_emirate": ["Abu Dhabi"], "f_category": ["Fashion", "Electronics"]}) == {}
 
 
+def test_every_page_renders_in_full_detail_view():
+    assert _all_pages({"detail_view": True}) == {}
+
+
 def test_simulator_runs_for_each_problem():
     at = AppTest.from_file(APP, default_timeout=240)
     at.run()

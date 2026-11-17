@@ -100,3 +100,10 @@ div[class*="st-key-card-"] div[class*="st-key-card-"] { box-shadow: none; }
   color: #3D5F87; background: #EAF2FC; border: 1px solid #D5DDE6; }
 [class*="st-key-info_"] button:hover { background: #DCE8F7; }
 [data-testid="stPopoverBody"] { max-width: 520px; font-size: 0.86rem; line-height: 1.45; }
+
+/* Simple view: one-line takeaway under a chart */
+.lc-takeaway { background: var(--c-blue); border-radius: 10px; padding: .55rem .8rem; font-size: .88rem; line-height: 1.45;
+  color: var(--c-text); margin-top: .35rem; }
+.lc-takeaway .lc-xl { font-size: .66rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--c-muted);
+  display: block; margin-bottom: .15rem; }
+.lc-takeaway .lc-so { color: #2F5D50; font-weight: 550; }

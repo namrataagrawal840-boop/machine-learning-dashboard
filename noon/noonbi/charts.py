@@ -39,7 +39,8 @@ def show(fig: go.Figure, key: str, data: pd.DataFrame | None = None, height: int
     info_icon(key)
     fig.update_layout(height=height or fig.layout.height or theme.CHART_HEIGHT)
     st.plotly_chart(fig, key=f"fig_{key}", config=theme.plotly_config(_safe_name(key)), width="stretch")
-    if data is not None and not data.empty:
+    from noonbi.cards import detailed
+    if data is not None and not data.empty and detailed():
         with st.expander(data_label):
             table(data, key=f"tbl_{key}", filename=f"{_safe_name(key)}.csv")
 

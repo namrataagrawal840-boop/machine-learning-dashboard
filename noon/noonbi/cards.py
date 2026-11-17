@@ -72,10 +72,12 @@ def chip(text: str) -> str:
 def page_header(title: str, purpose: str, stage: str, provs: Iterable[tuple[str, str]] = ()) -> None:
     """provs: (label, provenance) pairs shown as chips + badges."""
     metas = [chip(stage)] + [f"{chip(lbl)} {badge(p)}" for lbl, p in provs]
+    if not detailed():
+        metas = []
     st.markdown(
         f'<div class="lc-card lc-page"><div class="lc-eyebrow">noon · customer experience analytics · Group 2</div>'
         f'<div class="lc-title">{esc(title)}</div><p class="lc-sub">{esc(purpose)}</p>'
-        f'<div class="lc-meta">{" ".join(metas)}</div></div>',
+        + (f'<div class="lc-meta">{" ".join(metas)}</div>' if metas else "") + '</div>',
         unsafe_allow_html=True,
     )
 
@@ -95,30 +97,47 @@ def notice(kind: str, title: str, body_html: str = "") -> None:
 def kpi(label: str, value: str | None, sub: str = "", prov: str | None = None, accent: str | None = None) -> str:
     v = (f'<div class="lc-kpi-value">{esc(value)}</div>' if value not in (None, "")
          else '<div class="lc-kpi-value na">Not available</div>')
-    b = f"<div>{badge(prov)}</div>" if prov else ""
+    b = f"<div>{badge(prov)}</div>" if (prov and detailed()) else ""
     style = f' style="--kpi-accent:{accent}"' if accent else ""
     return (f'<div class="lc-kpi"{style}><div class="lc-kpi-label">{esc(label)}</div>{v}'
             f'<div class="lc-kpi-sub">{esc(sub)}</div>{b}</div>')
 
 
 def kpi_grid(items: list[str], per_row: int = 4) -> None:
+    if not detailed():
+        items = items[:per_row]  # simple view: the four headline numbers only
     for i in range(0, len(items), per_row):
         cols = st.columns(per_row, gap="small")
         for c, html_ in zip(cols, items[i:i + per_row]):
             c.markdown(html_, unsafe_allow_html=True)
 
 
+def detailed() -> bool:
+    """True when the viewer switched on 'Show full detail' in the sidebar (default: simple, uncluttered view)."""
+    return bool(st.session_state.get("detail_view", False))
+
+
+def _first_sentence(html_text: str) -> str:
+    import re
+    m = re.search(r"^(.+?[.!?])(\s|$)", str(html_text).strip(), flags=re.S)
+    return m.group(1) if m else str(html_text)
+
+
 def explanation(measures: str, observation: str, implication: str, limitation: str) -> None:
-    """Four-box note under a chart: what it shows, what is measured, so what, caveats."""
-    st.markdown(
-        '<div class="lc-explain">'
-        f'<div class="x-observe"><span class="lc-xl">What the data shows</span>{observation}</div>'
-        f'<div class="x-measure"><span class="lc-xl">What is measured</span>{measures}</div>'
-        f'<div class="x-implic"><span class="lc-xl">Business implication</span>{implication}</div>'
-        f'<div class="x-limit" style="grid-column:1 / -1"><span class="lc-xl">Limitations &amp; caveats</span>{limitation}</div>'
-        '</div>',
-        unsafe_allow_html=True,
-    )
+    """Simple view: one key-takeaway line + a collapsed 'details' section. Full view: the four-box note."""
+    boxes = ('<div class="lc-explain">'
+             f'<div class="x-observe"><span class="lc-xl">What the data shows</span>{observation}</div>'
+             f'<div class="x-measure"><span class="lc-xl">What is measured</span>{measures}</div>'
+             f'<div class="x-implic"><span class="lc-xl">Business implication</span>{implication}</div>'
+             f'<div class="x-limit" style="grid-column:1 / -1"><span class="lc-xl">Limitations &amp; caveats</span>{limitation}</div>'
+             '</div>')
+    if detailed():
+        st.markdown(boxes, unsafe_allow_html=True)
+        return
+    st.markdown(f'<div class="lc-takeaway"><span class="lc-xl">Key takeaway</span>{_first_sentence(observation)} '
+                f'<span class="lc-so">→ {_first_sentence(implication)}</span></div>', unsafe_allow_html=True)
+    with st.expander("More detail", icon=":material/expand_more:"):
+        st.markdown(boxes, unsafe_allow_html=True)
 
 
 def html_table(rows: list[dict], columns: list[str] | None = None) -> str:

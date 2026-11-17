@@ -43,6 +43,8 @@ def render(f: D.Filters) -> None:
         cards.kpi("Customers who complained and then stopped buying", pct(t["churn_90d"].mean()), "Within 90 days of the ticket",
                   "synthetic", theme.ROSE),
     ]
+    if not cards.detailed():  # simple view: rating + one headline number per problem
+        k = [k[4], k[0], k[2], k[3]]
     cards.kpi_grid(k)
 
     with cards.card("How the three problems feed each other",

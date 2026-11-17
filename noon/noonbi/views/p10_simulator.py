@@ -40,17 +40,29 @@ def _steps(n_active: int) -> None:
 
 def _problem_card(title: str, paras: list[str], evidence: list[tuple[str, str]]) -> None:
     with cards.card(f"Step 1 · {title}"):
-        st.markdown('<div class="lc-body">' + "".join(f"<p>{p}</p>" for p in paras) + "</div>", unsafe_allow_html=True)
-        if evidence:
-            st.markdown(cards.html_table([{"Public evidence": esc(t), "Source": f'<a href="{esc(u)}" target="_blank">link</a>'}
-                                          for t, u in evidence]), unsafe_allow_html=True)
+        shown = paras if cards.detailed() else paras[:1]
+        st.markdown('<div class="lc-body">' + "".join(f"<p>{p}</p>" for p in shown) + "</div>", unsafe_allow_html=True)
+        rest = paras[1:] if not cards.detailed() else []
+        ev = (cards.html_table([{"Public evidence": esc(t), "Source": f'<a href="{esc(u)}" target="_blank">link</a>'}
+                                for t, u in evidence]) if evidence else "")
+        if cards.detailed():
+            if ev:
+                st.markdown(ev, unsafe_allow_html=True)
+        elif rest or ev:
+            with st.expander("Causes, numbers and public evidence", icon=":material/expand_more:"):
+                st.markdown('<div class="lc-body">' + "".join(f"<p>{p}</p>" for p in rest) + "</div>" + ev, unsafe_allow_html=True)
 
 
 def _data_points(rows: list[tuple[str, str, str, str]], example: pd.Series) -> None:
     with cards.card("Step 2 · Data points captured", "What noon records for every case, and what each field is used for"):
-        st.markdown(cards.html_table([{"Data point": f"<b>{esc(a)}</b>", "Example (one real record)": esc(_ex(example.get(b, "—"))),
-                                       "Where it comes from": esc(c), "Used for": esc(u)} for a, b, c, u in rows]),
-                    unsafe_allow_html=True)
+        tbl = cards.html_table([{"Data point": f"<b>{esc(a)}</b>", "Example (one real record)": esc(_ex(example.get(b, "—"))),
+                                 "Where it comes from": esc(c), "Used for": esc(u)} for a, b, c, u in rows])
+        if cards.detailed():
+            st.markdown(tbl, unsafe_allow_html=True)
+        else:
+            st.markdown('<div class="lc-body">' + " · ".join(f"<b>{esc(a)}</b>" for a, *_ in rows) + "</div>", unsafe_allow_html=True)
+            with st.expander(f"See all {len(rows)} fields with a real example", icon=":material/table:"):
+                st.markdown(tbl, unsafe_allow_html=True)
 
 
 def _ex(v) -> str:
@@ -229,7 +241,7 @@ def _p1() -> None:
                     '<li><b>Dispatch:</b> the late-order model scores the order. High risk → priority courier.</li>'
                     '<li><b>Address:</b> partial addresses get a WhatsApp pin request; drivers can only mark \'unavailable\' with GPS proof.</li>'
                     '<li><b>Before it is late:</b> customers with risk above the threshold get a message with a new date.</li>'
-                    '<li><b>Recovery:</b> if still late, the uplift model picks the customers a credit will actually win back.</li>'
+                    '<li><b>Recovery:</b> if still late, the customer gets an apology and a credit (targeted once a larger test proves uplift).</li>'
                     '</ol></div>', unsafe_allow_html=True)
         a = _assumptions(sim.P1_DEFAULTS, [
             ("use_p90", "Use P90 promise at checkout", "bool", None, None, None, "Off = keep today's fixed promise"),

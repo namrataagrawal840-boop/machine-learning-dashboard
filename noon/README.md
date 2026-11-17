@@ -14,6 +14,8 @@ next purchase), the business case (nine pillars, KPIs, gain calculator, A/B samp
 Fairness** (how the data was made realistic, cross-validation, calibration, cost-based thresholds, Qini, bootstrap CIs,
 fairness by account age and emirate, forecast back-test, and the simulator's response models).
 
+**Live dashboard:** https://machine-learning-dashboard-cm2biujh5mcryxj2c9recv.streamlit.app/ (page 9 runs the live platform in the browser — no Docker needed).
+
 ## Simulation (professor's suggestions)
 * **8 · Solution Simulator** — pick Problem 1, 2 or 3 and go through four steps: the problem in detail, the data points
   captured, descriptive analytics, then **Run the simulation**. The run replays records the models never trained on
